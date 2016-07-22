@@ -12,7 +12,9 @@ ctd plots
 
 Input - CruiseID
 
-Using Anaconda packaged Python 
+2016-7-22: S.Bell
+    Replace 1e35 (missing values) with np.nan values so that there is no 
+    plotted data in those depths.
 """
 
 #System Stack
@@ -95,18 +97,19 @@ def date2pydate(file_time, file_time2=None, file_flag='EPIC'):
 """--------------------------------Plot Routines---------------------------------------"""
 
 def twovar_minmax_plotbounds(var1,var2):
-    if (var1 == 1e35).all() and (var2 == 1e35).all():
+    """expects missing values to be np.nan"""
+    if np.isnan(var1).all() and np.isnan(var2).all():
         min_bound = -1
         max_bound = 1
-    elif (var1 == 1e35).all() and not (var2 == 1e35).all():
-        min_bound = var2[var2 != 1e35].min()
-        max_bound = var2[var2 != 1e35].max()
-    elif (var2 == 1e35).all() and not (var1 == 1e35).all():
-        min_bound = var1[var1 != 1e35].min()
-        max_bound = var1[var1 != 1e35].max()
+    elif np.isnan(var1).all() and not np.isnan(var2).all():
+        min_bound = var2[~np.isnan(var2)].min()
+        max_bound = var2[~np.isnan(var2)].max()
+    elif np.isnan(var2).all() and not np.isnan(var1).all():
+        min_bound = var1[~np.isnan(var1)].min()
+        max_bound = var1[~np.isnan(var1)].max()
     else:
-        min_bound = np.min((var1[var1 != 1e35].min(), var2[var2 != 1e35].min()))
-        max_bound = np.max((var1[var1 != 1e35].max(), var2[var2 != 1e35].max()))
+        min_bound = np.min((var1[~np.isnan(var1)].min(), var2[~np.isnan(var2)].min()))
+        max_bound = np.max((var1[~np.isnan(var1)].max(), var2[~np.isnan(var2)].max()))
         
     return (min_bound, max_bound)
 
@@ -127,7 +130,11 @@ def plot_prisec_TO2Fluor(dep,T,Fluor,pDO1,pDO2,ptitle=""):
     min_rangeDO = 75.
     min_rangepDO = 50.
     
-
+    ### find values that are "missing" - 1e35 and make np.nan
+    T[np.where(T>=1e34)]=np.nan
+    Fluor[np.where(Fluor>=1e34)]=np.nan
+    pDO1[np.where(pDO1>=1e34)]=np.nan
+    pDO2[np.where(pDO2>=1e34)]=np.nan
         
     #pri oxy sat
     
@@ -135,12 +142,12 @@ def plot_prisec_TO2Fluor(dep,T,Fluor,pDO1,pDO2,ptitle=""):
     ax = fig.add_subplot(111)
     tplot = ax.plot(T,dep)
     plt.setp(tplot, 'color', 'black', 'linestyle', '-', 'linewidth', .5)
-    if (T == 1e35).all():
+    if np.isnan(T).all():
         plt.xlim(-1,1)
-    elif (T == 1e35).any():
-        plt.xlim( (T[T != 1e35].min() - 0.1, T[T != 1e35].max() + 0.1) )
+    elif np.isnan(T).any():
+        plt.xlim( (T[~np.isnan(T)].min() - 0.01, T[~np.isnan(T)].max() + 0.01) )
     else:
-        plt.xlim( (T[T != 1e35].min() - 0.1, T[T != 1e35].max() + 0.1) )
+        plt.xlim( (T[~np.isnan(T)].min() - 0.01, T[~np.isnan(T)].max() + 0.01) )
     plt.ylim(-5,dep.max() + .1 * dep.max())
     ax.invert_yaxis()
     plt.ylabel('Depth (dB)', fontsize=12, fontweight='bold')
@@ -184,12 +191,12 @@ def plot_prisec_TO2Fluor(dep,T,Fluor,pDO1,pDO2,ptitle=""):
     tplot = ax2.plot(Fluor,dep)
     plt.setp(tplot, 'color', 'green', 'linestyle', '-', 'linewidth', .5)
     ax.grid(True)
-    if (Fluor == 1e35).all():
+    if np.isnan(Fluor).all():
         plt.xlim(-1,1)
-    elif (Fluor == 1e35).any():
-        plt.xlim( (Fluor[Fluor != 1e35].min() - 0.25, Fluor[Fluor != 1e35].max() + 0.25) )
+    elif np.isnan(Fluor).any():
+        plt.xlim( (Fluor[~np.isnan(Fluor)].min() - 0.01, Fluor[~np.isnan(Fluor)].max() + 0.01) )
     else:
-        plt.xlim( (Fluor[Fluor != 1e35].min() - 0.25, Fluor[Fluor != 1e35].max() + 0.25) )
+        plt.xlim( (Fluor[~np.isnan(Fluor)].min() - 0.01, Fluor[~np.isnan(Fluor)].max() + 0.01) )
     plt.ylim(-5,dep.max() + .1 * dep.max())
     plt.ylabel('Depth (dB)')
     plt.xlabel('Fluorometer (milligrams/m^3)')
