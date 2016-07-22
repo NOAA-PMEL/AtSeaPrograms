@@ -1,0 +1,11 @@
+Version 0.1.0
+* First version derived from oceans package.
+
+Version 0.2.0
+* Packages (ctd.py and plotting.py) modified from https://github.com/ocefpaf/python-ctd for reading SeaBird *.cnv using pandas dataframe
+
+* Package (ncprocessing.py) for saving data in EPICNetCDF standard
+
+* Conditional statement to look for variables which are provided with an epic.key but are not actually standard epic variables
+
+Todo: COARDS/CF conventions
