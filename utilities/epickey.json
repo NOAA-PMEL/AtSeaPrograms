@@ -5899,6 +5899,26 @@
 		"NAME": "Br    ",
 		"UNITS": "ug/m^3"
 	},
+	"2070": {
+		"COMMENTS": "",
+		"EPIC_KEY": "ST_2070",
+		"FORMAT": "f10.2",
+		"GENERIC_NAME": "den",
+		"KEY": "70",
+		"LONGNAME": "SIGMA-T (KG/M**3)        ",
+		"NAME": "ST ",
+		"UNITS": "kg m-3"
+	},
+	"2071": {
+		"COMMENTS": "",
+		"EPIC_KEY": "STH_2071",
+		"FORMAT": "f10.2",
+		"GENERIC_NAME": "potden",
+		"KEY": "71",
+		"LONGNAME": "SIGMA-THETA (KG/M**3)    ",
+		"NAME": "STH",
+		"UNITS": "kg m-3 "
+	},
 	"2980": {
 		"COMMENTS": "",
 		"EPIC_KEY": "CDOM_2980",
