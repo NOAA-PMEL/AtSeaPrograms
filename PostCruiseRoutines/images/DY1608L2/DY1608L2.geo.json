@@ -1,0 +1,149 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+"type": "Feature",
+"id": 0,
+"geometry": {
+"type": "Point",
+"coordinates": [-169.698166667,58.5641666667]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD024","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "8","GMTTime": "13:59:00"}
+}
+, {
+"type": "Feature",
+"id": 1,
+"geometry": {
+"type": "Point",
+"coordinates": [-170.058166667,56.6573333333]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD025","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "11","GMTTime": "0:55:00"}
+}
+, {
+"type": "Feature",
+"id": 2,
+"geometry": {
+"type": "Point",
+"coordinates": [-170.0855,57.7656666667]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD026","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "11","GMTTime": "14:04:00"}
+}
+, {
+"type": "Feature",
+"id": 3,
+"geometry": {
+"type": "Point",
+"coordinates": [-170.337,58.5001666667]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD027","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "11","GMTTime": "18:22:00"}
+}
+, {
+"type": "Feature",
+"id": 4,
+"geometry": {
+"type": "Point",
+"coordinates": [-170.340666667,59.5002666667]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD028","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "12","GMTTime": "13:45:00"}
+}
+, {
+"type": "Feature",
+"id": 5,
+"geometry": {
+"type": "Point",
+"coordinates": [-171.123166667,59.4563333333]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD029","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "13","GMTTime": "1:01:00"}
+}
+, {
+"type": "Feature",
+"id": 6,
+"geometry": {
+"type": "Point",
+"coordinates": [-170.850166667,57.9696666667]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD030","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "13","GMTTime": "13:54:00"}
+}
+, {
+"type": "Feature",
+"id": 7,
+"geometry": {
+"type": "Point",
+"coordinates": [-170.736,57.0025]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD031","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "13","GMTTime": "22:25:00"}
+}
+, {
+"type": "Feature",
+"id": 8,
+"geometry": {
+"type": "Point",
+"coordinates": [-171.2685,56.8521666667]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD032","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "15","GMTTime": "12:39:00"}
+}
+, {
+"type": "Feature",
+"id": 9,
+"geometry": {
+"type": "Point",
+"coordinates": [-171.366666667,58.0825]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD033","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "16","GMTTime": "14:26:00"}
+}
+, {
+"type": "Feature",
+"id": 10,
+"geometry": {
+"type": "Point",
+"coordinates": [-171.897,59.999]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD034","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "17","GMTTime": "8:41:00"}
+}
+, {
+"type": "Feature",
+"id": 11,
+"geometry": {
+"type": "Point",
+"coordinates": [-172.166,58.058]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD035","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "18","GMTTime": "10:06:00"}
+}
+, {
+"type": "Feature",
+"id": 12,
+"geometry": {
+"type": "Point",
+"coordinates": [-172.475333333,56.4601666667]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD036","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "19","GMTTime": "12:44:00"}
+}
+, {
+"type": "Feature",
+"id": 13,
+"geometry": {
+"type": "Point",
+"coordinates": [-172.973166667,59.0418333333]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD037","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "21","GMTTime": "13:39:00"}
+}
+, {
+"type": "Feature",
+"id": 14,
+"geometry": {
+"type": "Point",
+"coordinates": [-174.054833333,60.6036666667]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD038","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "22","GMTTime": "13:27:00"}
+}
+, {
+"type": "Feature",
+"id": 15,
+"geometry": {
+"type": "Point",
+"coordinates": [-173.540833333,58.4863333333]},
+"properties": {
+"Project": "Acoustic-Trawl Survey","ConsecutiveCastNo": "CTD039","StationNameID": "","GMTYear": "2016","GMTMonth": "jul","GMTDay": "23","GMTTime": "12:38:00"}
+}
+]
+}

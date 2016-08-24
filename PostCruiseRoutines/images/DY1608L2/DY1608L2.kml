@@ -1,0 +1,1169 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml:kml xmlns:atom='http://www.w3.org/2005/Atom' xmlns:gx='http://www.google.com/kml/ext/2.2' xmlns:kml='http://www.opengis.net/kml/2.2'>
+<kml:Document>
+<name>EcoFOCI</name>
+        <Style id='drifter'>
+            <LineStyle>
+                <color>ffffaa07</color>
+                <width>2</width>
+            </LineStyle>
+            <IconStyle>
+                <scale>0.75</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+        <Style id='ctd'>
+            <LineStyle>
+                <color>b366ff00</color>
+                <width>2</width>
+            </LineStyle>
+            <IconStyle>
+                <scale>0.75</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+                </Icon>
+            </IconStyle>
+           <LabelStyle>
+            <scale>0.5</scale>
+           </LabelStyle>
+        </Style>
+        <Style id='mooring'>
+            <IconStyle>
+                <scale>1.0</scale>
+                <Icon>
+                    <href>http://maps.google.com/mapfiles/kml/shapes/donut.png</href>
+                </Icon>
+            </IconStyle>
+        </Style>
+<Folder>
+<name>DY1608L2</name>
+      <Style>
+    <ListStyle>
+      <listItemType>checkHideChildren</listItemType>
+    </ListStyle>
+  </Style>
+        <Placemark>
+            <name>CTD024</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD024</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-8 13:59:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 58' 33.85''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 169' 41.89''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 67</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 66</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td>1</td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 10.5</td><td><strong>P:</strong> 1009</td><td><strong>RH:</strong> 100</td><td><strong>WS:</strong> 12.0</td><td><strong>WD:</strong> 129</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-08T13:59:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-169.6982,58.5642</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD025</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD025</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-11 0:55:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 56' 39.44''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 170' 3.49''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 98</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> -9999</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> -99.9</td><td><strong>P:</strong> -9999</td><td><strong>RH:</strong> -999</td><td><strong>WS:</strong> -99.9</td><td><strong>WD:</strong> -999</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-11T00:55:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-170.0582,56.6573</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD026</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD026</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-11 14:04:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 57' 45.94''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 170' 5.13''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 72</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 65</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 9.6</td><td><strong>P:</strong> 1027</td><td><strong>RH:</strong> 95</td><td><strong>WS:</strong> 5.1</td><td><strong>WD:</strong> 246</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-11T14:04:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-170.0855,57.7657</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD027</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD027</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-11 18:22:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 58' 30.01''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 170' 20.22''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 74</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> -9999</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td>1</td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 10.7</td><td><strong>P:</strong> 1027</td><td><strong>RH:</strong> 97</td><td><strong>WS:</strong> 5.3</td><td><strong>WD:</strong> 197</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> scs used to fill blanks after cruise in meta information</td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-11T18:22:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-170.3370,58.5002</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD028</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD028</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-12 13:45:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 59' 30.016''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 170' 20.44''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 65</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 57</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 9.9</td><td><strong>P:</strong> 1025</td><td><strong>RH:</strong> 98</td><td><strong>WS:</strong> 10.0</td><td><strong>WD:</strong> 258</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-12T13:45:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-170.3407,59.5003</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD029</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD029</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-13 1:01:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 59' 27.38''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 171' 7.39''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 74</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 70</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 12.8</td><td><strong>P:</strong> 1024</td><td><strong>RH:</strong> 87</td><td><strong>WS:</strong> 2.3</td><td><strong>WD:</strong> 205</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-13T01:01:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-171.1232,59.4563</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD030</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD030</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-13 13:54:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 57' 58.18''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 170' 51.01''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 84</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 78</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 10.3</td><td><strong>P:</strong> 1023</td><td><strong>RH:</strong> 95</td><td><strong>WS:</strong> 4.3</td><td><strong>WD:</strong> 27</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-13T13:54:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-170.8502,57.9697</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD031</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD031</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-13 22:25:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 57' 0.15''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 170' 44.16''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 93</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 89</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 10.8</td><td><strong>P:</strong> 1023</td><td><strong>RH:</strong> 90</td><td><strong>WS:</strong> 8.9</td><td><strong>WD:</strong> 21</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-13T22:25:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-170.7360,57.0025</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD032</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD032</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-15 12:39:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 56' 51.13''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 171' 16.11''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 113</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 104</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td>1</td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 9.8</td><td><strong>P:</strong> 1023</td><td><strong>RH:</strong> 100</td><td><strong>WS:</strong> 12.0</td><td><strong>WD:</strong> 38</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-15T12:39:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-171.2685,56.8522</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD033</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD033</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-16 14:26:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 58' 4.95''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 171' 22.0''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 94</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 86</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td>1</td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 12.0</td><td><strong>P:</strong> 1027</td><td><strong>RH:</strong> 96</td><td><strong>WS:</strong> 7.9</td><td><strong>WD:</strong> 96</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-16T14:26:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-171.3667,58.0825</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD034</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD034</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-17 8:41:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 59' 59.94''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 171' 53.82''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 67</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 58</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 12.0</td><td><strong>P:</strong> 1027</td><td><strong>RH:</strong> 88</td><td><strong>WS:</strong> 8.2</td><td><strong>WD:</strong> 246</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-17T08:41:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-171.8970,59.9990</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD035</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD035</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-18 10:06:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 58' 3.48''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 172' 9.96''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 104</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 96</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 12.4</td><td><strong>P:</strong> 1030</td><td><strong>RH:</strong> 87</td><td><strong>WS:</strong> 7.1</td><td><strong>WD:</strong> 269</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-18T10:06:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-172.1660,58.0580</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD036</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD036</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-19 12:44:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 56' 27.61''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 172' 28.52''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 1299</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 500</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td>1</td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 10.8</td><td><strong>P:</strong> 1028</td><td><strong>RH:</strong> 88</td><td><strong>WS:</strong> 11.0</td><td><strong>WD:</strong> 139</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-19T12:44:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-172.4753,56.4602</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD037</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD037</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-21 13:39:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 59' 2.51''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 172' 58.39''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 105</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 98</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 10.8</td><td><strong>P:</strong> 1016</td><td><strong>RH:</strong> 88</td><td><strong>WS:</strong> 24.0</td><td><strong>WD:</strong> 235</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-21T13:39:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-172.9732,59.0418</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD038</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD038</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-22 13:27:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 60' 36.22''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 174' 3.29''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 87</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 80</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 9.8</td><td><strong>P:</strong> 1012</td><td><strong>RH:</strong> 97</td><td><strong>WS:</strong> 6.5</td><td><strong>WD:</strong> 244</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-22T13:27:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-174.0548,60.6037</coordinates>
+        </Point>
+        </Placemark>
+        <Placemark>
+            <name>CTD039</name>
+<description>
+<h2>Project Acoustic-Trawl Survey</h2>
+<br></br>
+<h3>Station</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD:</strong> CTD039</td><td></td></tr>
+<tr><td><strong>Time (GMT):</strong> 2016-jul-23 12:38:00</td><td></td></tr>
+<tr><td><strong>Lat (N):</strong> 58' 29.18''</td><td></td><td></td><td></td></tr>
+<tr><td><strong>Lon (W):</strong> 173' 32.45''</td><td></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Cast Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>Bottom Depth:</strong> 120</td><td></td></tr>
+<tr><td><strong>Max Depth:</strong> 113</td><td></td></tr>
+<tr><td><strong>Estimated Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Oxygen Niskin ID:</strong></td><td></td><td></td></tr>
+<tr><td><strong>Estimated Salinity Niskin ID:</strong></td><td>1</td><td></td></tr>
+<tr><td><strong>Estimated Chlorophyll Niskin ID:</strong></td><td></td><td></td></tr>
+</tbody></table>
+<br></br>
+<h3>Meteorology</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>T:</strong> 10.1</td><td><strong>P:</strong> 1019</td><td><strong>RH:</strong> 100</td><td><strong>WS:</strong> 17.0</td><td><strong>WD:</strong> 256</td></tr>
+</tbody></table>
+<br></br>
+<h3>Instrument Info</h3><table>
+<thead>
+   <tr>
+     <th></th>
+     <th></th>
+   </tr>
+ </thead>
+ <tbody>
+<tr><td><strong>CTD Type:</strong> SBE911plus</td><td></td></tr>
+<tr><td><strong>Instrument SN:</strong> Press SN = 0772, Pri Temp SN = 2376, Sec Temp SN = 4379, Pri Cond SN = 2985, Sec Cond Sn = 3127, PAR Sn = 70296, Fluor Sn = 2057, pri O2 Sn = 1961, sec O2 Sn = 1875</td><td></td></tr>
+<tr><td><strong>Notes:</strong> </td><td></td><td></td></tr>
+</tbody></table>
+</description>
+            <TimeStamp>
+                <when>2016-07-23T12:38:00Z</when>
+            </TimeStamp>
+        <styleUrl>#ctd</styleUrl>
+        <Point>
+            <coordinates>-173.5408,58.4863</coordinates>
+        </Point>
+        </Placemark>
+</Folder>
+</kml:Document>
+</kml:kml>
