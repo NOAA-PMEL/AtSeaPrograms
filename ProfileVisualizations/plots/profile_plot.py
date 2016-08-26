@@ -25,7 +25,7 @@ class CTDProfilePlot(object):
 
     mpl.rcParams['svg.fonttype'] = 'none'
 
-    def __init__(self, fontsize=10, labelsize=10, plotstyle='k-.', stylesheet='bmh'):
+    def __init__(self, fontsize=10, labelsize=10, plotstyle='k-.', stylesheet='fivethirtyeight'):
         """Initialize the timeseries with items that do not change.
 
         This sets up the axes and station locations. The `fontsize` and `spacing`
@@ -53,6 +53,7 @@ class CTDProfilePlot(object):
         self.labelsize = labelsize
         self.plotstyle = plotstyle
         plt.style.use(stylesheet)
+        mpl.rcParams['grid.linestyle'] = '--'
 
     @staticmethod
     def add_title(cruiseid='', fileid='', stationid='',castdate=datetime.datetime.now(),lat=-99.9,lon=-99.9):
@@ -72,8 +73,6 @@ class CTDProfilePlot(object):
         The latitude of the mooring
       lon : float
         The longitude of the mooring
-      depth : int
-        Nominal depth of the instrument
       """  
 
       ptitle = ("Plotted on: {time:%Y/%m/%d %H:%M} \n from {fileid} \n "
@@ -84,7 +83,6 @@ class CTDProfilePlot(object):
                   fileid=fileid,
                   latitude=lat, 
                   longitude=lon, 
-                  depth=depth,
                   castdate=datetime.datetime.strftime(castdate,"%Y-%m-%d %H:%M GMT" ) )
 
       return ptitle
@@ -95,16 +93,13 @@ class CTDProfilePlot(object):
       p1 = ax1.plot(xdata[0], ydata)
       plt.setp(p1, **(self.var2format(epic_key[0])))
       if secondary:
-        p1 = ax1.plot(T2,dep)
+        p1 = ax1.plot(xdata[0],ydata)
         plt.setp(p1, **(self.var2format(epic_key[1])))
 
       ax1.invert_yaxis()
       plt.ylabel('Depth (dB)', fontsize=self.labelsize, fontweight='bold')
       plt.xlabel('Temperature (C)', fontsize=self.labelsize, fontweight='bold')
-      xloc = plt.MaxNLocator(max_xticks)
-      ax1.xaxis.set_major_locator(xloc) 
-      xloc = plt.MaxNLocator(max_xticks*2)
-      ax1.xaxis.set_minor_locator(xloc) 
+
       fmt=mpl.ticker.ScalarFormatter(useOffset=False)
       fmt.set_scientific(False)
       ax1.xaxis.set_major_formatter(fmt)
@@ -115,17 +110,18 @@ class CTDProfilePlot(object):
     def var2format(self, epic_key):
       """list of plot specifics based on variable name"""
       plotdic={}
-      if epic_key is 'T_28':
+      if epic_key == 'T_28':
         plotdic['color']='red'
         plotdic['linestyle']='-'
         plotdic['linewidth']=0.5
-      elif epic_key is 'T2_35':
+      elif epic_key == 'T2_35':
         plotdic['color']='magenta'
         plotdic['linestyle']='--'
         plotdic['linewidth']=0.5
       else:
         plotdic['color']='black'
         plotdic['linestyle']='--'
-        plotdic['linewidth']=1.0        
+        plotdic['linewidth']=1.0      
+
       return plotdic
 
