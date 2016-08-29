@@ -87,23 +87,59 @@ class CTDProfilePlot(object):
 
       return ptitle
 
-    def plot1var(self, epic_key=None, xdata=None, ydata=None, ylabel=None, secondary=False, **kwargs):
+    def plot1var(self, epic_key=None, xdata=None, ydata=None, xlabel=None, secondary=False, **kwargs):
       fig = plt.figure(1)
       ax1 = fig.add_subplot(111)
       p1 = ax1.plot(xdata[0], ydata)
       plt.setp(p1, **(self.var2format(epic_key[0])))
       if secondary:
-        p1 = ax1.plot(xdata[0],ydata)
+        p1 = ax1.plot(xdata[1],ydata)
         plt.setp(p1, **(self.var2format(epic_key[1])))
 
       ax1.invert_yaxis()
       plt.ylabel('Depth (dB)', fontsize=self.labelsize, fontweight='bold')
-      plt.xlabel('Temperature (C)', fontsize=self.labelsize, fontweight='bold')
+      plt.xlabel(xlabel, fontsize=self.labelsize, fontweight='bold')
 
       fmt=mpl.ticker.ScalarFormatter(useOffset=False)
       fmt.set_scientific(False)
       ax1.xaxis.set_major_formatter(fmt)
       ax1.tick_params(axis='both', which='major', labelsize=self.labelsize)
+
+      return plt, fig
+
+    def plot2var(self, epic_key=None, xdata=None, ydata=None, xlabel=None, secondary=False, **kwargs):
+      fig = plt.figure(1)
+      ax1 = fig.add_subplot(111)
+      p1 = ax1.plot(xdata[0], ydata)
+      plt.setp(p1, **(self.var2format(epic_key[0])))
+      if secondary:
+        p1 = ax1.plot(xdata[1],ydata)
+        plt.setp(p1, **(self.var2format(epic_key[1])))
+
+      ax1.invert_yaxis()
+      plt.ylabel('Depth (dB)', fontsize=self.labelsize, fontweight='bold')
+      plt.xlabel(xlabel[0], fontsize=self.labelsize, fontweight='bold')
+
+      fmt=mpl.ticker.ScalarFormatter(useOffset=False)
+      fmt.set_scientific(False)
+      ax1.xaxis.set_major_formatter(fmt)
+      ax1.tick_params(axis='both', which='major', labelsize=self.labelsize)
+
+      #plot second param
+      ax2 = ax1.twiny()
+      p1 = ax2.plot(xdata[2], ydata)
+      plt.setp(p1, **(self.var2format(epic_key[2])))
+      if secondary:
+        p1 = ax2.plot(xdata[3],ydata)
+        plt.setp(p1, **(self.var2format(epic_key[3])))
+
+      plt.ylabel('Depth (dB)', fontsize=12, fontweight='bold')
+      plt.xlabel(xlabel[1], fontsize=self.labelsize, fontweight='bold')
+
+      fmt=mpl.ticker.ScalarFormatter(useOffset=False)
+      fmt.set_scientific(False)
+      ax2.xaxis.set_major_formatter(fmt)
+      ax2.tick_params(axis='x', which='major', labelsize=self.labelsize)
 
       return plt, fig
 
@@ -116,6 +152,18 @@ class CTDProfilePlot(object):
         plotdic['linewidth']=0.5
       elif epic_key == 'T2_35':
         plotdic['color']='magenta'
+        plotdic['linestyle']='--'
+        plotdic['linewidth']=0.5
+      elif epic_key == 'S_41':
+        plotdic['color']='blue'
+        plotdic['linestyle']='-'
+        plotdic['linewidth']=0.5
+      elif epic_key == 'S_42':
+        plotdic['color']='cyan'
+        plotdic['linestyle']='--'
+        plotdic['linewidth']=0.5
+      elif epic_key == 'ST_70':
+        plotdic['color']='black'
         plotdic['linestyle']='--'
         plotdic['linewidth']=0.5
       else:
