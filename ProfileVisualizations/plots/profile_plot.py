@@ -25,7 +25,7 @@ class CTDProfilePlot(object):
 
     mpl.rcParams['svg.fonttype'] = 'none'
 
-    def __init__(self, fontsize=10, labelsize=10, plotstyle='k-.', stylesheet='fivethirtyeight'):
+    def __init__(self, fontsize=10, labelsize=10, plotstyle='k-.', stylesheet='seaborn-ticks'):
         """Initialize the timeseries with items that do not change.
 
         This sets up the axes and station locations. The `fontsize` and `spacing`
@@ -52,12 +52,15 @@ class CTDProfilePlot(object):
         self.fontsize = fontsize
         self.labelsize = labelsize
         self.plotstyle = plotstyle
-        self.max_xticks = 8
+        self.max_xticks = 10
         plt.style.use(stylesheet)
+        mpl.rcParams['axes.grid'] = True
+        mpl.rcParams['axes.edgecolor'] = 'white'
+        mpl.rcParams['axes.linewidth'] = 0.25
         mpl.rcParams['grid.linestyle'] = '--'
 
     @staticmethod
-    def add_title(cruiseid='', fileid='', stationid='',castdate=datetime.datetime.now(),lat=-99.9,lon=-99.9):
+    def add_title(cruiseid='', fileid='', stationid='',castid='',castdate=datetime.datetime.now(),lat=-99.9,lon=-99.9):
       """Pass parameters to annotate the title of the plot
 
       This sets the standard plot title using common meta information from PMEL/EPIC style netcdf files
@@ -77,10 +80,13 @@ class CTDProfilePlot(object):
       """  
 
       ptitle = ("Plotted on: {time:%Y/%m/%d %H:%M} \n from {fileid} \n "
+                "Cruise: {cruiseid}  Cast: {castid}  Stn: {stationid} \n"
                 "Lat: {latitude:3.3f}  Lon: {longitude:3.3f} at {castdate}" 
     			  " ").format(
     			  time=datetime.datetime.now(), 
                   cruiseid=cruiseid,
+                  stationid=stationid,
+                  castid=castid,
                   fileid=fileid,
                   latitude=lat, 
                   longitude=lon, 
@@ -207,27 +213,32 @@ class CTDProfilePlot(object):
 
       return plt, fig
 
-    def var2format(self, epic_key):
+    @staticmethod
+    def var2format(epic_key):
       """list of plot specifics based on variable name"""
       plotdic={}
-      if epic_key == 'T_28':
+      if epic_key in ['T_28']:
         plotdic['color']='red'
         plotdic['linestyle']='-'
         plotdic['linewidth']=0.5
-      elif epic_key == 'T2_35':
+      elif epic_key in ['T2_35']:
         plotdic['color']='magenta'
         plotdic['linestyle']='--'
         plotdic['linewidth']=0.5
-      elif epic_key == 'S_41':
+      elif epic_key in ['S_41', 'OST_62']:
         plotdic['color']='blue'
         plotdic['linestyle']='-'
         plotdic['linewidth']=0.5
-      elif epic_key == 'S_42':
+      elif epic_key in ['S_42', 'CTDOST_4220']:
         plotdic['color']='cyan'
         plotdic['linestyle']='--'
         plotdic['linewidth']=0.5
-      elif epic_key == 'ST_70':
+      elif epic_key in ['ST_70']:
         plotdic['color']='black'
+        plotdic['linestyle']='-'
+        plotdic['linewidth']=0.5
+      elif epic_key in ['F_903','fWS_973','Fch_906']:
+        plotdic['color']='green'
         plotdic['linestyle']='-'
         plotdic['linewidth']=0.5
       else:
@@ -237,7 +248,8 @@ class CTDProfilePlot(object):
 
       return plotdic
 
-    def make_patch_spines_invisible(self, ax):
+    @staticmethod
+    def make_patch_spines_invisible(ax):
         ax.set_frame_on(True)
         ax.patch.set_visible(False)
         for sp in ax.spines.itervalues():
