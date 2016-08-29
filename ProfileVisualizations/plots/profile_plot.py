@@ -233,7 +233,7 @@ class CTDProfilePlot(object):
         plotdic['color']='cyan'
         plotdic['linestyle']='--'
         plotdic['linewidth']=0.5
-      elif epic_key in ['ST_70']:
+      elif epic_key in ['ST_70','Trb_980']:
         plotdic['color']='black'
         plotdic['linestyle']='-'
         plotdic['linewidth']=0.5
@@ -241,6 +241,10 @@ class CTDProfilePlot(object):
         plotdic['color']='green'
         plotdic['linestyle']='-'
         plotdic['linewidth']=0.5
+      elif epic_key in ['PAR_905']:
+        plotdic['color']='darkorange'
+        plotdic['linestyle']='-'
+        plotdic['linewidth']=0.75
       else:
         plotdic['color']='black'
         plotdic['linestyle']='--'
