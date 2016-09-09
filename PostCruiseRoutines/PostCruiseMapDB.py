@@ -9,7 +9,11 @@ Mooring Locations for all available information
 Input - CruiseID
 Output - png map and kml map
 
-Using Anaconda packaged Python 
+History
+-------
+
+2016-09-09: Begin migration to classes for reused routines (db_io)
+
 """
 
 #System Stack
@@ -31,9 +35,12 @@ mpl.use('Agg')
 import matplotlib.pyplot as plt
 from mpl_toolkits.basemap import Basemap, shiftgrid
 
-# user stack
-import utilities.ConfigParserLocal as ConfigParserLocal
-
+#user stack
+# Relative User Stack
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.sys.path.insert(1, parent_dir)
+from io_utils import ConfigParserLocal
+from io_utils.EcoFOCI_db_io import EcoFOCI_db_Cruises
 
 __author__   = 'Shaun Bell'
 __email__    = 'shaun.bell@noaa.gov'
