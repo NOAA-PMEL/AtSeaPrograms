@@ -114,7 +114,7 @@ def find_nearest(a, a0):
 # parse incoming command line options
 parser = argparse.ArgumentParser(description='Create map of isosurface contours for a designated cruise')
 parser.add_argument('sourcedir', metavar='sourcedir', type=str, help='path to cruise ctd cast files (.nc)')
-parser.add_argument('--EPIC_Key', type=str, help='selected variable to contour')
+parser.add_argument('-ek','--EPIC_KEY', type=str, help='selected variable to contour')
 parser.add_argument('--Depth', type=int, help='integer depth to contour at')
 
 args = parser.parse_args()

@@ -72,7 +72,7 @@ def repl_var(nchandle, var_name, user_val ):
 parser = argparse.ArgumentParser(description='Copy Data from one netcdf file to another existing file')
 parser.add_argument('sourcefile_path', metavar='sourcefile_path', type=str, help='complete path to epic files')
 parser.add_argument('origfile_path', metavar='origfile_path', type=str, help='complete path to orig file')
-parser.add_argument('--EPIC_Keys', nargs='+', type=str, help='EPIC Keys to keep seperated by spaces')
+parser.add_argument('-ek','--EPIC_KEY', nargs='+', type=str, help='EPIC Keys to keep seperated by spaces')
 
 
 args = parser.parse_args()
