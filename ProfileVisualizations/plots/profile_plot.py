@@ -23,7 +23,8 @@ import matplotlib.ticker as ticker
 
 class CTDProfilePlot(object):
 
-    mpl.rcParams['svg.fonttype'] = 'none'
+
+
 
     def __init__(self, fontsize=10, labelsize=10, plotstyle='k-.', stylesheet='seaborn-ticks'):
         """Initialize the timeseries with items that do not change.
@@ -54,10 +55,25 @@ class CTDProfilePlot(object):
         self.plotstyle = plotstyle
         self.max_xticks = 10
         plt.style.use(stylesheet)
+        mpl.rcParams['svg.fonttype'] = 'none'
         mpl.rcParams['axes.grid'] = True
         mpl.rcParams['axes.edgecolor'] = 'white'
         mpl.rcParams['axes.linewidth'] = 0.25
         mpl.rcParams['grid.linestyle'] = '--'
+        mpl.rcParams['grid.linestyle'] = '--'
+        mpl.rcParams['xtick.major.size'] = 2
+        mpl.rcParams['xtick.minor.size'] = 1
+        mpl.rcParams['xtick.major.width'] = 0.25
+        mpl.rcParams['xtick.minor.width'] = 0.25
+        mpl.rcParams['ytick.major.size'] = 2
+        mpl.rcParams['ytick.minor.size'] = 1
+        mpl.rcParams['xtick.major.width'] = 0.25
+        mpl.rcParams['xtick.minor.width'] = 0.25
+        mpl.rcParams['ytick.direction'] = 'out'
+        mpl.rcParams['xtick.direction'] = 'out'
+        mpl.rcParams['ytick.color'] = 'grey'
+        mpl.rcParams['xtick.color'] = 'grey'
+
 
     @staticmethod
     def add_title(cruiseid='', fileid='', stationid='',castid='',castdate=datetime.datetime.now(),lat=-99.9,lon=-99.9):

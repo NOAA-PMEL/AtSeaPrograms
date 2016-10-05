@@ -167,7 +167,7 @@ for ncfile in sorted(nc_path):
         DefaultSize = fig.get_size_inches()
         fig.set_size_inches( (DefaultSize[0], DefaultSize[1]*2) )
 
-        plt.savefig('images/' + g_atts['CRUISE'] + '/TO2F/' + ncfile.split('/')[-1].split('.')[0] + '_plot_2TSSigma.png', bbox_inches='tight', dpi = (300))
+        plt.savefig('images/' + g_atts['CRUISE'] + '/TO2F/' + ncfile.split('/')[-1].split('.')[0] + '_plot_TO2F.png', bbox_inches='tight', dpi = (300))
         plt.close()
 
     if args.ParTurbFluor:
@@ -199,5 +199,5 @@ for ncfile in sorted(nc_path):
         DefaultSize = fig.get_size_inches()
         fig.set_size_inches( (DefaultSize[0], DefaultSize[1]*2) )
 
-        plt.savefig('images/' + g_atts['CRUISE'] + '/PARTurbFluor/' + ncfile.split('/')[-1].split('.')[0] + '_plot_2TSSigma.png', bbox_inches='tight', dpi = (300))
+        plt.savefig('images/' + g_atts['CRUISE'] + '/PARTurbFluor/' + ncfile.split('/')[-1].split('.')[0] + '_plot_PARTurbFluor.png', bbox_inches='tight', dpi = (300))
         plt.close()
