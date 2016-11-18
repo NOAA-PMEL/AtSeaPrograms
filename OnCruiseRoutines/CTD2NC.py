@@ -82,7 +82,7 @@ def data_processing(user_in, user_out):
 
         print "Working on Cast %s" % filein
         ### Change pressure_var to prDM for most 9/11 and prSM for sbe25 in following line or prdM for sbe19pV2
-        pressure_varname = 'prDM'        
+        pressure_varname = 'prdM'        
         
         #PMEL EPIC Conventions
         ncinstance = ncprocessing.CTD_NC(savefile=(savefile + cast.name.replace('_ctd', 'c') + '_ctd.nc'), data=cast)

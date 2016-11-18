@@ -61,6 +61,8 @@ add 'prdM' = '1' for RUSALCA 2014 Cruise
 for fluorometers - micrograms / l is equivalent to milligrams / m**3 - 
 
 add 'nb' = '103' for niskin bottles for bottle logs/ nutrient logs
+
+add 'ph' = '159'
 """
 import datetime
 
@@ -127,6 +129,7 @@ SBE_EPIC["oxML/L"]  = '65'      #oxygen ctd (seasoft calculated)
 SBE_EPIC["sbeox0ML/L"] = '60'   #60:ml/l,65:umol/kg
 SBE_EPIC["sbeox1ML/L"] = '-2060'   #(-2000 - primary key) 60:ml/l,65:umol/kg
 SBE_EPIC["sbeox0Mm/Kg"] = '65' 
+SBE_EPIC["sbox0Mm/Kg"] = '65' #different spelling of sbe/sb
 SBE_EPIC["sbeox1Mm/Kg"] = '4221'#umol/kg 
 SBE_EPIC["sbeox0PS"] = '62'     #oxygen % saturation
 SBE_EPIC["sbeox1PS"] = '4220'     #CTD secondary oxygen % saturation
@@ -182,6 +185,9 @@ SBE_EPIC["dz/dtM"] = '9998'
 #Transmissometers
 SBE_EPIC["CStarTr0"] = '904' #Beam Transmission, WET Labs C-Star [%]
 SBE_EPIC["CStarAt0"] = '55' #Beam Attenuation, WET Labs C-Star [1/m]
+
+#ph
+SBE_EPIC["ph"] = '159' #IPHC ph value
 
 
 #Niskin Bottles
