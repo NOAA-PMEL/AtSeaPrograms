@@ -219,53 +219,6 @@ def from_cnv(fname, compression=None, below_water=False, lon=None,
     return CTD(cast, longitude=lon, latitude=lat, name=name, header=header,
                config=config, SFC_EXTEND=min_value, time_str=time_str)
 
-def from_netCDF(fname, compression=None, below_water=False, lon=None,
-             lat=None):
-    """
-    DataFrame constructor to open Seabird CTD EPIC_NetCDF format.
-
-    Examples
-    --------
-    >>> from ctd import DataFrame
-    >>> cast = DataFrame.from_netCDF('../data/test.nc')
-    """        
-
-    f = Dataset(fname,'r')
-    header, config, names, PMELheader = [], [], [], []
-
-    global_attrs = {}
-    for i, v in enumerate(f.ncattrs()):
-        global_attrs[v] = f.getncattr(v)
-    
-
-    #index may be 'dep', 'depth', or 'pres'
-    try:
-        cast = np.zeros( ( f.variables['dep'][:].shape[0],len(f.variables.keys()) ) ) 
-    except KeyError:
-        try: 
-            cast = np.zeros( ( f.variables['depth'][:].shape[0],len(f.variables.keys()) ) )
-        except KeyError:
-            try:
-                cast = np.zeros( ( f.variables['pres'][:].shape[0],len(f.variables.keys()) ) )
-            except:
-                print " ERROR: NetCDF vertical coordinate not recognized.  No dep, depth, or pres key in file \n"
-                sys.exit(1)
-
-    name = basename(fname)[0].split('/')[-1] + '_' + basename(fname)[1]
-
-    # because dictionaries aren't inherently ordered, create a dictionary of variable_names
-    # which is bound to the index the data is saved at
-    variable_names = {}            
-    for j, v in enumerate( f.variables.keys() ): 
-        try: #non coord dims have 4 axis
-            cast[:,j] = f.variables[v][0,:,0,0]
-            variable_names[v] = j
-        except ValueError: #coord dims have only one axis
-            cast[:,j] = f.variables[v][:]
-            variable_names[v] = j
-            
-    return CTD(cast, columns=variable_names.keys(), PMELheader=global_attrs, name=name)
-
 def rosette_summary(fname):
     """
     Make a BTL (bottle) file from a ROS (bottle log) file.

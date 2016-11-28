@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>MainWindow</class>
- <widget class="QMainWindow" name="MainWindow">
+ <class>EcoFOCI_cnv_convert</class>
+ <widget class="QMainWindow" name="EcoFOCI_cnv_convert">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>489</width>
-    <height>626</height>
+    <width>459</width>
+    <height>765</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,44 +17,44 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>80</x>
       <y>460</y>
       <width>193</width>
-      <height>134</height>
+      <height>141</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_lower">
-     <item row="3" column="0">
+     <item row="4" column="0">
       <widget class="QPushButton" name="btlSummaryButton">
        <property name="text">
         <string>Generate Bottle Summary</string>
        </property>
       </widget>
      </item>
-     <item row="1" column="0">
-      <widget class="QPushButton" name="addMetaButton">
-       <property name="text">
-        <string>Add Cruise Meta Data</string>
-       </property>
-      </widget>
-     </item>
-     <item row="0" column="0">
-      <widget class="QPushButton" name="processButton">
-       <property name="text">
-        <string>Process Files</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="0">
+     <item row="5" column="0">
       <widget class="QPushButton" name="exitButton">
        <property name="text">
         <string>Exit</string>
        </property>
       </widget>
      </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="processButton">
+       <property name="text">
+        <string>Process Files</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QPushButton" name="addMetaButton">
+       <property name="text">
+        <string>Add Cruise Meta Data</string>
+       </property>
+      </widget>
+     </item>
     </layout>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>120</x>
@@ -90,6 +90,69 @@
      </item>
      <item>
       <widget class="QListWidget" name="outputList"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>460</y>
+      <width>111</width>
+      <height>97</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>.cnv press label</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="presscomboBox">
+       <item>
+        <property name="text">
+         <string>prDM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>prdM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>prdm</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>prSM</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QCheckBox" name="IPHCcheckBox">
+       <property name="text">
+        <string>is IPHC</string>
+       </property>
+      </widget>
      </item>
     </layout>
    </widget>

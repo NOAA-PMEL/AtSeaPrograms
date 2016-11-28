@@ -30,9 +30,6 @@
 # System Packages
 import datetime, os, sys
 
-# User Packages
-from OnCruiseRoutines.CTD_Vis import ctd
-from OnCruiseRoutines.CTD_Vis import ncprocessing
 
 # GUI Packages
 from PyQt4 import QtGui 
@@ -82,10 +79,20 @@ class ExampleApp(QtGui.QMainWindow, design.Ui_MainWindow):
            
     def Process_Files(self):
         ''' run data processing routine in file CTD2nc.py'''
+        # User Packages
         import OnCruiseRoutines.CTD2NC as CTD2NC
-        
-        rflag = CTD2NC.data_processing(os.path.join(self.directory, str(self.inputList.currentItem().text()) + '/'),
-                                        os.path.join(self.directory, str(self.outputList.currentItem().text()) + '/'))
+        from OnCruiseRoutines.CTD_Vis import ctd
+        from OnCruiseRoutines.CTD_Vis import ncprocessing
+        if self.IPHCcheckBox.isChecked():
+            rflag = CTD2NC.IPHC_data_processing(os.path.join(self.directory, str(self.inputList.currentItem().text()) + '/'),
+                                        os.path.join(self.directory, str(self.outputList.currentItem().text()) + '/'),
+                                        pressure_varname=str(self.presscomboBox.currentText()))
+        else: #get header info for IPHC style files
+            rflag = CTD2NC.data_processing(os.path.join(self.directory, str(self.inputList.currentItem().text()) + '/'),
+                                        os.path.join(self.directory, str(self.outputList.currentItem().text()) + '/'),
+                                        pressure_varname=str(self.presscomboBox.currentText()))
+
+
         if rflag == True:
             self.processButton.setStyleSheet("background-color: green")
 
