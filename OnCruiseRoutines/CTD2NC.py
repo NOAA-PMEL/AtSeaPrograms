@@ -50,8 +50,14 @@ Write attributes, variables and variable attributes
 """
 """------------------------------- Data Pointer----------------------------------------"""
 
-def data_processing(user_in, user_out):
+def data_processing(user_in, user_out, pressure_varname = 'prDM'):
+    """
+        Change pressure_var to prDM for 
+        most 9/11 and prSM for sbe25 in following line or 
+        prdM for sbe19pV2
 
+
+    """
     #add ability to ingest entire directory
     if os.path.isdir(user_in):
         user_in = [user_in] + [fi for fi in os.listdir(user_in) if fi.endswith('.cnv')]
@@ -81,9 +87,7 @@ def data_processing(user_in, user_out):
             os.makedirs(savefile)
 
         print "Working on Cast %s" % filein
-        ### Change pressure_var to prDM for most 9/11 and prSM for sbe25 in following line or prdM for sbe19pV2
-        pressure_varname = 'prdM'        
-        
+       
         #PMEL EPIC Conventions
         ncinstance = ncprocessing.CTD_NC(savefile=(savefile + cast.name.replace('_ctd', 'c') + '_ctd.nc'), data=cast)
         ncinstance.file_create()

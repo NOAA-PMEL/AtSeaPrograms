@@ -293,8 +293,6 @@ class CTD_NC(object):
         self.rootgrpID.close()
     
 
-
-
 """-----------------------------CF V1.6 / COARDS Standards-----------------------------"""
 
 class CF_CTD_NC(object):
