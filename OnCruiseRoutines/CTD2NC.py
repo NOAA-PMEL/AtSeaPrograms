@@ -167,7 +167,7 @@ def IPHC_data_processing(user_in, user_out, pressure_varname = 'prdM'):
                 stnno = entry.split()[-1]
             if '** trpno:' in entry:
                 trpno = entry.split()[-1]
-            if '** vslcde:' in entry:
+            if ('** vslcde:' in entry) | ('** vslcde' in entry):
                 vslcde = entry.split()[-1]
             if '** region:' in entry:
                 region = entry.split()[-1]
