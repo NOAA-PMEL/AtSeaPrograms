@@ -380,13 +380,6 @@ for cruiseID in cruiseID_input:
         data_drifters_lat = np.array([float(data_drifters[a_ind]['ReleaseLat'].split()[0]) for a_ind in data_drifters.keys()])
         data_drifters_lon = np.array([float(data_drifters[a_ind]['ReleaseLon'].split()[0]) for a_ind in data_drifters.keys()])
             
-    mooring_date = [data_mooring[a_ind]['DeploymentDate'] for a_ind in data_mooring.keys()]
-    try:
-        mooring_time = [(data_mooring[a_ind]['TimeofRelease'].split()[-1]) for a_ind in data_mooring.keys()]
-    except IndexError:
-        mooring_time = mooring_date * 0
-    except AttributeError:
-        mooring_time = mooring_date * 0
                 
     ### Basemap Visualization
     if args.png or args.svg:
