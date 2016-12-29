@@ -74,7 +74,8 @@ parser.add_argument('-OxyFluor','--OxyFluor', action="store_true",
                help='Temperature, Oxygen, Fluorometer vs depth')
 parser.add_argument('-ParTurbFluor','--ParTurbFluor', action="store_true",
                help='PAR, Turbidity, Fluorometer vs depth')
-
+parser.add_argument('-TransTurbFluor','--TransTurbFluor', action="store_true",
+               help='Transmissometer, Turbidity, Fluorometer vs depth (common package for EMA)')
 
 args = parser.parse_args()
 
@@ -102,7 +103,8 @@ for ncfile in sorted(nc_path):
         os.makedirs('images/' + g_atts['CRUISE'] + '/TO2F/')
     if not os.path.exists('images/' + g_atts['CRUISE'] + '/PARTurbFluor/'):
         os.makedirs('images/' + g_atts['CRUISE'] + '/PARTurbFluor/')
-
+    if not os.path.exists('images/' + g_atts['CRUISE'] + '/TransTurbFluor/'):
+        os.makedirs('images/' + g_atts['CRUISE'] + '/TransTurbFluor/')
 
     try:
         g_atts['STATION_NAME'] = g_atts['STATION_NAME']
@@ -200,4 +202,36 @@ for ncfile in sorted(nc_path):
         fig.set_size_inches( (DefaultSize[0], DefaultSize[1]*2) )
 
         plt.savefig('images/' + g_atts['CRUISE'] + '/PARTurbFluor/' + ncfile.split('/')[-1].split('.')[0] + '_plot_PARTurbFluor.png', bbox_inches='tight', dpi = (300))
+        plt.close()
+
+    if args.TransTurbFluor:
+        CTDplot = CTDProfilePlot()
+
+        fluor_key_list = ['F_903', 'Fch_906', 'fWS_973', 'Chl_933']
+        for fkey in fluor_key_list:
+            if fkey in ncdata.keys():
+                fluor_key = fkey
+
+        (plt, fig) = CTDplot.plot3var(epic_key=['Tr_904','','Trb_980','',fluor_key,''],
+                         xdata=[ncdata['Tr_904'][0,:,0,0],np.array([]),
+                                ncdata['Trb_980'][0,:,0,0],np.array([]),
+                                ncdata[fluor_key][0,:,0,0],np.array([])],
+                         ydata=ncdata['dep'][:],
+                         xlabel=['Trans. %','Turbidity','Chlor-A mg/m^3'],
+                         secondary=True)
+
+        ptitle = CTDplot.add_title(cruiseid=g_atts['CRUISE'],
+                          fileid=ncfile.split('/')[-1],
+                          castid=g_atts['CAST'],
+                          stationid=g_atts['STATION_NAME'],
+                          castdate=cast_time,
+                          lat=ncdata['lat'][0],
+                          lon=ncdata['lon'][0])
+
+        t = fig.suptitle(ptitle)
+        t.set_y(1.06)
+        DefaultSize = fig.get_size_inches()
+        fig.set_size_inches( (DefaultSize[0], DefaultSize[1]*2) )
+
+        plt.savefig('images/' + g_atts['CRUISE'] + '/TransTurbFluor/' + ncfile.split('/')[-1].split('.')[0] + '_plot_TransTurbFluor.png', bbox_inches='tight', dpi = (300))
         plt.close()

@@ -257,7 +257,10 @@ if not args.inverted_bottle_order:
             try:
                 turbWETntu0 = turbWETntu0 + [round(float(data[val]['turbWETntu0']),4)]
             except:
-                turbWETntu0 = turbWETntu0 + [1e35]
+                try:
+                    turbWETntu0 = turbWETntu0 + [round(float(data[val]['Obs']),4)]
+                except:
+                    turbWETntu0 = turbWETntu0 + [1e35]
             try:
                 FlECOAFL = FlECOAFL + [round(float(data[val]['FlECO-AFL']),4)]
             except:
@@ -374,7 +377,10 @@ if not args.inverted_bottle_order:
             try:
                 turbWETntu0 = turbWETntu0 + [round(float(data[val]['turbWETntu0']),4)]
             except:
-                turbWETntu0 = turbWETntu0 + [1e35]
+                try:
+                    turbWETntu0 = turbWETntu0 + [round(float(data[val]['Obs']),4)]
+                except:
+                    turbWETntu0 = turbWETntu0 + [1e35]
             try:
                 FlECOAFL = FlECOAFL + [round(float(data[val]['FlECO-AFL']),4)]
             except:
@@ -493,7 +499,10 @@ if not args.inverted_bottle_order:
             try:
                 turbWETntu0 = turbWETntu0 + [round(float(data[val]['turbWETntu0']),4)]
             except:
-                turbWETntu0 = turbWETntu0 + [1e35]
+                try:
+                    turbWETntu0 = turbWETntu0 + [round(float(data[val]['Obs']),4)]
+                except:
+                    turbWETntu0 = turbWETntu0 + [1e35]
             try:
                 FlECOAFL = FlECOAFL + [round(float(data[val]['FlECO-AFL']),4)]
             except:

@@ -93,33 +93,24 @@ class CTD(DataFrame):
 def remove_above_water(cast):
     return cast[cast.index >= 0]
 
-def interp2sfc(cast):
+def interp2sfc(cast, pressure_key='prDM'):
     """ Horribly inefficient for large arrays """
     try:
-        min_val_report = cast['prDM'].values.min()
+        min_val_report = cast[pressure_key].values.min()
     except:
-        try:
-            min_val_report = cast['prSM'].values.min()
-        except:
-            min_val_report = cast['prdM'].values.min()
+        min_val_report = 0.0
         
     min_val = min_val_report
     while min_val > 0.0:
         print 'Extrapolating to surface %s' % min_val
         cast = concat([cast.head(n=1), cast], ignore_index=True)
         min_val = min_val - 1.
-        try:
-            cast.prDM[0] = min_val #revalue at each copy
-        except:
-            try:
-                cast.prSM[0] = min_val #revalue at each copy
-            except:
-                    cast.prdM[0] = min_val #revalue at each copy
+        cast[pressure_key][0] = min_val #revalue at each copy
                     
     return (cast, min_val_report)
 
 def from_cnv(fname, compression=None, below_water=False, lon=None,
-             lat=None):
+             lat=None, pressure_varname='prDM'):
     """
     DataFrame constructor to open Seabird CTD CNV-ASCII format.
 
@@ -188,17 +179,9 @@ def from_cnv(fname, compression=None, below_water=False, lon=None,
                       skiprows=skiprows, delim_whitespace=True)
     f.close()
     
-    (cast, min_value) = interp2sfc(cast) 
-    try:
-        cast.set_index('prDM', drop=False, inplace=True)
-        cast.index.name = 'Pressure [dbar]'
-    except:
-        try:
-            cast.set_index('prSM', drop=False, inplace=True)
-            cast.index.name = 'Pressure [dbar]'
-        except:
-            cast.set_index('prdM', drop=False, inplace=True)
-            cast.index.name = 'Pressure [dbar]'
+    (cast, min_value) = interp2sfc(cast, pressure_key = pressure_varname) 
+    cast.set_index(pressure_varname, drop=False, inplace=True)
+    cast.index.name = 'Pressure [dbar]'
                     
     name = basename(fname)[0].split('/')[-2] + '_' + basename(fname)[1]
     print name
