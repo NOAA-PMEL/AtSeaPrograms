@@ -12,7 +12,7 @@
  
 
  2016-06-10: Update program so that it pulls possible new variables from epic.json file
-
+ 2016-12-29: Update to add History attribute
 """
 
 #System Stack
@@ -99,6 +99,15 @@ for count, ncfile in enumerate(ctd_data_files): #cycle through all available fil
         newvar.units = EPIC_VARS_dict[epic_var_ind]['UNITS']
         newvar.FORTRAN_format = EPIC_VARS_dict[epic_var_ind]['FORMAT']
         newvar.epic_code = int(epic_var_ind) 
+
+        print "adding history attribute"
+        if not 'History' in global_atts.keys():
+            histtime=datetime.datetime.utcnow()
+            nchandle.setncattr('History','{histtime:%B %d, %Y %H:%M} UTC {variable} added'.format(histtime=histtime,variable=args.add_epic_var))
+        else:
+            histtime=datetime.datetime.utcnow()
+            nchandle.setncattr('History', global_atts['History'] +'\n'+ '{histtime:%B %d, %Y %H:%M} UTC {variable} added'.format(histtime=histtime,variable=args.add_epic_var))
+
 
     except:
         print "{0} - not added".format(args.add_epic_var)

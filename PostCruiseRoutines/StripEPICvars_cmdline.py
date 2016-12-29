@@ -63,7 +63,7 @@ def StripEPIC(user_in, user_out, keep_vars):
     createDir("/".join(nc_path[0].split('/')[:-1])+'/allparameters/')
 
     for ncfile in nc_path:
-    
+        print "Working on {ncfile}".format(ncfile=ncfile)
         if nocopy_flag == 0:
             shutil.copy (ncfile, "/".join(ncfile.split('/')[:-1])+'/allparameters/'+ncfile.split('/')[-1])
 

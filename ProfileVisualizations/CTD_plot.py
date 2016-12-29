@@ -74,8 +74,12 @@ parser.add_argument('-OxyFluor','--OxyFluor', action="store_true",
                help='Temperature, Oxygen, Fluorometer vs depth')
 parser.add_argument('-ParTurbFluor','--ParTurbFluor', action="store_true",
                help='PAR, Turbidity, Fluorometer vs depth')
+parser.add_argument('-ParFluor','--ParFluor', action="store_true",
+               help='PAR, Fluorometer vs depth')
 parser.add_argument('-TransTurbFluor','--TransTurbFluor', action="store_true",
                help='Transmissometer, Turbidity, Fluorometer vs depth (common package for EMA)')
+parser.add_argument('-has_secondary','--has_secondary', action="store_true",
+               help='Flag to indicate plotting secondary values too')
 
 args = parser.parse_args()
 
@@ -111,7 +115,7 @@ for ncfile in sorted(nc_path):
     except:
         g_atts['STATION_NAME'] = 'NA'
 
-    if args.TSvD:
+    if args.TSvD and args.has_secondary:
         CTDplot = CTDProfilePlot()
 
         (plt, fig) = CTDplot.plot3var(epic_key=['T_28','T2_35','S_41','S_42','ST_70','ST_2070'],
@@ -121,7 +125,34 @@ for ncfile in sorted(nc_path):
                                 np.array([])],
                          ydata=ncdata['dep'][:],
                          xlabel=['Temperature (C)','Salinity (PSU)','SigmaT (kg/m^3)'],
-                         secondary=True)
+                         secondary=args.has_secondary)
+
+        ptitle = CTDplot.add_title(cruiseid=g_atts['CRUISE'],
+                          fileid=ncfile.split('/')[-1],
+                          castid=g_atts['CAST'],
+                          stationid=g_atts['STATION_NAME'],
+                          castdate=cast_time,
+                          lat=ncdata['lat'][0],
+                          lon=ncdata['lon'][0])
+
+        t = fig.suptitle(ptitle)
+        t.set_y(1.06)
+        DefaultSize = fig.get_size_inches()
+        fig.set_size_inches( (DefaultSize[0], DefaultSize[1]*2) )
+
+        plt.savefig('images/' + g_atts['CRUISE'] + '/TSSigma/' + ncfile.split('/')[-1].split('.')[0] + '_plot_2TSSigma.png', bbox_inches='tight', dpi = (300))
+        plt.close()
+    elif args.TSvD and not args.has_secondary:
+        CTDplot = CTDProfilePlot()
+
+        (plt, fig) = CTDplot.plot3var(epic_key=['T_28','','S_41','','ST_70',''],
+                         xdata=[ncdata['T_28'][0,:,0,0],np.array([]),
+                                ncdata['S_41'][0,:,0,0],np.array([]),
+                                ncdata['ST_70'][0,:,0,0],
+                                np.array([])],
+                         ydata=ncdata['dep'][:],
+                         xlabel=['Temperature (C)','Salinity (PSU)','SigmaT (kg/m^3)'],
+                         secondary=args.has_secondary)
 
         ptitle = CTDplot.add_title(cruiseid=g_atts['CRUISE'],
                           fileid=ncfile.split('/')[-1],
@@ -139,7 +170,7 @@ for ncfile in sorted(nc_path):
         plt.savefig('images/' + g_atts['CRUISE'] + '/TSSigma/' + ncfile.split('/')[-1].split('.')[0] + '_plot_2TSSigma.png', bbox_inches='tight', dpi = (300))
         plt.close()
 
-    if args.OxyFluor:
+    if args.OxyFluor and args.has_secondary:
         CTDplot = CTDProfilePlot()
 
         fluor_key_list = ['F_903', 'Fch_906', 'fWS_973', 'Chl_933']
@@ -154,7 +185,7 @@ for ncfile in sorted(nc_path):
                                 np.array([])],
                          ydata=ncdata['dep'][:],
                          xlabel=['Temperature (C)','Oxygen % Sat.','Chlor-A mg/m^3'],
-                         secondary=True)
+                         secondary=args.has_secondary)
 
         ptitle = CTDplot.add_title(cruiseid=g_atts['CRUISE'],
                           fileid=ncfile.split('/')[-1],
@@ -172,6 +203,70 @@ for ncfile in sorted(nc_path):
         plt.savefig('images/' + g_atts['CRUISE'] + '/TO2F/' + ncfile.split('/')[-1].split('.')[0] + '_plot_TO2F.png', bbox_inches='tight', dpi = (300))
         plt.close()
 
+    elif args.OxyFluor and not args.has_secondary:
+        CTDplot = CTDProfilePlot()
+
+        fluor_key_list = ['F_903', 'Fch_906', 'fWS_973', 'Chl_933']
+        for fkey in fluor_key_list:
+            if fkey in ncdata.keys():
+                fluor_key = fkey
+
+        (plt, fig) = CTDplot.plot3var(epic_key=['T_28','','OST_62','',fluor_key,''],
+                         xdata=[ncdata['T_28'][0,:,0,0],np.array([]),
+                                ncdata['OST_62'][0,:,0,0],np.array([]),
+                                ncdata[fluor_key][0,:,0,0],
+                                np.array([])],
+                         ydata=ncdata['dep'][:],
+                         xlabel=['Temperature (C)','Oxygen % Sat.','Chlor-A mg/m^3'],
+                         secondary=args.has_secondary)
+
+        ptitle = CTDplot.add_title(cruiseid=g_atts['CRUISE'],
+                          fileid=ncfile.split('/')[-1],
+                          castid=g_atts['CAST'],
+                          stationid=g_atts['STATION_NAME'],
+                          castdate=cast_time,
+                          lat=ncdata['lat'][0],
+                          lon=ncdata['lon'][0])
+
+        t = fig.suptitle(ptitle)
+        t.set_y(1.06)
+        DefaultSize = fig.get_size_inches()
+        fig.set_size_inches( (DefaultSize[0], DefaultSize[1]*2) )
+
+        plt.savefig('images/' + g_atts['CRUISE'] + '/TO2F/' + ncfile.split('/')[-1].split('.')[0] + '_plot_TO2F.png', bbox_inches='tight', dpi = (300))
+        plt.close()
+
+    if args.ParFluor:
+        CTDplot = CTDProfilePlot()
+
+        fluor_key_list = ['F_903', 'Fch_906', 'fWS_973', 'Chl_933']
+        for fkey in fluor_key_list:
+            if fkey in ncdata.keys():
+                fluor_key = fkey
+
+        (plt, fig) = CTDplot.plot2var(epic_key=['PAR_905','',fluor_key,''],
+                         xdata=[ncdata['PAR_905'][0,:,0,0],np.array([]),
+                                ncdata[fluor_key][0,:,0,0],np.array([])],
+                         ydata=ncdata['dep'][:],
+                         xlabel=['PAR','Chlor-A mg/m^3'],
+                         secondary=args.has_secondary)
+
+        ptitle = CTDplot.add_title(cruiseid=g_atts['CRUISE'],
+                          fileid=ncfile.split('/')[-1],
+                          castid=g_atts['CAST'],
+                          stationid=g_atts['STATION_NAME'],
+                          castdate=cast_time,
+                          lat=ncdata['lat'][0],
+                          lon=ncdata['lon'][0])
+
+        t = fig.suptitle(ptitle)
+        t.set_y(1.06)
+        DefaultSize = fig.get_size_inches()
+        fig.set_size_inches( (DefaultSize[0], DefaultSize[1]*2) )
+
+        plt.savefig('images/' + g_atts['CRUISE'] + '/PARTurbFluor/' + ncfile.split('/')[-1].split('.')[0] + '_plot_PARTurbFluor.png', bbox_inches='tight', dpi = (300))
+        plt.close()
+
     if args.ParTurbFluor:
         CTDplot = CTDProfilePlot()
 
@@ -186,7 +281,7 @@ for ncfile in sorted(nc_path):
                                 ncdata[fluor_key][0,:,0,0],np.array([])],
                          ydata=ncdata['dep'][:],
                          xlabel=['PAR','Turbidity','Chlor-A mg/m^3'],
-                         secondary=True)
+                         secondary=args.has_secondary)
 
         ptitle = CTDplot.add_title(cruiseid=g_atts['CRUISE'],
                           fileid=ncfile.split('/')[-1],
@@ -218,7 +313,7 @@ for ncfile in sorted(nc_path):
                                 ncdata[fluor_key][0,:,0,0],np.array([])],
                          ydata=ncdata['dep'][:],
                          xlabel=['Trans. %','Turbidity','Chlor-A mg/m^3'],
-                         secondary=True)
+                         secondary=args.has_secondary)
 
         ptitle = CTDplot.add_title(cruiseid=g_atts['CRUISE'],
                           fileid=ncfile.split('/')[-1],
