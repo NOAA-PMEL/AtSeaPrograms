@@ -99,6 +99,11 @@ for ncfile in sorted(nc_path):
     nc.close()
     cast_time = EPIC2Datetime.EPIC2Datetime(ncdata['time'],ncdata['time2'])[0]
 
+    if np.ndim(ncdata['dep']) == 1:
+      ydata = ncdata['dep'][:]
+    else:
+      ydata = ncdata['dep'][0,:,0,0]
+
     if not os.path.exists('images/' + g_atts['CRUISE']):
         os.makedirs('images/' + g_atts['CRUISE'])
     if not os.path.exists('images/' + g_atts['CRUISE'] + '/TSSigma/'):
@@ -123,7 +128,7 @@ for ncfile in sorted(nc_path):
                                 ncdata['S_41'][0,:,0,0],ncdata['S_42'][0,:,0,0],
                                 ncdata['ST_70'][0,:,0,0],
                                 np.array([])],
-                         ydata=ncdata['dep'][:],
+                         ydata=ydata,
                          xlabel=['Temperature (C)','Salinity (PSU)','SigmaT (kg/m^3)'],
                          secondary=args.has_secondary)
 
@@ -150,7 +155,7 @@ for ncfile in sorted(nc_path):
                                 ncdata['S_41'][0,:,0,0],np.array([]),
                                 ncdata['ST_70'][0,:,0,0],
                                 np.array([])],
-                         ydata=ncdata['dep'][:],
+                         ydata=ydata,
                          xlabel=['Temperature (C)','Salinity (PSU)','SigmaT (kg/m^3)'],
                          secondary=args.has_secondary)
 
@@ -183,7 +188,7 @@ for ncfile in sorted(nc_path):
                                 ncdata['OST_62'][0,:,0,0],ncdata['CTDOST_4220'][0,:,0,0],
                                 ncdata[fluor_key][0,:,0,0],
                                 np.array([])],
-                         ydata=ncdata['dep'][:],
+                         ydata=ydata,
                          xlabel=['Temperature (C)','Oxygen % Sat.','Chlor-A mg/m^3'],
                          secondary=args.has_secondary)
 
@@ -216,7 +221,7 @@ for ncfile in sorted(nc_path):
                                 ncdata['OST_62'][0,:,0,0],np.array([]),
                                 ncdata[fluor_key][0,:,0,0],
                                 np.array([])],
-                         ydata=ncdata['dep'][:],
+                         ydata=ydata,
                          xlabel=['Temperature (C)','Oxygen % Sat.','Chlor-A mg/m^3'],
                          secondary=args.has_secondary)
 
@@ -247,7 +252,7 @@ for ncfile in sorted(nc_path):
         (plt, fig) = CTDplot.plot2var(epic_key=['PAR_905','',fluor_key,''],
                          xdata=[ncdata['PAR_905'][0,:,0,0],np.array([]),
                                 ncdata[fluor_key][0,:,0,0],np.array([])],
-                         ydata=ncdata['dep'][:],
+                         ydata=ydata,
                          xlabel=['PAR','Chlor-A mg/m^3'],
                          secondary=args.has_secondary)
 
@@ -279,7 +284,7 @@ for ncfile in sorted(nc_path):
                          xdata=[ncdata['PAR_905'][0,:,0,0],np.array([]),
                                 ncdata['Trb_980'][0,:,0,0],np.array([]),
                                 ncdata[fluor_key][0,:,0,0],np.array([])],
-                         ydata=ncdata['dep'][:],
+                         ydata=ydata,
                          xlabel=['PAR','Turbidity','Chlor-A mg/m^3'],
                          secondary=args.has_secondary)
 
@@ -311,7 +316,7 @@ for ncfile in sorted(nc_path):
                          xdata=[ncdata['Tr_904'][0,:,0,0],np.array([]),
                                 ncdata['Trb_980'][0,:,0,0],np.array([]),
                                 ncdata[fluor_key][0,:,0,0],np.array([])],
-                         ydata=ncdata['dep'][:],
+                         ydata=ydata,
                          xlabel=['Trans. %','Turbidity','Chlor-A mg/m^3'],
                          secondary=args.has_secondary)
 

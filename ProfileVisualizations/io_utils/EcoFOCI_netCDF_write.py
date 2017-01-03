@@ -102,14 +102,14 @@ class NetCDF_Create(object):
         """
         Assumes
         -------
-        Dimensions will be 'time', 'depth', 'lat', 'lon'
+        Dimensions will be 'time', 'dep', 'lat', 'lon'
         
         Todo
         ----
         User defined dimensions
         """
 
-        self.dim_vars = ['time', 'depth', 'lat', 'lon']
+        self.dim_vars = ['time', 'dep', 'lat', 'lon']
         
         self.rootgrpID.createDimension( self.dim_vars[0], time_len ) #time
         self.rootgrpID.createDimension( self.dim_vars[1], 1 ) #depth
@@ -141,7 +141,7 @@ class NetCDF_Create(object):
             rec_var_FORTRAN.append( EPIC_VARS_dict[evar]['fortran'] )
             rec_var_epic.append( EPIC_VARS_dict[evar]['EPIC_KEY'] )
         
-        rec_vars = ['time','time2','depth','lat','lon'] + rec_vars
+        rec_vars = ['time','time2','dep','lat','lon'] + rec_vars
 
         rec_var_name = ['', '', '', '', ''] + rec_var_name
         rec_var_longname = ['', '', '', '', ''] + rec_var_longname

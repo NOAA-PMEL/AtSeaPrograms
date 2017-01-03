@@ -9,6 +9,7 @@ class definitions for netcdf4 wrappers
 
 # science stack
 from netCDF4 import Dataset, MFDataset
+import numpy as np
 
 
 class EcoFOCI_netCDF(object):
@@ -53,6 +54,13 @@ class EcoFOCI_netCDF(object):
         return self.nchandle.variables[var_name]
 
 
+    def repl_var(self, var_name, val=1e35):
+        if len(val) == 1:
+            self.nchandle.variables[var_name][:] = np.ones_like(self.nchandle.variables[var_name][:]) * val
+        else:
+            self.nchandle.variables[var_name][:] = val
+        return
+
     def ncreadfile_dic(self):
 
         data = {}
@@ -64,9 +72,15 @@ class EcoFOCI_netCDF(object):
                 data[v] = None
         return (data)
 
+    def add_history(self, prev_history, new_history):
+        """Adds timestamp (UTC time) and history to existing information"""
+        self.nchandle.setncattr('History', prev_history + '\n' 
+                + datetime.datetime.utcnow().strftime("%B %d, %Y %H:%M UTC")\
+                + ' ' + new_history)
+
     def close(self):
         self.nchandle.close()
-
+ 
 class EcoFOCI_mfnetCDF(object):
 
     def __init__(self, file_name=None, aggdim=None):

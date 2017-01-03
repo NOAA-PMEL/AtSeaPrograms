@@ -5,17 +5,26 @@ SeaWater_update.py
 
 Recalculate derived parameters (density, salinity, dissolved oxygen)
 
-Visually adjust Temp/Sal => DO and sigmaT
-"""
+ History:
+ --------
+
+ 2017-01-03: Update program to use NetCDF Read unified API
+ 
+ """
 #System Stack
 import datetime
 import os
 import argparse
 
 #Science Stack
-from netCDF4 import Dataset
 import seawater as sw
 import numpy as np
+
+#user stack
+# Relative User Stack
+parent_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+os.sys.path.insert(1, parent_dir)
+from io_utils.EcoFOCI_netCDF_read import EcoFOCI_netCDF
 
 __author__   = 'Shaun Bell'
 __email__    = 'shaun.bell@noaa.gov'
@@ -25,40 +34,6 @@ __version__  = "0.1.0"
 __status__   = "Development"
 __keywords__ = 'CTD', 'SeaWater', 'Cruise', 'derivations'
 
-"""--------------------------------netcdf Routines---------------------------------------"""
-
-def get_global_atts(nchandle):
-
-    g_atts = {}
-    att_names = nchandle.ncattrs()
-    
-    for name in att_names:
-        g_atts[name] = nchandle.getncattr(name)
-        
-    return g_atts
-
-def get_vars(nchandle):
-    return nchandle.variables
-
-def get_var_atts(nchandle, var_name):
-    return nchandle.variables[var_name]
-
-def ncreadfile_dic(nchandle, params):
-    data = {}
-    for j, v in enumerate(params): 
-        if v in nchandle.variables.keys(): #check for nc variable
-                data[v] = nchandle.variables[v][:]
-
-        else: #if parameter doesn't exist fill the array with zeros
-            data[v] = None
-    return (data)
-
-def repl_var(nchandle, var_name, val=1e35):
-    if len(val) == 1:
-        nchandle.variables[var_name][:] = np.ones_like(nchandle.variables[var_name][:]) * val
-    else:
-        nchandle.variables[var_name][:] = val
-    return
     
 """------------------------------------- Recalculations -----------------------------------------"""
 def sigmaTheta(user_in, user_out):
@@ -78,20 +53,27 @@ def sigmaTheta(user_in, user_out):
     for ncfile in nc_path:
         print ("Working on sigma-theta for {0}...").format(ncfile)
    
-        nchandle = Dataset(ncfile,'a')
-        
-        global_atts = get_global_atts(nchandle)
-        vars_dic = get_vars(nchandle)
-        data = ncreadfile_dic(nchandle,vars_dic.keys())
-
+        #open/read netcdf files
+        df = EcoFOCI_netCDF(ncfile)
+        global_atts = df.get_global_atts()
+        vars_dic = df.get_vars()
+        data = df.ncreadfile_dic()
+        nchandle = df._getnchandle_()
         
         # calculate sigmaTheta at 0db gauge pressure (s, t, p=0)
-        sigTh_pri = sw.eos80.dens0(data['S_41'][0,:,0,0],sw.ptmp(data['S_41'][0,:,0,0],data['T_28'][0,:,0,0],data['dep'][:]))-1000
-        try:
-            sigTh_sec = sw.eos80.dens0(data['S_42'][0,:,0,0],sw.ptmp(data['S_42'][0,:,0,0],data['T2_35'][0,:,0,0],data['dep'][:]))-1000
-        except:
-            print "No secondary temp and/or salinity in file"
-            
+        if np.ndim(data['dep']) == 1:
+            sigTh_pri = sw.eos80.dens0(data['S_41'][0,:,0,0],sw.ptmp(data['S_41'][0,:,0,0],data['T_28'][0,:,0,0],data['dep'][:]))-1000
+            try:
+                sigTh_sec = sw.eos80.dens0(data['S_42'][0,:,0,0],sw.ptmp(data['S_42'][0,:,0,0],data['T2_35'][0,:,0,0],data['dep'][:]))-1000
+            except:
+                print "No secondary temp and/or salinity in file"
+        else:
+            sigTh_pri = sw.eos80.dens0(data['S_41'][0,:,0,0],sw.ptmp(data['S_41'][0,:,0,0],data['T_28'][0,:,0,0],data['dep'][0,:,0,0]))-1000
+            try:
+                sigTh_sec = sw.eos80.dens0(data['S_42'][0,:,0,0],sw.ptmp(data['S_42'][0,:,0,0],data['T2_35'][0,:,0,0],data['dep'][0,:,0,0]))-1000
+            except:
+                print "No secondary temp and/or salinity in file"
+
         #replace nan with 1e35
         sigTh_pri[np.isnan(sigTh_pri)] = 1e35
         try:
@@ -100,12 +82,12 @@ def sigmaTheta(user_in, user_out):
             pass
             
         #update SigmaT
-        repl_var(nchandle, 'STH_71', sigTh_pri)
+        df.repl_var('STH_71', sigTh_pri)
         try:
-            repl_var(nchandle, 'STH_2071', sigTh_sec)
+            df.repl_var('STH_2071', sigTh_sec)
         except:
             print "STH_2071 not in file"        
-        nchandle.close()
+        df.close()
 
     processing_complete = True
     return processing_complete 
@@ -127,11 +109,12 @@ def sigmaT(user_in, user_out):
     for ncfile in nc_path:
         print ("Working on density for {0}...").format(ncfile)
    
-        nchandle = Dataset(ncfile,'a')
-        
-        global_atts = get_global_atts(nchandle)
-        vars_dic = get_vars(nchandle)
-        data = ncreadfile_dic(nchandle,vars_dic.keys())
+        #open/read netcdf files
+        df = EcoFOCI_netCDF(ncfile)
+        global_atts = df.get_global_atts()
+        vars_dic = df.get_vars()
+        data = df.ncreadfile_dic()
+        nchandle = df._getnchandle_()
 
         
         # calculate sigmaT at 0db gauge pressure (s, t, p=0)
@@ -149,12 +132,12 @@ def sigmaT(user_in, user_out):
             pass
             
         #update SigmaT
-        repl_var(nchandle, 'ST_70', sigT_pri)
+        df.repl_var('ST_70', sigT_pri)
         try:
-            repl_var(nchandle, 'ST_2070', sigT_sec)
+            df.repl_var('ST_2070', sigT_sec)
         except:
             print "ST_2070 not in file"        
-        nchandle.close()
+        df.close()
 
     processing_complete = True
     return processing_complete
@@ -176,10 +159,13 @@ def O2PercentSat(user_in, user_out):
     
     for ncfile in nc_path:
         print ("Working on oxygen for {0}...").format(ncfile)
-        nchandle = Dataset(ncfile,'a')
-        
-        vars_dic = get_vars(nchandle)
-        data = ncreadfile_dic(nchandle,vars_dic.keys())
+
+        #open/read netcdf files
+        df = EcoFOCI_netCDF(ncfile)
+        global_atts = df.get_global_atts()
+        vars_dic = df.get_vars()
+        data = df.ncreadfile_dic()
+        nchandle = df._getnchandle_()
     
         
         # calculate oxygen saturation
@@ -210,32 +196,36 @@ def O2PercentSat(user_in, user_out):
             pass        
         #determine sigmatheta and convert Oxygen from micromoles/kg to ml/l
         #calculate new oxygen saturation percent using derived oxsol
-        sigmatheta_pri = sw.eos80.pden(data['S_41'][0,:,0,0], data['T_28'][0,:,0,0], data['dep'][:])
+        if np.ndim(data['dep']) == 1:
+            sigmatheta_pri = sw.eos80.pden(data['S_41'][0,:,0,0], data['T_28'][0,:,0,0], data['dep'][:])
+        else:
+            sigmatheta_pri = sw.eos80.pden(data['S_41'][0,:,0,0], data['T_28'][0,:,0,0], data['dep'][0,:,0,0])
         OxPerSat_pri = ( (data['O_65'][0,:,0,0] * sigmatheta_pri / 44660) / Oxsol_pri ) * 100.
         try:
-            sigmatheta_sec = sw.eos80.pden(data['S_42'][0,:,0,0], data['T2_35'][0,:,0,0], data['dep'][:])
+            if np.ndim(data['dep']) == 1:
+                sigmatheta_sec = sw.eos80.pden(data['S_42'][0,:,0,0], data['T2_35'][0,:,0,0], data['dep'][:])
+            else:
+                sigmatheta_sec = sw.eos80.pden(data['S_42'][0,:,0,0], data['T2_35'][0,:,0,0], data['dep'][0,:,0,0])
             OxPerSat_sec = ( (data['CTDOXY_4221'][0,:,0,0] * sigmatheta_sec / 44660) / Oxsol_sec ) * 100.
         except:
             print "No secondary sensor"
              
         #replace nan/1e35 with 1e35, >1e10
         OxPerSat_pri[np.isnan(OxPerSat_pri)] = 1e35
-        OxPerSat_pri[data['O_65'][0,:,0,0] == 1e35] = 1e35
         OxPerSat_pri[data['O_65'][0,:,0,0] >= 1e10] = 1e35
         try:
             OxPerSat_sec[np.isnan(OxPerSat_sec)] = 1e35
-            OxPerSat_sec[data['CTDOXY_4221'][0,:,0,0] == 1e35] = 1e35
             OxPerSat_sec[data['CTDOXY_4221'][0,:,0,0] >= 1e10] = 1e35
         except:
             print "No secondary sensor"
             
         #update Oxygen
-        repl_var(nchandle, 'OST_62', OxPerSat_pri)
+        df.repl_var('OST_62', OxPerSat_pri)
         try:
-            repl_var(nchandle, 'CTDOST_4220', OxPerSat_sec)
+            df.repl_var('CTDOST_4220', OxPerSat_sec)
         except:
             print "CTDOST_4220 not in file"
-        nchandle.close()
+        df.close()
     
     processing_complete = True
     return processing_complete, data
