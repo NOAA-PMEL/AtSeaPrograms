@@ -100,9 +100,13 @@ for ncfile in sorted(nc_path):
     cast_time = EPIC2Datetime.EPIC2Datetime(ncdata['time'],ncdata['time2'])[0]
 
     if np.ndim(ncdata['dep']) == 1:
-      ydata = ncdata['dep'][:]
+        ydata = ncdata['dep'][:]
     else:
-      ydata = ncdata['dep'][0,:,0,0]
+        ydata = ncdata['dep'][0,:,0,0]
+
+    for dkey in ncdata.keys():
+        if not dkey in ['lat','lon','depth','dep','time','time2']:
+            ncdata[dkey][0,ncdata[dkey][0,:,0,0] >= 1e30,0,0] = np.nan
 
     if not os.path.exists('images/' + g_atts['CRUISE']):
         os.makedirs('images/' + g_atts['CRUISE'])
