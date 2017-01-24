@@ -96,8 +96,8 @@ for counter, input_file in enumerate(sourcefile_full):
     vars_dic_read = get_vars(nchandle_read)
     data = ncreadfile_dic(nchandle_read, vars_dic_read)
 
-    if args.EPIC_Keys:
-        for var in args.EPIC_Keys:
+    if args.EPIC_KEY:
+        for var in args.EPIC_KEY:
             if not var in ['time','time2','lat','lon','depth', 'dep']:
                 try:
                     print "Replacing {0}".format(var)
