@@ -78,10 +78,10 @@ def read_data(db, cursor, table):
 
 """------------------------------------- MAPS -----------------------------------------"""
 
-def etopo5_data():
+def etopo5_data(filein='/Users/bell/in_and_outbox/Ongoing_Analysis/MapGrids/etopo5.nc'):
     """ read in etopo5 topography/bathymetry. """
-    file = 'data/etopo5.nc'
-    etopodata = Dataset(file)
+
+    etopodata = Dataset(filein)
     
     topoin = etopodata.variables['bath'][:]
     lons = etopodata.variables['X'][:]
