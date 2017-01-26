@@ -3,7 +3,7 @@ r'''Module to convert PMEL-EPIC timeword to a python datetime
 
     Modifications
     -------------
-    
+    2016-11-14: SBELL - create routine to add datetime offset
 
 '''
 import datetime
