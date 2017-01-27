@@ -206,7 +206,6 @@ for ind_cast in sorted(data_gb.groups.keys()):
 				data_dic['Trb_980'] = data.loc[data['cast'] == ind_cast][var].values
 			elif var in ['DepSM']:
 				data_dic['D_3'] = data.loc[data['cast'] == ind_cast][var].values
-
 			elif var in ['WetStar']:
 				data_dic['fWS_973'] = data.loc[data['cast'] == ind_cast][var].values
 			elif var in ['Sal11']:
@@ -219,6 +218,7 @@ for ind_cast in sorted(data_gb.groups.keys()):
 				data_dic['CTDOXY_4221'] = data.loc[data['cast'] == ind_cast][var].values
 			elif var in ['Sbeox1ps']:
 				data_dic['CTDOST_4220'] = data.loc[data['cast'] == ind_cast][var].values
+
 			elif var in ['Sal11']:
 				data_dic['T_28'] = np.array(T090C)
 			elif var in ['Sal11']:
