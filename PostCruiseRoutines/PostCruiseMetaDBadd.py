@@ -24,7 +24,7 @@ from netCDF4 import Dataset
 import numpy as np
 
 #User Packages
-import utilities.ConfigParserLocal as ConfigParserLocal
+from io_utils import ConfigParserLocal
 
 
 __author__   = 'Shaun Bell'
