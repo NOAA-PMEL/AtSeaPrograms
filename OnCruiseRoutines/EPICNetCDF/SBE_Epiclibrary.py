@@ -149,6 +149,7 @@ SBE_EPIC["flS"]     = '906'
 SBE_EPIC["flC"]     = '906' 
 SBE_EPIC["flCUVA"]  = '906' 
 SBE_EPIC["flECO-AFL"]  = '903' 
+SBE_EPIC["flECO-AFL IPHC"]  = '933' #if IPHC is added to seabird cnv file Chl_933 will be used instead
 SBE_EPIC["wetStar"] = '973' 
 SBE_EPIC["SPFluor"] = '974' 
 SBE_EPIC["FlSP"]    = '' 
