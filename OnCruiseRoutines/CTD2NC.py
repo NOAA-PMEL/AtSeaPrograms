@@ -160,7 +160,7 @@ def IPHC_data_processing(user_in, user_out, pressure_varname = 'prdM'):
             if '** latitude:' in entry:
                 IPHC_Lat = float(entry.split()[-1][:2]) + float(entry.split()[-1][2:]) / 6000.
             if '** longitude:' in entry:
-                IPHC_Lon = float(entry.split()[-1][:3]) + float(entry.split()[-1][3:]) / 6000.
+                IPHC_Lon = -1 * (float(entry.split()[-1][:3]) + float(entry.split()[-1][3:]) / 6000. )
             if '** setno:' in entry:
                 setno = entry.split()[-1]
             if '** stnno:' in entry:
@@ -202,7 +202,7 @@ def IPHC_data_processing(user_in, user_out, pressure_varname = 'prdM'):
         ncinstance.add_coord_data(pressure_var=pressure_varname, 
                                   time1=timeclass.get_EPIC_date()[0], 
                                   time2=timeclass.get_EPIC_date()[1],
-                                  latitude=IPHC_Lat, longitude=IPHC_Lon)
+                                  latitude=IPHC_Lat, longitude=IPHC_Lon, CastLog=True)
         ncinstance.close()
     
     processing_complete = True
