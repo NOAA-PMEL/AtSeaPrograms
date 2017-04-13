@@ -10,6 +10,11 @@ Recalculate derived parameters (density, salinity, dissolved oxygen)
 
  2017-01-03: Update program to use NetCDF Read unified API
  
+
+ ToDO:
+ -----
+migrate to xarray for data
+
  """
 #System Stack
 import datetime
@@ -34,7 +39,16 @@ __version__  = "0.1.0"
 __status__   = "Development"
 __keywords__ = 'CTD', 'SeaWater', 'Cruise', 'derivations'
 
-    
+
+"""------------------------------------- Inplace NetCDF update -------------------------------------"""
+
+def repl_var(nchandle, var_name, val=1e35):
+    if len(val) == 1:
+        nchandle.variables[var_name][:] = np.ones_like(nchandle.variables[var_name][:]) * val
+    else:
+        nchandle.variables[var_name][:] = val
+    return
+
 """------------------------------------- Recalculations -----------------------------------------"""
 def sigmaTheta(user_in, user_out):
 
@@ -82,9 +96,9 @@ def sigmaTheta(user_in, user_out):
             pass
             
         #update SigmaT
-        df.repl_var('STH_71', sigTh_pri)
+        repl_var(nchandle,'STH_71', sigTh_pri)
         try:
-            df.repl_var('STH_2071', sigTh_sec)
+            repl_var(nchandle,'STH_2071', sigTh_sec)
         except:
             print "STH_2071 not in file"        
         df.close()
@@ -132,9 +146,9 @@ def sigmaT(user_in, user_out):
             pass
             
         #update SigmaT
-        df.repl_var('ST_70', sigT_pri)
+        repl_var(nchandle,'ST_70', sigT_pri)
         try:
-            df.repl_var('ST_2070', sigT_sec)
+            repl_var(nchandle,'ST_2070', sigT_sec)
         except:
             print "ST_2070 not in file"        
         df.close()
@@ -220,9 +234,9 @@ def O2PercentSat(user_in, user_out):
             print "No secondary sensor"
             
         #update Oxygen
-        df.repl_var('OST_62', OxPerSat_pri)
+        repl_var(nchandle,'OST_62', OxPerSat_pri)
         try:
-            df.repl_var('CTDOST_4220', OxPerSat_sec)
+            repl_var(nchandle,'CTDOST_4220', OxPerSat_sec)
         except:
             print "CTDOST_4220 not in file"
         df.close()
