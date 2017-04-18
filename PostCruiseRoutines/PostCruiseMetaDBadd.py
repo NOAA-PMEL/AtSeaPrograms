@@ -99,7 +99,7 @@ def AddMeta_fromDB(user_in, user_out):
         leg = 'L' + leg[-1]
         
     table='cruisecastlogs'
-    db_config = ConfigParserLocal.get_config('../db_connection_config_files/db_config_cruises.pyini')
+    db_config = ConfigParserLocal.get_config('config_files/db_config_cruises.yaml')
     print db_config
     if not leg:
         (db,cursor) = connect_to_DB(db_config['host'], db_config['user'], db_config['password'], db_config['database'], db_config['port'])
