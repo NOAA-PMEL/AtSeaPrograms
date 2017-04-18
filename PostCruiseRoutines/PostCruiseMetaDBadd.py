@@ -14,7 +14,7 @@ Using Anaconda packaged Python
 #System Stack
 import datetime
 import sys
-import os
+import os, socket
 
 #DB Stack
 import pymysql
@@ -101,12 +101,21 @@ def AddMeta_fromDB(user_in, user_out):
     table='cruisecastlogs'
     db_config = ConfigParserLocal.get_config_yaml('config_files/db_config_cruises.yaml')
     print db_config
+    if socket.gethostname().split('.')[0] == 'pavlof':
+        host='pavlof'
+    else:
+        host='localhost'
+
     if not leg:
-        (db,cursor) = connect_to_DB(db_config['host'], db_config['user'], db_config['password'], db_config['database'], db_config['port'])
+        (db,cursor) = connect_to_DB(db_config['systems'][host]['host'], 
+            db_config['login']['user'], db_config['login']['password'], 
+            db_config['database']['database'], db_config['systems'][host]['port'])
         data = read_data(db, cursor, table, cruiseID)
         close_DB(db)
     else:
-        (db,cursor) = connect_to_DB(db_config['host'], db_config['user'], db_config['password'], db_config['database'], db_config['port'])
+        (db,cursor) = connect_to_DB(db_config['systems'][host]['host'], 
+            db_config['login']['user'], db_config['login']['password'], 
+            db_config['database']['database'], db_config['systems'][host]['port'])
         data = read_data(db, cursor, table, cruiseID, legNO=leg)
         cruiseID = cruiseID + leg
         close_DB(db)

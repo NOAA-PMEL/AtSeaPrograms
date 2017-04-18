@@ -1,5 +1,5 @@
 ---
-sytems:
+systems:
   pavlof:
     host: localhost
     port: 3306
@@ -12,5 +12,5 @@ login:
   user: viewer  
 
 database: 
-  database: EcoFOCI_Cruises
+  database: EcoFOCI
   
