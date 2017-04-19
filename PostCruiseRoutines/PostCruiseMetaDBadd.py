@@ -144,20 +144,23 @@ def AddMeta_fromDB(user_in, user_out):
         castID = 'CTD' + castxxx
         print castID
         
-        castmeta = [x for x in data.itervalues() if x['ConsecutiveCastNo'] == castID][0]
-        ncfid.setncattr('CAST',castxxx)
-        ncfid.setncattr('WATER_MASS',castmeta['WaterMassCode'])
-        ncfid.setncattr('BAROMETER',int(castmeta['Pressure']))
-        ncfid.setncattr('WIND_DIR',int(castmeta['WindDir']))
-        ncfid.setncattr('WIND_SPEED',int(castmeta['WindSpd']))
-        ncfid.setncattr('AIR_TEMP',float(castmeta['DryBulb']))
-        ncfid.setncattr('WATER_DEPTH',int(castmeta['BottomDepth']))
-        ncfid.setncattr('STATION_NAME',castmeta['StationNameID'])
+        try:
+            castmeta = [x for x in data.itervalues() if x['ConsecutiveCastNo'] == castID][0]
+            ncfid.setncattr('CAST',castxxx)
+            ncfid.setncattr('WATER_MASS',castmeta['WaterMassCode'])
+            ncfid.setncattr('BAROMETER',int(castmeta['Pressure']))
+            ncfid.setncattr('WIND_DIR',int(castmeta['WindDir']))
+            ncfid.setncattr('WIND_SPEED',int(castmeta['WindSpd']))
+            ncfid.setncattr('AIR_TEMP',float(castmeta['DryBulb']))
+            ncfid.setncattr('WATER_DEPTH',int(castmeta['BottomDepth']))
+            ncfid.setncattr('STATION_NAME',castmeta['StationNameID'])
 
-        ### look for existing lat/lon and update if missing
-        if (ncfid.variables['lat'][:] == -999.9) or (ncfid.variables['lat'][:] == -999.9) or np.isnan(ncfid.variables['lat'][:]):
-            ncfid.variables['lat'][:] = castmeta['LatitudeDeg'] + castmeta['LatitudeMin'] / 60.
-            ncfid.variables['lon'][:] = castmeta['LongitudeDeg'] + castmeta['LongitudeMin'] / 60.
+            ### look for existing lat/lon and update if missing
+            if (ncfid.variables['lat'][:] == -999.9) or (ncfid.variables['lat'][:] == -999.9) or np.isnan(ncfid.variables['lat'][:]):
+                ncfid.variables['lat'][:] = castmeta['LatitudeDeg'] + castmeta['LatitudeMin'] / 60.
+                ncfid.variables['lon'][:] = castmeta['LongitudeDeg'] + castmeta['LongitudeMin'] / 60.
+        except IndexError:
+            print "{ncfile} doesn't have a compatible database entry (may be a 'b' file). Manually add metainfo".format(ncfile=ncfile)
 
         ncfid.close()
 
