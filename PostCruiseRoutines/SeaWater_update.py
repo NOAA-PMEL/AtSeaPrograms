@@ -260,7 +260,7 @@ def O2_conv_mll2umkg(user_in, user_out):
     nc_path = [nc_path + fi for fi in os.listdir(nc_path) if fi.endswith('.nc') and not fi.endswith('_cf_ctd.nc')]
 
     for ncfile in nc_path:
-        print ("Working on density for {0}...").format(ncfile)
+        print ("Working on oxygen unit conversion for {0}...").format(ncfile)
    
         #open/read netcdf files
         df = EcoFOCI_netCDF(ncfile)
@@ -271,28 +271,25 @@ def O2_conv_mll2umkg(user_in, user_out):
 
         
         # calculate oxygent conc in um/kg from ml/l
-
-        sigmatheta_pri = sw.eos80.pden(S, T, P)
-        density = (sigmatheta_pri / 1000)
-        O2conc = O2conc / density
-
-        sigT_pri = sw.eos80.pdens(data['S_41'][0,:,0,0],data['T_28'][0,:,0,0],data['P_1'][:]) / 1000.
+        sigT_pri = sw.eos80.pden(data['S_41'][0,:,0,0],data['T_28'][0,:,0,0],data['dep'][:]) / 1000.
         try:
-            sigT_sec = sw.eos80.pdens(data['S_42'][0,:,0,0],data['T2_35'][0,:,0,0],data['P_1'][:]) / 1000.
+            sigT_sec = sw.eos80.pden(data['S_42'][0,:,0,0],data['T2_35'][0,:,0,0],data['dep'][:]) / 1000.
         except:
             print "No secondary temp and/or salinity in file"
             
         #replace nan with 1e35
         sigT_pri[np.isnan(sigT_pri)] = 1e35
+        oxy_ml_update_pri = data['O_60'][0,:,0,0] / sigT_pri
         try:
             sigT_sec[np.isnan(sigT_sec)] = 1e35
+            oxy_ml_update_sec = data['O_2060'][0,:,0,0] / sigT_sec
         except:
             pass
             
-        #update SigmaT
-        repl_var(nchandle,'O_65', data['O_60'][0,:,0,0] / sigT_pri)
+        #update Oxy
+        repl_var(nchandle,'O_65', oxy_ml_update_pri)
         try:
-            repl_var(nchandle,'O_4221', data['O_2060'][0,:,0,0] / sigT_sec)
+            repl_var(nchandle,'CTDOXY_4221', oxy_ml_update_sec)
         except:
             print "O_2060 not in file"        
         df.close()
@@ -305,7 +302,7 @@ def O2_conv_mll2umkg(user_in, user_out):
 parser = argparse.ArgumentParser(description='seawater recalculation of sigmat or oxygen')
 parser.add_argument('inputpath', metavar='inputpath', type=str, help='path to .nc file')
 parser.add_argument('-st','--sigmat', action="store_true", help='recalculate sigmat')
-parser.add_argument('-oxy_ml','--oxygen_ml', action="store_true", help='recalculate oxygen conc and change units from ml/l to um/kg')
+parser.add_argument('-oxy_ml','--oxygen_ml', action="store_true", help='convert units from ml/l to um/kg (run again after with -oxy flag to make corrections)')
 parser.add_argument('-oxy','--oxygen', action="store_true", help='recalculate oxygen conc')
 parser.add_argument('-stheta','--sigmatheta', action="store_true", help='calculate sigmatheta')
 
