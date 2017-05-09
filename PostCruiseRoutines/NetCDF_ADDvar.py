@@ -92,13 +92,14 @@ for count, ncfile in enumerate(ctd_data_files): #cycle through all available fil
     try :
         epic_var_ind = (args.add_epic_var).split('_')[1]
         print "Adding {0} by searching for {1}".format(args.add_epic_var, epic_var_ind)
-        newvar = nchandle.createVariable(EPIC_VARS_dict[epic_var_ind]['EPIC_KEY'],'f4',('time','dep','lat','lon',))
+        newvar = nchandle.createVariable(EPIC_VARS_dict[epic_var_ind]['EPIC_KEY'],'f4',('time','dep','lat','lon',), fill_value=1e35)
         newvar.setncattr('name',EPIC_VARS_dict[epic_var_ind]['NAME']) 
         newvar.long_name = EPIC_VARS_dict[epic_var_ind]['LONGNAME'] 
         newvar.generic_name = EPIC_VARS_dict[epic_var_ind]['GENERIC_NAME']
         newvar.units = EPIC_VARS_dict[epic_var_ind]['UNITS']
         newvar.FORTRAN_format = EPIC_VARS_dict[epic_var_ind]['FORMAT']
         newvar.epic_code = int(epic_var_ind) 
+
 
         print "adding history attribute"
         if not 'History' in global_atts.keys():

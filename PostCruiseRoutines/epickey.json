@@ -5899,12 +5899,22 @@
 		"NAME": "Br    ",
 		"UNITS": "ug/m^3"
 	},
+	"2060": {
+		"COMMENTS": "Dissolved oxygen calculated from CTD values",
+		"EPIC_KEY": "O_2060",
+		"FORMAT": "f10.2",
+		"GENERIC_NAME": "ox",
+		"KEY": "2060",
+		"LONGNAME": "OXYGEN (ML/L)            ",
+		"NAME": "O  ",
+		"UNITS": "ml/l"
+	},
 	"2070": {
 		"COMMENTS": "",
 		"EPIC_KEY": "ST_2070",
 		"FORMAT": "f10.2",
 		"GENERIC_NAME": "den",
-		"KEY": "70",
+		"KEY": "2070",
 		"LONGNAME": "SIGMA-T (KG/M**3)        ",
 		"NAME": "ST ",
 		"UNITS": "kg m-3"
@@ -5914,7 +5924,7 @@
 		"EPIC_KEY": "STH_2071",
 		"FORMAT": "f10.2",
 		"GENERIC_NAME": "potden",
-		"KEY": "71",
+		"KEY": "2071",
 		"LONGNAME": "SIGMA-THETA (KG/M**3)    ",
 		"NAME": "STH",
 		"UNITS": "kg m-3 "
