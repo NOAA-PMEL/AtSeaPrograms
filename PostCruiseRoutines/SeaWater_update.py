@@ -278,11 +278,12 @@ def O2_conv_mll2umkg(user_in, user_out):
             print "No secondary temp and/or salinity in file"
             
         #replace nan with 1e35
+        # convert from ml/l to micromole/l then compensate for density to get micromole/kg
         sigT_pri[np.isnan(sigT_pri)] = 1e35
-        oxy_ml_update_pri = data['O_60'][0,:,0,0] / sigT_pri
+        oxy_ml_update_pri = (data['O_60'][0,:,0,0] * 44.661) / sigT_pri
         try:
             sigT_sec[np.isnan(sigT_sec)] = 1e35
-            oxy_ml_update_sec = data['O_2060'][0,:,0,0] / sigT_sec
+            oxy_ml_update_sec = (data['O_2060'][0,:,0,0] * 44.661) / sigT_sec
         except:
             pass
             
