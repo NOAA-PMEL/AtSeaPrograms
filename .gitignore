@@ -27,3 +27,7 @@
 .DS_Store
 *.DS_Store
 
+# Data Files #
+###########
+
+*.xlsx
