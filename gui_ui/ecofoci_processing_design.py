@@ -104,5 +104,6 @@ class Ui_MainWindow(object):
         self.presscomboBox.setItemText(1, _translate("MainWindow", "prdM", None))
         self.presscomboBox.setItemText(2, _translate("MainWindow", "prdm", None))
         self.presscomboBox.setItemText(3, _translate("MainWindow", "prSM", None))
+        self.presscomboBox.setItemText(3, _translate("MainWindow", "pr", None))
         self.IPHCcheckBox.setText(_translate("MainWindow", "is IPHC", None))
 
