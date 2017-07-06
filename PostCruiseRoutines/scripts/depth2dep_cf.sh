@@ -4,9 +4,9 @@
 #       Script to add all nutrient files to database
 
 
-prog_dir="/Volumes/WDC_internal/Users/bell/Programs/Python/AtSeaPrograms/PostCruiseRoutines/"
+prog_dir="/Users/bell/Programs/Python/AtSeaPrograms/PostCruiseRoutines/"
 
-data_dir="/Volumes/WDC_internal/Users/bell/ecoraid/2016/CTDcasts/cf1601/working/*.nc"
+data_dir="/Users/bell/ecoraid/2016/CTDcasts/cf1601/working/*.nc"
 
 for files in $data_dir
 do

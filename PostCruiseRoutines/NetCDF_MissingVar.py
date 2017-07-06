@@ -65,8 +65,8 @@ def repl_var(nchandle, var_name, val=1e35):
     
 """------------------------------- MAIN--------------------------------------------"""
 
-parser = argparse.ArgumentParser(description='EPIC Var Missing')
-parser.add_argument('inputdir', metavar='inputdir', type=str, help='full EPIC nc files input path')
+parser = argparse.ArgumentParser(description='Replace EPIC Variable with 1e35 for all depths')
+parser.add_argument('inputdir', metavar='inputdir', type=str, help='full path to file')
 parser.add_argument('EPIC_Key', metavar='EPIC_Key', type=str, help='EPIC Key Code')
 
 args = parser.parse_args()
