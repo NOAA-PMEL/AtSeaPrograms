@@ -154,6 +154,7 @@ def AddMeta_fromDB(user_in, user_out):
             ncfid.setncattr('AIR_TEMP',float(castmeta['DryBulb']))
             ncfid.setncattr('WATER_DEPTH',int(castmeta['BottomDepth']))
             ncfid.setncattr('STATION_NAME',castmeta['StationNameID'])
+            ncfid.setncattr('STATION_NO',castmeta['StationNo_altname'])
 
             ### look for existing lat/lon and update if missing
             if (ncfid.variables['lat'][:] == -999.9) or (ncfid.variables['lat'][:] == -999.9) or np.isnan(ncfid.variables['lat'][:]):

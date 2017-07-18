@@ -96,7 +96,7 @@ class CTD_NC(object):
         self.rootgrpID.WATER_MASS = Water_Mass
         
     def PMELglobal_atts(self, Barometer=9999, Wind_Dir=999, Wind_Speed=99,
-                        Air_Temp=99.9, Water_Depth=9999, Prog_Cmnt='', Edit_Cmnt='', Station_Name='', sfc_extend=''):
+                        Air_Temp=99.9, Water_Depth=9999, Prog_Cmnt='', Edit_Cmnt='', Station_Name='', sfc_extend='', Station_No=''):
         """
         Assumptions
         -----------
@@ -123,6 +123,7 @@ class CTD_NC(object):
         self.rootgrpID.AIR_TEMP = Air_Temp
         self.rootgrpID.WATER_DEPTH = Water_Depth
         self.rootgrpID.STATION_NAME = Station_Name
+        self.rootgrpID.STATION_NO = Station_No
         self.rootgrpID.EPIC_FILE_GENERATOR = 'ncprossessing.py V' + __version__ 
         self.rootgrpID.PROG_CMNT01 = Prog_Cmnt
         self.rootgrpID.EDIT_CMNT01 = Edit_Cmnt
