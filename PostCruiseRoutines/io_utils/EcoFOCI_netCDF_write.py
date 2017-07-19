@@ -6,7 +6,7 @@
  class for building netcdf files from specified instruments
  
  
-  History:
+ History:
  --------
  2017-01-25: Add btl code
  2016-08-02: Migrate to EcoFOCI_MooringAnalysis pkg and unify netcdf creation code so
