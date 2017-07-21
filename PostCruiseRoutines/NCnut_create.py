@@ -35,7 +35,7 @@ import numpy as np
 import pandas as pd
 
 # User Packages
-import utilities.ConfigParserLocal as ConfigParserLocal
+import io_utils.ConfigParserLocal as ConfigParserLocal
 from calc.EPIC2Datetime import Datetime2EPIC, get_UDUNITS
 import nut2nc
 
@@ -66,7 +66,7 @@ if args.micromoles_liter:
     data = pd.read_excel(args.inputpath,sheetname=args.sheet,
             parse_dates={'datetime':['day','time']},
             index_col=False)
-    data.fillna(1e35)
+    data.fillna(1e35,inplace=True)
     data.set_index(pd.DatetimeIndex(data['datetime']),inplace=True)
     data_gb = data.groupby(by='cast')
     var_list = data.columns

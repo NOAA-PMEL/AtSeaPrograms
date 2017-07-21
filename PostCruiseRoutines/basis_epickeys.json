@@ -39,22 +39,6 @@
 		"units": "umol/kg",
 		"longname": "OXYGEN (UMOL/KG)"
 	},
-	"D_3": {
-		"name": "D",
-		"generic_name": "depth",
-		"fortran": "",
-		"EPIC_KEY": 3,
-		"units": "m",
-		"longname": "DEPTH (M)"
-	},
-	"fWS_973": {
-		"name": "fWS",
-		"generic_name": "fWS",
-		"fortran": "",
-		"EPIC_KEY": 973,
-		"units": "ug/L",
-		"longname": "wetStar fluorometer chl"
-	},
 	"T_28": {
 		"name": "T",
 		"generic_name": "temp",
@@ -86,14 +70,6 @@
 		"EPIC_KEY": 35,
 		"units": "C",
 		"longname": "Secondary Temperature"
-	},
-	"BTL_103": {
-		"name": "BTL",
-		"generic_name": "",
-		"fortran": "",
-		"EPIC_KEY": 103,
-		"units": "",
-		"longname": "NISKIN BOTTLE NUMBER"
 	},
 	"PAR_905": {
 		"name": "PAR",
