@@ -93,6 +93,12 @@ class CTD(DataFrame):
 def remove_above_water(cast):
     return cast[cast.index >= 0]
 
+def remove_flagged(cast):
+    #print cast.time_str
+    #fails becasue dataframe attributes dont copy?
+    return cast.drop(cast.index[cast['flag'] == True])
+
+
 def interp2sfc(cast, pressure_key='prDM'):
     """ Horribly inefficient for large arrays """
     try:

@@ -141,6 +141,9 @@ def IPHC_data_processing(user_in, user_out, pressure_varname = 'prdM'):
         #read in .cnv file generate pandas dataframe... includes some preprocessing
         #Todo: incorporate PMEL header information from cast logs (either as a '@' comment in the cnv file or from a separate text file)
         cast = ctd.from_cnv(filein, pressure_varname=pressure_varname)
+        
+        #tried subroutine in ctd.py but dataframe reassignment was odd
+        cast.drop(cast.index[cast['flag'] == True], inplace=True)
 
         timeclass = ctd.DataTimes(time_str=cast.time_str)
         sfc_extend = 'Extrapolated to SFC from ' + str(cast.SFC_EXTEND) + 'm'
