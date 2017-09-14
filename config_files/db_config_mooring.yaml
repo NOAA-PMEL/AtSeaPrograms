@@ -1,16 +1,12 @@
----
-systems:
-  pavlof:
-    host: localhost
-    port: 3306
-  localhost:
+--- 
+database: EcoFOCI
+login: 
+  password: ""
+  user: viewer
+systems: 
+  localhost: 
     host: localhost
     port: 8889
-
-login:
-  password: ''
-  user: viewer  
-
-database: 
-  database: EcoFOCI
-  
+  pavlof: 
+    host: localhost
+    port: 3306
