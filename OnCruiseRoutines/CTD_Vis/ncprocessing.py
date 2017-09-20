@@ -75,7 +75,7 @@ class CTD_NC(object):
             self.rootgrpID = rootgrpID
             return ( rootgrpID )
         
-    def sbeglobal_atts(self, coord_system="GEOGRAPHICAL", Water_Mass="G", featureType="profile"):
+    def sbeglobal_atts(self, coord_system="GEOGRAPHICAL", Water_Mass="G", featureType="Profile"):
         """
         Assumptions
         -----------
@@ -337,7 +337,7 @@ class CTD_IPHC(object):
             self.rootgrpID = rootgrpID
             return ( rootgrpID )
         
-    def sbeglobal_atts(self, cruise='', cast='', coord_system="GEOGRAPHICAL", Water_Mass="G"):
+    def sbeglobal_atts(self, cruise='', cast='', coord_system="GEOGRAPHICAL", Water_Mass="G", featureType="Profile"):
         """
         Assumptions
         -----------
@@ -356,6 +356,7 @@ class CTD_IPHC(object):
         self.rootgrpID.DATA_CMNT = self.data.header[1].replace('hex','cnv')
         self.rootgrpID.COORD_SYSTEM = coord_system
         self.rootgrpID.WATER_MASS = Water_Mass
+        self.rootgrpID.featureType = featureType
         
     def PMELglobal_atts(self, Barometer=9999, Wind_Dir=999, Wind_Speed=99,
                         Air_Temp=99.9, Water_Depth=9999, Prog_Cmnt='', Edit_Cmnt='', Station_Name='', sfc_extend=''):
