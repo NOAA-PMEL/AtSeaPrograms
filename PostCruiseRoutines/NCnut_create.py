@@ -64,7 +64,7 @@ if args.micromoles_liter:
     """------------"""
     #pandas reimplimentatioin
     data = pd.read_excel(args.inputpath,sheetname=args.sheet,
-            parse_dates={'datetime':['day','time']},
+            parse_dates={'datetime':['date','time']},
             index_col=False)
     data.fillna(1e35,inplace=True)
     data.set_index(pd.DatetimeIndex(data['datetime']),inplace=True)

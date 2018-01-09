@@ -105,11 +105,11 @@ for ind_cast in sorted(data_gb.groups.keys()):
 			data_dic['fWS_973'] = data.loc[data['cast'] == ind_cast][var].values
 		elif var in ['FlECO-AFL']:
 			data_dic['F_903'] = data.loc[data['cast'] == ind_cast][var].values
-		elif var in ['Sbeox0Mm/Kg']:
+		elif var in ['Sbeox0Mm/Kg','Sbox0Mm/Kg']:
 			data_dic['O_65'] = data.loc[data['cast'] == ind_cast][var].values
 		elif var in ['Sbeox0ps','Sbeox0PS']:
 			data_dic['OST_62'] = data.loc[data['cast'] == ind_cast][var].values
-		elif var in ['Sbeox1Mm/Kg']:
+		elif var in ['Sbeox1Mm/Kg','Sbox1Mm/Kg']:
 			data_dic['CTDOXY_4221'] = data.loc[data['cast'] == ind_cast][var].values
 		elif var in ['Sbeox1ps','Sbeox1PS']:
 			data_dic['CTDOST_4220'] = data.loc[data['cast'] == ind_cast][var].values
