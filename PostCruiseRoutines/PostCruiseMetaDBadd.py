@@ -81,7 +81,7 @@ def read_data(db, cursor, table, cruiseID, legNO=''):
 
 """------------------------------------- Main -----------------------------------------"""
 
-def AddMeta_fromDB(user_in, user_out):
+def AddMeta_fromDB(user_in, user_out, server='pavlof'):
     
     ### hack for three leter healy cruises with 'L' in the label
     if 'HLY' in user_in.lower():
@@ -100,11 +100,12 @@ def AddMeta_fromDB(user_in, user_out):
         
     table='cruisecastlogs'
     db_config = ConfigParserLocal.get_config_yaml('config_files/db_config_cruises.yaml')
-    print db_config
-    if socket.gethostname().split('.')[0] == 'pavlof':
+    if server == 'pavlof':
         host='pavlof'
     else:
         host='localhost'
+
+    print("Host is {host}".format(host=host))
 
     if not leg:
         (db,cursor) = connect_to_DB(db_config['systems'][host]['host'], 
@@ -154,15 +155,23 @@ def AddMeta_fromDB(user_in, user_out):
             ncfid.setncattr('AIR_TEMP',float(castmeta['DryBulb']))
             ncfid.setncattr('WATER_DEPTH',int(castmeta['BottomDepth']))
             ncfid.setncattr('STATION_NAME',castmeta['StationNameID'])
-            ncfid.setncattr('STATION_NO',castmeta['StationNo_altname'])
+            try:
+                ncfid.setncattr('STATION_NO',castmeta['StationNo_altname'])
+            except:
+                pass
 
-            ### look for existing lat/lon and update if missing
-            if (ncfid.variables['lat'][:] == -999.9) or (ncfid.variables['lat'][:] == -999.9) or np.isnan(ncfid.variables['lat'][:]):
-                ncfid.variables['lat'][:] = castmeta['LatitudeDeg'] + castmeta['LatitudeMin'] / 60.
-                ncfid.variables['lon'][:] = castmeta['LongitudeDeg'] + castmeta['LongitudeMin'] / 60.
         except IndexError:
             print "{ncfile} doesn't have a compatible database entry (may be a 'b' file). Manually add metainfo".format(ncfile=ncfile)
 
+        try:
+            ### look for existing lat/lon and update if missing
+            if (ncfid.variables['lat'][:] == -999.9) or (ncfid.variables['lat'][:] == -999.9) or np.isnan(ncfid.variables['lat'][:]):
+                print("updating location")
+                ncfid.variables['lat'][:] = castmeta['LatitudeDeg'] + castmeta['LatitudeMin'] / 60.
+                ncfid.variables['lon'][:] = castmeta['LongitudeDeg'] + castmeta['LongitudeMin'] / 60.
+        except:
+            print("Couldn't update locations")
+            
         ncfid.close()
 
     

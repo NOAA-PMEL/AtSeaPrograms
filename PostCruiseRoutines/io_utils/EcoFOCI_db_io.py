@@ -47,6 +47,7 @@ class EcoFOCI_db_Moorings(object):
 		    						  self.db_config['password'], 
 		    						  self.db_config['database'], 
 		    						  self.db_config['port'])
+		    print "connected"
 		except:
 		    print "db error"
 		    
@@ -84,6 +85,7 @@ class EcoFOCI_db_Moorings(object):
 		    						  self.db_config['password'], 
 		    						  self.db_config['database'], 
 		    						  self.db_config['port'])
+		    print "connected manually"
 		except:
 		    print "db error"
 		    
