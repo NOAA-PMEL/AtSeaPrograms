@@ -2,17 +2,24 @@
 
 """
  Background:
- --------
+ ===========
  NetCDF_ADDvar.py
  
  
  Purpose:
- --------
+ ========
  Add a variable to a netcdf file
  
+ History:
+ ========
 
  2016-06-10: Update program so that it pulls possible new variables from epic.json file
  2016-12-29: Update to add History attribute
+
+Compatibility:
+ ==============
+ python >=3.6 - Not Tested
+ python 2.7 
 """
 
 #System Stack
