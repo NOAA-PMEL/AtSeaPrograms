@@ -7,13 +7,18 @@ Recalculate derived parameters (density, salinity, dissolved oxygen)
 
  History:
  --------
-
+ 2018-07-19: explicit function paramater lableing (instead of positional)
  2017-01-03: Update program to use NetCDF Read unified API
  
 
  ToDO:
  -----
 migrate to xarray for data
+
+ Compatibility:
+ ==============
+ python >=3.6 - Not Tested
+ python 2.7 
 
  """
 #System Stack
@@ -76,15 +81,27 @@ def sigmaTheta(user_in, user_out):
         
         # calculate sigmaTheta at 0db gauge pressure (s, t, p=0)
         if np.ndim(data['dep']) == 1:
-            sigTh_pri = sw.eos80.dens0(data['S_41'][0,:,0,0],sw.ptmp(data['S_41'][0,:,0,0],data['T_28'][0,:,0,0],data['dep'][:]))-1000
+            sigTh_pri = sw.eos80.dens0(s=data['S_41'][0,:,0,0],
+                                       t=sw.ptmp(s=data['S_41'][0,:,0,0],
+                                                 t=data['T_28'][0,:,0,0],
+                                                 p=data['dep'][:]))-1000
             try:
-                sigTh_sec = sw.eos80.dens0(data['S_42'][0,:,0,0],sw.ptmp(data['S_42'][0,:,0,0],data['T2_35'][0,:,0,0],data['dep'][:]))-1000
+                sigTh_sec = sw.eos80.dens0(s=data['S_42'][0,:,0,0],
+                                           t=sw.ptmp(s=data['S_42'][0,:,0,0],
+                                                     t=data['T2_35'][0,:,0,0],
+                                                     p=data['dep'][:]))-1000
             except:
                 print "No secondary temp and/or salinity in file"
         else:
-            sigTh_pri = sw.eos80.dens0(data['S_41'][0,:,0,0],sw.ptmp(data['S_41'][0,:,0,0],data['T_28'][0,:,0,0],data['dep'][0,:,0,0]))-1000
+            sigTh_pri = sw.eos80.dens0(s=data['S_41'][0,:,0,0],
+                                       t=sw.ptmp(s=data['S_41'][0,:,0,0],
+                                                 t=data['T_28'][0,:,0,0],
+                                                 p=data['dep'][0,:,0,0]))-1000
             try:
-                sigTh_sec = sw.eos80.dens0(data['S_42'][0,:,0,0],sw.ptmp(data['S_42'][0,:,0,0],data['T2_35'][0,:,0,0],data['dep'][0,:,0,0]))-1000
+                sigTh_sec = sw.eos80.dens0(s=data['S_42'][0,:,0,0],
+                                           t=sw.ptmp(s=data['S_42'][0,:,0,0],
+                                                     t=data['T2_35'][0,:,0,0],
+                                                     p=data['dep'][0,:,0,0]))-1000
             except:
                 print "No secondary temp and/or salinity in file"
 
@@ -132,9 +149,11 @@ def sigmaT(user_in, user_out):
 
         
         # calculate sigmaT at 0db gauge pressure (s, t, p=0)
-        sigT_pri = sw.eos80.dens0(data['S_41'][0,:,0,0],data['T_28'][0,:,0,0])-1000
+        sigT_pri = sw.eos80.dens0(s=data['S_41'][0,:,0,0],
+                                  t=data['T_28'][0,:,0,0])-1000
         try:
-            sigT_sec = sw.eos80.dens0(data['S_42'][0,:,0,0],data['T2_35'][0,:,0,0])-1000
+            sigT_sec = sw.eos80.dens0(s=data['S_42'][0,:,0,0],
+                                      t=data['T2_35'][0,:,0,0])-1000
         except:
             print "No secondary temp and/or salinity in file"
             
@@ -210,15 +229,23 @@ def O2PercentSat(user_in, user_out):
         #determine sigmatheta and convert Oxygen from micromoles/kg to ml/l
         #calculate new oxygen saturation percent using derived oxsol
         if np.ndim(data['dep']) == 1:
-            sigmatheta_pri = sw.eos80.pden(data['S_41'][0,:,0,0], data['T_28'][0,:,0,0], data['dep'][:])
+            sigmatheta_pri = sw.eos80.pden(s=data['S_41'][0,:,0,0], 
+                                           t=data['T_28'][0,:,0,0], 
+                                           p=data['dep'][:])
         else:
-            sigmatheta_pri = sw.eos80.pden(data['S_41'][0,:,0,0], data['T_28'][0,:,0,0], data['dep'][0,:,0,0])
+            sigmatheta_pri = sw.eos80.pden(s=data['S_41'][0,:,0,0], 
+                                           t=data['T_28'][0,:,0,0], 
+                                           p=data['dep'][0,:,0,0])
         OxPerSat_pri = ( (data['O_65'][0,:,0,0] * sigmatheta_pri / 44660) / Oxsol_pri ) * 100.
         try:
             if np.ndim(data['dep']) == 1:
-                sigmatheta_sec = sw.eos80.pden(data['S_42'][0,:,0,0], data['T2_35'][0,:,0,0], data['dep'][:])
+                sigmatheta_sec = sw.eos80.pden(s=data['S_42'][0,:,0,0], 
+                                               t=data['T2_35'][0,:,0,0], 
+                                               p=data['dep'][:])
             else:
-                sigmatheta_sec = sw.eos80.pden(data['S_42'][0,:,0,0], data['T2_35'][0,:,0,0], data['dep'][0,:,0,0])
+                sigmatheta_sec = sw.eos80.pden(s=data['S_42'][0,:,0,0], 
+                                               t=data['T2_35'][0,:,0,0], 
+                                               p=data['dep'][0,:,0,0])
             OxPerSat_sec = ( (data['CTDOXY_4221'][0,:,0,0] * sigmatheta_sec / 44660) / Oxsol_sec ) * 100.
         except:
             print "No secondary sensor"
@@ -271,9 +298,13 @@ def O2_conv_mll2umkg(user_in, user_out):
 
         
         # calculate oxygent conc in um/kg from ml/l
-        sigT_pri = sw.eos80.pden(data['S_41'][0,:,0,0],data['T_28'][0,:,0,0],data['dep'][:]) / 1000.
+        sigT_pri = sw.eos80.pden(s=data['S_41'][0,:,0,0],
+                                 t=data['T_28'][0,:,0,0],
+                                 p=data['dep'][:]) / 1000.
         try:
-            sigT_sec = sw.eos80.pden(data['S_42'][0,:,0,0],data['T2_35'][0,:,0,0],data['dep'][:]) / 1000.
+            sigT_sec = sw.eos80.pden(s=data['S_42'][0,:,0,0],
+                                     t=data['T2_35'][0,:,0,0],
+                                     p=data['dep'][:]) / 1000.
         except:
             print "No secondary temp and/or salinity in file"
             
