@@ -29,6 +29,7 @@
 """
 # System Packages
 import datetime, os, sys
+import socket
 
 
 # GUI Packages
