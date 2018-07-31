@@ -2,23 +2,28 @@
 
 """
  Background:
- --------
- ncQC_EPIC_var.py
+ ===========
+ NetCDF_MissingVar.py
  
  
  Purpose:
- --------
- Replaces designated variable in EPIC Format .nc files with 1e+35
+ ========
+ Replaces designated variable (currently in EPIC Format .nc files) with 1e+35 but
+    only requires name of variable to work so can be run on non-epic vars as well
  
- Adds additional PROG_CMNT# and EDIT_COMMENT#
+ Adds additional PROG_CMNT# and EDIT_COMMENT# and History:
  
  Usage:
- ------
- ncQC_var.py -> /path/to/data/, {optional file1}, {file 2}, {file n}
+ ======
+ NetCDF_MissingVar.py -> /path/to/data/, {optional file1}, {file 2}, {file n}
  
+ History:
+ ========
 
-
- Built using Anaconda packaged Python:
+ Compatibility:
+ ==============
+ python >=3.6? - untested
+ python 2.7
 
 
 """
@@ -35,8 +40,8 @@ import numpy as np
 
 __author__   = 'Shaun Bell'
 __email__    = 'shaun.bell@noaa.gov'
-__created__  = datetime.datetime(2014, 01, 29)
-__modified__ = datetime.datetime(2014, 01, 29)
+__created__  = datetime.datetime(2014, 1, 29)
+__modified__ = datetime.datetime(2018, 7, 24)
 __version__  = "0.2.0"
 __status__   = "Development"
 __keywords__ = 'netCDF','meta','header', 'QC'
