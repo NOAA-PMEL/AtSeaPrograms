@@ -50,6 +50,7 @@ Secondary O2 % sat now 4220
 Added prSM as another identifier for pressure
 Added attenuation for transmissometry
 Added 'obs: OBS, Backscatterance (D & A) [NTU]' from EMA as 980
+Added 'obs3+: OBS, Backscatterance (D & A) [NTU]' from EMA as 980
 
 updated sbeox0V with key 5000
 updated sbeox1V with key 5001
@@ -159,6 +160,7 @@ SBE_EPIC["volts_fluor"] = '971'
 #turbidity
 SBE_EPIC["turbWETntu0"] = '980' #NTU - Nephelemetric units
 SBE_EPIC["obs"] = '980' #OBS, Backscatterance (D & A) [NTU]
+SBE_EPIC["obs3+"] = '980' #OBS, Backscatterance (D & A) [NTU]
 
 #PAR
 SBE_EPIC["par"]     = '905' 

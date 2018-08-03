@@ -83,7 +83,7 @@ args = parser.parse_args()
 #add ability to ingest entire directory
 #EPIC files only
 
-print "Grabin information from file %s \n" % args.sourcefile
+print "Grabing information from file %s \n" % args.sourcefile
 print "Placing it in file %s \n" % args.destinationfile
 
 ###nc readin

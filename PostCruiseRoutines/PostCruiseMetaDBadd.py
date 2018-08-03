@@ -29,8 +29,8 @@ from io_utils import ConfigParserLocal
 
 __author__   = 'Shaun Bell'
 __email__    = 'shaun.bell@noaa.gov'
-__created__  = datetime.datetime(2014, 05, 22)
-__modified__ = datetime.datetime(2014, 05, 22)
+__created__  = datetime.datetime(2014, 5, 22)
+__modified__ = datetime.datetime(2014, 5, 22)
 __version__  = "0.1.0"
 __status__   = "Development"
 __keywords__ = 'CTD', 'MetaInformation', 'Cruise', 'MySQL'
@@ -58,7 +58,7 @@ def read_data(db, cursor, table, cruiseID, legNO=''):
     
     sql = "SELECT * from `%s` WHERE `cruiseID`='%s' and `Project_Leg`='%s'" % (table, cruiseID, legNO)
 
-    print sql
+    print(sql)
     
     result_dic = {}
     try:
@@ -77,7 +77,7 @@ def read_data(db, cursor, table, cruiseID, legNO=''):
             result_dic[row['id']] ={keys: row[keys] for val, keys in enumerate(row.keys())} 
         return (result_dic)
     except:
-        print "Error: unable to fecth data"
+        print("Error: unable to fecth data")
 
 """------------------------------------- Main -----------------------------------------"""
 
@@ -87,7 +87,7 @@ def AddMeta_fromDB(user_in, user_out, server='pavlof'):
     if 'HLY' in user_in.lower():
         cruiseID = user_in.split('/')[-3]
         leg = cruiseID.lower().split('Z')
-        print "leg is {0}, cruiseid is {0}".format(leg, cruiseID)
+        print("leg is {0}, cruiseid is {0}".format(leg, cruiseID))
     else:
         cruiseID = user_in.split('/')[-3]
         leg = cruiseID.lower().split('l')
@@ -121,12 +121,11 @@ def AddMeta_fromDB(user_in, user_out, server='pavlof'):
         cruiseID = cruiseID + leg
         close_DB(db)
     
-    print ("Adding Meta Information from {0}").format(cruiseID)
+    print("Adding Meta Information from {0}".format(cruiseID))
     ## exit if db is empty
     if (len(data.keys()) == 0):
-        print ("Sorry, this cruise is either not in the database or was entered "
+        sys.exit("Sorry, this cruise is either not in the database or was entered "
                 "incorrectly.  Please start the program and try again.")
-        sys.exit()
 
 
     #epic flavored nc files
@@ -141,9 +140,9 @@ def AddMeta_fromDB(user_in, user_out, server='pavlof'):
         else:
             castxxx = ncfile.lower().split(cruiseID.lower())[-1].split('_')[0][1:]
 
-        print 'castxxx = ' + castxxx
+        print('castxxx = ' + castxxx)
         castID = 'CTD' + castxxx
-        print castID
+        print(castID)
         
         try:
             castmeta = [x for x in data.itervalues() if x['ConsecutiveCastNo'] == castID][0]
@@ -161,7 +160,7 @@ def AddMeta_fromDB(user_in, user_out, server='pavlof'):
                 pass
 
         except IndexError:
-            print "{ncfile} doesn't have a compatible database entry (may be a 'b' file). Manually add metainfo".format(ncfile=ncfile)
+            print("{ncfile} doesn't have a compatible database entry (may be a 'b' file). Manually add metainfo".format(ncfile=ncfile))
 
         try:
             ### look for existing lat/lon and update if missing
