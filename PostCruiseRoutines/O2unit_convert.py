@@ -17,6 +17,10 @@ History:
 
 2017-03-23 S.Bell: update to use Pandas for excel read
 """
+import warnings
+#remove the numpy/pandas/cython warnings
+warnings.filterwarnings(action='ignore', message="numpy.dtype size changed,")
+
 #System Stack
 import datetime
 import argparse
