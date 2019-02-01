@@ -153,7 +153,10 @@ def AddMeta_fromDB(user_in, user_out, server='pavlof'):
             ncfid.setncattr('WIND_SPEED',int(castmeta['WindSpd']))
             ncfid.setncattr('AIR_TEMP',float(castmeta['DryBulb']))
             ncfid.setncattr('WATER_DEPTH',int(castmeta['BottomDepth']))
-            ncfid.setncattr('STATION_NAME',castmeta['StationNameID'])
+            try:
+                ncfid.setncattr('STATION_NAME',castmeta['StationNameID'])
+            except:
+                pass
             try:
                 ncfid.setncattr('STATION_NO',castmeta['StationNo_altname'])
             except:
