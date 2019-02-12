@@ -167,10 +167,16 @@ def AddMeta_fromDB(user_in, user_out, server='pavlof'):
 
         try:
             ### look for existing lat/lon and update if missing
-            if (ncfid.variables['lat'][:] == -999.9) or (ncfid.variables['lat'][:] == -999.9) or np.isnan(ncfid.variables['lat'][:]):
+            if ((ncfid.variables['lat'][:] == -999.9) or 
+                    (ncfid.variables['lat'][:] == -999.9) or 
+                    (ncfid.variables['lat'][:] == 1e35) or 
+                    np.isnan(ncfid.variables['lat'][:])):
                 print("updating location")
                 ncfid.variables['lat'][:] = castmeta['LatitudeDeg'] + castmeta['LatitudeMin'] / 60.
                 ncfid.variables['lon'][:] = castmeta['LongitudeDeg'] + castmeta['LongitudeMin'] / 60.
+            else:
+                print("I failed to update the lat/lon!!!")
+                print(ncfid.variables['lat'][:])
         except:
             print("Couldn't update locations")
             
