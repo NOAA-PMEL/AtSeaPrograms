@@ -98,14 +98,14 @@ class ExampleApp(QtGui.QMainWindow, design.Ui_MainWindow):
             self.processButton.setStyleSheet("background-color: green")
 
     def AddCruiseMetaData(self):
-        import PostCruiseRoutines.PostCruiseMetaDBadd as PostCruiseMetaDBadd
-        socket.gethostname().split('.')[0]
-        rflag = PostCruiseMetaDBadd.AddMeta_fromDB(os.path.join(self.directory, str(self.inputList.currentItem().text()) + '/'),
-                                        os.path.join(self.directory, str(self.outputList.currentItem().text()) + '/'),
-                                        server=socket)
-        if rflag == True:
-            self.addMetaButton.setStyleSheet("background-color: green")
-
+        #import PostCruiseRoutines.PostCruiseMetaDBadd as PostCruiseMetaDBadd
+        #socket.gethostname().split('.')[0]
+        #rflag = PostCruiseMetaDBadd.AddMeta_fromDB(os.path.join(self.directory, str(self.inputList.currentItem().text()) + '/'),
+        #                                os.path.join(self.directory, str(self.outputList.currentItem().text()) + '/'),
+        #                                server=socket)
+        #if rflag == True:
+        #    self.addMetaButton.setStyleSheet("background-color: green")
+        pass
 
     def BtlSummary(self):
         import OnCruiseRoutines.utilities.get_btl as get_btl
