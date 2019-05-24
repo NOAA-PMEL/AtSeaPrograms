@@ -160,21 +160,21 @@ def IPHC_data_processing(user_in, user_out, pressure_varname = 'prdM'):
                 ** region: GP
                 ** CSF bottom depth(m): 150
                 * ]]>"""
-            if '** latitude:' in entry:
+            if ('** latitude:' in entry) or ('** Latitude:' in entry):
                 IPHC_Lat = float(entry.split()[-1][:2]) + float(entry.split()[-1][2:]) / 6000.
-            if '** longitude:' in entry:
+            if ('** longitude:' in entry) or ('** Longitude:' in entry):
                 IPHC_Lon = -1 * (float(entry.split()[-1][:3]) + float(entry.split()[-1][3:]) / 6000. )
-            if '** setno:' in entry:
+            if ('** setno:' in entry) or ('** Setno:' in entry):
                 setno = entry.split()[-1]
-            if '** stnno:' in entry:
+            if ('** stnno:' in entry) or ('** Stnno:' in entry):
                 stnno = entry.split()[-1]
-            if '** trpno:' in entry:
+            if ('** trpno:' in entry) or ('** Trpno:' in entry):
                 trpno = entry.split()[-1]
             if ('** vslcde:' in entry) | ('** vslcde' in entry):
                 vslcde = entry.split()[-1]
             if '** region:' in entry:
                 region = entry.split()[-1]
-            if '** CSF' in entry:
+            if ('** CSF' in entry) or ('** csf' in entry):
                 CSFbottomdepth = float(entry.split()[-1])
 
         print "IPHC Lat: {lat}".format(lat=IPHC_Lat)

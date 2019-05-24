@@ -259,8 +259,12 @@ class CTD_NC(object):
         self.var_class[1][:] = time2
         if not CastLog:
             self.var_class[2][:] = self.data[pressure_var].values
-            self.var_class[3][:] = self.data.latitude
-            self.var_class[4][:] = -1 * self.data.longitude #PMEL standard direction
+            try:
+                self.var_class[3][:] = self.data.latitude
+                self.var_class[4][:] = -1 * self.data.longitude #PMEL standard direction
+            except:
+                pass
+            
         else:
             self.var_class[2][:] = self.data[pressure_var].values
             self.var_class[3][:] = latitude
