@@ -33,12 +33,12 @@ import datetime, os
 from CTD_Vis import ctd
 from CTD_Vis import ncprocessing
 
-__author__   = 'Shaun Bell'
-__email__    = 'shaun.bell@noaa.gov'
-__created__  = datetime.datetime(2014, 01, 29)
+__author__ = "Shaun Bell"
+__email__ = "shaun.bell@noaa.gov"
+__created__ = datetime.datetime(2014, 01, 29)
 __modified__ = datetime.datetime(2014, 10, 13)
-__version__  = "0.2.0"
-__status__   = "Development"
+__version__ = "0.2.0"
+__status__ = "Development"
 
 """-------------------------------Work Flow--------------------------------------------"""
 """
@@ -50,7 +50,8 @@ Write attributes, variables and variable attributes
 """
 """------------------------------- Data Pointer----------------------------------------"""
 
-def data_processing(user_in, user_out, pressure_varname = 'prDM'):
+
+def data_processing(user_in, user_out, pressure_varname="prDM"):
     """
         Change pressure_var to prDM for 
         most 9/11 and prSM for sbe25 in following line or 
@@ -58,12 +59,12 @@ def data_processing(user_in, user_out, pressure_varname = 'prDM'):
 
 
     """
-    #add ability to ingest entire directory
+    # add ability to ingest entire directory
     if os.path.isdir(user_in):
-        user_in = [user_in] + [fi for fi in os.listdir(user_in) if fi.endswith('.cnv')]
-    
+        user_in = [user_in] + [fi for fi in os.listdir(user_in) if fi.endswith(".cnv")]
+
     else:
-        user_in = user_in.split(',')
+        user_in = user_in.split(",")
 
     for i, filein in enumerate(user_in):
         if i == 0 and len(user_in) > 1:
@@ -73,34 +74,40 @@ def data_processing(user_in, user_out, pressure_varname = 'prDM'):
             path = filein.strip()
         else:
             filein = path + filein.strip()
-    
-        #read in .cnv file generate pandas dataframe... includes some preprocessing
-        #Todo: incorporate PMEL header information from cast logs (either as a '@' comment in the cnv file or from a separate text file)
+
+        # read in .cnv file generate pandas dataframe... includes some preprocessing
+        # Todo: incorporate PMEL header information from cast logs (either as a '@' comment in the cnv file or from a separate text file)
         cast = ctd.from_cnv(filein, pressure_varname=pressure_varname)
 
         timeclass = ctd.DataTimes(time_str=cast.time_str)
-        sfc_extend = 'Extrapolated to SFC from ' + str(cast.SFC_EXTEND) + 'm'
-    
+        sfc_extend = "Extrapolated to SFC from " + str(cast.SFC_EXTEND) + "m"
+
         # make sure save path exists
-        savefile=(user_out)
+        savefile = user_out
         if not os.path.exists(savefile):
             os.makedirs(savefile)
 
         print "Working on Cast {cast_file}".format(cast_file=filein)
-       
-        #PMEL EPIC Conventions
-        ncinstance = ncprocessing.CTD_NC(savefile=(savefile + cast.name.replace('_ctd', 'c') + '_ctd.nc'), data=cast)
+
+        # PMEL EPIC Conventions
+        ncinstance = ncprocessing.CTD_NC(
+            savefile=(savefile + cast.name.replace("_ctd", "c") + "_ctd.nc"), data=cast
+        )
         ncinstance.file_create()
-        ncinstance.sbeglobal_atts() # 
+        ncinstance.sbeglobal_atts()  #
         ncinstance.PMELglobal_atts(sfc_extend=sfc_extend)
         ncinstance.dimension_init()
         ncinstance.variable_init()
         ncinstance.add_data()
-        ncinstance.add_coord_data(pressure_var=pressure_varname, time1=timeclass.get_EPIC_date()[0], time2=timeclass.get_EPIC_date()[1])
+        ncinstance.add_coord_data(
+            pressure_var=pressure_varname,
+            time1=timeclass.get_EPIC_date()[0],
+            time2=timeclass.get_EPIC_date()[1],
+        )
         ncinstance.close()
-    
-        #COARDS/CF Style Conventions
-        '''
+
+        # COARDS/CF Style Conventions
+        """
         ncinstance = ncprocessing.CF_CTD_NC(savefile=(savefile + cast.name.replace('_ctd', 'c') + '_cf_ctd.nc'), data=cast)
         ncinstance.file_create()
         ncinstance.sbeglobal_atts()
@@ -110,11 +117,12 @@ def data_processing(user_in, user_out, pressure_varname = 'prDM'):
         ncinstance.add_data()
         ncinstance.add_coord_data( time=timeclass.get_python_date() )
         ncinstance.close()    
-        '''
+        """
     processing_complete = True
     return processing_complete
 
-def IPHC_data_processing(user_in, user_out, pressure_varname = 'prdM'):
+
+def IPHC_data_processing(user_in, user_out, pressure_varname="prdM"):
     """
         Change pressure_var to prDM for 
         most 9/11 and prSM for sbe25 in following line or 
@@ -122,12 +130,12 @@ def IPHC_data_processing(user_in, user_out, pressure_varname = 'prdM'):
 
 
     """
-    #add ability to ingest entire directory
+    # add ability to ingest entire directory
     if os.path.isdir(user_in):
-        user_in = [user_in] + [fi for fi in os.listdir(user_in) if fi.endswith('.cnv')]
-    
+        user_in = [user_in] + [fi for fi in os.listdir(user_in) if fi.endswith(".cnv")]
+
     else:
-        user_in = user_in.split(',')
+        user_in = user_in.split(",")
 
     for i, filein in enumerate(user_in):
         if i == 0 and len(user_in) > 1:
@@ -137,19 +145,21 @@ def IPHC_data_processing(user_in, user_out, pressure_varname = 'prdM'):
             path = filein.strip()
         else:
             filein = path + filein.strip()
-    
-        #read in .cnv file generate pandas dataframe... includes some preprocessing
-        #Todo: incorporate PMEL header information from cast logs (either as a '@' comment in the cnv file or from a separate text file)
+
+        # read in .cnv file generate pandas dataframe... includes some preprocessing
+        # Todo: incorporate PMEL header information from cast logs (either as a '@' comment in the cnv file or from a separate text file)
         cast = ctd.from_cnv(filein, pressure_varname=pressure_varname)
-        
-        #tried subroutine in ctd.py but dataframe reassignment was odd
-        cast.drop(cast.index[cast['flag'] == True], inplace=True)
+
+        # tried subroutine in ctd.py but dataframe reassignment was odd
+        cast.drop(cast.index[cast["flag"] == True], inplace=True)
 
         timeclass = ctd.DataTimes(time_str=cast.time_str)
-        sfc_extend = 'Extrapolated to SFC from ' + str(cast.SFC_EXTEND) + 'm'
-    
-        #parse header files for '** ' lines which have IPHC relevant meta in them
+        sfc_extend = "Extrapolated to SFC from " + str(cast.SFC_EXTEND) + "m"
+
+        # parse header files for '** ' lines which have IPHC relevant meta in them
+
         for entry in cast.header:
+            entry_lower = entry.lower()
             """* <![CDATA[
                 ** latitude: 580104
                 ** longitude: 1491283
@@ -160,21 +170,29 @@ def IPHC_data_processing(user_in, user_out, pressure_varname = 'prdM'):
                 ** region: GP
                 ** CSF bottom depth(m): 150
                 * ]]>"""
-            if ('** latitude:' in entry) or ('** Latitude:' in entry):
-                IPHC_Lat = float(entry.split()[-1][:2]) + float(entry.split()[-1][2:]) / 6000.
-            if ('** longitude:' in entry) or ('** Longitude:' in entry):
-                IPHC_Lon = -1 * (float(entry.split()[-1][:3]) + float(entry.split()[-1][3:]) / 6000. )
-            if ('** setno:' in entry) or ('** Setno:' in entry):
+            if ("** latitude:" in entry_lower) or ("** Latitude:" in entry_lower):
+                IPHC_Lat = (
+                    float(entry.split()[-1][:2]) + float(entry.split()[-1][2:]) / 6000.0
+                )
+            if ("** longitude:" in entry_lower) or ("** Longitude:" in entry_lower):
+                IPHC_Lon = -1 * (
+                    float(entry.split()[-1][:3]) + float(entry.split()[-1][3:]) / 6000.0
+                )
+            if ("** setno:" in entry_lower) or ("** Setno:" in entry_lower):
                 setno = entry.split()[-1]
-            if ('** stnno:' in entry) or ('** Stnno:' in entry):
+
+            if ("** stnno:" in entry_lower) or ("** Stnno:" in entry_lower):
                 stnno = entry.split()[-1]
-            if ('** trpno:' in entry) or ('** Trpno:' in entry):
+
+            if ("** trpno:" in entry_lower) or ("** Trpno:" in entry_lower):
                 trpno = entry.split()[-1]
-            if ('** vslcde:' in entry) | ('** vslcde' in entry):
+            if ("** vslcde:" in entry_lower) | ("** vslcde" in entry_lower):
                 vslcde = entry.split()[-1]
-            if '** region:' in entry:
+
+            if "** region:" in entry_lower:
                 region = entry.split()[-1]
-            if ('** CSF' in entry) or ('** csf' in entry):
+
+            if ("** CSF" in entry_lower) or ("** csf" in entry_lower):
                 CSFbottomdepth = float(entry.split()[-1])
 
         print "IPHC Lat: {lat}".format(lat=IPHC_Lat)
@@ -184,35 +202,47 @@ def IPHC_data_processing(user_in, user_out, pressure_varname = 'prdM'):
         print "IPHC TrpNo: {trpno}".format(trpno=trpno)
         print "IPHC VSL CDE: {vslcde}".format(vslcde=vslcde)
         print "IPHC Region: {region}".format(region=region)
-        print "IPHC CSF Bottom Depth: {CSFbottomdepth}".format(CSFbottomdepth=CSFbottomdepth)
+        print "IPHC CSF Bottom Depth: {CSFbottomdepth}".format(
+            CSFbottomdepth=CSFbottomdepth
+        )
         # make sure save path exists
-        savefile=(user_out)
+        savefile = user_out
         if not os.path.exists(savefile):
             os.makedirs(savefile)
 
         print "Working on Cast {cast_file}".format(cast_file=filein)
-       
-        #PMEL EPIC Conventions
-        ncinstance = ncprocessing.CTD_IPHC(savefile=(savefile + filein.split('/')[-1].replace('.cnv', '.nc')), data=cast)
+
+        # PMEL EPIC Conventions
+        ncinstance = ncprocessing.CTD_IPHC(
+            savefile=(savefile + filein.split("/")[-1].replace(".cnv", ".nc")),
+            data=cast,
+        )
         ncinstance.file_create()
-        ncinstance.sbeglobal_atts() #
-        ncinstance.IPHC_atts(vslcde=vslcde, setno=setno, stnno=stnno,
-                             trpno=trpno, region=region)
+        ncinstance.sbeglobal_atts()  #
+        ncinstance.IPHC_atts(
+            vslcde=vslcde, setno=setno, stnno=stnno, trpno=trpno, region=region
+        )
         ncinstance.PMELglobal_atts(sfc_extend=sfc_extend, Water_Depth=CSFbottomdepth)
         ncinstance.dimension_init()
         ncinstance.variable_init()
         ncinstance.add_data()
-        ncinstance.add_coord_data(pressure_var=pressure_varname, 
-                                  time1=timeclass.get_EPIC_date()[0], 
-                                  time2=timeclass.get_EPIC_date()[1],
-                                  latitude=IPHC_Lat, longitude=IPHC_Lon, CastLog=True)
+        ncinstance.add_coord_data(
+            pressure_var=pressure_varname,
+            time1=timeclass.get_EPIC_date()[0],
+            time2=timeclass.get_EPIC_date()[1],
+            latitude=IPHC_Lat,
+            longitude=IPHC_Lon,
+            CastLog=True,
+        )
         ncinstance.close()
-    
+
     processing_complete = True
     return processing_complete
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
-    user_in = raw_input("Please enter the abs path to the .cnv file: or \n path, file1, file2: ")
+    user_in = raw_input(
+        "Please enter the abs path to the .cnv file: or \n path, file1, file2: "
+    )
     data_processing()
