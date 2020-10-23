@@ -1,6 +1,12 @@
 # AtSeaPrograms
+
+## EOL after QT4 EOL
+QT4 was only used for UI selection though and underlying routines still do their job
+
+#### Historic and no longer supported - do not expect to work
 Collection of python programs for EcoFOCI at sea data
 
+Todo: Migrate routines to modern methodology (lack of gui... so either jupyter or command line)
 
 ################
 

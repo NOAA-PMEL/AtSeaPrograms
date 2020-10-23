@@ -1,6 +1,21 @@
 #!/usr/bin/env python
 
 """
+
+### WARNING: CODE IS BROKEN ###
+## QT4 EOL ##
+Tasks where simple:
+to process raw cnv to epic flavored netcdf
+
+import OnCruiseRoutines.CTD2NC as CTD2NC
+from OnCruiseRoutines.CTD_Vis import ctd
+from OnCruiseRoutines.CTD_Vis import ncprocessing
+        
+CTD2NC.data_processing('/Users/bell/ecoraid/2020/CTDcasts/dy2012/rawconverted/','/Users/bell/ecoraid/2020/CTDcasts/dy2012/working/')
+get_btl.report('/Users/bell/ecoraid/2020/CTDcasts/dy2012/rawconverted/','/Users/bell/ecoraid/2020/CTDcasts/dy2012/working/')
+
+
+## OLD HEADER ##
  Background:
  --------
  EcoFOCI_Processing_main.py

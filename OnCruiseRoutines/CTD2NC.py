@@ -66,7 +66,7 @@ def data_processing(user_in, user_out, pressure_varname="prDM"):
     else:
         user_in = user_in.split(",")
 
-    for i, filein in enumerate(user_in):
+    for i, filein in enumerate(sorted(user_in)):
         if i == 0 and len(user_in) > 1:
             path = filein.strip()
             continue

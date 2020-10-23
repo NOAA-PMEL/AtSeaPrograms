@@ -442,798 +442,796 @@ p212
 ag5
 aS'oceanographic sense (going to)'
 p213
-asS'423'
+asS'3024'
 p214
 (lp215
-S'WV '
+S'rWD'
 p216
-aS'WIND V (M/S)             '
+aS'rm young wind dir'
 p217
+aS'WD'
+p218
+aS'degree'
+p219
+aS'f10.2'
+p220
+aS'rm young wind dir'
+p221
+asS'423'
+p222
+(lp223
+S'WV '
+p224
+aS'WIND V (M/S)             '
+p225
 ag211
 aS'm s-1'
-p218
+p226
 ag5
 aS'oceanographic sense (going to)'
-p219
-asS'1701'
-p220
-(lp221
-S'F11'
-p222
-aS'CFC-11 (PMOL/KG)         '
-p223
-aS'f11'
-p224
-aS'pmol/kg'
-p225
-aS'f10.6'
-p226
-aS'trichloroflouoromethane'
 p227
-asS'1702'
+asS'1701'
 p228
 (lp229
-S'F12'
+S'F11'
 p230
-aS'CFC-12 (PMOL/KG)         '
+aS'CFC-11 (PMOL/KG)         '
 p231
-aS'f12'
+aS'f11'
 p232
 aS'pmol/kg'
 p233
 aS'f10.6'
 p234
-aS'dichlorofluoromethane'
+aS'trichloroflouoromethane'
 p235
-asS'422'
+asS'1702'
 p236
 (lp237
-S'WU '
+S'F12'
 p238
-aS'WIND U (M/S)             '
+aS'CFC-12 (PMOL/KG)         '
 p239
-aS'u'
+aS'f12'
 p240
-aS'm s-1'
+aS'pmol/kg'
 p241
+aS'f10.6'
+p242
+aS'dichlorofluoromethane'
+p243
+asS'422'
+p244
+(lp245
+S'WU '
+p246
+aS'WIND U (M/S)             '
+p247
+aS'u'
+p248
+aS'm s-1'
+p249
 ag5
 aS'oceanographic sense (going to)'
-p242
-asS'4304'
-p243
-(lp244
-S'fCO2w'
-p245
-aS'Fugacity of CO2 in Water'
-p246
-aS'fCO2w'
-p247
-aS'uatm'
-p248
-aS'f9.1'
-p249
-aS'Underway CO2 obs'
 p250
-asS'4225'
+asS'4304'
 p251
 (lp252
-S'SILCAT '
+S'fCO2w'
 p253
-aS'Silicate'
+aS'Fugacity of CO2 in Water'
 p254
-aS'SiO4          '
+aS'fCO2w'
 p255
-aS'umol/kg'
+aS'uatm'
 p256
-aS'f9.2'
+aS'f9.1'
 p257
+aS'Underway CO2 obs'
+p258
+asS'4225'
+p259
+(lp260
+S'SILCAT '
+p261
+aS'Silicate'
+p262
+aS'SiO4          '
+p263
+aS'umol/kg'
+p264
+aS'f9.2'
+p265
 ag1
 asS'3007'
-p258
-(lp259
-S'mWB'
-p260
-aS'manual wet bulb temp'
-p261
-aS'wbulb'
-p262
-aS'degree C'
-p263
-aS'f10.2'
-p264
-aS'manual wet bulb temp'
-p265
-asS'1510'
 p266
 (lp267
-S'LAT'
+S'mWB'
 p268
-aS'END LATITUDE             '
+aS'manual wet bulb temp'
 p269
-aS'end_lat'
+aS'wbulb'
 p270
-aS'degree_north'
+aS'degree C'
 p271
-aS'f10.4'
+aS'f10.2'
 p272
-aS'N positive S negative'
+aS'manual wet bulb temp'
 p273
-asS'3029'
+asS'1510'
 p274
 (lp275
-S'ocWSA'
+S'LAT'
 p276
-aS'OC Wind Spd Avg'
+aS'END LATITUDE             '
 p277
-aS'WS'
+aS'end_lat'
 p278
-aS'knots'
+aS'degree_north'
 p279
-aS'f10.2'
+aS'f10.4'
 p280
-aS'OC Wind Spd Avg'
+aS'N positive S negative'
 p281
-asS'3028'
+asS'3029'
 p282
 (lp283
-S'ocWDA'
+S'ocWSA'
 p284
-aS'OC Wind Dir Avg'
+aS'OC Wind Spd Avg'
 p285
-aS'WD'
+aS'WS'
 p286
-aS'degree'
+aS'knots'
 p287
 aS'f10.2'
 p288
-aS'OC Wind Dir Avg'
+aS'OC Wind Spd Avg'
 p289
-asS'3027'
+asS'3028'
 p290
 (lp291
-S'ocWS'
+S'ocWDA'
 p292
-aS'oc wind speed'
+aS'OC Wind Dir Avg'
 p293
-aS'WS'
+aS'WD'
 p294
-aS'knots'
+aS'degree'
 p295
 aS'f10.2'
 p296
-aS'oc wind speed'
+aS'OC Wind Dir Avg'
 p297
-asS'3026'
+asS'3027'
 p298
 (lp299
-S'ocWD'
+S'ocWS'
 p300
-aS'oc true direction'
+aS'oc wind speed'
 p301
-aS'WD'
+aS'WS'
 p302
-aS'degree'
+aS'knots'
 p303
 aS'f10.2'
 p304
-aS'oc true direction'
+aS'oc wind speed'
 p305
-asS'3025'
+asS'3026'
 p306
 (lp307
-S'rAT'
+S'ocWD'
 p308
-aS'rm young air temp'
+aS'oc true direction'
 p309
-aS'atemp'
+aS'WD'
 p310
-aS'degree C'
+aS'degree'
 p311
 aS'f10.2'
 p312
-aS'rm young air temp'
+aS'oc true direction'
 p313
-asS'3024'
+asS'3025'
 p314
 (lp315
-S'rWD'
+S'rAT'
 p316
-aS'rm young wind dir'
+aS'rm young air temp'
 p317
-aS'WD'
+aS'atemp'
 p318
-aS'degree'
+aS'degree C'
 p319
 aS'f10.2'
 p320
-aS'rm young wind dir'
+aS'rm young air temp'
 p321
-asS'3023'
+asS'2980'
 p322
 (lp323
-S'rWS'
+S'CDOM'
 p324
-aS'rm young wind speed'
+aS'Colored Dissolved Organic Material'
 p325
-aS'WS'
+aS'ppb '
 p326
-aS'knots'
+aS'output from eco-fluorometers'
 p327
-aS'f10.2'
+asS'3023'
 p328
-aS'rm young wind speed'
-p329
-asS'3022'
+(lp329
+S'rWS'
 p330
-(lp331
-S'avS'
+aS'rm young wind speed'
+p331
+aS'WS'
 p332
-aS'avg salinity'
+aS'knots'
 p333
-aS'S'
+aS'f10.2'
 p334
-aS'ppt'
+aS'rm young wind speed'
 p335
-aS'f10.2'
+asS'3022'
 p336
-aS'avg salinity'
-p337
-asS'3021'
+(lp337
+S'avS'
 p338
-(lp339
-S'avT'
+aS'avg salinity'
+p339
+aS'S'
 p340
-aS'avg temperature'
+aS'ppt'
 p341
-aS'T'
+aS'f10.2'
 p342
-aS'degree C'
+aS'avg salinity'
 p343
-aS'f10.2'
+asS'3021'
 p344
-aS'avg temperature'
-p345
-asS'3020'
+(lp345
+S'avT'
 p346
-(lp347
-S'avC'
+aS'avg temperature'
+p347
+aS'T'
 p348
-aS'avg conductivity'
+aS'degree C'
 p349
-aS'C'
-p350
-aS'mmhos'
-p351
 aS'f10.2'
+p350
+aS'avg temperature'
+p351
+asS'3020'
 p352
-aS'avg conductivity'
-p353
-asS'1409'
+(lp353
+S'avC'
 p354
-(lp355
-S'rvane'
+aS'avg conductivity'
+p355
+aS'C'
 p356
-aS'ENCODED VANE           '
+aS'mmhos'
 p357
-aS'vane'
+aS'f10.2'
 p358
-aS'128.lvl.binary'
+aS'avg conductivity'
 p359
-aS'i10'
+asS'1409'
 p360
-aS'vacm grey code vane'
-p361
-asS'1408'
+(lp361
+S'rvane'
 p362
-(lp363
-S'rcomp'
+aS'ENCODED VANE           '
+p363
+aS'vane'
 p364
-aS'ENCODED COMPASS        '
-p365
-aS'comp'
-p366
 aS'128.lvl.binary'
-p367
+p365
 aS'i10'
+p366
+aS'vacm grey code vane'
+p367
+asS'1408'
 p368
-aS'vacm grey code compass'
-p369
-asS'520'
+(lp369
+S'rcomp'
 p370
-(lp371
-S'S  '
+aS'ENCODED COMPASS        '
+p371
+aS'comp'
 p372
-aS'Distance                 '
+aS'128.lvl.binary'
 p373
-aS'dist'
+aS'i10'
 p374
-aS'km'
+aS'vacm grey code compass'
 p375
-aS'f8.2'
+asS'520'
 p376
+(lp377
+S'S  '
+p378
+aS'Distance                 '
+p379
+aS'dist'
+p380
+aS'km'
+p381
+aS'f8.2'
+p382
 ag1
 asS'521'
-p377
-(lp378
-S'AD '
-p379
-aS'Alongshore Distance      '
-p380
-aS'dist'
-p381
-aS'km'
-p382
-aS'f8.2'
 p383
+(lp384
+S'AD '
+p385
+aS'Alongshore Distance      '
+p386
+aS'dist'
+p387
+aS'km'
+p388
+aS'f8.2'
+p389
 ag1
 asS'522'
-p384
-(lp385
-S'OD '
-p386
-aS'Offshore Distance        '
-p387
-aS'dist'
-p388
-aS'km'
-p389
-aS'f8.2'
 p390
+(lp391
+S'OD '
+p392
+aS'Offshore Distance        '
+p393
+aS'dist'
+p394
+aS'km'
+p395
+aS'f8.2'
+p396
 ag1
 asS'1403'
-p391
-(lp392
-S'van '
-p393
-aS'VANE ANGLE              '
-p394
-aS'vane'
-p395
-aS'degrees'
-p396
-aS'f10.1'
 p397
-aS'current orientation to instrument'
-p398
-asS'1402'
-p399
-(lp400
+(lp398
 S'van '
-p401
-aS'AMP vane                '
-p402
+p399
+aS'VANE ANGLE              '
+p400
 aS'vane'
-p403
+p401
 aS'degrees'
-p404
-aS'f10.2'
-p405
-aS'vane reading'
-p406
-asS'1401'
-p407
-(lp408
-S'hdg '
-p409
-aS'AMP compass heading     '
-p410
-aS'comp'
-p411
-aS'degrees'
-p412
-aS'f10.2'
-p413
-aS'compass heading'
-p414
-asS'1407'
-p415
-(lp416
-S'comp'
-p417
-aS'RAW COMPASS VOLTS (MIDAS)'
-p418
-aS'comp'
-p419
-aS'counts'
-p420
-aS'i10'
-p421
-aS'MIDAS raw compass voltage'
-p422
-asS'1406'
-p423
-(lp424
-S'comp'
-p425
-aS'ORIENTATION (BASS)      '
-p426
-aS'comp'
-p427
-aS'degrees'
-p428
-aS'f10.3'
-p429
-aS'orientation of BASS pods'
-p430
-asS'1404'
-p431
-(lp432
-S'comp'
-p433
-aS'COMPASS (m)             '
-p434
-aS'comp'
-p435
-aS'degreeM'
-p436
+p402
 aS'f10.1'
+p403
+aS'current orientation to instrument'
+p404
+asS'1402'
+p405
+(lp406
+S'van '
+p407
+aS'AMP vane                '
+p408
+aS'vane'
+p409
+aS'degrees'
+p410
+aS'f10.2'
+p411
+aS'vane reading'
+p412
+asS'1401'
+p413
+(lp414
+S'hdg '
+p415
+aS'AMP compass heading     '
+p416
+aS'comp'
+p417
+aS'degrees'
+p418
+aS'f10.2'
+p419
+aS'compass heading'
+p420
+asS'1407'
+p421
+(lp422
+S'comp'
+p423
+aS'RAW COMPASS VOLTS (MIDAS)'
+p424
+aS'comp'
+p425
+aS'counts'
+p426
+aS'i10'
+p427
+aS'MIDAS raw compass voltage'
+p428
+asS'1406'
+p429
+(lp430
+S'comp'
+p431
+aS'ORIENTATION (BASS)      '
+p432
+aS'comp'
+p433
+aS'degrees'
+p434
+aS'f10.3'
+p435
+aS'orientation of BASS pods'
+p436
+asS'1404'
 p437
-aS'instrument orientation to magnetic north'
-p438
-asS'1234'
+(lp438
+S'comp'
 p439
-(lp440
-S'Sv2 '
+aS'COMPASS (m)             '
+p440
+aS'comp'
 p441
-aS'Backscattering Strength Beam 2'
+aS'degreeM'
 p442
-aS'Sv'
+aS'f10.1'
 p443
-aS'dB'
+aS'instrument orientation to magnetic north'
 p444
-ag5
-aS'ADCP Bksctr., ref to noise cal'
+asS'1234'
 p445
-asS'1235'
-p446
-(lp447
-S'Sv3 '
+(lp446
+S'Sv2 '
+p447
+aS'Backscattering Strength Beam 2'
 p448
-aS'Backscattering Strength Beam 3'
-p449
 aS'Sv'
-p450
+p449
 aS'dB'
-p451
+p450
 ag5
 aS'ADCP Bksctr., ref to noise cal'
+p451
+asS'1235'
 p452
-asS'449'
-p453
-(lp454
-S'GP '
+(lp453
+S'Sv3 '
+p454
+aS'Backscattering Strength Beam 3'
 p455
-aS'Geopotential             '
+aS'Sv'
 p456
-aS'GP'
+aS'dB'
 p457
-aS'm2/s2'
+ag5
+aS'ADCP Bksctr., ref to noise cal'
 p458
-aS'f10.2 '
+asS'449'
 p459
-aS'geopotential energy'
-p460
-asS'448'
+(lp460
+S'GP '
 p461
-(lp462
-S'Txy'
+aS'Geopotential             '
+p462
+aS'GP'
 p463
-aS'TOTAL WIND STRESS        '
+aS'm2/s2'
 p464
+aS'f10.2 '
+p465
+aS'geopotential energy'
+p466
+asS'448'
+p467
+(lp468
+S'Txy'
+p469
+aS'TOTAL WIND STRESS        '
+p470
 ag5
 ag5
 ag5
 aS'sqrt(Tx**2 + Ty**2) (Prog WNDSTR)'
-p465
-asS'4211'
-p466
-(lp467
-S'CTDTMP '
-p468
-aS'Temperature, ITS-90    '
-p469
-aS'temp'
-p470
-aS'degC'
 p471
-aS'f9.4'
+asS'4211'
 p472
+(lp473
+S'CTDTMP '
+p474
+aS'Temperature, ITS-90    '
+p475
+aS'temp'
+p476
+aS'degC'
+p477
+aS'f9.4'
+p478
 ag1
 asS'1231'
-p473
-(lp474
+p479
+(lp480
 S'Sv  '
-p475
+p481
 aS'Mean Backscattering Strength'
-p476
+p482
 aS'Sv'
-p477
+p483
 aS'dB'
-p478
+p484
 ag5
 aS'ADCP Mn Bksctr, ref to last bin'
-p479
-asS'1232'
-p480
-(lp481
-S'Sv  '
-p482
-aS'Mean Backscattering Strength'
-p483
-aS'Sv'
-p484
-aS'dB'
 p485
+asS'1232'
+p486
+(lp487
+S'Sv  '
+p488
+aS'Mean Backscattering Strength'
+p489
+aS'Sv'
+p490
+aS'dB'
+p491
 ag5
 aS'ADCP Mn Bksctr, ref to noise cal'
-p486
-asS'1233'
-p487
-(lp488
-S'Sv1 '
-p489
-aS'Backscattering Strength Beam 1'
-p490
-aS'Sv'
-p491
-aS'dB'
 p492
-ag5
-aS'ADCP Bksctr., ref to noise cal'
+asS'1233'
 p493
-asS'443'
-p494
-(lp495
-S'PTy'
+(lp494
+S'Sv1 '
+p495
+aS'Backscattering Strength Beam 1'
 p496
-aS'MERID PSEUDO WIND STRESS '
+aS'Sv'
 p497
-ag5
-aS'm2 s-2'
+aS'dB'
 p498
 ag5
-aS'Meridional pseudo wind stress'
+aS'ADCP Bksctr., ref to noise cal'
 p499
-asS'442'
+asS'443'
 p500
 (lp501
-S'PTx'
+S'PTy'
 p502
-aS'ZONAL PSEUDO WIND STRESS '
+aS'MERID PSEUDO WIND STRESS '
 p503
 ag5
 aS'm2 s-2'
 p504
 ag5
-aS'Zonal pseudo wind stress'
+aS'Meridional pseudo wind stress'
 p505
-asS'441'
+asS'442'
 p506
 (lp507
-S'T-Y'
+S'PTx'
 p508
-aS'MERIDIONAL WIND STRESS   '
+aS'ZONAL PSEUDO WIND STRESS '
 p509
-ag211
-aS'dyne cm-2'
+ag5
+aS'm2 s-2'
 p510
 ag5
-aS'Meridional Wind Stress'
+aS'Zonal pseudo wind stress'
 p511
-asS'440'
+asS'441'
 p512
 (lp513
-S'T-X'
+S'T-Y'
 p514
-aS'ZONAL WIND STRESS        '
+aS'MERIDIONAL WIND STRESS   '
 p515
-ag240
+ag211
 aS'dyne cm-2'
 p516
 ag5
-aS'Zonal Wind Stress'
+aS'Meridional Wind Stress'
 p517
-asS'447'
+asS'440'
 p518
 (lp519
-S' Ty'
+S'T-X'
 p520
-aS'MERID WIND STRESS        '
+aS'ZONAL WIND STRESS        '
 p521
+ag248
+aS'dyne cm-2'
+p522
+ag5
+aS'Zonal Wind Stress'
+p523
+asS'447'
+p524
+(lp525
+S' Ty'
+p526
+aS'MERID WIND STRESS        '
+p527
 ag5
 ag5
 ag5
 aS'Meridional true wind stress'
-p522
+p528
 asS'446'
-p523
-(lp524
+p529
+(lp530
 S' Tx'
-p525
+p531
 aS'ZONAL WIND STRESS        '
-p526
+p532
 ag5
 ag5
 ag5
 aS'Zonal true wind stress'
-p527
-asS'444'
-p528
-(lp529
-S'Txy'
-p530
-aS'TOTAL PSEUDO WIND STRESS '
-p531
-ag5
-aS'm2 s-2'
-p532
-ag5
-aS'sqrt(PTx**2 + PTy**2)  (Prog WNDSTR)'
 p533
-asS'102'
+asS'444'
 p534
 (lp535
-S'CL '
+S'Txy'
 p536
-aS'PTG CLOCK WORD           '
+aS'TOTAL PSEUDO WIND STRESS '
 p537
+ag5
+aS'm2 s-2'
+p538
+ag5
+aS'sqrt(PTx**2 + PTy**2)  (Prog WNDSTR)'
+p539
+asS'102'
+p540
+(lp541
+S'CL '
+p542
+aS'PTG CLOCK WORD           '
+p543
 ag5
 ag5
 ag5
 ag1
 asS'103'
-p538
-(lp539
+p544
+(lp545
 S'BTL'
-p540
+p546
 aS'NISKIN BOTTLE NUMBER     '
-p541
+p547
 ag5
 ag5
 ag5
 aS'For Bottle files'
-p542
+p548
 asS'100'
-p543
-(lp544
+p549
+(lp550
 S'SN '
-p545
+p551
 aS'SCAN NUMBER              '
-p546
+p552
 ag5
 ag5
 ag5
 ag1
 asS'101'
-p547
-(lp548
+p553
+(lp554
 S'FS '
-p549
+p555
 aS'FRAME SYNC               '
-p550
+p556
 ag5
 ag5
 ag5
 aS'FOR TOPS'
-p551
-asS'106'
-p552
-(lp553
-S'BAT'
-p554
-aS'BATTERY VOLTAGE          '
-p555
-aS'bat'
-p556
-aS'volts'
 p557
-aS'f6.2'
+asS'106'
 p558
+(lp559
+S'BAT'
+p560
+aS'BATTERY VOLTAGE          '
+p561
+aS'bat'
+p562
+aS'volts'
+p563
+aS'f6.2'
+p564
 ag1
 asS'107'
-p559
-(lp560
+p565
+(lp566
 S'TRN'
-p561
+p567
 aS'TRANSMISSOMETER VOLTAGE 7'
-p562
+p568
 ag5
 ag5
 ag5
 aS'for P18 CTD data set'
-p563
+p569
 asS'104'
-p564
-(lp565
+p570
+(lp571
 S'IQ '
-p566
+p572
 aS'WOCE QUALITY NUMBER      '
-p567
+p573
 ag5
 ag5
 ag5
 aS'See WOCE Document'
-p568
+p574
 asS'105'
-p569
-(lp570
+p575
+(lp576
 S'NAV'
-p571
+p577
 aS'NUMBER POINTS IN AVERAGE '
-p572
+p578
 ag5
 ag5
 ag5
 ag1
 asS'902'
-p573
-(lp574
+p579
+(lp580
 S'Irr'
-p575
+p581
 aS'Irradiance(CTD)          '
-p576
+p582
 ag5
 aS'uEin cm-2 s-1'
-p577
+p583
 ag5
 ag1
 asS'903'
-p578
-(lp579
-S'F  '
-p580
-aS'Fluorometer (CTD)        '
-p581
-ag5
-aS'mg m-3'
-p582
-ag5
-aS'J.Murray 5/13/92'
-p583
-asS'900'
 p584
 (lp585
-S'Fvt'
+S'F  '
 p586
-aS'Fluorometer Volts        '
+aS'Fluorometer (CTD)        '
 p587
 ag5
-aS'Volts'
+aS'mg m-3'
 p588
+ag5
+aS'J.Murray 5/13/92'
+p589
+asS'900'
+p590
+(lp591
+S'Fvt'
+p592
+aS'Fluorometer Volts        '
+p593
+ag5
+aS'Volts'
+p594
 ag5
 ag1
 asS'38'
-p589
-(lp590
+p595
+(lp596
 S'PT '
-p591
+p597
 aS'POTENTIAL TEMP (C)       '
-p592
+p598
 aS'potemp'
-p593
+p599
 ag5
 ag5
 aS'Potential Temperature (ITS-90)'
-p594
-asS'906'
-p595
-(lp596
-S'Fch'
-p597
-aS'Chlorophyll A            '
-p598
-ag5
-aS'ugrams/l'
-p599
-ag5
-aS'(fluorometric) J.Murray 5/9/94'
 p600
-asS'907'
+asS'906'
 p601
 (lp602
-S'Fph'
+S'Fch'
 p603
-aS'Phaeopigments      '
+aS'Chlorophyll A            '
 p604
 ag5
 aS'ugrams/l'
@@ -1241,2320 +1239,2320 @@ p605
 ag5
 aS'(fluorometric) J.Murray 5/9/94'
 p606
-asS'904'
+asS'907'
 p607
 (lp608
-S'Tr '
+S'Fph'
 p609
-aS'Transmissometry (CTD)    '
+aS'Phaeopigments      '
 p610
 ag5
-aS'%'
+aS'ugrams/l'
 p611
 ag5
-aS'J.Murray 5/13/92'
+aS'(fluorometric) J.Murray 5/9/94'
 p612
-asS'905'
+asS'904'
 p613
 (lp614
-S'PAR'
+S'Tr '
 p615
-aS'Photosynthetic Active Radiation'
+aS'Transmissometry (CTD)    '
 p616
-aS'par'
+ag5
+aS'%'
 p617
-aS'uEin m-2 s-1'
-p618
 ag5
 aS'J.Murray 5/13/92'
+p618
+asS'905'
 p619
-asS'33'
-p620
-(lp621
-S'T  '
+(lp620
+S'PAR'
+p621
+aS'Photosynthetic Active Radiation'
 p622
-aS'CORRECTED TEMPERATURE (C)'
+aS'par'
 p623
-aS'temp'
+aS'uEin m-2 s-1'
 p624
-ag350
-aS'f10.4'
+ag5
+aS'J.Murray 5/13/92'
 p625
-aS'corrected for mooring motion'
+asS'33'
 p626
-asS'32'
-p627
-(lp628
+(lp627
 S'T  '
+p628
+aS'CORRECTED TEMPERATURE (C)'
 p629
-aS'TEMPERATURE (C)          '
-p630
 aS'temp'
-p631
-ag350
+p630
+ag356
 aS'f10.4'
+p631
+aS'corrected for mooring motion'
 p632
-aS'unknown standard'
+asS'32'
 p633
-asS'31'
-p634
-(lp635
-S'P4 '
+(lp634
+S'T  '
+p635
+aS'TEMPERATURE (C)          '
 p636
-aS'POTENTIAL TEMP 4000 (C)  '
+aS'temp'
 p637
-aS'potemp'
+ag356
+aS'f10.4'
 p638
-ag5
-ag5
-aS'Potential temp with 4000m reference level'
+aS'unknown standard'
 p639
-asS'30'
+asS'31'
 p640
 (lp641
-S'PT '
+S'P4 '
 p642
-aS'POTENTIAL TEMP (C)       '
+aS'POTENTIAL TEMP 4000 (C)  '
 p643
 aS'potemp'
 p644
 ag5
 ag5
-aS'PT = Potential Temperature'
+aS'Potential temp with 4000m reference level'
 p645
-asS'36'
+asS'30'
 p646
 (lp647
-S'DST'
+S'PT '
 p648
-aS'd(SST)/dt                '
+aS'POTENTIAL TEMP (C)       '
 p649
-aS'dsst/dt'
+aS'potemp'
 p650
-aS'C/day'
+ag5
+ag5
+aS'PT = Potential Temperature'
 p651
+asS'36'
+p652
+(lp653
+S'DST'
+p654
+aS'd(SST)/dt                '
+p655
+aS'dsst/dt'
+p656
+aS'C/day'
+p657
 ag5
 ag1
 asS'35'
-p652
-(lp653
-S'T2 '
-p654
-aS'Secondary Temperature    '
-p655
-aS'temp'
-p656
-ag350
-aS'f10.2'
-p657
-aS'ITS-1990 Standard'
 p658
-asS'34'
-p659
-(lp660
+(lp659
 S'T2 '
-p661
+p660
 aS'Secondary Temperature    '
-p662
+p661
 aS'temp'
-p663
-ag350
+p662
+ag356
 aS'f10.2'
+p663
+aS'ITS-1990 Standard'
 p664
-aS'IPTS-1968 standard'
+asS'34'
 p665
-asS'1241'
-p666
-(lp667
-S'PGd1'
+(lp666
+S'T2 '
+p667
+aS'Secondary Temperature    '
 p668
-aS'Percent Good Beam 1         '
+aS'temp'
 p669
+ag356
+aS'f10.2'
+p670
+aS'IPTS-1968 standard'
+p671
+asS'1241'
+p672
+(lp673
+S'PGd1'
+p674
+aS'Percent Good Beam 1         '
+p675
 ag5
 ag5
 ag5
 aS'ADCP Percent Good Beam 1'
-p670
+p676
 asS'1243'
-p671
-(lp672
+p677
+(lp678
 S'PGd3'
-p673
+p679
 aS'Percent Good Beam 3         '
-p674
+p680
 ag5
 ag5
 ag5
 aS'ADCP Percent Good Beam 3'
-p675
+p681
 asS'1242'
-p676
-(lp677
+p682
+(lp683
 S'PGd2'
-p678
+p684
 aS'Percent Good Beam 2         '
-p679
+p685
 ag5
 ag5
 ag5
 aS'ADCP Percent Good Beam 2'
-p680
+p686
 asS'1245'
-p681
-(lp682
+p687
+(lp688
 S'PG4B'
-p683
+p689
 aS'Percent 4-Beam Solns. Good  '
-p684
+p690
 ag5
 ag5
 ag5
 aS'ADCP Percent 4-Beam Solns. Good'
-p685
+p691
 asS'1244'
-p686
-(lp687
+p692
+(lp693
 S'PGd4'
-p688
+p694
 aS'Percent Good Beam 4         '
-p689
+p695
 ag5
 ag5
 ag5
 aS'ADCP Percent Good Beam 4'
-p690
+p696
 asS'1247'
-p691
-(lp692
+p697
+(lp698
 S'PGWe'
-p693
+p699
 aS'Percent Error Vel. Good     '
-p694
+p700
 ag5
 ag5
 ag5
 aS'ADCP Percent Error Vel. Good'
-p695
+p701
 asS'1246'
-p696
-(lp697
+p702
+(lp703
 S'PG3B'
-p698
+p704
 aS'Percent 3-Beam Solns. Good  '
-p699
+p705
 ag5
 ag5
 ag5
 aS'ADCP Percent 3-Beam Solns. Good'
-p700
-asS'430'
-p701
-(lp702
-S'WU '
-p703
-aS'Zonal Wind               '
-p704
-ag240
-aS'm s-1'
-p705
-ag5
-aS'positive toward east'
 p706
-asS'431'
+asS'430'
 p707
 (lp708
-S'WV '
+S'WU '
 p709
-aS'Meridional Wind          '
+aS'Zonal Wind               '
 p710
-ag211
+ag248
 aS'm s-1'
 p711
 ag5
-aS'positive toward north'
+aS'positive toward east'
 p712
-asS'335'
+asS'431'
 p713
 (lp714
-S'V  '
+S'WV '
 p715
-aS'MERIDIONAL CURRENT (CM/S)'
+aS'Meridional Wind          '
 p716
 ag211
-aS'cm s-1'
+aS'm s-1'
 p717
 ag5
-aS'instrument w/r magnetic N'
+aS'positive toward north'
 p718
-asS'334'
+asS'335'
 p719
 (lp720
-S'U  '
+S'V  '
 p721
-aS'ZONAL CURRENT (CM/S)     '
+aS'MERIDIONAL CURRENT (CM/S)'
 p722
-ag240
+ag211
 aS'cm s-1'
 p723
 ag5
 aS'instrument w/r magnetic N'
 p724
-asS'337'
+asS'334'
 p725
 (lp726
-S'V  '
+S'U  '
 p727
-aS'MERIDIONAL CURRENT (CM/S)'
+aS'ZONAL CURRENT (CM/S)     '
 p728
-ag211
+ag248
 aS'cm s-1'
 p729
 ag5
-aS'tracked w/r magnetic N'
+aS'instrument w/r magnetic N'
 p730
-asS'336'
+asS'337'
 p731
 (lp732
-S'U  '
+S'V  '
 p733
-aS'ZONAL CURRENT (CM/S)     '
+aS'MERIDIONAL CURRENT (CM/S)'
 p734
-ag240
+ag211
 aS'cm s-1'
 p735
 ag5
 aS'tracked w/r magnetic N'
 p736
-asS'331'
+asS'336'
 p737
 (lp738
-S'V  '
+S'U  '
 p739
-aS'MERIDIONAL CURRENT (CM/S)'
+aS'ZONAL CURRENT (CM/S)     '
 p740
-ag211
+ag248
 aS'cm s-1'
 p741
 ag5
-aS'measured w/r magnetic N'
+aS'tracked w/r magnetic N'
 p742
-asS'330'
+asS'331'
 p743
 (lp744
-S'U  '
+S'V  '
 p745
-aS'ZONAL CURRENT (CM/S)     '
+aS'MERIDIONAL CURRENT (CM/S)'
 p746
-ag240
+ag211
 aS'cm s-1'
 p747
 ag5
 aS'measured w/r magnetic N'
 p748
-asS'333'
+asS'330'
 p749
 (lp750
-S'V  '
+S'U  '
 p751
-aS'MERIDIONAL CURRENT (CM/S)'
+aS'ZONAL CURRENT (CM/S)     '
 p752
-ag211
+ag248
 aS'cm s-1'
 p753
 ag5
-aS'relative w/r magnetic N'
+aS'measured w/r magnetic N'
 p754
-asS'332'
+asS'333'
 p755
 (lp756
-S'U  '
+S'V  '
 p757
-aS'ZONAL CURRENT (CM/S)     '
+aS'MERIDIONAL CURRENT (CM/S)'
 p758
-ag240
+ag211
 aS'cm s-1'
 p759
 ag5
 aS'relative w/r magnetic N'
 p760
-asS'1372'
+asS'332'
 p761
 (lp762
-S'V48'
+S'U  '
 p763
-aS'V Amplitude (CM/S) 48hrs '
+aS'ZONAL CURRENT (CM/S)     '
 p764
-aS'v48'
-p765
+ag248
 aS'cm s-1'
+p765
+ag5
+aS'relative w/r magnetic N'
 p766
+asS'1372'
+p767
+(lp768
+S'V48'
+p769
+aS'V Amplitude (CM/S) 48hrs '
+p770
+aS'v48'
+p771
+aS'cm s-1'
+p772
 ag5
 aS'measured w/r true N'
-p767
+p773
 asS'1908'
-p768
-(lp769
+p774
+(lp775
 S'V08'
-p770
+p776
 aS'VARIABLE 8               '
-p771
+p777
 ag5
 ag5
 ag5
 ag1
 asS'1906'
-p772
-(lp773
+p778
+(lp779
 S'V06'
-p774
+p780
 aS'VARIABLE 6               '
-p775
+p781
 ag5
 ag5
 ag5
 ag1
 asS'1907'
-p776
-(lp777
+p782
+(lp783
 S'V07'
-p778
+p784
 aS'VARIABLE 7               '
-p779
+p785
 ag5
 ag5
 ag5
 ag1
 asS'1904'
-p780
-(lp781
+p786
+(lp787
 S'V04'
-p782
+p788
 aS'VARIABLE 4               '
-p783
+p789
 ag5
 ag5
 ag5
 ag1
 asS'1905'
-p784
-(lp785
+p790
+(lp791
 S'V05'
-p786
+p792
 aS'VARIABLE 5               '
-p787
+p793
 ag5
 ag5
 ag5
 ag1
 asS'1902'
-p788
-(lp789
+p794
+(lp795
 S'V02'
-p790
+p796
 aS'VARIABLE 2               '
-p791
+p797
 ag5
 ag5
 ag5
 ag1
 asS'1903'
-p792
-(lp793
+p798
+(lp799
 S'V03'
-p794
+p800
 aS'VARIABLE 3               '
-p795
+p801
 ag5
 ag5
 ag5
 ag1
 asS'1900'
-p796
-(lp797
+p802
+(lp803
 S'V00'
-p798
+p804
 aS'VARIABLE 0               '
-p799
+p805
 ag5
 ag5
 ag5
 ag1
 asS'1901'
-p800
-(lp801
+p806
+(lp807
 S'V01'
-p802
+p808
 aS'VARIABLE 1               '
-p803
+p809
 ag5
 ag5
 ag5
 ag1
 asS'854'
-p804
-(lp805
+p810
+(lp811
 S'SEP'
-p806
+p812
 aS'STAND. ERR. (PRESS)      '
-p807
+p813
 ag5
 ag5
 ag5
 ag1
 asS'850'
-p808
-(lp809
-S'SDP'
-p810
-aS'STAND. DEV. (PRESS)     '
-p811
-aS'pres'
-p812
-aS'mbar'
-p813
-aS'f10.5'
 p814
-aS'std. deviation of burst pressures'
-p815
-asS'851'
+(lp815
+S'SDP'
 p816
-(lp817
-S'SED'
+aS'STAND. DEV. (PRESS)     '
+p817
+aS'pres'
 p818
-aS'STAND. ERR. (DYN.HT)     '
+aS'mbar'
 p819
+aS'f10.5'
+p820
+aS'std. deviation of burst pressures'
+p821
+asS'851'
+p822
+(lp823
+S'SED'
+p824
+aS'STAND. ERR. (DYN.HT)     '
+p825
 ag5
 ag5
 ag5
 ag1
 asS'852'
-p820
-(lp821
+p826
+(lp827
 S'SET'
-p822
+p828
 aS'STAND. ERR. (TEMP)       '
-p823
+p829
 ag5
 ag5
 ag5
 ag1
 asS'853'
-p824
-(lp825
+p830
+(lp831
 S'SES'
-p826
+p832
 aS'STAND. ERR. (SAL)        '
-p827
+p833
 ag5
 ag5
 ag5
 ag1
 asS'6'
-p828
-(lp829
+p834
+(lp835
 S'ISO'
-p830
+p836
 aS'ISOTHERM DEPTH (M)       '
-p831
+p837
 aS'depth'
-p832
+p838
 ag52
 ag5
 ag1
 asS'4263'
-p833
-(lp834
-S'DELC14 '
-p835
-aS'Delta-C14              '
-p836
-aS'delc14 '
-p837
-aS'0/00'
-p838
-aS'f9.1'
 p839
+(lp840
+S'DELC14 '
+p841
+aS'Delta-C14              '
+p842
+aS'delc14 '
+p843
+aS'0/00'
+p844
+aS'f9.1'
+p845
 ag1
 asS'5001'
-p840
-(lp841
+p846
+(lp847
 S'OXYV2'
-p842
+p848
 aS'OXYGEN, SBE43 Voltage             '
-p843
+p849
 aS'ox'
-p844
+p850
 aS'V'
-p845
+p851
 ag5
 ag1
 asS'4245'
-p846
-(lp847
-S'CFC113 '
-p848
-aS'Freon-113              '
-p849
-aS'f113 '
-p850
-aS'pmol/kg'
-p851
-aS'f9.3'
 p852
+(lp853
+S'CFC113 '
+p854
+aS'Freon-113              '
+p855
+aS'f113 '
+p856
+aS'pmol/kg'
+p857
+aS'f9.3'
+p858
 ag1
 asS'4264'
-p853
-(lp854
+p859
+(lp860
 S'DELC14_FLAG'
-p855
+p861
 aS'Delta-C14 Flag     '
-p856
+p862
 aS'flag'
-p857
+p863
 ag5
 ag5
 ag1
 asS'91'
-p858
-(lp859
+p864
+(lp865
 S'BV2'
-p860
+p866
 aS'BVF SQUARED (CPH**2)     '
-p861
+p867
 ag5
 ag5
 ag5
 aS'Brunt Vaisala Frequency squared (N*ABS(N))'
-p862
+p868
 asS'90'
-p863
-(lp864
+p869
+(lp870
 S'BV '
-p865
+p871
 aS'BVF (CPH)                '
-p866
+p872
 ag5
 ag5
 ag5
 aS'Brunt Vaisala Frequency'
-p867
+p873
 asS'93'
-p868
-(lp869
+p874
+(lp875
 S'RI '
-p870
+p876
 aS'RICHARDSONS NUMBER       '
-p871
+p877
 ag5
 ag5
 ag5
 ag1
 asS'92'
-p872
-(lp873
+p878
+(lp879
 S'R  '
-p874
+p880
 aS'RADIUS OF DEFORM         '
-p875
+p881
 ag5
 ag5
 ag5
 aS'Integral bvf*dz/pi*f'
-p876
+p882
 asS'1991'
-p877
-(lp878
+p883
+(lp884
 S'Br    '
-p879
+p885
 aS'Soluble Sub10micron Aerosol Bromide              '
-p880
+p886
 ag5
 aS'ug/m^3'
-p881
+p887
 ag5
 ag1
 asS'1990'
-p882
-(lp883
+p888
+(lp889
 S'Br    '
-p884
+p890
 aS'Soluble Supermicron Aerosol Bromide              '
-p885
+p891
 ag5
 aS'ug/m^3'
-p886
+p892
 ag5
 ag1
 asS'9992'
-p887
-(lp888
+p893
+(lp894
 S'y'
-p889
-aS'y axis'
-p890
-ag889
-ag5
-ag5
-aS'y axis'
-p891
-asS'5000'
-p892
-(lp893
-S'OXYV1'
-p894
-aS'OXYGEN, SBE43 Voltage             '
 p895
-aS'ox'
+aS'y axis'
 p896
-ag845
+ag895
+ag5
+ag5
+aS'y axis'
+p897
+asS'5000'
+p898
+(lp899
+S'OXYV1'
+p900
+aS'OXYGEN, SBE43 Voltage             '
+p901
+aS'ox'
+p902
+ag851
 ag5
 ag1
 asS'4075'
-p897
-(lp898
-S'BadBB'
-p899
-aS'BAD BASS COUNT, AXIS B   '
-p900
-aS'badbass'
-p901
-aS'count'
-p902
-aS'f10.1'
 p903
-aS'bad data cycle count, BASS pod'
-p904
-asS'4074'
+(lp904
+S'BadBB'
 p905
-(lp906
-S'BadBA'
+aS'BAD BASS COUNT, AXIS B   '
+p906
+aS'badbass'
 p907
-aS'BAD BASS COUNT, AXIS A   '
+aS'count'
 p908
-aS'badbass'
+aS'f10.1'
 p909
-aS'count'
+aS'bad data cycle count, BASS pod'
 p910
-aS'f10.1'
+asS'4074'
 p911
-aS'bad data cycle count, BASS pod'
-p912
-asS'4077'
+(lp912
+S'BadBA'
 p913
-(lp914
-S'BadBC'
+aS'BAD BASS COUNT, AXIS A   '
+p914
+aS'badbass'
 p915
-aS'BAD BASS COUNT, AXIS D   '
+aS'count'
 p916
-aS'badbass'
+aS'f10.1'
 p917
-aS'count'
+aS'bad data cycle count, BASS pod'
 p918
-aS'f10.1'
+asS'4077'
 p919
-aS'bad data cycle count, BASS pod'
-p920
-asS'4076'
-p921
-(lp922
+(lp920
 S'BadBC'
-p923
-aS'BAD BASS COUNT, AXIS C   '
-p924
+p921
+aS'BAD BASS COUNT, AXIS D   '
+p922
 aS'badbass'
-p925
+p923
 aS'count'
-p926
+p924
 aS'f10.1'
-p927
+p925
 aS'bad data cycle count, BASS pod'
-p928
-asS'4071'
+p926
+asS'4076'
+p927
+(lp928
+S'BadBC'
 p929
-(lp930
-S'BASB'
+aS'BAD BASS COUNT, AXIS C   '
+p930
+aS'badbass'
 p931
-aS'BASS COUNTS, AXIS B      '
+aS'count'
 p932
-aS'bass'
+aS'f10.1'
 p933
-aS'counts'
+aS'bad data cycle count, BASS pod'
 p934
-aS'f10.1'
+asS'4071'
 p935
-aS'basic data of BASS pod'
-p936
-asS'4070'
+(lp936
+S'BASB'
 p937
-(lp938
-S'BASA'
+aS'BASS COUNTS, AXIS B      '
+p938
+aS'bass'
 p939
-aS'BASS COUNTS, AXIS A      '
+aS'counts'
 p940
-aS'bass'
+aS'f10.1'
 p941
-aS'counts'
+aS'basic data of BASS pod'
 p942
-aS'f10.1'
+asS'4070'
 p943
-aS'basic data of BASS pod'
-p944
-asS'4073'
+(lp944
+S'BASA'
 p945
-(lp946
-S'BASD'
+aS'BASS COUNTS, AXIS A      '
+p946
+aS'bass'
 p947
-aS'BASS COUNTS, AXIS D      '
+aS'counts'
 p948
-aS'bass'
+aS'f10.1'
 p949
-aS'counts'
+aS'basic data of BASS pod'
 p950
-aS'f10.1'
+asS'4073'
 p951
-aS'basic data of BASS pod'
-p952
-asS'4072'
+(lp952
+S'BASD'
 p953
-(lp954
-S'BASC'
-p955
-aS'BASS COUNTS, AXIS C      '
-p956
+aS'BASS COUNTS, AXIS D      '
+p954
 aS'bass'
-p957
+p955
 aS'counts'
-p958
+p956
 aS'f10.1'
-p959
+p957
 aS'basic data of BASS pod'
-p960
-asS'4265'
+p958
+asS'4072'
+p959
+(lp960
+S'BASC'
 p961
-(lp962
-S'DELC13 '
+aS'BASS COUNTS, AXIS C      '
+p962
+aS'bass'
 p963
-aS'Delta-C13              '
+aS'counts'
 p964
-aS'delc13 '
+aS'f10.1'
 p965
-aS'0/00'
+aS'basic data of BASS pod'
 p966
-aS'f9.1'
+asS'4265'
 p967
+(lp968
+S'DELC13 '
+p969
+aS'Delta-C13              '
+p970
+aS'delc13 '
+p971
+aS'0/00'
+p972
+aS'f9.1'
+p973
 ag1
 asS'3013'
-p968
-(lp969
-S'sct'
-p970
-aS'seacat temperature'
-p971
-aS'temp'
-p972
-aS'degree C'
-p973
-aS'f10.2'
 p974
-aS'seacat temperature'
-p975
-asS'3062'
+(lp975
+S'sct'
 p976
-(lp977
-S'Hdg'
+aS'seacat temperature'
+p977
+aS'temp'
 p978
-aS'Ashtech 3DF Heading'
+aS'degree C'
 p979
-aS'hdg'
+aS'f10.2'
 p980
-aS'degrees_T'
+aS'seacat temperature'
 p981
-aS'F6.2'
+asS'3062'
 p982
-aS'Ship Heading '
-p983
-asS'3061'
+(lp983
+S'Hdg'
 p984
-(lp985
-S'Hdg'
+aS'Ashtech 3DF Heading'
+p985
+aS'hdg'
 p986
-aS'Gyrocompass Heading'
+aS'degrees_T'
 p987
-aS'hdg'
+aS'F6.2'
 p988
-aS'degrees_T'
+aS'Ship Heading '
 p989
-aS'F6.2'
+asS'3061'
 p990
-aS'Ship Heading '
-p991
-asS'3060'
-p992
-(lp993
+(lp991
 S'Hdg'
-p994
-aS'Ship Heading       '
-p995
+p992
+aS'Gyrocompass Heading'
+p993
 aS'hdg'
-p996
+p994
 aS'degrees_T'
-p997
+p995
 aS'F6.2'
-p998
+p996
 aS'Ship Heading '
-p999
-asS'4030'
+p997
+asS'3060'
+p998
+(lp999
+S'Hdg'
 p1000
-(lp1001
-S'rpres'
+aS'Ship Heading       '
+p1001
+aS'hdg'
 p1002
-aS'RAW PRESSURE (VACM)'
+aS'degrees_T'
 p1003
-aS'pres'
+aS'F6.2'
 p1004
-aS'counts'
+aS'Ship Heading '
 p1005
-aS'i10'
+asS'4030'
 p1006
-aS'vacm raw pressure'
-p1007
-asS'1'
+(lp1007
+S'rpres'
 p1008
-(lp1009
-S'P  '
+aS'RAW PRESSURE (VACM)'
+p1009
+aS'pres'
 p1010
-aS'PRESSURE (DB)            '
+aS'counts'
 p1011
-aS'depth'
+aS'i10'
 p1012
-aS'dbar'
+aS'vacm raw pressure'
 p1013
-aS'f10.1'
+asS'1'
 p1014
+(lp1015
+S'P  '
+p1016
+aS'PRESSURE (DB)            '
+p1017
+aS'depth'
+p1018
+aS'dbar'
+p1019
+aS'f10.1'
+p1020
 ag1
 asS'1756'
-p1015
-(lp1016
+p1021
+(lp1022
 S'TALK'
-p1017
+p1023
 aS'Total Alkalinity        '
-p1018
+p1024
 aS'alk'
-p1019
+p1025
 aS'meq/l'
-p1020
+p1026
 ag5
 aS'Total alkalinity from WOD2001'
-p1021
-asS'1755'
-p1022
-(lp1023
-S'PCO2'
-p1024
-aS'PARTIAL CO2 PRESSURE (microATM)'
-p1025
-aS'pco2'
-p1026
-aS'uATM'
 p1027
-aS'f6.4'
+asS'1755'
 p1028
-aS'Partial CO2 Pressure from Dick Feely'
-p1029
-asS'1754'
+(lp1029
+S'PCO2'
 p1030
-(lp1031
-S'TALK'
+aS'PARTIAL CO2 PRESSURE (microATM)'
+p1031
+aS'pco2'
 p1032
-aS'TOTAL ALKALINITY (uM/kg)'
+aS'uATM'
 p1033
-aS'alk'
+aS'f6.4'
 p1034
-aS'uM/kg'
+aS'Partial CO2 Pressure from Dick Feely'
 p1035
-aS'f6.1'
+asS'1754'
 p1036
-aS'Total Alkalinity from Dick Feely'
-p1037
-asS'1753'
+(lp1037
+S'TALK'
 p1038
-(lp1039
-S'DIC'
+aS'TOTAL ALKALINITY (uM/kg)'
+p1039
+aS'alk'
 p1040
-aS'DISS. INORG. CARBON (umol/kg)'
+aS'uM/kg'
 p1041
-aS'dic'
+aS'f6.1'
 p1042
-aS'umol/kg'
+aS'Total Alkalinity from Dick Feely'
 p1043
-aS'f6.1'
+asS'1753'
 p1044
-aS'Dissolved Inorganic Carbon (micromoles/kg) from Dick Feely'
-p1045
-asS'1752'
+(lp1045
+S'DIC'
 p1046
-(lp1047
-S'NTCO2'
-p1048
-aS'NORMALIZED TCO2 (uM/kg)'
-p1049
-aS'ndic'
-p1050
-aS'uM/kg'
-p1051
-aS'f6.1'
-p1052
-aS'Normalized Dissolved Organic Carbon (micromoles/kg)'
-p1053
-asS'1751'
-p1054
-(lp1055
-S'TCO2'
-p1056
-aS'TOTAL CO2 (micromoles/kg)'
-p1057
+aS'DISS. INORG. CARBON (umol/kg)'
+p1047
 aS'dic'
-p1058
-aS'uM/kg'
-p1059
+p1048
+aS'umol/kg'
+p1049
 aS'f6.1'
+p1050
+aS'Dissolved Inorganic Carbon (micromoles/kg) from Dick Feely'
+p1051
+asS'1752'
+p1052
+(lp1053
+S'NTCO2'
+p1054
+aS'NORMALIZED TCO2 (uM/kg)'
+p1055
+aS'ndic'
+p1056
+aS'uM/kg'
+p1057
+aS'f6.1'
+p1058
+aS'Normalized Dissolved Organic Carbon (micromoles/kg)'
+p1059
+asS'1751'
 p1060
-aS'Dissolved Organic Carbon (micromoles/kg)'
-p1061
-asS'146'
+(lp1061
+S'TCO2'
 p1062
-(lp1063
-S'MHF'
+aS'TOTAL CO2 (micromoles/kg)'
+p1063
+aS'dic'
 p1064
-aS'MERIDIONAL HEAT FLUX     '
+aS'uM/kg'
 p1065
+aS'f6.1'
+p1066
+aS'Dissolved Organic Carbon (micromoles/kg)'
+p1067
+asS'146'
+p1068
+(lp1069
+S'MHF'
+p1070
+aS'MERIDIONAL HEAT FLUX     '
+p1071
 ag5
 aS'W m-2'
-p1066
+p1072
 ag5
 ag1
 asS'147'
-p1067
-(lp1068
+p1073
+(lp1074
 S'ZHA'
-p1069
+p1075
 aS'ZONAL HEAT ADVECTION     '
-p1070
+p1076
 ag5
 aS'W m-2'
-p1071
+p1077
 ag5
 ag1
 asS'144'
-p1072
-(lp1073
+p1078
+(lp1079
 S'ZMA'
-p1074
+p1080
 aS'ZONAL+MERID HEAT ADVECT  '
-p1075
+p1081
 ag5
 aS'W m-2'
-p1076
+p1082
 ag5
 ag1
 asS'145'
-p1077
-(lp1078
+p1083
+(lp1084
 S'VHF'
-p1079
+p1085
 aS'VERTICAL HEAT FLUX       '
-p1080
+p1086
 ag5
 aS'W m-2'
-p1081
+p1087
 ag5
 ag1
 asS'142'
-p1082
-(lp1083
+p1088
+(lp1089
 S'QN '
-p1084
+p1090
 aS'NET HEATING              '
-p1085
+p1091
 ag5
 aS'W m-2'
-p1086
+p1092
 ag5
 ag1
 asS'143'
-p1087
-(lp1088
+p1093
+(lp1094
 S'VMF'
-p1089
+p1095
 aS'VERTICAL+MERID HEAT FLUX '
-p1090
+p1096
 ag5
 aS'W m-2'
-p1091
+p1097
 ag5
 ag1
 asS'140'
-p1092
-(lp1093
+p1098
+(lp1099
 S'QI '
-p1094
+p1100
 aS'PENETRATIVE RADIA (PING) '
-p1095
+p1101
 ag5
 ag5
 ag5
 ag1
 asS'141'
-p1096
-(lp1097
+p1102
+(lp1103
 S'QT '
-p1098
+p1104
 aS'QT=QS-QB-QE (PING)       '
-p1099
+p1105
 ag5
 ag5
 ag5
 ag1
 asS'1270'
-p1100
-(lp1101
+p1106
+(lp1107
 S'BTP1'
-p1102
+p1108
 aS'BT Percent Good Beam 1      '
-p1103
+p1109
 ag5
 ag5
 ag5
 aS'ADCP Btm. Trk. Beam 1 % Good Pings'
-p1104
+p1110
 asS'1271'
-p1105
-(lp1106
+p1111
+(lp1112
 S'BTP2'
-p1107
+p1113
 aS'BT Percent Good Beam 2      '
-p1108
+p1114
 ag5
 ag5
 ag5
 aS'ADCP Btm. Trk. Beam 2 % Good Pings'
-p1109
+p1115
 asS'1272'
-p1110
-(lp1111
+p1116
+(lp1117
 S'BTP3'
-p1112
+p1118
 aS'BT Percent Good Beam 3      '
-p1113
+p1119
 ag5
 ag5
 ag5
 aS'ADCP Btm. Trk. Beam 3 % Good Pings'
-p1114
+p1120
 asS'1273'
-p1115
-(lp1116
+p1121
+(lp1122
 S'BTP4'
-p1117
+p1123
 aS'BT Percent Good Beam 4      '
-p1118
+p1124
 ag5
 ag5
 ag5
 aS'ADCP Btm. Trk. Beam 4 % Good Pings'
-p1119
-asS'4255'
-p1120
-(lp1121
-S'NEON   '
-p1122
-aS'Neon                   '
-p1123
-aS'neon '
-p1124
-aS'nmol/kg  '
 p1125
-aS'f8.3'
+asS'4255'
 p1126
+(lp1127
+S'NEON   '
+p1128
+aS'Neon                   '
+p1129
+aS'neon '
+p1130
+aS'nmol/kg  '
+p1131
+aS'f8.3'
+p1132
 ag1
 asS'1275'
-p1127
-(lp1128
+p1133
+(lp1134
 S'Un  '
-p1129
+p1135
 aS'Track Normal Velocity       '
-p1130
+p1136
 aS'un'
-p1131
+p1137
 aS'cm/s'
-p1132
+p1138
 ag5
 aS'ADCP Vel. normal to track'
-p1133
+p1139
 asS'148'
-p1134
-(lp1135
+p1140
+(lp1141
 S'MHA'
-p1136
+p1142
 aS'MERIDIONAL HEAT ADVECTION'
-p1137
+p1143
 ag5
 aS'W m-2'
-p1138
+p1144
 ag5
 ag1
 asS'1277'
-p1139
-(lp1140
+p1145
+(lp1146
 S'vel1'
-p1141
+p1147
 aS'Beam 1 velocity (mm/s)    '
-p1142
+p1148
 ag5
 aS'mm s-1'
-p1143
-aS'f10.2'
-p1144
-aS'ADCP velocity along beam 1'
-p1145
-asS'1889'
-p1146
-(lp1147
-S'AOD9 '
-p1148
-aS'Aerosol Optical Depth Ch-9 '
 p1149
+aS'f10.2'
+p1150
+aS'ADCP velocity along beam 1'
+p1151
+asS'1889'
+p1152
+(lp1153
+S'AOD9 '
+p1154
+aS'Aerosol Optical Depth Ch-9 '
+p1155
 ag5
 ag5
 ag5
 ag1
 asS'1888'
-p1150
-(lp1151
+p1156
+(lp1157
 S'AOD8 '
-p1152
+p1158
 aS'Aerosol Optical Depth Ch-8 '
-p1153
+p1159
 ag5
 ag5
 ag5
 ag1
 asS'1887'
-p1154
-(lp1155
+p1160
+(lp1161
 S'AOD7 '
-p1156
+p1162
 aS'Aerosol Optical Depth Ch-7 '
-p1157
+p1163
 ag5
 ag5
 ag5
 ag1
 asS'1886'
-p1158
-(lp1159
+p1164
+(lp1165
 S'AOD6 '
-p1160
+p1166
 aS'Aerosol Optical Depth Ch-6 '
-p1161
+p1167
 ag5
 ag5
 ag5
 ag1
 asS'1885'
-p1162
-(lp1163
+p1168
+(lp1169
 S'AOD5 '
-p1164
+p1170
 aS'Aerosol Optical Depth Ch-5 '
-p1165
+p1171
 ag5
 ag5
 ag5
 ag1
 asS'1884'
-p1166
-(lp1167
+p1172
+(lp1173
 S'AOD4 '
-p1168
+p1174
 aS'Aerosol Optical Depth Ch-4 '
-p1169
+p1175
 ag5
 ag5
 ag5
 ag1
 asS'1883'
-p1170
-(lp1171
+p1176
+(lp1177
 S'AOD3 '
-p1172
+p1178
 aS'Aerosol Optical Depth Ch-3 '
-p1173
+p1179
 ag5
 ag5
 ag5
 ag1
 asS'1882'
-p1174
-(lp1175
+p1180
+(lp1181
 S'AOD2 '
-p1176
+p1182
 aS'Aerosol Optical Depth Ch-2 '
-p1177
+p1183
 ag5
 ag5
 ag5
 ag1
 asS'1881'
-p1178
-(lp1179
+p1184
+(lp1185
 S'AOD1 '
-p1180
+p1186
 aS'Aerosol Optical Depth Ch-1 '
-p1181
+p1187
 ag5
 ag5
 ag5
 ag1
 asS'1880'
-p1182
-(lp1183
+p1188
+(lp1189
 S'AODMZA'
-p1184
+p1190
 aS'AOD measurement zenith angle'
-p1185
+p1191
 ag5
 aS'degrees'
-p1186
+p1192
 ag5
 ag1
 asS'1285'
-p1187
-(lp1188
-S'cor1'
-p1189
-aS'Beam 1 correlation        '
-p1190
-ag5
-aS'counts'
-p1191
-aS'i10'
-p1192
-aS'ADCP correlation of beam 1'
 p1193
-asS'1284'
-p1194
-(lp1195
-S'att4'
+(lp1194
+S'cor1'
+p1195
+aS'Beam 1 correlation        '
 p1196
-aS'Beam 4 attenuation        '
+ag5
+aS'counts'
 p1197
-ag5
-aS'counts'
+aS'i10'
 p1198
-aS'i10'
+aS'ADCP correlation of beam 1'
 p1199
-aS'ADCP attenuation of beam 4'
+asS'1284'
 p1200
-asS'1287'
-p1201
-(lp1202
-S'cor3'
+(lp1201
+S'att4'
+p1202
+aS'Beam 4 attenuation        '
 p1203
-aS'Beam 3 correlation        '
+ag5
+aS'counts'
 p1204
-ag5
-aS'counts'
+aS'i10'
 p1205
-aS'i10'
+aS'ADCP attenuation of beam 4'
 p1206
-aS'ADCP correlation of beam 3'
+asS'1287'
 p1207
-asS'1286'
-p1208
-(lp1209
-S'cor2'
+(lp1208
+S'cor3'
+p1209
+aS'Beam 3 correlation        '
 p1210
-aS'Beam 2 correlation        '
+ag5
+aS'counts'
 p1211
-ag5
-aS'counts'
+aS'i10'
 p1212
-aS'i10'
+aS'ADCP correlation of beam 3'
 p1213
-aS'ADCP correlation of beam 2'
+asS'1286'
 p1214
-asS'1281'
-p1215
-(lp1216
-S'att1'
+(lp1215
+S'cor2'
+p1216
+aS'Beam 2 correlation        '
 p1217
-aS'Beam 1 attenuation        '
-p1218
 ag5
 aS'counts'
-p1219
+p1218
 aS'i10'
+p1219
+aS'ADCP correlation of beam 2'
 p1220
-aS'ADCP attenuation of beam 1'
+asS'1281'
 p1221
-asS'1280'
-p1222
-(lp1223
-S'vel4'
+(lp1222
+S'att1'
+p1223
+aS'Beam 1 attenuation        '
 p1224
-aS'Beam 4 velocity (mm/s)    '
+ag5
+aS'counts'
 p1225
+aS'i10'
+p1226
+aS'ADCP attenuation of beam 1'
+p1227
+asS'1280'
+p1228
+(lp1229
+S'vel4'
+p1230
+aS'Beam 4 velocity (mm/s)    '
+p1231
 ag5
 aS'mm s-1'
-p1226
-aS'f10.2'
-p1227
-aS'ADCP velocity along beam 4'
-p1228
-asS'1283'
-p1229
-(lp1230
-S'att3'
-p1231
-aS'Beam 3 attenuation        '
 p1232
-ag5
-aS'counts'
+aS'f10.2'
 p1233
-aS'i10'
+aS'ADCP velocity along beam 4'
 p1234
-aS'ADCP attenuation of beam 3'
+asS'1283'
 p1235
-asS'1282'
-p1236
-(lp1237
-S'att2'
+(lp1236
+S'att3'
+p1237
+aS'Beam 3 attenuation        '
 p1238
-aS'Beam 2 attenuation        '
-p1239
 ag5
 aS'counts'
-p1240
+p1239
 aS'i10'
+p1240
+aS'ADCP attenuation of beam 3'
 p1241
-aS'ADCP attenuation of beam 2'
+asS'1282'
 p1242
-asS'942'
-p1243
-(lp1244
-S'WB '
+(lp1243
+S'att2'
+p1244
+aS'Beam 2 attenuation        '
 p1245
-aS'Wet Bulb Temp            '
+ag5
+aS'counts'
 p1246
+aS'i10'
+p1247
+aS'ADCP attenuation of beam 2'
+p1248
+asS'942'
+p1249
+(lp1250
+S'WB '
+p1251
+aS'Wet Bulb Temp            '
+p1252
 ag5
 aS'degree C'
-p1247
+p1253
 ag5
 ag1
 asS'1288'
-p1248
-(lp1249
+p1254
+(lp1255
 S'cor4'
-p1250
+p1256
 aS'Beam 4 correlation        '
-p1251
+p1257
 ag5
 aS'counts'
-p1252
-aS'i10'
-p1253
-aS'ADCP correlation of beam 4'
-p1254
-asS'941'
-p1255
-(lp1256
-S'DB '
-p1257
-aS'Dry Bulb Temp            '
 p1258
+aS'i10'
+p1259
+aS'ADCP correlation of beam 4'
+p1260
+asS'941'
+p1261
+(lp1262
+S'DB '
+p1263
+aS'Dry Bulb Temp            '
+p1264
 ag5
 aS'degree C'
-p1259
+p1265
 ag5
 ag1
 asS'3001'
-p1260
-(lp1261
-S'Tec '
-p1262
-aS'ADCP Electronics Temp. '
-p1263
-aS'temp'
-p1264
-aS'deg. C'
-p1265
-aS'F10.2'
 p1266
-aS'ADCP Electronics Box Temp.'
-p1267
-asS'1301'
+(lp1267
+S'Tec '
 p1268
-(lp1269
-S'BPR  '
+aS'ADCP Electronics Temp. '
+p1269
+aS'temp'
 p1270
-aS'BOTTOM PRESSURE            '
+aS'deg. C'
 p1271
-ag5
-aS'PSIA'
+aS'F10.2'
 p1272
-ag5
-aS'Pounds Per Square Inch Absolute'
+aS'ADCP Electronics Box Temp.'
 p1273
-asS'4261'
+asS'1301'
 p1274
 (lp1275
-S'DELHE3 '
+S'BPR  '
 p1276
-aS'Delta-He3              '
+aS'BOTTOM PRESSURE            '
 p1277
-aS'delhe3 '
+ag5
+aS'PSIA'
 p1278
-ag611
-aS'f9.2'
+ag5
+aS'Pounds Per Square Inch Absolute'
 p1279
-ag1
-asS'4262'
+asS'4261'
 p1280
 (lp1281
-S'DELHE3_FLAG'
+S'DELHE3 '
 p1282
-aS'Delta-He3 Flag     '
+aS'Delta-He3              '
 p1283
-aS'flag'
+aS'delhe3 '
 p1284
+ag617
+aS'f9.2'
+p1285
+ag1
+asS'4262'
+p1286
+(lp1287
+S'DELHE3_FLAG'
+p1288
+aS'Delta-He3 Flag     '
+p1289
+aS'flag'
+p1290
 ag5
 ag5
 ag1
 asS'133'
-p1285
-(lp1286
+p1291
+(lp1292
 S'Qs '
-p1287
+p1293
 aS'SHORTWAVE RADIATION      '
-p1288
+p1294
 ag5
 aS'W m-2'
-p1289
+p1295
 ag5
 ag1
 asS'132'
-p1290
-(lp1291
+p1296
+(lp1297
 S'Qs '
-p1292
+p1298
 aS'SHORTWAVE RADIATION      '
-p1293
+p1299
 ag5
 aS'cal day-1 cm-2'
-p1294
+p1300
 ag5
 ag1
 asS'131'
-p1295
-(lp1296
+p1301
+(lp1302
 S'SpH'
-p1297
+p1303
 aS'SPECIFIC HEAT, J/KG-DEG-C'
-p1298
+p1304
 ag5
 aS'J kg-1 C-1'
-p1299
+p1305
 ag5
 ag1
 asS'130'
-p1300
-(lp1301
+p1306
+(lp1307
 S'HTC'
-p1302
+p1308
 aS'HEAT CONTENT (JOU/M**2)  '
-p1303
+p1309
 ag5
 aS'J m-2'
-p1304
+p1310
 ag5
 ag1
 asS'137'
-p1305
-(lp1306
+p1311
+(lp1312
 S'QH '
-p1307
+p1313
 aS'LATENT HEAT              '
-p1308
+p1314
 ag5
 aS'W m-2'
-p1309
+p1315
 ag5
 ag1
 asS'136'
-p1310
-(lp1311
+p1316
+(lp1317
 S'Ql '
-p1312
+p1318
 aS'LONGWAVE RADIATION       '
-p1313
+p1319
 ag5
 aS'W m-2'
-p1314
+p1320
 ag5
 ag1
 asS'135'
-p1315
-(lp1316
+p1321
+(lp1322
 S'Ql '
-p1317
+p1323
 aS'LONGWAVE RADIATION       '
-p1318
+p1324
 ag5
 aS'cal day-1 cm-2'
-p1319
+p1325
 ag5
 ag1
 asS'134'
-p1320
-(lp1321
+p1326
+(lp1327
 S'HQ '
-p1322
+p1328
 aS'LOCAL HEATING            '
-p1323
+p1329
 ag5
 ag5
 ag5
 ag1
 asS'4224'
-p1324
-(lp1325
+p1330
+(lp1331
 S'OXYGEN_FLAG'
-p1326
+p1332
 aS'Bottle Oxygen Flag '
-p1327
+p1333
 aS'flag'
-p1328
+p1334
 ag5
 ag5
 ag1
 asS'1223'
-p1329
-(lp1330
+p1335
+(lp1336
 S'AGC3'
-p1331
+p1337
 aS'Echo Intensity (AGC) Beam 3'
-p1332
+p1338
 aS'AGC'
-p1333
+p1339
 aS'counts'
-p1334
+p1340
 ag5
 aS'ADCP Beam 3 AGC'
-p1335
+p1341
 asS'4226'
-p1336
-(lp1337
+p1342
+(lp1343
 S'SILCAT_FLAG'
-p1338
+p1344
 aS'Silicate Flag      '
-p1339
+p1345
 aS'flag'
-p1340
+p1346
 ag5
 ag5
 ag1
 asS'138'
-p1341
-(lp1342
+p1347
+(lp1348
 S'QB '
-p1343
+p1349
 aS'SENSIBLE HEAT            '
-p1344
+p1350
 ag5
 aS'W m-2'
-p1345
+p1351
 ag5
 ag1
 asS'4220'
-p1346
-(lp1347
+p1352
+(lp1353
 S'CTDOST'
-p1348
+p1354
 aS'CTD OXYGEN, %SAT         '
-p1349
+p1355
 aS'ox'
-p1350
-ag611
+p1356
+ag617
 ag5
 ag1
 asS'4221'
-p1351
-(lp1352
-S'CTDOXY'
-p1353
-aS'CTD Oxygen              '
-p1354
-aS'ox'
-p1355
-aS'umol/kg'
-p1356
-aS'f9.1'
 p1357
+(lp1358
+S'CTDOXY'
+p1359
+aS'CTD Oxygen              '
+p1360
+aS'ox'
+p1361
+aS'umol/kg'
+p1362
+aS'f9.1'
+p1363
 ag1
 asS'4222'
-p1358
-(lp1359
+p1364
+(lp1365
 S'CTDOXY_FLAG'
-p1360
+p1366
 aS'CTD Oxygen Flag    '
-p1361
+p1367
 aS'flag'
-p1362
+p1368
 ag5
 ag5
 ag1
 asS'1222'
-p1363
-(lp1364
+p1369
+(lp1370
 S'AGC2'
-p1365
+p1371
 aS'Echo Intensity (AGC) Beam 2'
-p1366
+p1372
 aS'AGC'
-p1367
+p1373
 aS'counts'
-p1368
+p1374
 ag5
 aS'ADCP Beam 2 AGC'
-p1369
+p1375
 asS'24'
-p1370
-(lp1371
+p1376
+(lp1377
 S'AT '
-p1372
+p1378
 aS'AIR TEMPERATURE MAX (C)  '
-p1373
+p1379
 aS'atemp'
-p1374
-ag350
+p1380
+ag356
 ag5
 ag1
 asS'25'
-p1375
-(lp1376
+p1381
+(lp1382
 S'T  '
-p1377
+p1383
 aS'SST (C)                  '
-p1378
+p1384
 aS'temp'
-p1379
-ag350
+p1385
+ag356
 ag5
 ag1
 asS'26'
-p1380
-(lp1381
+p1386
+(lp1387
 S'T  '
-p1382
+p1388
 aS'SST MIN (C)              '
-p1383
+p1389
 aS'temp'
-p1384
-ag350
+p1390
+ag356
 ag5
 ag1
 asS'27'
-p1385
-(lp1386
+p1391
+(lp1392
 S'T  '
-p1387
+p1393
 aS'SST MAX (C)              '
-p1388
+p1394
 aS'temp'
-p1389
-ag350
+p1395
+ag356
 ag5
 ag1
 asS'20'
-p1390
-(lp1391
-S'T  '
-p1392
-aS'TEMPERATURE (C)          '
-p1393
-aS'temp'
-p1394
-ag350
-aS'f10.2'
-p1395
-aS'IPTS-1968 standard'
 p1396
-asS'21'
-p1397
-(lp1398
-S'AT '
+(lp1397
+S'T  '
+p1398
+aS'TEMPERATURE (C)          '
 p1399
-aS'AIR TEMPERATURE (C)      '
+aS'temp'
 p1400
-aS'atemp'
+ag356
+aS'f10.2'
 p1401
-ag350
+aS'IPTS-1968 standard'
+p1402
+asS'21'
+p1403
+(lp1404
+S'AT '
+p1405
+aS'AIR TEMPERATURE (C)      '
+p1406
+aS'atemp'
+p1407
+ag356
 ag5
 ag1
 asS'22'
-p1402
-(lp1403
-S'T0 '
-p1404
-aS'THERM TEMPERATURE (C)    '
-p1405
-aS'temp'
-p1406
-ag350
-ag5
-aS'Reversing therm. 1E35 indicates no therm.'
-p1407
-asS'23'
 p1408
 (lp1409
-S'AT '
+S'T0 '
 p1410
-aS'AIR TEMPERATURE MIN (C)  '
+aS'THERM TEMPERATURE (C)    '
 p1411
-aS'atemp'
+aS'temp'
 p1412
-ag350
+ag356
+ag5
+aS'Reversing therm. 1E35 indicates no therm.'
+p1413
+asS'23'
+p1414
+(lp1415
+S'AT '
+p1416
+aS'AIR TEMPERATURE MIN (C)  '
+p1417
+aS'atemp'
+p1418
+ag356
 ag5
 ag1
 asS'1220'
-p1413
-(lp1414
+p1419
+(lp1420
 S'RSD '
-p1415
+p1421
 aS'Roll Std. Dev.           '
-p1416
+p1422
 aS'roll'
-p1417
+p1423
 aS'degrees'
-p1418
+p1424
 ag5
 aS'ADCP Roll Std. Dev.'
-p1419
-asS'28'
-p1420
-(lp1421
-S'T  '
-p1422
-aS'TEMPERATURE (C)          '
-p1423
-aS'temp'
-p1424
-ag350
-aS'f10.2 '
 p1425
-aS'ITS-1990 Standard'
+asS'28'
 p1426
-asS'29'
-p1427
-(lp1428
-S'IT '
+(lp1427
+S'T  '
+p1428
+aS'TEMPERATURE (C)          '
 p1429
-aS'TEMP INTEGRAL            '
-p1430
 aS'temp'
+p1430
+ag356
+aS'f10.2 '
 p1431
-ag350
-ag5
-aS'Depth integrated temperature'
+aS'ITS-1990 Standard'
 p1432
-asS'1371'
+asS'29'
 p1433
 (lp1434
-S'U48'
+S'IT '
 p1435
-aS'U Amplitude (CM/S) 48hrs '
+aS'TEMP INTEGRAL            '
 p1436
-aS'u48'
+aS'temp'
 p1437
-aS'cm s-1'
+ag356
+ag5
+aS'Depth integrated temperature'
 p1438
+asS'1371'
+p1439
+(lp1440
+S'U48'
+p1441
+aS'U Amplitude (CM/S) 48hrs '
+p1442
+aS'u48'
+p1443
+aS'cm s-1'
+p1444
 ag5
 aS'measured w/r true N'
-p1439
+p1445
 asS'4268'
-p1440
-(lp1441
+p1446
+(lp1447
 S'O18O16_FLAG'
-p1442
+p1448
 aS'O18/O16 Ratio Flag '
-p1443
+p1449
 aS'flag'
-p1444
+p1450
 ag5
 ag5
 ag1
 asS'405'
-p1445
-(lp1446
-S'RWS'
-p1447
-aS'Wind Speed (rel. to ship)'
-p1448
-ag5
-aS'm s-1'
-p1449
-ag5
-aS'Relative Wind Speed'
-p1450
-asS'404'
 p1451
 (lp1452
-S'WS '
+S'RWS'
 p1453
-aS'Wind Speed               '
+aS'Wind Speed (rel. to ship)'
 p1454
 ag5
 aS'm s-1'
 p1455
 ag5
-ag1
-asS'403'
+aS'Relative Wind Speed'
 p1456
-(lp1457
+asS'404'
+p1457
+(lp1458
 S'WS '
-p1458
-aS'Wind Speed               '
 p1459
-ag5
-aS'knots'
+aS'Wind Speed               '
 p1460
-aS'F6.2'
-p1461
-aS'Wind Speed'
-p1462
-asS'402'
-p1463
-(lp1464
-S'WG '
-p1465
-aS'WIND GUST (M/S)          '
-p1466
 ag5
 aS'm s-1'
-p1467
+p1461
 ag5
-aS'greatest speed in interval (drifters)'
+ag1
+asS'403'
+p1462
+(lp1463
+S'WS '
+p1464
+aS'Wind Speed               '
+p1465
+ag5
+aS'knots'
+p1466
+aS'F6.2'
+p1467
+aS'Wind Speed'
 p1468
-asS'401'
+asS'402'
 p1469
 (lp1470
-S'WS '
+S'WG '
 p1471
-aS'WIND SPEED (M/S)         '
+aS'WIND GUST (M/S)          '
 p1472
 ag5
 aS'm s-1'
 p1473
 ag5
+aS'greatest speed in interval (drifters)'
+p1474
+asS'401'
+p1475
+(lp1476
+S'WS '
+p1477
+aS'WIND SPEED (M/S)         '
+p1478
+ag5
+aS'm s-1'
+p1479
+ag5
 ag1
 asS'400'
-p1474
-(lp1475
+p1480
+(lp1481
 S'WS '
-p1476
+p1482
 aS'WIND SPEED (CM/S)        '
-p1477
+p1483
 ag5
 aS'cm s-1'
-p1478
+p1484
 ag5
 ag1
 asS'933'
-p1479
-(lp1480
+p1485
+(lp1486
 S'Chl'
-p1481
+p1487
 aS'Chlorophyll              '
-p1482
+p1488
 ag5
 aS'ug/L'
-p1483
+p1489
 ag5
 ag1
 asS'932'
-p1484
-(lp1485
+p1490
+(lp1491
 S'Cla'
-p1486
+p1492
 aS'Chlorophyll-a(CTD)       '
-p1487
+p1493
 ag5
 aS'ugrams/l'
-p1488
+p1494
 ag5
 ag1
 asS'931'
-p1489
-(lp1490
+p1495
+(lp1496
 S'Chv'
-p1491
+p1497
 aS'Chlorophyll-a Volts(CTD) '
-p1492
+p1498
 ag5
 aS'Volts'
-p1493
+p1499
 ag5
 ag1
 asS'937'
-p1494
-(lp1495
-S'CA3'
-p1496
-aS'Chlorophyll-a Conc       '
-p1497
-ag5
-aS'ugrams/l'
-p1498
-ag5
-aS'WetLabs A-3'
-p1499
-asS'936'
 p1500
 (lp1501
-S'AA3'
+S'CA3'
 p1502
-aS'Chlorophyll-a Absorption '
+aS'Chlorophyll-a Conc       '
 p1503
 ag5
-aS'm-1'
+aS'ugrams/l'
 p1504
 ag5
-aS' WetLabs A-3'
+aS'WetLabs A-3'
 p1505
-asS'935'
+asS'936'
 p1506
 (lp1507
-S'VA3'
+S'AA3'
 p1508
-aS'ChlAM Voltage            '
+aS'Chlorophyll-a Absorption '
 p1509
 ag5
-aS'volts'
+aS'm-1'
 p1510
 ag5
-aS'WetLabs A-3'
+aS' WetLabs A-3'
 p1511
-asS'1955'
+asS'935'
 p1512
 (lp1513
-S'nssSO4'
+S'VA3'
 p1514
-aS'Soluble Sub10micron Aerosol non-Seasalt Sulfate  '
+aS'ChlAM Voltage            '
 p1515
 ag5
-aS'ug/m^3'
+aS'volts'
 p1516
+ag5
+aS'WetLabs A-3'
+p1517
+asS'1955'
+p1518
+(lp1519
+S'nssSO4'
+p1520
+aS'Soluble Sub10micron Aerosol non-Seasalt Sulfate  '
+p1521
+ag5
+aS'ug/m^3'
+p1522
 ag5
 ag5
 asS'1954'
-p1517
-(lp1518
+p1523
+(lp1524
 S'nssSO4'
-p1519
+p1525
 aS'Soluble Supermicron Aerosol non-Seasalt Sulfate  '
-p1520
+p1526
 ag5
 aS'ug/m^3'
-p1521
+p1527
 ag5
 ag5
 asS'1957'
-p1522
-(lp1523
+p1528
+(lp1529
 S'MSA   '
-p1524
+p1530
 aS'Soluble Supermicron Aerosol Methane Sulfonic Acid'
-p1525
+p1531
 ag5
 aS'ug/m^3'
-p1526
+p1532
 ag5
 ag5
 asS'1956'
-p1527
-(lp1528
+p1533
+(lp1534
 S'MSA   '
-p1529
+p1535
 aS'Soluble Submicron Aerosol Methane Sulfonic Acid  '
-p1530
+p1536
 ag5
 aS'ug/m^3'
-p1531
+p1537
 ag5
 ag5
 asS'1951'
-p1532
-(lp1533
+p1538
+(lp1539
 S'SO4   '
-p1534
+p1540
 aS'Soluble Supermicron Aerosol Sulfate              '
-p1535
+p1541
 ag5
 aS'ug/m^3'
-p1536
+p1542
 ag5
 ag5
 asS'1950'
-p1537
-(lp1538
+p1543
+(lp1544
 S'SO4   '
-p1539
+p1545
 aS'Soluble Submicron Aerosol Sulfate                '
-p1540
+p1546
 ag5
 aS'ug/m^3'
-p1541
+p1547
 ag5
 ag5
 asS'1953'
-p1542
-(lp1543
+p1548
+(lp1549
 S'nssSO4'
-p1544
+p1550
 aS'Soluble Submicron Aerosol non-Seasalt Sulfate    '
-p1545
+p1551
 ag5
 aS'ug/m^3'
-p1546
+p1552
 ag5
 ag5
 asS'1952'
-p1547
-(lp1548
+p1553
+(lp1554
 S'SO4   '
-p1549
+p1555
 aS'Soluble Sub10micron Aerosol Sulfate              '
-p1550
+p1556
 ag5
 aS'ug/m^3'
-p1551
+p1557
 ag5
 ag5
 asS'1959'
-p1552
-(lp1553
+p1558
+(lp1559
 S'OC    '
-p1554
+p1560
 aS'Submicron Aerosol Organic Carbon                 '
-p1555
+p1561
 ag5
 aS'ug/m^3'
-p1556
+p1562
 ag5
 ag5
 asS'1958'
-p1557
-(lp1558
+p1563
+(lp1564
 S'MSA   '
-p1559
+p1565
 aS'Soluble Sub10micron Aerosol Methane Sulfonic Acid'
-p1560
+p1566
 ag5
 aS'ug/m^3'
-p1561
+p1567
 ag5
 ag5
 asS'378'
-p1562
-(lp1563
-S'V2 '
-p1564
-aS'V Tidal Amplitude (CM/S) species2'
-p1565
-aS'v2'
-p1566
-aS'cm s-1'
-p1567
-ag5
-aS'measured w/r true N'
 p1568
-asS'371'
-p1569
-(lp1570
-S'Y  '
+(lp1569
+S'V2 '
+p1570
+aS'V Tidal Amplitude (CM/S) species2'
 p1571
-aS'Y POSITION IN NET        '
+aS'v2'
 p1572
-ag5
-ag5
-ag5
-aS'tracked TOPS position'
-p1573
-asS'370'
-p1574
-(lp1575
-S'X  '
-p1576
-aS'X POSITION IN NET        '
-p1577
-ag5
-ag5
-ag5
-aS'tracked TOPS position'
-p1578
-asS'372'
-p1579
-(lp1580
-S'Z  '
-p1581
-aS'Z POSITION IN NET        '
-p1582
-ag5
-ag5
-ag5
-aS'tracked TOPS position'
-p1583
-asS'375'
-p1584
-(lp1585
-S'U1 '
-p1586
-aS'U Tidal Amplitude (CM/S) species1'
-p1587
-aS'u1'
-p1588
 aS'cm s-1'
-p1589
+p1573
 ag5
 aS'measured w/r true N'
+p1574
+asS'371'
+p1575
+(lp1576
+S'Y  '
+p1577
+aS'Y POSITION IN NET        '
+p1578
+ag5
+ag5
+ag5
+aS'tracked TOPS position'
+p1579
+asS'370'
+p1580
+(lp1581
+S'X  '
+p1582
+aS'X POSITION IN NET        '
+p1583
+ag5
+ag5
+ag5
+aS'tracked TOPS position'
+p1584
+asS'372'
+p1585
+(lp1586
+S'Z  '
+p1587
+aS'Z POSITION IN NET        '
+p1588
+ag5
+ag5
+ag5
+aS'tracked TOPS position'
+p1589
+asS'375'
 p1590
-asS'820'
-p1591
-(lp1592
-S'SDT'
+(lp1591
+S'U1 '
+p1592
+aS'U Tidal Amplitude (CM/S) species1'
 p1593
-aS'STAND. DEV. (TEMP)       '
+aS'u1'
 p1594
+aS'cm s-1'
+p1595
+ag5
+aS'measured w/r true N'
+p1596
+asS'820'
+p1597
+(lp1598
+S'SDT'
+p1599
+aS'STAND. DEV. (TEMP)       '
+p1600
 ag5
 ag5
 ag5
 ag1
 asS'377'
-p1595
-(lp1596
-S'U2 '
-p1597
-aS'U Tidal Amplitude (CM/S) species2'
-p1598
-aS'u2'
-p1599
-aS'cm s-1'
-p1600
-ag5
-aS'measured w/r true N'
 p1601
-asS'376'
-p1602
-(lp1603
-S'V1 '
+(lp1602
+S'U2 '
+p1603
+aS'U Tidal Amplitude (CM/S) species2'
 p1604
-aS'V Tidal Amplitude (CM/S) species1'
+aS'u2'
 p1605
-aS'v1'
-p1606
 aS'cm s-1'
-p1607
+p1606
 ag5
 aS'measured w/r true N'
+p1607
+asS'376'
 p1608
-asS'4243'
-p1609
-(lp1610
-S'CFC-12 '
+(lp1609
+S'V1 '
+p1610
+aS'V Tidal Amplitude (CM/S) species1'
 p1611
-aS'Freon-12               '
+aS'v1'
 p1612
-aS'f12'
+aS'cm s-1'
 p1613
-aS'pmol/kg'
+ag5
+aS'measured w/r true N'
 p1614
-aS'f9.3'
+asS'4243'
 p1615
+(lp1616
+S'CFC-12 '
+p1617
+aS'Freon-12               '
+p1618
+aS'f12'
+p1619
+aS'pmol/kg'
+p1620
+aS'f9.3'
+p1621
 ag1
 asS'1278'
-p1616
-(lp1617
-S'vel2'
-p1618
-aS'Beam 2 velocity (mm/s)    '
-p1619
-ag5
-aS'mm s-1'
-p1620
-aS'f10.2'
-p1621
-aS'ADCP velocity along beam 2'
 p1622
-asS'1279'
-p1623
-(lp1624
-S'vel3'
+(lp1623
+S'vel2'
+p1624
+aS'Beam 2 velocity (mm/s)    '
 p1625
-aS'Beam 3 velocity (mm/s)    '
-p1626
 ag5
 aS'mm s-1'
-p1627
+p1626
 aS'f10.2'
+p1627
+aS'ADCP velocity along beam 2'
 p1628
-aS'ADCP velocity along beam 3'
+asS'1279'
 p1629
-asS'700'
-p1630
-(lp1631
-S'SD '
+(lp1630
+S'vel3'
+p1631
+aS'Beam 3 velocity (mm/s)    '
 p1632
-aS'STANDARD DEVIATION       '
+ag5
+aS'mm s-1'
 p1633
+aS'f10.2'
+p1634
+aS'ADCP velocity along beam 3'
+p1635
+asS'700'
+p1636
+(lp1637
+S'SD '
+p1638
+aS'STANDARD DEVIATION       '
+p1639
 ag5
 ag5
 ag5
 ag1
 asS'4312'
-p1634
-(lp1635
-S'FiltXCO2w'
-p1636
-aS'Filtered Mole Fraction of CO2 in Water'
-p1637
-aS'XCO2'
-p1638
-aS'ppm'
-p1639
-aS'f9.1'
 p1640
-aS'Underway CO2 obs'
-p1641
-asS'393'
+(lp1641
+S'FiltXCO2w'
 p1642
-(lp1643
-S'ML '
+aS'Filtered Mole Fraction of CO2 in Water'
+p1643
+aS'XCO2'
 p1644
-aS'MERIDIONAL TRNS LOWER LIM'
+aS'ppm'
 p1645
-ag5
-aS'm2 s-1'
+aS'f9.1'
 p1646
-ag5
-aS'transport per unit width'
+aS'Underway CO2 obs'
 p1647
-asS'392'
+asS'393'
 p1648
 (lp1649
-S'ZL '
+S'ML '
 p1650
-aS'ZONAL TRANSPORT LOWER LIM'
+aS'MERIDIONAL TRNS LOWER LIM'
 p1651
 ag5
 aS'm2 s-1'
@@ -3562,12 +3560,12 @@ p1652
 ag5
 aS'transport per unit width'
 p1653
-asS'391'
+asS'392'
 p1654
 (lp1655
-S'MU '
+S'ZL '
 p1656
-aS'MERIDIONAL TRNS UPPER LIM'
+aS'ZONAL TRANSPORT LOWER LIM'
 p1657
 ag5
 aS'm2 s-1'
@@ -3575,12 +3573,12 @@ p1658
 ag5
 aS'transport per unit width'
 p1659
-asS'390'
+asS'391'
 p1660
 (lp1661
-S'ZU '
+S'MU '
 p1662
-aS'ZONAL TRANSPORT UPPER LIM'
+aS'MERIDIONAL TRNS UPPER LIM'
 p1663
 ag5
 aS'm2 s-1'
@@ -3588,2038 +3586,2038 @@ p1664
 ag5
 aS'transport per unit width'
 p1665
-asS'397'
+asS'390'
 p1666
 (lp1667
-S'Dy '
+S'ZU '
 p1668
-aS'MERIDIANAL MOOR LINE DRAG'
+aS'ZONAL TRANSPORT UPPER LIM'
 p1669
+ag5
+aS'm2 s-1'
+p1670
+ag5
+aS'transport per unit width'
+p1671
+asS'397'
+p1672
+(lp1673
+S'Dy '
+p1674
+aS'MERIDIANAL MOOR LINE DRAG'
+p1675
 ag5
 ag5
 ag5
 ag1
 asS'396'
-p1670
-(lp1671
+p1676
+(lp1677
 S'Dx '
-p1672
+p1678
 aS'ZONAL MOORING LINE DRAG  '
-p1673
+p1679
 ag5
 ag5
 ag5
 ag1
 asS'395'
-p1674
-(lp1675
+p1680
+(lp1681
 S'MCW'
-p1676
+p1682
 aS'MERIDIONAL CURRENT WIDTH '
-p1677
+p1683
 ag5
 ag5
 ag5
 ag1
 asS'394'
-p1678
-(lp1679
+p1684
+(lp1685
 S'ZCW'
-p1680
+p1686
 aS'ZONAL CURRENT WIDTH      '
-p1681
+p1687
 ag5
 ag5
 ag5
 ag1
 asS'80'
-p1682
-(lp1683
+p1688
+(lp1689
 S'SV '
-p1684
+p1690
 aS'SOUND VELOCITY (M/S)     '
-p1685
+p1691
 ag5
 aS'm s-1'
-p1686
+p1692
 ag5
 ag1
 asS'81'
-p1687
-(lp1688
-S'FAC'
-p1689
-aS'SND SPD CORR. FACTOR     '
-p1690
-aS'factor'
-p1691
-ag5
-aS'f10.3'
-p1692
-aS'corr. BASS currents for actual sound speed'
 p1693
-asS'86'
-p1694
-(lp1695
-S'SVA'
+(lp1694
+S'FAC'
+p1695
+aS'SND SPD CORR. FACTOR     '
 p1696
-aS'SP VOL ANOM, 1E-8 M**3/KG'
+aS'factor'
 p1697
 ag5
-aS'm3 kg-1'
+aS'f10.3'
 p1698
+aS'corr. BASS currents for actual sound speed'
+p1699
+asS'86'
+p1700
+(lp1701
+S'SVA'
+p1702
+aS'SP VOL ANOM, 1E-8 M**3/KG'
+p1703
+ag5
+aS'm3 kg-1'
+p1704
 ag5
 ag1
 asS'84'
-p1699
-(lp1700
-S'RHO'
-p1701
-aS'DENSITY (KG/M**3)        '
-p1702
-aS'den'
-p1703
-aS'kg m-3'
-p1704
-aS'f10.2'
 p1705
+(lp1706
+S'RHO'
+p1707
+aS'DENSITY (KG/M**3)        '
+p1708
+aS'den'
+p1709
+aS'kg m-3'
+p1710
+aS'f10.2'
+p1711
 ag1
 asS'85'
-p1706
-(lp1707
+p1712
+(lp1713
 S'SPV'
-p1708
+p1714
 aS'SPECIFIC VOLUME          '
-p1709
+p1715
 ag5
 ag5
 ag5
 ag1
 asS'1712'
-p1710
-(lp1711
-S'PF12'
-p1712
-aS'PCFC-12                 '
-p1713
-aS'pf12'
-p1714
-ag5
-aS'f5.2'
-p1715
-aS'CFC-12 equilibrium partial-pressure'
 p1716
-asS'1711'
-p1717
-(lp1718
-S'PF11'
+(lp1717
+S'PF12'
+p1718
+aS'PCFC-12                 '
 p1719
-aS'PCFC-11                 '
+aS'pf12'
 p1720
-aS'pf11'
-p1721
 ag5
 aS'f5.2'
+p1721
+aS'CFC-12 equilibrium partial-pressure'
 p1722
-aS'CFC-11 equilibrium partial-pressure'
+asS'1711'
 p1723
-asS'4041'
-p1724
-(lp1725
-S'rtemp'
+(lp1724
+S'PF11'
+p1725
+aS'PCFC-11                 '
 p1726
-aS'RAW TEMPERATURE (SEABIRD) '
+aS'pf11'
 p1727
-aS'temp'
+ag5
+aS'f5.2'
 p1728
-aS'counts'
+aS'CFC-11 equilibrium partial-pressure'
 p1729
-aS'i10'
+asS'4041'
 p1730
-aS'Seabird cell raw temperature'
-p1731
-asS'4042'
+(lp1731
+S'rtemp'
 p1732
-(lp1733
-S'rtemp'
+aS'RAW TEMPERATURE (SEABIRD) '
+p1733
+aS'temp'
 p1734
-aS'RAW TEMPERATURE (MIDAS THERM) '
+aS'counts'
 p1735
-aS'temp'
+aS'i10'
 p1736
-aS'counts'
+aS'Seabird cell raw temperature'
 p1737
-aS'i10'
+asS'4042'
 p1738
-aS'MIDAS thermister raw temperature'
-p1739
-asS'4043'
-p1740
-(lp1741
+(lp1739
 S'rtemp'
-p1742
-aS'RAW TEMPERATURE (VACM) '
-p1743
+p1740
+aS'RAW TEMPERATURE (MIDAS THERM) '
+p1741
 aS'temp'
-p1744
+p1742
 aS'counts'
-p1745
+p1743
 aS'i10'
+p1744
+aS'MIDAS thermister raw temperature'
+p1745
+asS'4043'
 p1746
-aS'vacm raw temperature'
-p1747
-asS'4251'
+(lp1747
+S'rtemp'
 p1748
-(lp1749
-S'TRITUM '
+aS'RAW TEMPERATURE (VACM) '
+p1749
+aS'temp'
 p1750
-aS'Tritium                '
+aS'counts'
 p1751
-aS'tritium'
+aS'i10'
 p1752
-aS'TU '
+aS'vacm raw temperature'
 p1753
-aS'f9.3'
+asS'4251'
 p1754
+(lp1755
+S'TRITUM '
+p1756
+aS'Tritium                '
+p1757
+aS'tritium'
+p1758
+aS'TU '
+p1759
+aS'f9.3'
+p1760
 ag1
 asS'7'
-p1755
-(lp1756
+p1761
+(lp1762
 S'SL '
-p1757
+p1763
 aS'SEA LEVEL ANOMALY (M)    '
-p1758
+p1764
 aS'depth'
-p1759
+p1765
 ag52
 ag5
 ag1
 asS'1879'
-p1760
-(lp1761
+p1766
+(lp1767
 S'AODAMS'
-p1762
+p1768
 aS'AOD measurement airmass'
-p1763
+p1769
 ag5
 aS'atmosphere '
-p1764
+p1770
 ag5
 ag1
 asS'4239'
-p1765
-(lp1766
-S'NO2NO3'
-p1767
-aS'Nitrate plus Nitrite    '
-p1768
-aS'NO2NO3'
-p1769
-aS'umol/l'
-p1770
-aS'f9.2'
 p1771
+(lp1772
+S'NO2NO3'
+p1773
+aS'Nitrate plus Nitrite    '
+p1774
+aS'NO2NO3'
+p1775
+aS'umol/l'
+p1776
+aS'f9.2'
+p1777
 ag1
 asS'4253'
-p1772
-(lp1773
-S'HELIUM '
-p1774
-aS'Helium                 '
-p1775
-aS'helium '
-p1776
-aS'nmol/kg'
-p1777
-aS'f9.4'
 p1778
+(lp1779
+S'HELIUM '
+p1780
+aS'Helium                 '
+p1781
+aS'helium '
+p1782
+aS'nmol/kg'
+p1783
+aS'f9.4'
+p1784
 ag1
 asS'4062'
-p1779
-(lp1780
-S'wd  '
-p1781
-aS'mean wave direction '
-p1782
-aS'wave_dir'
-p1783
-aS'degrees'
-p1784
-aS'f8.2'
 p1785
-aS'direction dominant waves are coming from, measured clockwise from true north'
-p1786
-asS'4252'
+(lp1786
+S'wd  '
 p1787
-(lp1788
-S'TRITUM_FLAG'
+aS'mean wave direction '
+p1788
+aS'wave_dir'
 p1789
-aS'Tritium Flag       '
+aS'degrees'
 p1790
-aS'flag'
+aS'f8.2'
 p1791
+aS'direction dominant waves are coming from, measured clockwise from true north'
+p1792
+asS'4252'
+p1793
+(lp1794
+S'TRITUM_FLAG'
+p1795
+aS'Tritium Flag       '
+p1796
+aS'flag'
+p1797
 ag5
 ag5
 ag1
 asS'4063'
-p1792
-(lp1793
-S'dwp '
-p1794
-aS'dominant wave period     '
-p1795
-aS'wave_period'
-p1796
-aS's'
-p1797
-aS'f10.2'
 p1798
-ag1
-asS'4060'
-p1799
-(lp1800
-S'wp  '
+(lp1799
+S'dwp '
+p1800
+aS'dominant wave period     '
 p1801
-aS'average wave period       '
-p1802
 aS'wave_period'
+p1802
+aS's'
 p1803
-ag1797
 aS'f10.2'
 p1804
 ag1
-asS'4254'
+asS'4060'
 p1805
 (lp1806
-S'HELIUM_FLAG'
+S'wp  '
 p1807
-aS'Helium Flag        '
+aS'average wave period       '
 p1808
-aS'flag'
+aS'wave_period'
 p1809
+ag1803
+aS'f10.2'
+p1810
+ag1
+asS'4254'
+p1811
+(lp1812
+S'HELIUM_FLAG'
+p1813
+aS'Helium Flag        '
+p1814
+aS'flag'
+p1815
 ag5
 ag5
 ag1
 asS'4061'
-p1810
-(lp1811
-S'wh  '
-p1812
-aS'significant wave height   '
-p1813
-aS'wave_height'
-p1814
-ag52
-aS'f10.2'
-p1815
-ag1
-asS'1276'
 p1816
 (lp1817
-S'Vt  '
+S'wh  '
 p1818
-aS'Track Tangential Velocity   '
+aS'significant wave height   '
 p1819
-aS'vt'
+aS'wave_height'
 p1820
-aS'cm/s'
+ag52
+aS'f10.2'
 p1821
+ag1
+asS'1276'
+p1822
+(lp1823
+S'Vt  '
+p1824
+aS'Track Tangential Velocity   '
+p1825
+aS'vt'
+p1826
+aS'cm/s'
+p1827
 ag5
 aS'ADCP Vel. tangential to track'
-p1822
+p1828
 asS'4256'
-p1823
-(lp1824
+p1829
+(lp1830
 S'NEON_FLAG'
-p1825
+p1831
 aS'Neon Flag            '
-p1826
+p1832
 aS'flag'
-p1827
+p1833
 ag5
 ag5
 ag1
 asS'3018'
-p1828
-(lp1829
-S'avTD'
-p1830
-aS'avg true wind dir'
-p1831
-aS'WD'
-p1832
-aS'degree'
-p1833
-aS'f10.2'
 p1834
-aS'avg true wind dir'
-p1835
-asS'3019'
+(lp1835
+S'avTD'
 p1836
-(lp1837
-S'avTS'
+aS'avg true wind dir'
+p1837
+aS'WD'
 p1838
-aS'avg true wind speed'
+aS'degree'
 p1839
-aS'WS'
+aS'f10.2'
 p1840
-aS'm/sec'
+aS'avg true wind dir'
 p1841
-aS'f10.2'
+asS'3019'
 p1842
-aS'avg true wind speed'
-p1843
-asS'3012'
+(lp1843
+S'avTS'
 p1844
-(lp1845
-S'lon1'
+aS'avg true wind speed'
+p1845
+aS'WS'
 p1846
-aS'gps1 lon 1 min'
+aS'm/sec'
 p1847
-aS'long'
+aS'f10.2'
 p1848
-aS'degrees'
+aS'avg true wind speed'
 p1849
-aS'f10.3'
+asS'3012'
 p1850
-aS'gps1 lon 1 min'
-p1851
-asS'1380'
+(lp1851
+S'lon1'
 p1852
-(lp1853
-S'Res '
+aS'gps1 lon 1 min'
+p1853
+aS'long'
 p1854
-aS'MTR resistance          '
-p1855
-aS'res'
-p1856
-aS'ohm'
-p1857
-aS'f10.2'
-p1858
-aS'Instrument resistance'
-p1859
-asS'3010'
-p1860
-(lp1861
-S'MFdep'
-p1862
-aS'Miller Freeman depth'
-p1863
-aS'depth'
-p1864
-aS'meters'
-p1865
-aS'f10.1'
-p1866
-aS'depth from Miller Freeman'
-p1867
-asS'3011'
-p1868
-(lp1869
-S'lat1'
-p1870
-aS'gps1 lat 1 min'
-p1871
-aS'lat'
-p1872
 aS'degrees'
-p1873
+p1855
 aS'f10.3'
-p1874
-aS'gps1 lat 1 min'
-p1875
-asS'3016'
-p1876
-(lp1877
-S'scz'
-p1878
-aS'seacat depth'
-p1879
+p1856
+aS'gps1 lon 1 min'
+p1857
+asS'1380'
+p1858
+(lp1859
+S'Res '
+p1860
+aS'MTR resistance          '
+p1861
+aS'res'
+p1862
+aS'ohm'
+p1863
+aS'f10.2'
+p1864
+aS'Instrument resistance'
+p1865
+asS'3010'
+p1866
+(lp1867
+S'MFdep'
+p1868
+aS'Miller Freeman depth'
+p1869
 aS'depth'
-p1880
+p1870
 aS'meters'
-p1881
-aS'f10.2'
-p1882
-aS'seacat depth'
-p1883
-asS'3017'
-p1884
-(lp1885
-S'Tx  '
-p1886
-aS'ADCP Transducer Temp.     '
-p1887
-aS'temp'
-p1888
-aS'deg. C'
-p1889
-aS'F10.2'
-p1890
-aS'ADCP Transducer Temp.'
-p1891
-asS'3014'
-p1892
-(lp1893
-S'scc'
-p1894
-aS'seacat conductivity'
-p1895
-aS'cond'
-p1896
-aS'mmhos'
-p1897
-aS'f10.2'
-p1898
-aS'seacat conductivity'
-p1899
-asS'3015'
-p1900
-(lp1901
-S'scs'
-p1902
-aS'seacat salinity'
-p1903
-aS'sal'
-p1904
-aS'ppt'
-p1905
-aS'f10.2'
-p1906
-aS'seacat salinity'
-p1907
-asS'511'
-p1908
-(lp1909
-S'LON'
-p1910
-aS'PROJECTED LONGITUDE      '
-p1911
-aS'lon'
-p1912
-aS'degree_west'
-p1913
-aS'f10.4'
-p1914
-aS'W is positive'
-p1915
-asS'510'
-p1916
-(lp1917
-S'LAT'
-p1918
-aS'PROJECTED LATITUDE       '
-p1919
+p1871
+aS'f10.1'
+p1872
+aS'depth from Miller Freeman'
+p1873
+asS'3011'
+p1874
+(lp1875
+S'lat1'
+p1876
+aS'gps1 lat 1 min'
+p1877
 aS'lat'
-p1920
-aS'degree_north'
-p1921
-aS'f10.4'
-p1922
-aS'N is positive, S is negative'
-p1923
-asS'513'
-p1924
-(lp1925
-S'XS '
-p1926
-aS'Section Distance         '
-p1927
-aS'dist'
-p1928
-aS'km'
-p1929
-aS'f8.2'
-p1930
-aS'Positive toward end of section'
-p1931
-asS'512'
-p1932
-(lp1933
+p1878
+aS'degrees'
+p1879
+aS'f10.3'
+p1880
+aS'gps1 lat 1 min'
+p1881
+asS'3016'
+p1882
+(lp1883
+S'scz'
+p1884
+aS'seacat depth'
+p1885
+aS'depth'
+p1886
+aS'meters'
+p1887
+aS'f10.2'
+p1888
+aS'seacat depth'
+p1889
+asS'3017'
+p1890
+(lp1891
+S'Tx  '
+p1892
+aS'ADCP Transducer Temp.     '
+p1893
+aS'temp'
+p1894
+aS'deg. C'
+p1895
+aS'F10.2'
+p1896
+aS'ADCP Transducer Temp.'
+p1897
+asS'3014'
+p1898
+(lp1899
+S'scc'
+p1900
+aS'seacat conductivity'
+p1901
+aS'cond'
+p1902
+aS'mmhos'
+p1903
+aS'f10.2'
+p1904
+aS'seacat conductivity'
+p1905
+asS'3015'
+p1906
+(lp1907
+S'scs'
+p1908
+aS'seacat salinity'
+p1909
+aS'sal'
+p1910
+aS'ppt'
+p1911
+aS'f10.2'
+p1912
+aS'seacat salinity'
+p1913
+asS'511'
+p1914
+(lp1915
 S'LON'
-p1934
+p1916
 aS'PROJECTED LONGITUDE      '
-p1935
+p1917
 aS'lon'
-p1936
-aS'degree_east'
-p1937
+p1918
+aS'degree_west'
+p1919
 aS'f10.4'
-p1938
-aS'E is positive'
-p1939
-asS'514'
-p1940
-(lp1941
-S'YS '
-p1942
-aS'Transverse Distance      '
-p1943
+p1920
+aS'W is positive'
+p1921
+asS'510'
+p1922
+(lp1923
+S'LAT'
+p1924
+aS'PROJECTED LATITUDE       '
+p1925
+aS'lat'
+p1926
+aS'degree_north'
+p1927
+aS'f10.4'
+p1928
+aS'N is positive, S is negative'
+p1929
+asS'513'
+p1930
+(lp1931
+S'XS '
+p1932
+aS'Section Distance         '
+p1933
 aS'dist'
-p1944
+p1934
 aS'km'
-p1945
+p1935
 aS'f8.2'
+p1936
+aS'Positive toward end of section'
+p1937
+asS'512'
+p1938
+(lp1939
+S'LON'
+p1940
+aS'PROJECTED LONGITUDE      '
+p1941
+aS'lon'
+p1942
+aS'degree_east'
+p1943
+aS'f10.4'
+p1944
+aS'E is positive'
+p1945
+asS'514'
 p1946
-aS'Positive counterclockwise from section'
-p1947
-asS'623'
+(lp1947
+S'YS '
 p1948
-(lp1949
-S'TIM'
+aS'Transverse Distance      '
+p1949
+aS'dist'
 p1950
-aS'GEOSAT DAYS              '
+aS'km'
 p1951
-aS'time'
+aS'f8.2'
 p1952
-ag5
-ag5
-aS'Days after 85/01/01'
+aS'Positive counterclockwise from section'
 p1953
-asS'622'
+asS'623'
 p1954
 (lp1955
 S'TIM'
 p1956
-aS'GREENWICH DAYS           '
+aS'GEOSAT DAYS              '
 p1957
 aS'time'
 p1958
 ag5
 ag5
-aS'Days from the start of the century'
+aS'Days after 85/01/01'
 p1959
-asS'621'
+asS'622'
 p1960
 (lp1961
-S'DAT'
+S'TIM'
 p1962
-aS'MMDD.HHMM                '
+aS'GREENWICH DAYS           '
 p1963
 aS'time'
 p1964
 ag5
 ag5
-aS'Date,Time without year (mmdd.hhmm, real no)'
+aS'Days from the start of the century'
 p1965
-asS'620'
+asS'621'
 p1966
 (lp1967
 S'DAT'
 p1968
-aS'DATE (EPIC)              '
+aS'MMDD.HHMM                '
 p1969
 aS'time'
 p1970
 ag5
-aS'f10.0'
+ag5
+aS'Date,Time without year (mmdd.hhmm, real no)'
 p1971
-aS'EPIC Time series date yymmdd as real number'
+asS'620'
 p1972
-asS'627'
-p1973
-(lp1974
-S'TIM'
+(lp1973
+S'DAT'
+p1974
+aS'DATE (EPIC)              '
 p1975
-aS'Julian Days              '
-p1976
 aS'time'
+p1976
+ag5
+aS'f10.0'
 p1977
-ag5
-ag5
-aS'Real number, decimal part gives time of day'
+aS'EPIC Time series date yymmdd as real number'
 p1978
-asS'626'
+asS'627'
 p1979
 (lp1980
 S'TIM'
 p1981
-aS'DAYS SINCE START         '
+aS'Julian Days              '
 p1982
 aS'time'
 p1983
-aS'd'
+ag5
+ag5
+aS'Real number, decimal part gives time of day'
 p1984
+asS'626'
+p1985
+(lp1986
+S'TIM'
+p1987
+aS'DAYS SINCE START         '
+p1988
+aS'time'
+p1989
+aS'd'
+p1990
 ag5
 aS'real, delta seconds'
-p1985
-asS'625'
-p1986
-(lp1987
-S'TIM'
-p1988
-aS'SECONDS SINCE START      '
-p1989
-aS'time'
-p1990
-ag1797
-ag5
-aS'integer, delta seconds'
 p1991
-asS'624'
+asS'625'
 p1992
 (lp1993
 S'TIM'
 p1994
-aS'EPIC SYSTEM TIME         '
+aS'SECONDS SINCE START      '
 p1995
 aS'time'
 p1996
+ag1803
+ag5
+aS'integer, delta seconds'
+p1997
+asS'624'
+p1998
+(lp1999
+S'TIM'
+p2000
+aS'EPIC SYSTEM TIME         '
+p2001
+aS'time'
+p2002
 ag5
 ag5
 aS'2 integers, jul day, millisec since midnight'
-p1997
-asS'450'
-p1998
-(lp1999
-S'WW '
-p2000
-aS'WIND WORK                '
-p2001
-ag5
-aS'm3 s-3'
-p2002
-ag5
-aS'Wind work'
 p2003
-asS'4269'
+asS'450'
 p2004
 (lp2005
-S'TCARBN '
+S'WW '
 p2006
-aS'Total Carbon           '
+aS'WIND WORK                '
 p2007
-aS'tcarbn '
+ag5
+aS'm3 s-3'
 p2008
-aS'umol/kg'
+ag5
+aS'Wind work'
 p2009
-aS'f9.1'
+asS'4269'
 p2010
+(lp2011
+S'TCARBN '
+p2012
+aS'Total Carbon           '
+p2013
+aS'tcarbn '
+p2014
+aS'umol/kg'
+p2015
+aS'f9.1'
+p2016
 ag1
 asS'628'
-p2011
-(lp2012
+p2017
+(lp2018
 S'DUR'
-p2013
+p2019
 aS'Sample Duration          '
-p2014
+p2020
 ag5
 aS'min'
-p2015
+p2021
 ag5
 ag1
 asS'1876'
-p2016
-(lp2017
+p2022
+(lp2023
 S'ASSRH'
-p2018
+p2024
 aS'Aerosol Scat Nephelometer RH      '
-p2019
+p2025
 ag5
-ag611
+ag617
 ag5
 ag1
 asS'1877'
-p2020
-(lp2021
+p2026
+(lp2027
 S'ASSP '
-p2022
+p2028
 aS'Aerosol Scat Nephelometer Pressure'
-p2023
+p2029
 ag5
 aS'mbar'
-p2024
+p2030
 ag5
 ag1
 asS'1874'
-p2025
-(lp2026
+p2031
+(lp2032
 S'SAAb'
-p2027
+p2033
 aS'Submicron Aerosol Absorbance'
-p2028
+p2034
 ag5
 aS'Mm-1'
-p2029
+p2035
 ag5
 ag1
 asS'1875'
-p2030
-(lp2031
+p2036
+(lp2037
 S'ASST '
-p2032
+p2038
 aS'Aerosol Scat Nephelometer Temp    '
-p2033
+p2039
 ag5
 aS'degC'
-p2034
+p2040
 ag5
 ag1
 asS'1872'
-p2035
-(lp2036
+p2041
+(lp2042
 S'SBSR'
-p2037
+p2043
 aS'Submicron Aero BkScat Red  '
-p2038
+p2044
 ag5
 aS'Mm-1'
-p2039
+p2045
 ag5
 ag1
 asS'1873'
-p2040
-(lp2041
+p2046
+(lp2047
 S'AAb '
-p2042
+p2048
 aS'Aerosol Absorbance          '
-p2043
+p2049
 ag5
 aS'Mm-1'
-p2044
+p2050
 ag5
 ag1
 asS'1870'
-p2045
-(lp2046
+p2051
+(lp2052
 S'SBSB'
-p2047
+p2053
 aS'Submicron Aero BkScat Blue '
-p2048
+p2054
 ag5
 aS'Mm-1'
-p2049
+p2055
 ag5
 ag1
 asS'1871'
-p2050
-(lp2051
+p2056
+(lp2057
 S'SBSG'
-p2052
+p2058
 aS'Submicron Aero BkScat Green'
-p2053
+p2059
 ag5
 aS'Mm-1'
-p2054
+p2060
 ag5
 ag1
 asS'3032'
-p2055
-(lp2056
-S'EKdep'
-p2057
-aS'EK500 depth'
-p2058
-aS'depth'
-p2059
-aS'meters'
-p2060
-aS'f10.1'
 p2061
-aS'depth from MF EK500'
-p2062
-asS'170'
+(lp2062
+S'EKdep'
 p2063
-(lp2064
-S'SPC'
+aS'EK500 depth'
+p2064
+aS'depth'
 p2065
-aS'SPICE                    '
+aS'meters'
 p2066
-aS'spc '
+aS'f10.1'
 p2067
+aS'depth from MF EK500'
+p2068
+asS'170'
+p2069
+(lp2070
+S'SPC'
+p2071
+aS'SPICE                    '
+p2072
+aS'spc '
+p2073
 ag5
 ag5
 aS'From Phyllis Stabeno (CTD data)'
-p2068
-asS'976'
-p2069
-(lp2070
-S'VSP'
-p2071
-aS'SeaPoint Voltage         '
-p2072
-ag5
-aS'volts'
-p2073
-ag5
-aS'SeaPoint fluorometer'
 p2074
-asS'975'
+asS'976'
 p2075
 (lp2076
-S'VWS'
+S'VSP'
 p2077
-aS'wetStar Voltage          '
+aS'SeaPoint Voltage         '
 p2078
 ag5
 aS'volts'
 p2079
 ag5
-aS'Wetlabs wetstar fluorometer'
+aS'SeaPoint fluorometer'
 p2080
-asS'974'
+asS'975'
 p2081
 (lp2082
-S'fSP'
+S'VWS'
 p2083
-aS'SeaPoint fluorometer chl '
+aS'wetStar Voltage          '
 p2084
 ag5
-aS'ug/L'
+aS'volts'
 p2085
 ag5
-aS'Sea Point fluorometer chlorophyll'
+aS'Wetlabs wetstar fluorometer'
 p2086
-asS'973'
+asS'974'
 p2087
 (lp2088
-S'fWS'
+S'fSP'
 p2089
-aS'wetStar fluorometer chl  '
+aS'SeaPoint fluorometer chl '
 p2090
 ag5
 aS'ug/L'
 p2091
 ag5
-aS'Wetlabs wetstar fluorometer chlorophyll'
+aS'Sea Point fluorometer chlorophyll'
 p2092
-asS'972'
+asS'973'
 p2093
 (lp2094
-S'rCv'
+S'fWS'
 p2095
-aS'raw chl-a Volts(CTD)     '
+aS'wetStar fluorometer chl  '
 p2096
 ag5
-aS'Volts'
+aS'ug/L'
 p2097
+ag5
+aS'Wetlabs wetstar fluorometer chlorophyll'
+p2098
+asS'972'
+p2099
+(lp2100
+S'rCv'
+p2101
+aS'raw chl-a Volts(CTD)     '
+p2102
+ag5
+aS'Volts'
+p2103
 ag5
 ag1
 asS'971'
-p2098
-(lp2099
+p2104
+(lp2105
 S'rFv'
-p2100
+p2106
 aS'raw fluorometer Volts(CTD)   '
-p2101
+p2107
 ag5
 aS'Volts'
-p2102
+p2108
 ag5
 ag1
 asS'182'
-p2103
-(lp2104
+p2109
+(lp2110
 S'NO3'
-p2105
+p2111
 aS'NITRATE (micromoles/l)   '
-p2106
+p2112
 aS'NO3'
-p2107
+p2113
 aS'uM/l'
-p2108
+p2114
 ag5
 aS'From Jim Murray'
-p2109
-asS'183'
-p2110
-(lp2111
-S'NO3w'
-p2112
-aS'Nitrate in Water        '
-p2113
-aS'NO3'
-p2114
-aS'umol/L'
 p2115
+asS'183'
+p2116
+(lp2117
+S'NO3w'
+p2118
+aS'Nitrate in Water        '
+p2119
+aS'NO3'
+p2120
+aS'umol/L'
+p2121
 ag5
 ag1
 asS'1500'
-p2116
-(lp2117
-S'LAT'
-p2118
-aS'START LATITUDE           '
-p2119
-aS'start_lat'
-p2120
-aS'degree_north'
-p2121
-aS'f10.4'
 p2122
-aS'N positive S negative'
-p2123
-asS'181'
+(lp2123
+S'LAT'
 p2124
-(lp2125
-S'SI '
+aS'START LATITUDE           '
+p2125
+aS'start_lat'
 p2126
-aS'SiO4                     '
+aS'degree_north'
 p2127
-aS'SiO4'
+aS'f10.4'
 p2128
-aS'mg at/l'
+aS'N positive S negative'
 p2129
+asS'181'
+p2130
+(lp2131
+S'SI '
+p2132
+aS'SiO4                     '
+p2133
+aS'SiO4'
+p2134
+aS'mg at/l'
+p2135
 ag5
 aS'J.Murray '
-p2130
-asS'186'
-p2131
-(lp2132
-S'PO4'
-p2133
-aS'PHOSPHATE (micromoles/l) '
-p2134
-aS'PO4'
-p2135
-aS'uM/l'
 p2136
-ag5
-aS'From Jim Murray'
+asS'186'
 p2137
-asS'187'
-p2138
-(lp2139
-S'UR '
+(lp2138
+S'PO4'
+p2139
+aS'PHOSPHATE (micromoles/l) '
 p2140
-aS'UREA (micromoles/l)      '
+aS'PO4'
 p2141
-aS'UR'
-p2142
 aS'uM/l'
-p2143
+p2142
 ag5
 aS'From Jim Murray'
+p2143
+asS'187'
 p2144
-asS'650'
-p2145
-(lp2146
-S'H  '
+(lp2145
+S'UR '
+p2146
+aS'UREA (micromoles/l)      '
 p2147
-aS'LAYER THICKNESS          '
+aS'UR'
 p2148
-aS'H'
+aS'uM/l'
 p2149
+ag5
+aS'From Jim Murray'
+p2150
+asS'650'
+p2151
+(lp2152
+S'H  '
+p2153
+aS'LAYER THICKNESS          '
+p2154
+aS'H'
+p2155
 ag52
 ag5
 aS"Mick Spillane's model"
-p2150
+p2156
 asS'651'
-p2151
-(lp2152
+p2157
+(lp2158
 S'n  '
-p2153
+p2159
 aS'LAYER NUMBER             '
-p2154
+p2160
 aS'n'
-p2155
+p2161
 ag5
 ag5
 aS"Mick Spillane's model"
-p2156
-asS'188'
-p2157
-(lp2158
-S'SI '
-p2159
-aS'SILICATE (micromoles/l)  '
-p2160
-aS'SiO4'
-p2161
-aS'uM/l'
 p2162
+asS'188'
+p2163
+(lp2164
+S'SI '
+p2165
+aS'SILICATE (micromoles/l)  '
+p2166
+aS'SiO4'
+p2167
+aS'uM/l'
+p2168
 ag5
 aS'From Jim Murray'
-p2163
-asS'189'
-p2164
-(lp2165
-S'NH4'
-p2166
-aS'AMMONIUM (micromoles/L)  '
-p2167
-aS'NH4'
-p2168
-aS'umol/L'
 p2169
+asS'189'
+p2170
+(lp2171
+S'NH4'
+p2172
+aS'AMMONIUM (micromoles/L)  '
+p2173
+aS'NH4'
+p2174
+aS'umol/L'
+p2175
 ag5
 ag1
 asS'3081'
-p2170
-(lp2171
-S'SOG'
-p2172
-aS'Speed Over Ground (Trimble P-code GPS)'
-p2173
-aS'SOG'
-p2174
-aS'knots'
-p2175
-aS'F5.2'
 p2176
-aS'Ship Speed Over Ground'
-p2177
-asS'3080'
+(lp2177
+S'SOG'
 p2178
-(lp2179
-S'SOG'
+aS'Speed Over Ground (Trimble P-code GPS)'
+p2179
+aS'SOG'
 p2180
-aS'Speed Over Ground                     '
+aS'knots'
 p2181
-aS'SOG'
+aS'F5.2'
 p2182
-aS'knots'
+aS'Ship Speed Over Ground'
 p2183
-aS'F5.2'
+asS'3080'
 p2184
-aS'Ship Speed Over Ground'
-p2185
-asS'3082'
-p2186
-(lp2187
+(lp2185
 S'SOG'
-p2188
-aS'Speed Over Ground (North Star GPS)    '
-p2189
+p2186
+aS'Speed Over Ground                     '
+p2187
 aS'SOG'
-p2190
+p2188
 aS'knots'
-p2191
+p2189
 aS'F5.2'
-p2192
+p2190
 aS'Ship Speed Over Ground'
-p2193
-asS'184'
+p2191
+asS'3082'
+p2192
+(lp2193
+S'SOG'
 p2194
-(lp2195
-S'NO2'
+aS'Speed Over Ground (North Star GPS)    '
+p2195
+aS'SOG'
 p2196
-aS'NITRITE (micromoles/l)   '
+aS'knots'
 p2197
-aS'NO2'
+aS'F5.2'
 p2198
-aS'uM/l'
+aS'Ship Speed Over Ground'
 p2199
+asS'184'
+p2200
+(lp2201
+S'NO2'
+p2202
+aS'NITRITE (micromoles/l)   '
+p2203
+aS'NO2'
+p2204
+aS'uM/l'
+p2205
 ag5
 aS'From Jim Murray'
-p2200
-asS'185'
-p2201
-(lp2202
-S'NN '
-p2203
-aS'Nitrate + Nitrite        '
-p2204
-aS'NO2+NO3'
-p2205
-aS'umoles/l'
 p2206
+asS'185'
+p2207
+(lp2208
+S'NN '
+p2209
+aS'Nitrate + Nitrite        '
+p2210
+aS'NO2+NO3'
+p2211
+aS'umoles/l'
+p2212
 ag5
 aS'Total nutrients'
-p2207
+p2213
 asS'11'
-p2208
-(lp2209
+p2214
+(lp2215
 S'DYN'
-p2210
+p2216
 aS'DYM HT (SUBSAMPLED DATA) '
-p2211
+p2217
 aS'dynhgt'
-p2212
+p2218
 ag5
 ag5
 ag1
 asS'10'
-p2213
-(lp2214
-S'DYN'
-p2215
-aS'DYNAMIC METERS           '
-p2216
-aS'dynhgt'
-p2217
-aS'dyn-m'
-p2218
-aS'f10.4'
 p2219
+(lp2220
+S'DYN'
+p2221
+aS'DYNAMIC METERS           '
+p2222
+aS'dynhgt'
+p2223
+aS'dyn-m'
+p2224
+aS'f10.4'
+p2225
 ag1
 asS'13'
-p2220
-(lp2221
-S'DYN'
-p2222
-aS'DYNAMIC HEIGHT (DYN CM)  '
-p2223
-aS'dynhgt'
-p2224
-aS'dyn-cm'
-p2225
-ag5
-ag1
-asS'12'
 p2226
 (lp2227
-S'dDN'
+S'DYN'
 p2228
-aS'DYNn-DYNs                '
+aS'DYNAMIC HEIGHT (DYN CM)  '
 p2229
 aS'dynhgt'
 p2230
+aS'dyn-cm'
+p2231
+ag5
+ag1
+asS'12'
+p2232
+(lp2233
+S'dDN'
+p2234
+aS'DYNn-DYNs                '
+p2235
+aS'dynhgt'
+p2236
 ag5
 aS'f10.5'
-p2231
-aS'Diff of North and South Dyn Ht.'
-p2232
-asS'15'
-p2233
-(lp2234
-S'd1 '
-p2235
-aS'DYN1 (DYN M)             '
-p2236
-aS'dynhgt'
 p2237
-aS'dyn-m'
+aS'Diff of North and South Dyn Ht.'
 p2238
+asS'15'
+p2239
+(lp2240
+S'd1 '
+p2241
+aS'DYN1 (DYN M)             '
+p2242
+aS'dynhgt'
+p2243
+aS'dyn-m'
+p2244
 ag5
 aS'Dyn1 (ctd1) for geost vel calc'
-p2239
-asS'14'
-p2240
-(lp2241
-S' dD'
-p2242
-aS'dDYN1-dDYN2 (DYN M)      '
-p2243
-aS'dynhgt'
-p2244
-aS'dyn-m'
 p2245
+asS'14'
+p2246
+(lp2247
+S' dD'
+p2248
+aS'dDYN1-dDYN2 (DYN M)      '
+p2249
+aS'dynhgt'
+p2250
+aS'dyn-m'
+p2251
 ag5
 aS'Delta-Dyn (ctd1-ctd2) for geost vel calc'
-p2246
+p2252
 asS'17'
-p2247
-(lp2248
+p2253
+(lp2254
 S'ZPG'
-p2249
+p2255
 aS'ZONAL PRESSURE GRAD      '
-p2250
+p2256
 ag5
 ag5
 ag5
 aS'Calculated for specific areas'
-p2251
-asS'16'
-p2252
-(lp2253
-S'd2 '
-p2254
-aS'DYN2 (DYN M)             '
-p2255
-aS'dynhgt'
-p2256
-aS'dyn-m'
 p2257
+asS'16'
+p2258
+(lp2259
+S'd2 '
+p2260
+aS'DYN2 (DYN M)             '
+p2261
+aS'dynhgt'
+p2262
+aS'dyn-m'
+p2263
 ag5
 aS'Dyn2 (ctd2) for geost vel calc'
-p2258
-asS'18'
-p2259
-(lp2260
-S'hght'
-p2261
-aS'height (m)              '
-p2262
-aS'height'
-p2263
-ag52
-aS'f10.2'
 p2264
-ag1
-asS'4281'
+asS'18'
 p2265
 (lp2266
-S'PCO2 '
+S'hght'
 p2267
-aS'Partial Pressure of CO2  '
+aS'height (m)              '
 p2268
-aS'pco2 '
+aS'height'
 p2269
-aS'uatm '
+ag52
+aS'f10.2'
 p2270
-aS'f9.1'
+ag1
+asS'4281'
 p2271
+(lp2272
+S'PCO2 '
+p2273
+aS'Partial Pressure of CO2  '
+p2274
+aS'pco2 '
+p2275
+aS'uatm '
+p2276
+aS'f9.1'
+p2277
 ag1
 asS'1977'
-p2272
-(lp2273
+p2278
+(lp2279
 S'Ca    '
-p2274
+p2280
 aS'Submicron Aerosol Calcium                        '
-p2275
+p2281
 ag5
 aS'ug/m^3'
-p2276
+p2282
 ag5
 ag5
 asS'1923'
-p2277
-(lp2278
+p2283
+(lp2284
 S'NH4   '
-p2279
+p2285
 aS'Soluble Submicron Aerosol Ammonium               '
-p2280
+p2286
 ag5
 aS'ug/m^3'
-p2281
+p2287
 ag5
 ag5
 asS'4012'
-p2282
-(lp2283
-S'rtrn'
-p2284
-aS'RAW TRANSMISSOMETER VOLTS'
-p2285
-aS'trans'
-p2286
-aS'counts'
-p2287
-aS'i10'
 p2288
-aS'MIDAS raw transmissometer voltage'
-p2289
-asS'4011'
+(lp2289
+S'rtrn'
 p2290
-(lp2291
-S'ptrn'
-p2292
-aS'PERCENT TRANSMISSION     '
-p2293
+aS'RAW TRANSMISSOMETER VOLTS'
+p2291
 aS'trans'
+p2292
+aS'counts'
+p2293
+aS'i10'
 p2294
+aS'MIDAS raw transmissometer voltage'
+p2295
+asS'4011'
+p2296
+(lp2297
+S'ptrn'
+p2298
+aS'PERCENT TRANSMISSION     '
+p2299
+aS'trans'
+p2300
 ag5
 aS'f10.1'
-p2295
-aS'normalized by 95% of air transmission'
-p2296
-asS'1502'
-p2297
-(lp2298
-S'LON'
-p2299
-aS'START LONGITUDE          '
-p2300
-aS'start_lon'
 p2301
-aS'degree_east'
+aS'normalized by 95% of air transmission'
 p2302
-aS'f10.4'
+asS'1502'
 p2303
-aS'E positive 165W=195'
-p2304
-asS'4010'
+(lp2304
+S'LON'
 p2305
-(lp2306
-S'tran'
+aS'START LONGITUDE          '
+p2306
+aS'start_lon'
 p2307
-aS'TRANSMISSION (VOLTS)     '
+aS'degree_east'
 p2308
-aS'trans'
+aS'f10.4'
 p2309
-aS'volts'
+aS'E positive 165W=195'
 p2310
-aS'f10.3'
+asS'4010'
 p2311
-aS'basic measurement, transmissometer'
-p2312
-asS'4217'
+(lp2312
+S'tran'
 p2313
-(lp2314
-S'SALNTY_FLAG'
+aS'TRANSMISSION (VOLTS)     '
+p2314
+aS'trans'
 p2315
-aS'Bottle Salinity Flag'
+aS'volts'
 p2316
-aS'flag'
+aS'f10.3'
 p2317
+aS'basic measurement, transmissometer'
+p2318
+asS'4217'
+p2319
+(lp2320
+S'SALNTY_FLAG'
+p2321
+aS'Bottle Salinity Flag'
+p2322
+aS'flag'
+p2323
 ag5
 ag5
 ag1
 asS'4017'
-p2318
-(lp2319
-S'tiltx'
-p2320
-aS'TILT IN POD X-Z PLANE    '
-p2321
-aS'tilt'
-p2322
-aS'degrees'
-p2323
-aS'f10.3'
 p2324
-aS'orientation of BASS pods'
-p2325
-asS'4016'
+(lp2325
+S'tiltx'
 p2326
-(lp2327
-S'rtlty'
+aS'TILT IN POD X-Z PLANE    '
+p2327
+aS'tilt'
 p2328
-aS'RAW TILTY VOLTS          '
+aS'degrees'
 p2329
-aS'tilt'
+aS'f10.3'
 p2330
-aS'counts'
+aS'orientation of BASS pods'
 p2331
-aS'i10'
+asS'4016'
 p2332
-aS'MIDAS raw tilty voltage'
-p2333
-asS'4015'
+(lp2333
+S'rtlty'
 p2334
-(lp2335
-S'rtltx'
-p2336
-aS'RAW TILTX VOLTS          '
-p2337
+aS'RAW TILTY VOLTS          '
+p2335
 aS'tilt'
+p2336
+aS'counts'
+p2337
+aS'i10'
 p2338
-aS'counts'
+aS'MIDAS raw tilty voltage'
 p2339
-aS'i10'
+asS'4015'
 p2340
-aS'MIDAS raw tiltx voltage'
-p2341
-asS'4008'
+(lp2341
+S'rtltx'
 p2342
-(lp2343
-S'cnt'
+aS'RAW TILTX VOLTS          '
+p2343
+aS'tilt'
 p2344
-aS'clock counter            '
-p2345
-aS'count'
-p2346
 aS'counts'
-p2347
+p2345
 aS'i10'
+p2346
+aS'MIDAS raw tiltx voltage'
+p2347
+asS'4008'
 p2348
-aS'clock counter'
-p2349
-asS'4009'
+(lp2349
+S'cnt'
 p2350
-(lp2351
-S'stead'
+aS'clock counter            '
+p2351
+aS'count'
 p2352
-aS'STEADINESS             '
+aS'counts'
 p2353
-aS'steadiness'
+aS'i10'
 p2354
-ag5
-aS'f10.4'
+aS'clock counter'
 p2355
-aS'VACM rotor spd normalized by vector spd to measure wave effect'
+asS'4009'
 p2356
-asS'1968'
-p2357
-(lp2358
-S'Al    '
+(lp2357
+S'stead'
+p2358
+aS'STEADINESS             '
 p2359
-aS'Submicron Aerosol Aluminum                       '
+aS'steadiness'
 p2360
 ag5
-aS'ug/m^3'
+aS'f10.4'
 p2361
+aS'VACM rotor spd normalized by vector spd to measure wave effect'
+p2362
+asS'1968'
+p2363
+(lp2364
+S'Al    '
+p2365
+aS'Submicron Aerosol Aluminum                       '
+p2366
+ag5
+aS'ug/m^3'
+p2367
 ag5
 ag5
 asS'1969'
-p2362
-(lp2363
+p2368
+(lp2369
 S'Al    '
-p2364
+p2370
 aS'Supermicron Aerosol Aluminum                     '
-p2365
+p2371
 ag5
 aS'ug/m^3'
-p2366
+p2372
 ag5
 ag5
 asS'4216'
-p2367
-(lp2368
-S'SALNTY '
-p2369
-aS'Bottle Salinity, PSS-78'
-p2370
-aS'sal'
-p2371
-aS'PSU'
-p2372
-aS'f9.4'
 p2373
+(lp2374
+S'SALNTY '
+p2375
+aS'Bottle Salinity, PSS-78'
+p2376
+aS'sal'
+p2377
+aS'PSU'
+p2378
+aS'f9.4'
+p2379
 ag1
 asS'1964'
-p2374
-(lp2375
+p2380
+(lp2381
 S'BC    '
-p2376
+p2382
 aS'Sub10micron Aerosol Black Carbon                 '
-p2377
+p2383
 ag5
 aS'ug/m^3'
-p2378
+p2384
 ag5
 ag5
 asS'1965'
-p2379
-(lp2380
+p2385
+(lp2386
 S'mass  '
-p2381
+p2387
 aS'Submicron Aerosol mass                           '
-p2382
+p2388
 ag5
 aS'ug/m^3'
-p2383
+p2389
 ag5
 ag5
 asS'1966'
-p2384
-(lp2385
+p2390
+(lp2391
 S'mass  '
-p2386
+p2392
 aS'Supermicron Aerosol mass                         '
-p2387
+p2393
 ag5
 aS'ug/m^3'
-p2388
+p2394
 ag5
 ag5
 asS'1967'
-p2389
-(lp2390
+p2395
+(lp2396
 S'mass  '
-p2391
+p2397
 aS'Sub10micron Aerosol mass                         '
-p2392
+p2398
 ag5
 aS'ug/m^3'
-p2393
+p2399
 ag5
 ag5
 asS'1960'
-p2394
-(lp2395
+p2400
+(lp2401
 S'OC    '
-p2396
+p2402
 aS'Supermicron Aerosol Organic Carbon               '
-p2397
+p2403
 ag5
 aS'ug/m^3'
-p2398
+p2404
 ag5
 ag5
 asS'1961'
-p2399
-(lp2400
+p2405
+(lp2406
 S'OC    '
-p2401
+p2407
 aS'Sub10micron Aerosol Organic Carbon               '
-p2402
+p2408
 ag5
 aS'ug/m^3'
-p2403
+p2409
 ag5
 ag5
 asS'1962'
-p2404
-(lp2405
+p2410
+(lp2411
 S'BC    '
-p2406
+p2412
 aS'Submicron Aerosol Black Carbon                   '
-p2407
+p2413
 ag5
 aS'ug/m^3'
-p2408
+p2414
 ag5
 ag5
 asS'1963'
-p2409
-(lp2410
+p2415
+(lp2416
 S'BC    '
-p2411
+p2417
 aS'Supermicron Aerosol Black Carbon                 '
-p2412
+p2418
 ag5
 aS'ug/m^3'
-p2413
+p2419
 ag5
 ag5
 asS'322'
-p2414
-(lp2415
-S'U  '
-p2416
-aS'ZONAL CURRENT (CM/S)     '
-p2417
-ag240
-aS'cm s-1'
-p2418
-ag5
-aS'relative w/r true N'
-p2419
-asS'323'
 p2420
 (lp2421
-S'V  '
+S'U  '
 p2422
-aS'MERIDIONAL CURRENT (CM/S)'
+aS'ZONAL CURRENT (CM/S)     '
 p2423
-ag211
+ag248
 aS'cm s-1'
 p2424
 ag5
 aS'relative w/r true N'
 p2425
-asS'320'
+asS'323'
 p2426
 (lp2427
-S'U  '
+S'V  '
 p2428
-aS'ZONAL CURRENT (CM/S)     '
+aS'MERIDIONAL CURRENT (CM/S)'
 p2429
-ag240
+ag211
 aS'cm s-1'
 p2430
 ag5
-aS'measured w/r true N'
+aS'relative w/r true N'
 p2431
-asS'321'
+asS'320'
 p2432
 (lp2433
-S'V  '
+S'U  '
 p2434
-aS'MERIDIONAL CURRENT (CM/S)'
+aS'ZONAL CURRENT (CM/S)     '
 p2435
-ag211
+ag248
 aS'cm s-1'
 p2436
 ag5
 aS'measured w/r true N'
 p2437
-asS'326'
+asS'321'
 p2438
 (lp2439
-S'U  '
+S'V  '
 p2440
-aS'ZONAL CURRENT (CM/S)     '
+aS'MERIDIONAL CURRENT (CM/S)'
 p2441
-ag240
+ag211
 aS'cm s-1'
 p2442
 ag5
-aS'tracked w/r true N'
+aS'measured w/r true N'
 p2443
-asS'327'
+asS'326'
 p2444
 (lp2445
-S'V  '
+S'U  '
 p2446
-aS'MERIDIONAL CURRENT (CM/S)'
+aS'ZONAL CURRENT (CM/S)     '
 p2447
-ag211
+ag248
 aS'cm s-1'
 p2448
 ag5
 aS'tracked w/r true N'
 p2449
-asS'324'
+asS'327'
 p2450
 (lp2451
-S'U  '
+S'V  '
 p2452
-aS'ZONAL CURRENT (CM/S)     '
+aS'MERIDIONAL CURRENT (CM/S)'
 p2453
-ag240
+ag211
 aS'cm s-1'
 p2454
 ag5
-aS'instrument w/r true N'
+aS'tracked w/r true N'
 p2455
-asS'325'
+asS'324'
 p2456
 (lp2457
-S'V  '
+S'U  '
 p2458
-aS'MERIDIONAL CURRENT (CM/S)'
+aS'ZONAL CURRENT (CM/S)     '
 p2459
-ag211
+ag248
 aS'cm s-1'
 p2460
 ag5
 aS'instrument w/r true N'
 p2461
-asS'1224'
+asS'325'
 p2462
 (lp2463
-S'AGC4'
+S'V  '
 p2464
-aS'Echo Intensity (AGC) Beam 4'
+aS'MERIDIONAL CURRENT (CM/S)'
 p2465
-aS'AGC'
+ag211
+aS'cm s-1'
 p2466
-aS'counts'
+ag5
+aS'instrument w/r true N'
 p2467
+asS'1224'
+p2468
+(lp2469
+S'AGC4'
+p2470
+aS'Echo Intensity (AGC) Beam 4'
+p2471
+aS'AGC'
+p2472
+aS'counts'
+p2473
 ag5
 aS'ADCP Beam 4 AGC'
-p2468
-asS'328'
-p2469
-(lp2470
-S'W  '
-p2471
-aS'VERTICAL VELOCITY (CM/S) '
-p2472
-aS'w'
-p2473
-aS'cm s-1'
 p2474
-ag5
-aS'tracked TOPS'
+asS'328'
 p2475
-asS'329'
-p2476
-(lp2477
+(lp2476
 S'W  '
-p2478
+p2477
 aS'VERTICAL VELOCITY (CM/S) '
+p2478
+aS'w'
 p2479
-ag2473
 aS'cm s-1'
 p2480
-aS'f8.2'
+ag5
+aS'tracked TOPS'
 p2481
-ag1
-asS'4236'
+asS'329'
 p2482
 (lp2483
-S'NITRAT '
+S'W  '
 p2484
-aS'Nitrate                '
+aS'VERTICAL VELOCITY (CM/S) '
 p2485
-aS'NO3    '
+ag2479
+aS'cm s-1'
 p2486
-aS'umol/l   '
+aS'f8.2'
 p2487
-aS'f9.1'
+ag1
+asS'4236'
 p2488
+(lp2489
+S'NITRAT '
+p2490
+aS'Nitrate                '
+p2491
+aS'NO3    '
+p2492
+aS'umol/l   '
+p2493
+aS'f9.1'
+p2494
 ag1
 asS'200'
-p2489
-(lp2490
+p2495
+(lp2496
 S'DIS'
-p2491
+p2497
 aS'VERTICAL DISPLACEMENT    '
-p2492
+p2498
 ag5
 ag5
 ag5
 aS'From mean CTD profile'
-p2493
+p2499
 asS'205'
-p2494
-(lp2495
+p2500
+(lp2501
 S'SL '
-p2496
+p2502
 aS'Sea Level                '
-p2497
+p2503
 ag5
 aS'mm'
-p2498
+p2504
 ag5
 ag1
 asS'207'
-p2499
-(lp2500
-S'SL_d'
-p2501
-aS'SEA LEVEL (daily)       '
-p2502
-aS'SLd'
-p2503
-ag52
-aS'f7.3'
-p2504
-aS'daily insitu sea level values'
 p2505
-asS'206'
-p2506
-(lp2507
-S'SL_h'
+(lp2506
+S'SL_d'
+p2507
+aS'SEA LEVEL (daily)       '
 p2508
-aS'SEA LEVEL (hourly)      '
+aS'SLd'
 p2509
-aS'SLh'
+ag52
+aS'f7.3'
 p2510
-ag52
-aS'f7.3'
+aS'daily insitu sea level values'
 p2511
-aS'hourly insitu sea level values'
+asS'206'
 p2512
-asS'208'
-p2513
-(lp2514
-S'SL_m'
+(lp2513
+S'SL_h'
+p2514
+aS'SEA LEVEL (hourly)      '
 p2515
-aS'SEA LEVEL (monthly)     '
+aS'SLh'
 p2516
-aS'SLm'
-p2517
 ag52
 aS'f7.3'
+p2517
+aS'hourly insitu sea level values'
 p2518
-aS'monthly insitu sea level values'
+asS'208'
 p2519
-asS'77'
-p2520
-(lp2521
-S'GN '
+(lp2520
+S'SL_m'
+p2521
+aS'SEA LEVEL (monthly)     '
 p2522
-aS'GAMMA N (KG/M**3)        '
+aS'SLm'
 p2523
-aS'gamma_n'
+ag52
+aS'f7.3'
 p2524
-aS'kg m-3'
+aS'monthly insitu sea level values'
 p2525
-aS'f10.2'
+asS'77'
 p2526
-aS'Neutral Density'
-p2527
-asS'76'
+(lp2527
+S'GN '
 p2528
-(lp2529
-S'S1 '
+aS'GAMMA N (KG/M**3)        '
+p2529
+aS'gamma_n'
 p2530
-aS'SIGMA 1 (KG/M**3)        '
+aS'kg m-3'
 p2531
-aS'potden1'
+aS'f10.2'
 p2532
-aS'kg m-3'
+aS'Neutral Density'
 p2533
-aS'f10.2'
+asS'76'
 p2534
-aS'sigma-theta ref to 1000m'
-p2535
-asS'75'
+(lp2535
+S'S1 '
 p2536
-(lp2537
-S'S5 '
+aS'SIGMA 1 (KG/M**3)        '
+p2537
+aS'potden1'
 p2538
-aS'SIGMA 5 (KG/M**3)        '
+aS'kg m-3'
 p2539
-aS'potden5'
+aS'f10.2'
 p2540
-aS'kg m-3'
+aS'sigma-theta ref to 1000m'
 p2541
-aS'f10.2'
+asS'75'
 p2542
-aS'sigma-theta ref to 5000m'
-p2543
-asS'74'
+(lp2543
+S'S5 '
 p2544
-(lp2545
-S'S4 '
+aS'SIGMA 5 (KG/M**3)        '
+p2545
+aS'potden5'
 p2546
-aS'SIGMA 4 (KG/M**3)        '
+aS'kg m-3'
 p2547
-aS'potden4'
+aS'f10.2'
 p2548
-aS'kg m-3'
+aS'sigma-theta ref to 5000m'
 p2549
-aS'f10.2'
+asS'74'
 p2550
-aS'sigma-theta ref to 4000m'
-p2551
-asS'73'
+(lp2551
+S'S4 '
 p2552
-(lp2553
-S'S3 '
+aS'SIGMA 4 (KG/M**3)        '
+p2553
+aS'potden4'
 p2554
-aS'SIGMA 3 (KG/M**3)        '
+aS'kg m-3'
 p2555
-aS'potden3'
+aS'f10.2'
 p2556
-aS'kg m-3'
+aS'sigma-theta ref to 4000m'
 p2557
-aS'f10.2'
+asS'73'
 p2558
-aS'sigma-theta ref to 3000m'
-p2559
-asS'72'
+(lp2559
+S'S3 '
 p2560
-(lp2561
-S'S2 '
+aS'SIGMA 3 (KG/M**3)        '
+p2561
+aS'potden3'
 p2562
-aS'SIGMA 2 (KG/M**3)        '
-p2563
-aS'potden2'
-p2564
 aS'kg m-3'
+p2563
+aS'f10.2'
+p2564
+aS'sigma-theta ref to 3000m'
 p2565
-aS'f10.2'
+asS'72'
 p2566
-aS'sigma-theta ref to 2000m'
-p2567
-asS'71'
+(lp2567
+S'S2 '
 p2568
-(lp2569
-S'STH'
+aS'SIGMA 2 (KG/M**3)        '
+p2569
+aS'potden2'
 p2570
-aS'SIGMA-THETA (KG/M**3)    '
+aS'kg m-3'
 p2571
-aS'potden'
-p2572
-aS'kg m-3 '
-p2573
 aS'f10.2'
+p2572
+aS'sigma-theta ref to 2000m'
+p2573
+asS'71'
 p2574
+(lp2575
+S'STH'
+p2576
+aS'SIGMA-THETA (KG/M**3)    '
+p2577
+aS'potden'
+p2578
+aS'kg m-3 '
+p2579
+aS'f10.2'
+p2580
 ag1
 asS'70'
-p2575
-(lp2576
-S'ST '
-p2577
-aS'SIGMA-T (KG/M**3)        '
-p2578
-aS'den'
-p2579
-aS'kg m-3'
-p2580
-aS'f10.2'
 p2581
-ag1
-asS'3056'
-p2582
-(lp2583
-S'DP '
+(lp2582
+S'ST '
+p2583
+aS'SIGMA-T (KG/M**3)        '
 p2584
-aS'Dew Point             '
+aS'den'
 p2585
-ag5
-aS'degree C'
+aS'kg m-3'
 p2586
 aS'f10.2'
 p2587
+ag1
+asS'3056'
+p2588
+(lp2589
+S'DP '
+p2590
+aS'Dew Point             '
+p2591
+ag5
+aS'degree C'
+p2592
+aS'f10.2'
+p2593
 ag5
 ag1
 asS'1501'
-p2588
-(lp2589
-S'LON'
-p2590
-aS'START LONGITUDE          '
-p2591
-aS'start_lon'
-p2592
-aS'degree_west'
-p2593
-aS'f10.4'
 p2594
-aS'W positive 165W=165'
-p2595
-asS'3055'
+(lp2595
+S'LON'
 p2596
-(lp2597
-S'qDP'
+aS'START LONGITUDE          '
+p2597
+aS'start_lon'
 p2598
-aS'Qualimetrics Dew Point'
+aS'degree_west'
 p2599
+aS'f10.4'
+p2600
+aS'W positive 165W=165'
+p2601
+asS'3055'
+p2602
+(lp2603
+S'qDP'
+p2604
+aS'Qualimetrics Dew Point'
+p2605
 ag5
 aS'degree C'
-p2600
+p2606
 aS'f10.2'
-p2601
+p2607
 ag5
 ag1
 asS'3052'
-p2602
-(lp2603
-S'AT '
-p2604
-aS'Air Temperature       '
-p2605
-aS'atemp'
-p2606
-aS'degree C'
-p2607
-aS'f10.2'
 p2608
+(lp2609
+S'AT '
+p2610
+aS'Air Temperature       '
+p2611
+aS'atemp'
+p2612
+aS'degree C'
+p2613
+aS'f10.2'
+p2614
 ag5
 ag1
 asS'3053'
-p2609
-(lp2610
-S'AT '
-p2611
-aS'Air Temperature       '
-p2612
-aS'atemp'
-p2613
-aS'degree C'
-p2614
-aS'f10.2'
 p2615
+(lp2616
+S'AT '
+p2617
+aS'Air Temperature       '
+p2618
+aS'atemp'
+p2619
+aS'degree C'
+p2620
+aS'f10.2'
+p2621
 ag5
 ag1
 asS'3050'
-p2616
-(lp2617
-S'qAT'
-p2618
-aS'Qualimetrics Air Temp '
-p2619
-aS'atemp'
-p2620
-aS'degree C'
-p2621
-aS'f10.2'
 p2622
-aS'Qualimetrics Air Temp'
-p2623
-asS'3051'
+(lp2623
+S'qAT'
 p2624
-(lp2625
-S'AT '
-p2626
-aS'Air Temperature       '
-p2627
+aS'Qualimetrics Air Temp '
+p2625
 aS'atemp'
-p2628
+p2626
 aS'degree C'
-p2629
+p2627
 aS'f10.2'
+p2628
+aS'Qualimetrics Air Temp'
+p2629
+asS'3051'
 p2630
+(lp2631
+S'AT '
+p2632
+aS'Air Temperature       '
+p2633
+aS'atemp'
+p2634
+aS'degree C'
+p2635
+aS'f10.2'
+p2636
 ag5
 ag1
 asS'1142'
-p2631
-(lp2632
-S'MHF'
-p2633
-aS'MERID ADVECT HEAT FLUX   '
-p2634
-ag5
-aS'W m-2'
-p2635
-ag5
-aS'ping 12/10/90'
-p2636
-asS'1143'
 p2637
 (lp2638
-S'VE '
+S'MHF'
 p2639
-aS'VERTICAL ENTRAINMENT     '
+aS'MERID ADVECT HEAT FLUX   '
 p2640
 ag5
 aS'W m-2'
@@ -5627,80 +5625,80 @@ p2641
 ag5
 aS'ping 12/10/90'
 p2642
-asS'1269'
+asS'1143'
 p2643
 (lp2644
-S'BTSD'
+S'VE '
 p2645
-aS'BT Range Std. Dev.          '
+aS'VERTICAL ENTRAINMENT     '
 p2646
+ag5
+aS'W m-2'
+p2647
+ag5
+aS'ping 12/10/90'
+p2648
+asS'1269'
+p2649
+(lp2650
+S'BTSD'
+p2651
+aS'BT Range Std. Dev.          '
+p2652
 ag5
 ag52
 ag5
 aS'ADCP Btm. Trk. Range St Dev'
-p2647
-asS'1141'
-p2648
-(lp2649
-S'YDF'
-p2650
-aS'MERID DIFFUS HEAT FLUX   '
-p2651
-ag5
-aS'W m-2'
-p2652
-ag5
-aS'ping 12/10/90'
 p2653
-asS'4307'
+asS'1141'
 p2654
 (lp2655
-S'dfCO2'
+S'YDF'
 p2656
-aS'Delta fCO2'
+aS'MERID DIFFUS HEAT FLUX   '
 p2657
-aS'dfCO2'
-p2658
-aS'uatm'
-p2659
-aS'f9.1'
-p2660
-aS'Underway CO2 obs'
-p2661
-asS'4306'
-p2662
-(lp2663
-S'pCO2w'
-p2664
-aS'Partial Pressure of CO2 in Water'
-p2665
-aS'pCO2w'
-p2666
-aS'uatm'
-p2667
-aS'f9.1'
-p2668
-aS'Underway CO2 obs'
-p2669
-asS'1144'
-p2670
-(lp2671
-S'Qt '
-p2672
-aS'HEAT CONTENT CHANGE      '
-p2673
 ag5
 aS'W m-2'
-p2674
+p2658
 ag5
-aS'ping 12/11/90'
+aS'ping 12/10/90'
+p2659
+asS'4307'
+p2660
+(lp2661
+S'dfCO2'
+p2662
+aS'Delta fCO2'
+p2663
+aS'dfCO2'
+p2664
+aS'uatm'
+p2665
+aS'f9.1'
+p2666
+aS'Underway CO2 obs'
+p2667
+asS'4306'
+p2668
+(lp2669
+S'pCO2w'
+p2670
+aS'Partial Pressure of CO2 in Water'
+p2671
+aS'pCO2w'
+p2672
+aS'uatm'
+p2673
+aS'f9.1'
+p2674
+aS'Underway CO2 obs'
 p2675
-asS'1145'
+asS'1144'
 p2676
 (lp2677
-S'Qt*'
+S'Qt '
 p2678
-aS'QT*=QNET+QU+QW+QZ        '
+aS'HEAT CONTENT CHANGE      '
 p2679
 ag5
 aS'W m-2'
@@ -5708,474 +5706,474 @@ p2680
 ag5
 aS'ping 12/11/90'
 p2681
-asS'1263'
+asS'1145'
 p2682
 (lp2683
-S'BTw '
+S'Qt*'
 p2684
-aS'BT Vertical Velocity        '
+aS'QT*=QNET+QU+QW+QZ        '
 p2685
-ag2473
-aS'cm/s'
+ag5
+aS'W m-2'
 p2686
 ag5
-aS'ADCP Btm. Trk. Vertical Velocity'
+aS'ping 12/11/90'
 p2687
-asS'1262'
+asS'1263'
 p2688
 (lp2689
-S'BTv '
+S'BTw '
 p2690
-aS'BT Northward Velocity       '
+aS'BT Vertical Velocity        '
 p2691
-ag211
+ag2479
 aS'cm/s'
 p2692
 ag5
-aS'ADCP Btm. Trk. Northward Velocity'
+aS'ADCP Btm. Trk. Vertical Velocity'
 p2693
-asS'1261'
+asS'1262'
 p2694
 (lp2695
-S'BTu '
+S'BTv '
 p2696
-aS'BT Eastward Velocity        '
+aS'BT Northward Velocity       '
 p2697
-ag240
+ag211
 aS'cm/s'
 p2698
 ag5
-aS'ADCP Btm. Trk. Eastward Velocity'
+aS'ADCP Btm. Trk. Northward Velocity'
 p2699
-asS'1260'
+asS'1261'
 p2700
 (lp2701
-S'BTWe'
+S'BTu '
 p2702
-aS'BT Error Velocity           '
+aS'BT Eastward Velocity        '
 p2703
-ag2473
+ag248
 aS'cm/s'
 p2704
 ag5
-aS'ADCP Btm. Trk. Error Velocity'
+aS'ADCP Btm. Trk. Eastward Velocity'
 p2705
-asS'1267'
+asS'1260'
 p2706
 (lp2707
-S'BTR4'
+S'BTWe'
 p2708
-aS'BT Range Beam 4             '
+aS'BT Error Velocity           '
 p2709
+ag2479
+aS'cm/s'
+p2710
+ag5
+aS'ADCP Btm. Trk. Error Velocity'
+p2711
+asS'1267'
+p2712
+(lp2713
+S'BTR4'
+p2714
+aS'BT Range Beam 4             '
+p2715
 ag5
 ag52
 ag5
 aS'ADCP Btm. Trk. Range Beam4'
-p2710
+p2716
 asS'1266'
-p2711
-(lp2712
+p2717
+(lp2718
 S'BTR3'
-p2713
+p2719
 aS'BT Range Beam 3             '
-p2714
+p2720
 ag5
 ag52
 ag5
 aS'ADCP Btm. Trk. Range Beam3'
-p2715
+p2721
 asS'1265'
-p2716
-(lp2717
+p2722
+(lp2723
 S'BTR2'
-p2718
+p2724
 aS'BT Range Beam 2             '
-p2719
+p2725
 ag5
 ag52
 ag5
 aS'ADCP Btm. Trk. Range Beam2'
-p2720
+p2726
 asS'1264'
-p2721
-(lp2722
+p2727
+(lp2728
 S'BTR1'
-p2723
+p2729
 aS'BT Range Beam 1             '
-p2724
+p2730
 ag5
 ag52
 ag5
 aS'ADCP Btm. Trk. Range Beam1'
-p2725
-asS'1221'
-p2726
-(lp2727
-S'AGC1'
-p2728
-aS'Echo Intensity (AGC) Beam 1'
-p2729
-aS'AGC'
-p2730
-aS'counts'
 p2731
+asS'1221'
+p2732
+(lp2733
+S'AGC1'
+p2734
+aS'Echo Intensity (AGC) Beam 1'
+p2735
+aS'AGC'
+p2736
+aS'counts'
+p2737
 ag5
 aS'ADCP Beam 1 AGC'
-p2732
-asS'4247'
-p2733
-(lp2734
-S'CCL4 '
-p2735
-aS'Carbon Tetrachloride     '
-p2736
-aS'ccl4 '
-p2737
-aS'pmol/kg'
 p2738
-aS'f9.3'
+asS'4247'
 p2739
+(lp2740
+S'CCL4 '
+p2741
+aS'Carbon Tetrachloride     '
+p2742
+aS'ccl4 '
+p2743
+aS'pmol/kg'
+p2744
+aS'f9.3'
+p2745
 ag1
 asS'8'
-p2740
-(lp2741
+p2746
+(lp2747
 S'MLD'
-p2742
+p2748
 aS'MIXED LAYER DEPTH (M)    '
-p2743
+p2749
 aS'depth'
-p2744
+p2750
 ag52
 ag5
 aS'Program MIXDEP'
-p2745
+p2751
 asS'995'
-p2746
-(lp2747
+p2752
+(lp2753
 S'DW'
-p2748
+p2754
 aS'Zooplankton Dry Wt./Vol.  '
-p2749
+p2755
 ag5
 aS'mg/m**3'
-p2750
-aS'f5.1'
-p2751
-aS'Zooplankton Dry Weight Conc.'
-p2752
-asS'994'
-p2753
-(lp2754
-S'DV'
-p2755
-aS'Zooplankton Disp. Vol.    '
 p2756
+aS'f5.1'
+p2757
+aS'Zooplankton Dry Weight Conc.'
+p2758
+asS'994'
+p2759
+(lp2760
+S'DV'
+p2761
+aS'Zooplankton Disp. Vol.    '
+p2762
 ag5
 aS'ml/m**3'
-p2757
-aS'f5.2'
-p2758
-aS'Zooplankton Displacement Volume Conc.'
-p2759
-asS'996'
-p2760
-(lp2761
-S'DWA'
-p2762
-aS'Zooplankton Dry Wt./Area '
 p2763
+aS'f5.2'
+p2764
+aS'Zooplankton Displacement Volume Conc.'
+p2765
+asS'996'
+p2766
+(lp2767
+S'DWA'
+p2768
+aS'Zooplankton Dry Wt./Area '
+p2769
 ag5
 aS'mg/m**2'
-p2764
-aS'f5.1'
-p2765
-aS'Zooplankton Dry Weight Areal Conc.'
-p2766
-asS'991'
-p2767
-(lp2768
-S'SmCNpl'
-p2769
-aS'Copepod Nauplii (< 150 micrometers) Conc.'
 p2770
-aS'CopNpl'
+aS'f5.1'
 p2771
-aS'number/l'
+aS'Zooplankton Dry Weight Areal Conc.'
 p2772
-aS'  '
+asS'991'
 p2773
-aS'oncentration of Copepod Nauplii (< 150 micrometers)'
-p2774
-asS'990'
+(lp2774
+S'SmCNpl'
 p2775
-(lp2776
-S'BUG'
+aS'Copepod Nauplii (< 150 micrometers) Conc.'
+p2776
+aS'CopNpl'
 p2777
-aS'Plankton Concentration   '
-p2778
-ag5
 aS'number/l'
+p2778
+aS'  '
 p2779
-ag5
-aS' individuals per liter'
+aS'oncentration of Copepod Nauplii (< 150 micrometers)'
 p2780
-asS'993'
+asS'990'
 p2781
 (lp2782
-S'TCNpl'
+S'BUG'
 p2783
-aS'Copepod Nauplii Concentration'
+aS'Plankton Concentration   '
 p2784
-aS'CopNpl'
-p2785
+ag5
 aS'number/l'
+p2785
+ag5
+aS' individuals per liter'
 p2786
+asS'993'
+p2787
+(lp2788
+S'TCNpl'
+p2789
+aS'Copepod Nauplii Concentration'
+p2790
+aS'CopNpl'
+p2791
+aS'number/l'
+p2792
 ag5
 aS'Copepod Nauplii Concentration '
-p2787
-asS'992'
-p2788
-(lp2789
-S'LgCNpl'
-p2790
-aS'Copepod Nauplii (>= 150 micrometers) Conc.'
-p2791
-aS'CopNpl'
-p2792
-aS'number/l'
 p2793
+asS'992'
+p2794
+(lp2795
+S'LgCNpl'
+p2796
+aS'Copepod Nauplii (>= 150 micrometers) Conc.'
+p2797
+aS'CopNpl'
+p2798
+aS'number/l'
+p2799
 ag5
 aS' Concentration of Copepod Nauplii (>= 150 micrometers)'
-p2794
+p2800
 asS'120'
-p2795
-(lp2796
+p2801
+(lp2802
 S"T' "
-p2797
+p2803
 aS'GRADIENT DT/DZ           '
-p2798
+p2804
 ag5
 ag5
 ag5
 aS'Program CTDGRD2'
-p2799
+p2805
 asS'121'
-p2800
-(lp2801
+p2806
+(lp2807
 S'DZT'
-p2802
+p2808
 aS'GRADIENT DZ/DT           '
-p2803
+p2809
 ag5
 ag5
 ag5
 aS'Program CTDGRD3'
-p2804
+p2810
 asS'122'
-p2805
-(lp2806
+p2811
+(lp2812
 S"T'X"
-p2807
+p2813
 aS'GRADIENT DT/DX           '
-p2808
+p2814
 ag5
 ag5
 ag5
 aS'X is longitude'
-p2809
+p2815
 asS'123'
-p2810
-(lp2811
+p2816
+(lp2817
 S"T'Y"
-p2812
+p2818
 aS'GRADIENT DT/DY           '
-p2813
+p2819
 ag5
 ag5
 ag5
 aS'Y is latitude'
-p2814
+p2820
 asS'124'
-p2815
-(lp2816
+p2821
+(lp2822
 S'UTX'
-p2817
+p2823
 aS'U * dT/dx                '
-p2818
+p2824
 ag5
 ag5
 ag5
 aS'X is longitude'
-p2819
+p2825
 asS'125'
-p2820
-(lp2821
+p2826
+(lp2827
 S'DZT'
-p2822
+p2828
 aS'GRADIENT DZ/DT           '
-p2823
+p2829
 ag5
 ag5
 ag5
 aS'Program CTDGRD3'
-p2824
+p2830
 asS'126'
-p2825
-(lp2826
+p2831
+(lp2832
 S'ADT'
-p2827
+p2833
 aS'AD TEMP GRAD,DEG-C/DB    '
-p2828
+p2834
 ag5
 ag5
 ag5
 ag1
 asS'4238'
-p2829
-(lp2830
-S'PHSPHT '
-p2831
-aS'Phosphate              '
-p2832
-aS'PO4    '
-p2833
-aS'umol/l   '
-p2834
-aS'f9.2'
 p2835
+(lp2836
+S'PHSPHT '
+p2837
+aS'Phosphate              '
+p2838
+aS'PO4    '
+p2839
+aS'umol/l   '
+p2840
+aS'f9.2'
+p2841
 ag1
 asS'4237'
-p2836
-(lp2837
-S'NITRIT '
-p2838
-aS'Nitrite                '
-p2839
-aS'NO2    '
-p2840
-aS'umol/l   '
-p2841
-aS'f9.2'
 p2842
+(lp2843
+S'NITRIT '
+p2844
+aS'Nitrite                '
+p2845
+aS'NO2    '
+p2846
+aS'umol/l   '
+p2847
+aS'f9.2'
+p2848
 ag1
 asS'2'
-p2843
-(lp2844
+p2849
+(lp2850
 S'D  '
-p2845
+p2851
 aS'DEPTH (CM)               '
-p2846
+p2852
 aS'depth'
-p2847
+p2853
 aS'cm'
-p2848
+p2854
 ag5
 ag1
 asS'4235'
-p2849
-(lp2850
-S'SILCAT '
-p2851
-aS'Silicate               '
-p2852
-aS'SiO4   '
-p2853
-aS'umol/l   '
-p2854
-aS'f9.1'
 p2855
+(lp2856
+S'SILCAT '
+p2857
+aS'Silicate               '
+p2858
+aS'SiO4   '
+p2859
+aS'umol/l   '
+p2860
+aS'f9.1'
+p2861
 ag1
 asS'4234'
-p2856
-(lp2857
+p2862
+(lp2863
 S'PHSPHT_FLAG'
-p2858
+p2864
 aS'Phosphate Flag     '
-p2859
+p2865
 aS'flag'
-p2860
+p2866
 ag5
 ag5
 ag1
 asS'4233'
-p2861
-(lp2862
-S'PHSPHT '
-p2863
-aS'Phosphate              '
-p2864
-aS'PO4'
-p2865
-aS'umol/kg'
-p2866
-aS'f9.2'
 p2867
+(lp2868
+S'PHSPHT '
+p2869
+aS'Phosphate              '
+p2870
+aS'PO4'
+p2871
+aS'umol/kg'
+p2872
+aS'f9.2'
+p2873
 ag1
 asS'4232'
-p2868
-(lp2869
+p2874
+(lp2875
 S'NITRIT_FLAG'
-p2870
+p2876
 aS'Nitrite Flag       '
-p2871
+p2877
 aS'flag'
-p2872
+p2878
 ag5
 ag5
 ag1
 asS'4231'
-p2873
-(lp2874
-S'NITRIT '
-p2875
-aS'Nitrite                '
-p2876
-aS'NO2'
-p2877
-aS'umol/kg'
-p2878
-aS'f9.2'
 p2879
+(lp2880
+S'NITRIT '
+p2881
+aS'Nitrite                '
+p2882
+aS'NO2'
+p2883
+aS'umol/kg'
+p2884
+aS'f9.2'
+p2885
 ag1
 asS'4230'
-p2880
-(lp2881
+p2886
+(lp2887
 S'NO2+NO3_FLAG'
-p2882
+p2888
 aS'NO2+NO3 Flag      '
-p2883
+p2889
 aS'flag'
-p2884
+p2890
 ag5
 ag5
 ag1
 asS'414'
-p2885
-(lp2886
-S'RWD'
-p2887
-aS'Wind Dir. (rel. to bow)  '
-p2888
-ag5
-aS'degrees'
-p2889
-ag5
-aS'Relative Wind Direction'
-p2890
-asS'410'
 p2891
 (lp2892
-S'WD '
+S'RWD'
 p2893
-aS'WIND DIRECTION           '
+aS'Wind Dir. (rel. to bow)  '
 p2894
 ag5
 aS'degrees'
 p2895
 ag5
-aS'     0-360 degrees'
+aS'Relative Wind Direction'
 p2896
-asS'411'
+asS'410'
 p2897
 (lp2898
 S'WD '
@@ -6186,1306 +6184,1306 @@ ag5
 aS'degrees'
 p2901
 ag5
-aS'     -180 to 180 degrees'
+aS'     0-360 degrees'
 p2902
-asS'412'
+asS'411'
 p2903
 (lp2904
 S'WD '
 p2905
-aS'Wind Direction (from)    '
+aS'WIND DIRECTION           '
 p2906
 ag5
-aS'degrees_T'
+aS'degrees'
 p2907
-aS'F6.2'
+ag5
+aS'     -180 to 180 degrees'
 p2908
-aS'Wind Direction (from)'
+asS'412'
 p2909
-asS'413'
-p2910
-(lp2911
+(lp2910
 S'WD '
+p2911
+aS'Wind Direction (from)    '
 p2912
-aS'Wind Direction (toward)  '
-p2913
 ag5
 aS'degrees_T'
-p2914
+p2913
 aS'F6.2'
+p2914
+aS'Wind Direction (from)'
 p2915
-aS'Wind Direction (toward)'
+asS'413'
 p2916
-asS'920'
-p2917
-(lp2918
-S'CC '
+(lp2917
+S'WD '
+p2918
+aS'Wind Direction (toward)  '
 p2919
-aS'CLOUD COVER (OKTAS)      '
+ag5
+aS'degrees_T'
 p2920
+aS'F6.2'
+p2921
+aS'Wind Direction (toward)'
+p2922
+asS'920'
+p2923
+(lp2924
+S'CC '
+p2925
+aS'CLOUD COVER (OKTAS)      '
+p2926
 ag5
 ag5
 ag5
 aS'OKTAS'
-p2921
+p2927
 asS'921'
-p2922
-(lp2923
+p2928
+(lp2929
 S'CT '
-p2924
+p2930
 aS'Cloud Type Code          '
-p2925
+p2931
 ag5
 ag5
 ag5
 ag1
 asS'922'
-p2926
-(lp2927
+p2932
+(lp2933
 S'VIS'
-p2928
+p2934
 aS'Visibility Code          '
-p2929
+p2935
 ag5
 ag5
 ag5
 ag1
 asS'923'
-p2930
-(lp2931
+p2936
+(lp2937
 S'WC '
-p2932
+p2938
 aS'Weather Code             '
-p2933
+p2939
 ag5
 ag5
 ag5
 ag1
 asS'924'
-p2934
-(lp2935
+p2940
+(lp2941
 S'SC '
-p2936
+p2942
 aS'Seastate Code            '
-p2937
+p2943
 ag5
 ag5
 ag5
 ag1
 asS'925'
-p2938
-(lp2939
-S'D  '
-p2940
-aS'Water Depth              '
-p2941
-aS'depth'
-p2942
-ag52
-aS'f10.1'
-p2943
-ag1
-asS'4229'
 p2944
 (lp2945
-S'NO2+NO3'
+S'D  '
 p2946
-aS'Nitrate plus Nitrite'
+aS'Water Depth              '
 p2947
-aS'NO2+NO3'
+aS'depth'
 p2948
-aS'umol/kg'
+ag52
+aS'f10.1'
 p2949
-aS'f9.2'
+ag1
+asS'4229'
 p2950
+(lp2951
+S'NO2+NO3'
+p2952
+aS'Nitrate plus Nitrite'
+p2953
+aS'NO2+NO3'
+p2954
+aS'umol/kg'
+p2955
+aS'f9.2'
+p2956
 ag1
 asS'4215'
-p2951
-(lp2952
+p2957
+(lp2958
 S'CTDSAL_FLAG'
-p2953
+p2959
 aS'CTD Salinity Flag  '
-p2954
+p2960
 aS'flag'
-p2955
+p2961
 ag5
 ag5
 ag1
 asS'319'
-p2956
-(lp2957
-S'BV '
-p2958
-aS'DRIFTER BUOY V (M/S)     '
-p2959
-ag211
-aS'm s-1'
-p2960
-ag5
-aS'calculated from lat,lon'
-p2961
-asS'318'
 p2962
 (lp2963
-S'BU '
+S'BV '
 p2964
-aS'DRIFTER BUOY U (M/S)     '
+aS'DRIFTER BUOY V (M/S)     '
 p2965
-ag240
+ag211
 aS'm s-1'
 p2966
 ag5
 aS'calculated from lat,lon'
 p2967
-asS'4214'
+asS'318'
 p2968
 (lp2969
-S'CTDSAL '
+S'BU '
 p2970
-aS'CTD Salinity, PSS-78   '
+aS'DRIFTER BUOY U (M/S)     '
 p2971
-aS'sal'
+ag248
+aS'm s-1'
 p2972
-aS'PSU'
-p2973
-aS'f9.4'
-p2974
-ag1
-asS'311'
-p2975
-(lp2976
-S'BD '
-p2977
-aS'DRIFTER BUOY DIRECTION   '
-p2978
-ag5
-aS'degrees'
-p2979
-ag5
-aS'oceanographic (going to)'
-p2980
-asS'310'
-p2981
-(lp2982
-S'CD '
-p2983
-aS'CURRENT DIRECTION (T)     '
-p2984
-aS'vdir'
-p2985
-aS'degrees'
-p2986
-aS'f8.2'
-p2987
-aS'oceanographic (going to), using true north'
-p2988
-asS'317'
-p2989
-(lp2990
-S'BV '
-p2991
-aS'Drifter Buoy v (cm/s)    '
-p2992
-ag211
-aS'cm s-1'
-p2993
 ag5
 aS'calculated from lat,lon'
+p2973
+asS'4214'
+p2974
+(lp2975
+S'CTDSAL '
+p2976
+aS'CTD Salinity, PSS-78   '
+p2977
+aS'sal'
+p2978
+aS'PSU'
+p2979
+aS'f9.4'
+p2980
+ag1
+asS'311'
+p2981
+(lp2982
+S'BD '
+p2983
+aS'DRIFTER BUOY DIRECTION   '
+p2984
+ag5
+aS'degrees'
+p2985
+ag5
+aS'oceanographic (going to)'
+p2986
+asS'310'
+p2987
+(lp2988
+S'CD '
+p2989
+aS'CURRENT DIRECTION (T)     '
+p2990
+aS'vdir'
+p2991
+aS'degrees'
+p2992
+aS'f8.2'
+p2993
+aS'oceanographic (going to), using true north'
 p2994
-asS'316'
+asS'317'
 p2995
 (lp2996
-S'BU '
+S'BV '
 p2997
-aS'Drifter Buoy u (cm/s)    '
+aS'Drifter Buoy v (cm/s)    '
 p2998
-ag240
+ag211
 aS'cm s-1'
 p2999
 ag5
 aS'calculated from lat,lon'
 p3000
-asS'1920'
+asS'316'
 p3001
 (lp3002
-S'Na    '
+S'BU '
 p3003
-aS'Soluble Submicron Aerosol Sodium                 '
+aS'Drifter Buoy u (cm/s)    '
 p3004
+ag248
+aS'cm s-1'
+p3005
+ag5
+aS'calculated from lat,lon'
+p3006
+asS'1920'
+p3007
+(lp3008
+S'Na    '
+p3009
+aS'Soluble Submicron Aerosol Sodium                 '
+p3010
 ag5
 aS'ug/m^3'
-p3005
+p3011
 ag5
 ag5
 asS'1921'
-p3006
-(lp3007
+p3012
+(lp3013
 S'Na    '
-p3008
+p3014
 aS'Soluble Supermicron Aerosol Sodium               '
-p3009
+p3015
 ag5
 aS'ug/m^3'
-p3010
+p3016
 ag5
 ag5
 asS'1922'
-p3011
-(lp3012
+p3017
+(lp3018
 S'Na    '
-p3013
+p3019
 aS'Soluble Sub10micron Aerosol Sodium               '
-p3014
+p3020
 ag5
 aS'ug/m^3'
-p3015
+p3021
 ag5
 ag5
 asS'1237'
-p3016
-(lp3017
+p3022
+(lp3023
 S'SvSD'
-p3018
+p3024
 aS'Backscattering Strength Std. Dev'
-p3019
+p3025
 aS'Sv'
-p3020
+p3026
 aS'dB'
-p3021
+p3027
 ag5
 aS'ADCP Bksctr. Std. Dev.'
-p3022
+p3028
 asS'1924'
-p3023
-(lp3024
+p3029
+(lp3030
 S'NH4   '
-p3025
+p3031
 aS'Soluble Supermicron Aerosol Ammonium             '
-p3026
+p3032
 ag5
 aS'ug/m^3'
-p3027
+p3033
 ag5
 ag5
 asS'1925'
-p3028
-(lp3029
+p3034
+(lp3035
 S'NH4   '
-p3030
+p3036
 aS'Soluble Sub10micron Aerosol Ammonium             '
-p3031
+p3037
 ag5
 aS'ug/m^3'
-p3032
+p3038
 ag5
 ag5
 asS'1926'
-p3033
-(lp3034
+p3039
+(lp3040
 S'K     '
-p3035
+p3041
 aS'Soluble Submicron Aerosol Potassium              '
-p3036
+p3042
 ag5
 aS'ug/m^3'
-p3037
+p3043
 ag5
 ag5
 asS'1927'
-p3038
-(lp3039
+p3044
+(lp3045
 S'K     '
-p3040
+p3046
 aS'Soluble Supermicron Aerosol Potassium            '
-p3041
+p3047
 ag5
 aS'ug/m^3'
-p3042
+p3048
 ag5
 ag5
 asS'1928'
-p3043
-(lp3044
+p3049
+(lp3050
 S'K     '
-p3045
+p3051
 aS'Soluble Sub10micron Aerosol Potassium            '
-p3046
+p3052
 ag5
 aS'ug/m^3'
-p3047
+p3053
 ag5
 ag5
 asS'1929'
-p3048
-(lp3049
+p3054
+(lp3055
 S'Mg    '
-p3050
+p3056
 aS'Soluble Submicron Aerosol Magnesium              '
-p3051
+p3057
 ag5
 aS'ug/m^3'
-p3052
+p3058
 ag5
 ag5
 asS'4210'
-p3053
-(lp3054
-S'CTDTMP '
-p3055
-aS'Temperature            '
-p3056
-aS'temp'
-p3057
-aS'degC'
-p3058
-aS'f9.4'
 p3059
+(lp3060
+S'CTDTMP '
+p3061
+aS'Temperature            '
+p3062
+aS'temp'
+p3063
+aS'degC'
+p3064
+aS'f9.4'
+p3065
 ag1
 asS'4282'
-p3060
-(lp3061
+p3066
+(lp3067
 S'PCO2_FLAG'
-p3062
+p3068
 aS'PCO2 Flag            '
-p3063
+p3069
 aS'flag'
-p3064
+p3070
 ag5
 ag5
 ag1
 asS'4283'
-p3065
-(lp3066
-S'PH '
-p3067
-aS'pH                         '
-p3068
-aS'pH '
-p3069
-ag5
-aS'f9.2'
-p3070
-ag1
-asS'4227'
 p3071
 (lp3072
-S'NITRAT '
+S'PH '
 p3073
-aS'Nitrate'
+aS'pH                         '
 p3074
-aS'NO3            '
+aS'pH '
 p3075
-aS'umol/kg'
-p3076
+ag5
 aS'f9.2'
+p3076
+ag1
+asS'4227'
 p3077
+(lp3078
+S'NITRAT '
+p3079
+aS'Nitrate'
+p3080
+aS'NO3            '
+p3081
+aS'umol/kg'
+p3082
+aS'f9.2'
+p3083
 ag1
 asS'4213'
-p3078
-(lp3079
+p3084
+(lp3085
 S'CTDTMP_FLAG'
-p3080
+p3086
 aS'Temperature Flag   '
-p3081
+p3087
 aS'flag'
-p3082
+p3088
 ag5
 ag5
 ag1
 asS'4284'
-p3083
-(lp3084
+p3089
+(lp3090
 S'PH_FLAG'
-p3085
+p3091
 aS'pH Flag                '
-p3086
+p3092
 aS'flag'
-p3087
+p3093
 ag5
 ag5
 ag1
 asS'4212'
-p3088
-(lp3089
-S'CTDTMP '
-p3090
-aS'Temperature, IPTS-68   '
-p3091
-aS'temp'
-p3092
-aS'degC'
-p3093
-aS'f9.4'
 p3094
-ag1
-asS'3'
-p3095
-(lp3096
-S'D  '
+(lp3095
+S'CTDTMP '
+p3096
+aS'Temperature, IPTS-68   '
 p3097
-aS'DEPTH (M)                '
+aS'temp'
 p3098
-aS'depth'
+aS'degC'
 p3099
-ag52
-aS'f10.1'
+aS'f9.4'
 p3100
 ag1
-asS'4223'
+asS'3'
 p3101
 (lp3102
-S'OXYGEN '
+S'D  '
 p3103
-aS'Bottle Oxygen          '
+aS'DEPTH (M)                '
 p3104
-aS'ox'
+aS'depth'
 p3105
-aS'umol/kg'
+ag52
+aS'f10.1'
 p3106
-aS'f9.1'
+ag1
+asS'4223'
 p3107
+(lp3108
+S'OXYGEN '
+p3109
+aS'Bottle Oxygen          '
+p3110
+aS'ox'
+p3111
+aS'umol/kg'
+p3112
+aS'f9.1'
+p3113
 ag1
 asS'362'
-p3108
-(lp3109
+p3114
+(lp3115
 S'AU '
-p3110
+p3116
 aS'ACCELERATION AU          '
-p3111
+p3117
 ag5
 ag5
 ag5
 ag1
 asS'363'
-p3112
-(lp3113
+p3118
+(lp3119
 S'AV '
-p3114
+p3120
 aS'ACCELERATION AV          '
-p3115
+p3121
 ag5
 ag5
 ag5
 ag1
 asS'360'
-p3116
-(lp3117
+p3122
+(lp3123
 S'AX '
-p3118
+p3124
 aS'ACCELERATION AX          '
-p3119
+p3125
 ag5
 ag5
 ag5
 ag1
 asS'361'
-p3120
-(lp3121
+p3126
+(lp3127
 S'AY '
-p3122
+p3128
 aS'ACCELERATION AY          '
-p3123
+p3129
 ag5
 ag5
 ag5
 ag1
 asS'4267'
-p3124
-(lp3125
-S'O18O16 '
-p3126
-aS'O18/O16 Ratio          '
-p3127
-aS'o18o16 '
-p3128
-aS'0/00'
-p3129
-aS'f9.2'
 p3130
+(lp3131
+S'O18O16 '
+p3132
+aS'O18/O16 Ratio          '
+p3133
+aS'o18o16 '
+p3134
+aS'0/00'
+p3135
+aS'f9.2'
+p3136
 ag1
 asS'380'
-p3131
-(lp3132
-S'ZT '
-p3133
-aS'ZONAL TRANSPORT, M**2/SEC'
-p3134
-ag5
-aS'm2 s-1'
-p3135
-ag5
-aS'total transport per unit width'
-p3136
-asS'381'
 p3137
 (lp3138
-S'MT '
+S'ZT '
 p3139
-aS'MERIDIONAL TRANSPRT,M^2/S'
+aS'ZONAL TRANSPORT, M**2/SEC'
 p3140
-aS'U'
-p3141
+ag5
 aS'm2 s-1'
-p3142
+p3141
 ag5
 aS'total transport per unit width'
+p3142
+asS'381'
 p3143
-asS'382'
-p3144
-(lp3145
-S'ZT+'
+(lp3144
+S'MT '
+p3145
+aS'MERIDIONAL TRANSPRT,M^2/S'
 p3146
-aS'ZONAL TRANSPORT (+)      '
+aS'U'
 p3147
-ag845
 aS'm2 s-1'
 p3148
 ag5
-aS'positive zonal transport per unit width'
+aS'total transport per unit width'
 p3149
-asS'383'
+asS'382'
 p3150
 (lp3151
-S'MT+'
+S'ZT+'
 p3152
-aS'MERIDIONAL TRANSPORT (+) '
+aS'ZONAL TRANSPORT (+)      '
 p3153
-ag5
+ag851
 aS'm2 s-1'
 p3154
 ag5
-aS'positive meridional transport per unit width'
+aS'positive zonal transport per unit width'
 p3155
-asS'384'
+asS'383'
 p3156
 (lp3157
-S'ZT-'
+S'MT+'
 p3158
-aS'ZONAL TRANSPORT (-)      '
+aS'MERIDIONAL TRANSPORT (+) '
 p3159
 ag5
 aS'm2 s-1'
 p3160
 ag5
-aS'negative zonal transport per unit width'
+aS'positive meridional transport per unit width'
 p3161
-asS'385'
+asS'384'
 p3162
 (lp3163
-S'MT-'
+S'ZT-'
 p3164
-aS'MERIDIONAL TRANSPORT (-) '
+aS'ZONAL TRANSPORT (-)      '
 p3165
 ag5
 aS'm2 s-1'
 p3166
 ag5
-aS'negative meridional transport per unit width'
+aS'negative zonal transport per unit width'
 p3167
-asS'386'
+asS'385'
 p3168
 (lp3169
-S'ZT '
+S'MT-'
 p3170
-aS'ZONAL TRANSPORT, M**3/SEC'
+aS'MERIDIONAL TRANSPORT (-) '
 p3171
-ag3141
-aS'm3 s-1'
+ag5
+aS'm2 s-1'
 p3172
 ag5
-aS'volume transport'
+aS'negative meridional transport per unit width'
 p3173
-asS'387'
+asS'386'
 p3174
 (lp3175
-S'MT '
+S'ZT '
 p3176
-aS'MERIDIONAL TRANSPRT,M^3/S'
+aS'ZONAL TRANSPORT, M**3/SEC'
 p3177
-ag845
+ag3147
 aS'm3 s-1'
 p3178
 ag5
 aS'volume transport'
 p3179
-asS'388'
+asS'387'
 p3180
 (lp3181
-S'TR '
+S'MT '
 p3182
-aS'TRK NORMAL TRNSPRT, M^3/S'
+aS'MERIDIONAL TRANSPRT,M^3/S'
 p3183
-ag5
+ag851
 aS'm3 s-1'
 p3184
 ag5
-aS'volume transport normal to track'
+aS'volume transport'
 p3185
-asS'4057'
+asS'388'
 p3186
 (lp3187
-S'perv'
+S'TR '
 p3188
-aS'ZERO CROSSING PERIOD, V  '
+aS'TRK NORMAL TRNSPRT, M^3/S'
 p3189
-aS'period_v'
+ag5
+aS'm3 s-1'
 p3190
-ag1797
-aS'f10.2'
+ag5
+aS'volume transport normal to track'
 p3191
-aS'zero crossing period of north component, burst BASS data'
+asS'4057'
 p3192
-asS'4056'
-p3193
-(lp3194
-S'peru'
+(lp3193
+S'perv'
+p3194
+aS'ZERO CROSSING PERIOD, V  '
 p3195
-aS'ZERO CROSSING PERIOD, U  '
+aS'period_v'
 p3196
-aS'period_u'
+ag1803
+aS'f10.2'
 p3197
-ag1797
-aS'f10.2'
+aS'zero crossing period of north component, burst BASS data'
 p3198
-aS'zero crossing period of east component, burst BASS data'
+asS'4056'
 p3199
-asS'4055'
-p3200
-(lp3201
-S'WVAR'
+(lp3200
+S'peru'
+p3201
+aS'ZERO CROSSING PERIOD, U  '
 p3202
-aS'UP VELOCITY VARIANCE     '
+aS'period_u'
 p3203
-aS'wvar'
+ag1803
+aS'f10.2'
 p3204
-aS'cm2/s2'
+aS'zero crossing period of east component, burst BASS data'
 p3205
-aS'f10.2'
+asS'4055'
 p3206
-aS'variance of up component, burst BASS data'
-p3207
-asS'4054'
+(lp3207
+S'WVAR'
 p3208
-(lp3209
-S'VWCOV'
+aS'UP VELOCITY VARIANCE     '
+p3209
+aS'wvar'
 p3210
-aS'V-W VELOCITY COVARIANCE '
+aS'cm2/s2'
 p3211
-aS'vwcovar'
+aS'f10.2'
 p3212
-aS'cm2/s2'
+aS'variance of up component, burst BASS data'
 p3213
-aS'f10.2'
+asS'4054'
 p3214
-aS'covariance of north and up, burst BASS data'
-p3215
-asS'4053'
+(lp3215
+S'VWCOV'
 p3216
-(lp3217
-S'UWCOV'
+aS'V-W VELOCITY COVARIANCE '
+p3217
+aS'vwcovar'
 p3218
-aS'U-W VELOCITY COVARIANCE '
+aS'cm2/s2'
 p3219
-aS'uwcovar'
+aS'f10.2'
 p3220
-aS'cm2/s2'
+aS'covariance of north and up, burst BASS data'
 p3221
-aS'f10.2'
+asS'4053'
 p3222
-aS'covariance of east and up, burst BASS data'
-p3223
-asS'4052'
+(lp3223
+S'UWCOV'
 p3224
-(lp3225
-S'VVAR'
+aS'U-W VELOCITY COVARIANCE '
+p3225
+aS'uwcovar'
 p3226
-aS'NORTH VELOCITY VARIANCE  '
+aS'cm2/s2'
 p3227
-aS'vvar'
+aS'f10.2'
 p3228
-aS'cm2/s2'
+aS'covariance of east and up, burst BASS data'
 p3229
-aS'f10.2'
+asS'4052'
 p3230
-aS'variance of north component, burst BASS data'
-p3231
-asS'4051'
+(lp3231
+S'VVAR'
 p3232
-(lp3233
-S'UVCOV'
+aS'NORTH VELOCITY VARIANCE  '
+p3233
+aS'vvar'
 p3234
-aS'U-V VELOCITY COVARIANCE '
+aS'cm2/s2'
 p3235
-aS'uvcovar'
+aS'f10.2'
 p3236
-aS'cm2/s2'
+aS'variance of north component, burst BASS data'
 p3237
-aS'f10.2'
+asS'4051'
 p3238
-aS'covariance of east and north, burst BASS data'
-p3239
-asS'4050'
+(lp3239
+S'UVCOV'
 p3240
-(lp3241
-S'UVAR'
+aS'U-V VELOCITY COVARIANCE '
+p3241
+aS'uvcovar'
 p3242
-aS'EAST VELOCITY VARIANCE   '
-p3243
-aS'uvar'
-p3244
 aS'cm2/s2'
-p3245
+p3243
 aS'f10.2'
+p3244
+aS'covariance of east and north, burst BASS data'
+p3245
+asS'4050'
 p3246
-aS'variance of east component, burst BASS data'
-p3247
-asS'1722'
+(lp3247
+S'UVAR'
 p3248
-(lp3249
-S'PF12AGE'
+aS'EAST VELOCITY VARIANCE   '
+p3249
+aS'uvar'
 p3250
-aS'Pf12age              '
+aS'cm2/s2'
 p3251
-aS'pf12age'
+aS'f10.2'
 p3252
-aS'years'
+aS'variance of east component, burst BASS data'
 p3253
-aS'f8.3'
+asS'1722'
 p3254
-aS'cfc12 partial pressure age'
-p3255
-asS'1723'
+(lp3255
+S'PF12AGE'
 p3256
-(lp3257
-S'PFRATAGE'
+aS'Pf12age              '
+p3257
+aS'pf12age'
 p3258
-aS'Pfratage            '
-p3259
-aS'pfratage'
-p3260
 aS'years'
-p3261
+p3259
 aS'f8.3'
+p3260
+aS'cfc12 partial pressure age'
+p3261
+asS'1723'
 p3262
-aS'cfcratio partial pressure age'
-p3263
-asS'4228'
+(lp3263
+S'PFRATAGE'
 p3264
-(lp3265
-S'NITRAT_FLAG'
+aS'Pfratage            '
+p3265
+aS'pfratage'
 p3266
-aS'Nitrate Flag       '
+aS'years'
 p3267
-aS'flag'
+aS'f8.3'
 p3268
+aS'cfcratio partial pressure age'
+p3269
+asS'4228'
+p3270
+(lp3271
+S'NITRAT_FLAG'
+p3272
+aS'Nitrate Flag       '
+p3273
+aS'flag'
+p3274
 ag5
 ag5
 ag1
 asS'1721'
-p3269
-(lp3270
-S'PF11AGE'
-p3271
-aS'Pf11age              '
-p3272
-aS'pf11age'
-p3273
-aS'years'
-p3274
-aS'f8.3'
 p3275
-aS'cfc11 partial pressure age'
-p3276
-asS'4246'
+(lp3276
+S'PF11AGE'
 p3277
-(lp3278
-S'CFC113_FLAG'
+aS'Pf11age              '
+p3278
+aS'pf11age'
 p3279
-aS'Freon-113 Flag     '
+aS'years'
 p3280
-aS'flag'
+aS'f8.3'
 p3281
+aS'cfc11 partial pressure age'
+p3282
+asS'4246'
+p3283
+(lp3284
+S'CFC113_FLAG'
+p3285
+aS'Freon-113 Flag     '
+p3286
+aS'flag'
+p3287
 ag5
 ag5
 ag1
 asS'60'
-p3282
-(lp3283
-S'O  '
-p3284
-aS'OXYGEN (ML/L)            '
-p3285
-aS'ox'
-p3286
-aS'ml/l'
-p3287
-aS'f10.2'
 p3288
-aS'Dissolved oxygen calculated from CTD values'
-p3289
-asS'61'
+(lp3289
+S'O  '
 p3290
-(lp3291
-S'BO '
-p3292
-aS'BOTTLE OXYGEN (ML/L)     '
-p3293
+aS'OXYGEN (ML/L)            '
+p3291
 aS'ox'
-p3294
+p3292
 aS'ml/l'
+p3293
+aS'f10.2'
+p3294
+aS'Dissolved oxygen calculated from CTD values'
 p3295
+asS'61'
+p3296
+(lp3297
+S'BO '
+p3298
+aS'BOTTLE OXYGEN (ML/L)     '
+p3299
+aS'ox'
+p3300
+aS'ml/l'
+p3301
 ag5
 aS'DO determined by titration. 1E35 ->no sample'
-p3296
+p3302
 asS'62'
-p3297
-(lp3298
+p3303
+(lp3304
 S'OST'
-p3299
+p3305
 aS'OXYGEN, %SAT             '
-p3300
+p3306
 aS'ox'
-p3301
-ag611
+p3307
+ag617
 ag5
 ag1
 asS'3006'
-p3302
-(lp3303
-S'sWD'
-p3304
-aS'seas wind direction'
-p3305
-aS'WD'
-p3306
-aS'degree'
-p3307
-aS'f10.2'
 p3308
-aS'seas wind direction'
-p3309
-asS'64'
+(lp3309
+S'sWD'
 p3310
-(lp3311
-S'AOU'
+aS'seas wind direction'
+p3311
+aS'WD'
 p3312
-aS'APPARENT O2 UTILIZATION  '
+aS'degree'
 p3313
-aS'ox'
+aS'f10.2'
 p3314
-aS'ml/l'
+aS'seas wind direction'
 p3315
-ag5
-ag1
-asS'65'
+asS'64'
 p3316
 (lp3317
-S'O  '
+S'AOU'
 p3318
-aS'OXYGEN (UMOL/KG)         '
+aS'APPARENT O2 UTILIZATION  '
 p3319
 aS'ox'
 p3320
-aS'umol/kg'
+aS'ml/l'
 p3321
-aS'f10.2'
+ag5
+ag1
+asS'65'
 p3322
-aS'Dissolved oxygen calculated from CTD values'
-p3323
-asS'66'
+(lp3323
+S'O  '
 p3324
-(lp3325
-S'BO '
-p3326
-aS'BOTTLE OXYGEN (UMOL/KG)  '
-p3327
+aS'OXYGEN (UMOL/KG)         '
+p3325
 aS'ox'
-p3328
+p3326
 aS'umol/kg'
+p3327
+aS'f10.2'
+p3328
+aS'Dissolved oxygen calculated from CTD values'
 p3329
+asS'66'
+p3330
+(lp3331
+S'BO '
+p3332
+aS'BOTTLE OXYGEN (UMOL/KG)  '
+p3333
+aS'ox'
+p3334
+aS'umol/kg'
+p3335
 ag5
 aS'DO determined by titration. 1E35 ->no sample'
-p3330
+p3336
 asS'3002'
-p3331
-(lp3332
+p3337
+(lp3338
 S'Vs  '
-p3333
+p3339
 aS'ADCP Voltage          '
-p3334
+p3340
 ag5
 ag211
 aS'F10.2'
-p3335
-aS'ADCP Supply Voltage'
-p3336
-asS'252'
-p3337
-(lp3338
-S'GHR'
-p3339
-aS'GLOBAL HORIZNTL RADIATION'
-p3340
-aS'ghr'
 p3341
-aS'W m-2'
+aS'ADCP Supply Voltage'
 p3342
-aS'f8.2'
+asS'252'
 p3343
-aS'global horizontal radiation'
-p3344
-asS'1209'
-p3345
-(lp3346
-S'EISD'
-p3347
-aS'Echo Intensity (AGC) Std. Dev.'
-p3348
-aS'AGC'
-p3349
-aS'counts'
-p3350
-aS'F5.1'
-p3351
-aS'ADCP AGC (1202) Std Dev'
-p3352
-asS'250'
-p3353
-(lp3354
+(lp3344
 S'GHR'
-p3355
+p3345
 aS'GLOBAL HORIZNTL RADIATION'
-p3356
+p3346
 aS'ghr'
-p3357
-aS'kJ s-2 d-1'
-p3358
+p3347
+aS'W m-2'
+p3348
 aS'f8.2'
-p3359
+p3349
 aS'global horizontal radiation'
-p3360
-asS'251'
+p3350
+asS'1209'
+p3351
+(lp3352
+S'EISD'
+p3353
+aS'Echo Intensity (AGC) Std. Dev.'
+p3354
+aS'AGC'
+p3355
+aS'counts'
+p3356
+aS'F5.1'
+p3357
+aS'ADCP AGC (1202) Std Dev'
+p3358
+asS'250'
+p3359
+(lp3360
+S'GHR'
 p3361
-(lp3362
-S'PAR'
+aS'GLOBAL HORIZNTL RADIATION'
+p3362
+aS'ghr'
 p3363
-aS'PHOTOSYN ACTIVE RADIATION'
+aS'kJ s-2 d-1'
 p3364
-aS'par'
+aS'f8.2'
 p3365
-aS'M ph m-2 d-1'
+aS'global horizontal radiation'
 p3366
-aS'f5.2 '
+asS'251'
 p3367
-aS'photosynthetically active radiation'
-p3368
-asS'3009'
+(lp3368
+S'PAR'
 p3369
-(lp3370
-S'mT'
+aS'PHOTOSYN ACTIVE RADIATION'
+p3370
+aS'par'
 p3371
-aS'manual water temp'
+aS'M ph m-2 d-1'
 p3372
-aS'temp'
+aS'f5.2 '
 p3373
-aS'degree C'
+aS'photosynthetically active radiation'
 p3374
-aS'f10.2'
+asS'3009'
 p3375
-aS'manual water temp'
-p3376
-asS'3008'
+(lp3376
+S'mT'
 p3377
-(lp3378
-S'mAT'
+aS'manual water temp'
+p3378
+aS'temp'
 p3379
-aS'manual air temp'
-p3380
-aS'dbulb'
-p3381
 aS'degree C'
-p3382
+p3380
 aS'f10.2'
+p3381
+aS'manual water temp'
+p3382
+asS'3008'
 p3383
-aS'manual air temp'
-p3384
-asS'154'
+(lp3384
+S'mAT'
 p3385
-(lp3386
-S'NO2'
+aS'manual air temp'
+p3386
+aS'dbulb'
 p3387
-aS'NITRITE (MG AT/L)        '
+aS'degree C'
 p3388
-aS'NO2'
+aS'f10.2'
 p3389
-aS'mg at/l'
+aS'manual air temp'
 p3390
+asS'154'
+p3391
+(lp3392
+S'NO2'
+p3393
+aS'NITRITE (MG AT/L)        '
+p3394
+aS'NO2'
+p3395
+aS'mg at/l'
+p3396
 ag5
 ag1
 asS'4248'
-p3391
-(lp3392
+p3397
+(lp3398
 S'CCL4_FLAG'
-p3393
+p3399
 aS'Carbon Tetrachloride Flag'
-p3394
+p3400
 aS'flag'
-p3395
+p3401
 ag5
 ag5
 ag1
 asS'1205'
-p3396
-(lp3397
-S'u   '
-p3398
-aS'Eastward Velocity        '
-p3399
-ag240
-aS'cm/s'
-p3400
-ag5
-aS'Eastward Velocity'
-p3401
-asS'938'
 p3402
 (lp3403
-S'CPHL'
+S'u   '
 p3404
-aS'Chlorophyll             '
+aS'Eastward Velocity        '
 p3405
-ag5
-aS'mg/m3'
+ag248
+aS'cm/s'
 p3406
 ag5
-aS'Chlorophyll from WOD2001'
+aS'Eastward Velocity'
 p3407
-asS'1204'
+asS'938'
 p3408
 (lp3409
-S'w   '
+S'CPHL'
 p3410
-aS'Vertical Velocity        '
+aS'Chlorophyll             '
 p3411
-ag2473
-aS'cm/s'
+ag5
+aS'mg/m3'
 p3412
 ag5
-aS'Vertical Velocity'
+aS'Chlorophyll from WOD2001'
 p3413
-asS'502'
+asS'1204'
 p3414
 (lp3415
-S'LON'
+S'w   '
 p3416
-aS'LONGITUDE                '
+aS'Vertical Velocity        '
 p3417
-aS'lon'
+ag2479
+aS'cm/s'
 p3418
-aS'degree_east'
+ag5
+aS'Vertical Velocity'
 p3419
-aS'f10.4'
+asS'502'
 p3420
-aS'New EPIC-- E is pos, eg, 165E=165, 170W=190'
-p3421
-asS'4244'
+(lp3421
+S'LON'
 p3422
-(lp3423
-S'CFC-12_FLAG'
+aS'LONGITUDE                '
+p3423
+aS'lon'
 p3424
-aS'Freon-12 Flag      '
+aS'degree_east'
 p3425
-aS'flag'
+aS'f10.4'
 p3426
+aS'New EPIC-- E is pos, eg, 165E=165, 170W=190'
+p3427
+asS'4244'
+p3428
+(lp3429
+S'CFC-12_FLAG'
+p3430
+aS'Freon-12 Flag      '
+p3431
+aS'flag'
+p3432
 ag5
 ag5
 ag1
 asS'500'
-p3427
-(lp3428
-S'LAT'
-p3429
-aS'LATITUDE                 '
-p3430
-aS'lat'
-p3431
-aS'degree_north'
-p3432
-aS'f10.4'
 p3433
-aS'EPIC-- N is positive, S is negative'
-p3434
-asS'501'
+(lp3434
+S'LAT'
 p3435
-(lp3436
-S'LON'
+aS'LATITUDE                 '
+p3436
+aS'lat'
 p3437
-aS'LONGITUDE                '
+aS'degree_north'
 p3438
-aS'lon'
-p3439
-aS'degree_west'
-p3440
 aS'f10.4'
+p3439
+aS'EPIC-- N is positive, S is negative'
+p3440
+asS'501'
 p3441
-aS'Classic EPIC-- W is pos, eg, 165W=165, 170E=190'
-p3442
-asS'4272'
+(lp3442
+S'LON'
 p3443
-(lp3444
-S'ALKALI_FLAG'
+aS'LONGITUDE                '
+p3444
+aS'lon'
 p3445
-aS'Alkalinity Flag    '
+aS'degree_west'
 p3446
-aS'flag'
+aS'f10.4'
 p3447
+aS'Classic EPIC-- W is pos, eg, 165W=165, 170E=190'
+p3448
+asS'4272'
+p3449
+(lp3450
+S'ALKALI_FLAG'
+p3451
+aS'Alkalinity Flag    '
+p3452
+aS'flag'
+p3453
 ag5
 ag5
 ag1
 asS'1210'
-p3448
-(lp3449
+p3454
+(lp3455
 S'BIT '
-p3450
+p3456
 aS'ADCP BIT Status          '
-p3451
+p3457
 ag5
 ag5
 ag5
 aS'ADCP Built-in Test Status'
-p3452
-asS'1211'
-p3453
-(lp3454
-S'Tx  '
-p3455
-aS'ADCP Transducer Temp.    '
-p3456
-aS'temp'
-p3457
-aS'deg. C'
 p3458
-aS'F10.2'
+asS'1211'
 p3459
-aS'ADCP Transducer Temp'
-p3460
-asS'1216'
+(lp3460
+S'Tx  '
 p3461
-(lp3462
-S'Ptch'
+aS'ADCP Transducer Temp.    '
+p3462
+aS'temp'
 p3463
-aS'INST Pitch               '
+aS'deg. C'
 p3464
-aS'ptch'
+aS'F10.2'
 p3465
-aS'degrees'
+aS'ADCP Transducer Temp'
 p3466
-aS'F10.2'
+asS'1216'
 p3467
-aS'ADCP pitch'
-p3468
-asS'1217'
+(lp3468
+S'Ptch'
 p3469
-(lp3470
-S'Roll'
+aS'INST Pitch               '
+p3470
+aS'ptch'
 p3471
-aS'INST Roll                '
+aS'degrees'
 p3472
-aS'roll'
+aS'F10.2'
 p3473
-aS'degrees'
+aS'ADCP pitch'
 p3474
-aS'F10.2'
+asS'1217'
 p3475
-aS'ADCP roll'
-p3476
-asS'1215'
+(lp3476
+S'Roll'
 p3477
-(lp3478
-S'Hdg '
+aS'INST Roll                '
+p3478
+aS'roll'
 p3479
-aS'INST Heading             '
-p3480
-aS'hdg'
-p3481
 aS'degrees'
-p3482
+p3480
 aS'F10.2'
+p3481
+aS'ADCP roll'
+p3482
+asS'1215'
 p3483
-aS'ADCP heading'
-p3484
-asS'465'
+(lp3484
+S'Hdg '
 p3485
-(lp3486
-S"V'Z"
+aS'INST Heading             '
+p3486
+aS'hdg'
 p3487
-aS'GRADIENT DV/DZ           '
+aS'degrees'
 p3488
-ag5
-aS's-1'
+aS'F10.2'
 p3489
-ag5
-aS'Z is depth '
+aS'ADCP heading'
 p3490
-asS'464'
+asS'465'
 p3491
 (lp3492
-S"U'Z"
+S"V'Z"
 p3493
-aS'GRADIENT DU/DZ           '
+aS'GRADIENT DV/DZ           '
 p3494
 ag5
 aS's-1'
 p3495
 ag5
-aS'Z is depth'
+aS'Z is depth '
 p3496
-asS'1218'
+asS'464'
 p3497
 (lp3498
-S'HSD '
+S"U'Z"
 p3499
-aS'Heading Std. Dev.        '
+aS'GRADIENT DU/DZ           '
 p3500
-aS'hdg'
-p3501
-aS'degrees'
-p3502
-ag5
-aS'ADCP Hdg. Std. Dev.'
-p3503
-asS'466'
-p3504
-(lp3505
-S'Shr'
-p3506
-aS'Current Shear            '
-p3507
 ag5
 aS's-1'
+p3501
+ag5
+aS'Z is depth'
+p3502
+asS'1218'
+p3503
+(lp3504
+S'HSD '
+p3505
+aS'Heading Std. Dev.        '
+p3506
+aS'hdg'
+p3507
+aS'degrees'
 p3508
 ag5
-aS"SQRT(U'Z^2+V'Z^2)"
+aS'ADCP Hdg. Std. Dev.'
 p3509
-asS'461'
+asS'466'
 p3510
 (lp3511
-S"V'X"
+S'Shr'
 p3512
-aS'GRADIENT DV/DX           '
+aS'Current Shear            '
 p3513
 ag5
-aS'1E-5 s-1'
+aS's-1'
 p3514
 ag5
-aS'X is longitude'
+aS"SQRT(U'Z^2+V'Z^2)"
 p3515
-asS'460'
+asS'461'
 p3516
 (lp3517
-S"U'X"
+S"V'X"
 p3518
-aS'GRADIENT DU/DX           '
+aS'GRADIENT DV/DX           '
 p3519
 ag5
 aS'1E-5 s-1'
@@ -7493,25 +7491,25 @@ p3520
 ag5
 aS'X is longitude'
 p3521
-asS'463'
+asS'460'
 p3522
 (lp3523
-S"V'Y"
+S"U'X"
 p3524
-aS'GRADIENT DV/DY           '
+aS'GRADIENT DU/DX           '
 p3525
 ag5
 aS'1E-5 s-1'
 p3526
 ag5
-aS'Y is latitude'
+aS'X is longitude'
 p3527
-asS'462'
+asS'463'
 p3528
 (lp3529
-S"U'Y"
+S"V'Y"
 p3530
-aS'GRADIENT DU/DY           '
+aS'GRADIENT DV/DY           '
 p3531
 ag5
 aS'1E-5 s-1'
@@ -7519,367 +7517,367 @@ p3532
 ag5
 aS'Y is latitude'
 p3533
-asS'1861'
+asS'462'
 p3534
 (lp3535
-S'ASB '
+S"U'Y"
 p3536
-aS'Aerosol Scat Blue       '
+aS'GRADIENT DU/DY           '
 p3537
 ag5
-aS'Mm-1'
+aS'1E-5 s-1'
 p3538
+ag5
+aS'Y is latitude'
+p3539
+asS'1861'
+p3540
+(lp3541
+S'ASB '
+p3542
+aS'Aerosol Scat Blue       '
+p3543
+ag5
+aS'Mm-1'
+p3544
 ag5
 ag1
 asS'1863'
-p3539
-(lp3540
+p3545
+(lp3546
 S'ASR '
-p3541
+p3547
 aS'Aerosol Scat Red        '
-p3542
+p3548
 ag5
 aS'Mm-1'
-p3543
+p3549
 ag5
 ag1
 asS'901'
-p3544
-(lp3545
+p3550
+(lp3551
 S'Fvt'
-p3546
+p3552
 aS'Fluorometer Volts(CTD)   '
-p3547
+p3553
 ag5
 aS'Volts'
-p3548
+p3554
 ag5
 ag5
 asS'1865'
-p3549
-(lp3550
+p3555
+(lp3556
 S'ABSG'
-p3551
+p3557
 aS'Aerosol Back Scat Green '
-p3552
+p3558
 ag5
 aS'Mm-1'
-p3553
+p3559
 ag5
 ag1
 asS'1864'
-p3554
-(lp3555
+p3560
+(lp3561
 S'ABSB'
-p3556
+p3562
 aS'Aerosol Back Scat Blue  '
-p3557
+p3563
 ag5
 aS'Mm-1'
-p3558
+p3564
 ag5
 ag1
 asS'1867'
-p3559
-(lp3560
+p3565
+(lp3566
 S'SASB'
-p3561
+p3567
 aS'Submicron AeroScat Blue '
-p3562
+p3568
 ag5
 aS'Mm-1'
-p3563
+p3569
 ag5
 ag1
 asS'1866'
-p3564
-(lp3565
+p3570
+(lp3571
 S'ABSR'
-p3566
+p3572
 aS'Aerosol Back Scat Red   '
-p3567
+p3573
 ag5
 aS'Mm-1'
-p3568
+p3574
 ag5
 ag1
 asS'1869'
-p3569
-(lp3570
+p3575
+(lp3576
 S'SASR'
-p3571
+p3577
 aS'Submicron AeroScat Red  '
-p3572
+p3578
 ag5
 aS'Mm-1'
-p3573
+p3579
 ag5
 ag1
 asS'1868'
-p3574
-(lp3575
+p3580
+(lp3581
 S'SASG'
-p3576
+p3582
 aS'Submicron AeroScat Green'
-p3577
+p3583
 ag5
 aS'Mm-1'
-p3578
+p3584
 ag5
 ag1
 asS'4241'
-p3579
-(lp3580
-S'CFC-11 '
-p3581
-aS'Freon-11               '
-p3582
-aS'f11'
-p3583
-aS'pmol/kg'
-p3584
-aS'f9.3'
 p3585
+(lp3586
+S'CFC-11 '
+p3587
+aS'Freon-11               '
+p3588
+aS'f11'
+p3589
+aS'pmol/kg'
+p3590
+aS'f9.3'
+p3591
 ag1
 asS'961'
-p3586
-(lp3587
+p3592
+(lp3593
 S'Rn '
-p3588
+p3594
 aS'Rainfall                 '
-p3589
+p3595
 ag5
 aS'10-2 in'
-p3590
+p3596
 ag5
 ag1
 asS'962'
-p3591
-(lp3592
+p3597
+(lp3598
 S'Rr '
-p3593
+p3599
 aS'Rain Rate                '
-p3594
+p3600
 ag5
 aS'mm/hr'
-p3595
+p3601
 ag5
 ag1
 asS'4242'
-p3596
-(lp3597
+p3602
+(lp3603
 S'CFC-11_FLAG'
-p3598
+p3604
 aS'Freon-11 Flag      '
-p3599
+p3605
 aS'flag'
-p3600
+p3606
 ag5
 ag5
 ag1
 asS'1511'
-p3601
-(lp3602
-S'LON'
-p3603
-aS'END LONGITUDE            '
-p3604
-aS'end_lon'
-p3605
-aS'degree_west'
-p3606
-aS'f10.4'
 p3607
-aS'W positive 165W=165'
-p3608
-asS'908'
+(lp3608
+S'LON'
 p3609
-(lp3610
-S'PAR'
+aS'END LONGITUDE            '
+p3610
+aS'end_lon'
 p3611
-aS'Photosynthetic Active Radiation'
+aS'degree_west'
 p3612
-aS'par'
+aS'f10.4'
 p3613
-aS'uEin cm-2 s-1'
+aS'W positive 165W=165'
 p3614
+asS'908'
+p3615
+(lp3616
+S'PAR'
+p3617
+aS'Photosynthetic Active Radiation'
+p3618
+aS'par'
+p3619
+aS'uEin cm-2 s-1'
+p3620
 ag5
 aS'S.Salo 7/1/98'
-p3615
-asS'1512'
-p3616
-(lp3617
-S'LON'
-p3618
-aS'END LONGITUDE            '
-p3619
-aS'end_lon'
-p3620
-aS'degree_east'
 p3621
-aS'f10.4'
+asS'1512'
 p3622
-aS'E positive 165W=195'
-p3623
-asS'4080'
+(lp3623
+S'LON'
 p3624
-(lp3625
-S'u   '
+aS'END LONGITUDE            '
+p3625
+aS'end_lon'
 p3626
-aS'East(m)                   '
+aS'degree_east'
 p3627
-ag240
-aS'cm s-1'
+aS'f10.4'
 p3628
-aS'f8.2'
+aS'E positive 165W=195'
 p3629
-aS'U component (magnetic)'
+asS'4080'
 p3630
-asS'4081'
-p3631
-(lp3632
-S'v   '
+(lp3631
+S'u   '
+p3632
+aS'East(m)                   '
 p3633
-aS'North(m)                  '
+ag248
+aS'cm s-1'
 p3634
-ag211
-aS'cm s-1'
+aS'f8.2'
 p3635
-aS'f8.2'
+aS'U component (magnetic)'
 p3636
-aS'V component (magnetic)'
+asS'4081'
 p3637
-asS'4082'
-p3638
-(lp3639
-S'u   '
+(lp3638
+S'v   '
+p3639
+aS'North(m)                  '
 p3640
-aS'East(t)                   '
+ag211
+aS'cm s-1'
 p3641
-ag240
-aS'cm s-1 '
+aS'f8.2'
 p3642
-aS'f8.2'
+aS'V component (magnetic)'
 p3643
-aS'U component (true north)'
+asS'4082'
 p3644
-asS'4083'
-p3645
-(lp3646
-S'v   '
+(lp3645
+S'u   '
+p3646
+aS'East(t)                   '
 p3647
-aS'North(t)                  '
-p3648
-ag211
-aS'cm s-1'
-p3649
-aS'f8.2'
-p3650
-aS'V component (true North)'
-p3651
-asS'4084'
-p3652
-(lp3653
-S'u   '
-p3654
-aS'East(r)                   '
-p3655
-ag240
+ag248
 aS'cm s-1 '
+p3648
+aS'f8.2'
+p3649
+aS'U component (true north)'
+p3650
+asS'4083'
+p3651
+(lp3652
+S'v   '
+p3653
+aS'North(t)                  '
+p3654
+ag211
+aS'cm s-1'
+p3655
+aS'f8.2'
 p3656
-aS'f8.2'
+aS'V component (true North)'
 p3657
-aS'U component (rotated)'
+asS'4084'
 p3658
-asS'4085'
-p3659
-(lp3660
-S'v   '
+(lp3659
+S'u   '
+p3660
+aS'East(r)                   '
 p3661
-aS'North(r)                  '
+ag248
+aS'cm s-1 '
 p3662
-ag211
-aS'cm s-1'
+aS'f8.2'
 p3663
-aS'f8.2'
+aS'U component (rotated)'
 p3664
-aS'V component (rotated)'
+asS'4085'
 p3665
-asS'4086'
-p3666
-(lp3667
-S'u   '
+(lp3666
+S'v   '
+p3667
+aS'North(r)                  '
 p3668
-aS'instant East(m)           '
+ag211
+aS'cm s-1'
 p3669
-ag240
-aS'cm s-1'
+aS'f8.2'
 p3670
-aS'f8.2'
+aS'V component (rotated)'
 p3671
-aS'instantaneous east comp (magnetic) FSIacm'
+asS'4086'
 p3672
-asS'4087'
-p3673
-(lp3674
-S'v   '
-p3675
-aS'instant North(m)          '
-p3676
-ag211
-aS'cm s-1'
-p3677
-aS'f8.2'
-p3678
-aS'instantaneous north comp (magnetic) FSIacm'
-p3679
-asS'4088'
-p3680
-(lp3681
+(lp3673
 S'u   '
-p3682
-aS'instant East(t)           '
-p3683
-ag240
+p3674
+aS'instant East(m)           '
+p3675
+ag248
 aS'cm s-1'
-p3684
+p3676
 aS'f8.2'
-p3685
-aS'instantaneous east comp (true north) FSIacm'
-p3686
-asS'4089'
-p3687
-(lp3688
+p3677
+aS'instantaneous east comp (magnetic) FSIacm'
+p3678
+asS'4087'
+p3679
+(lp3680
 S'v   '
-p3689
-aS'instant North(t)          '
-p3690
+p3681
+aS'instant North(m)          '
+p3682
 ag211
 aS'cm s-1'
-p3691
+p3683
 aS'f8.2'
+p3684
+aS'instantaneous north comp (magnetic) FSIacm'
+p3685
+asS'4088'
+p3686
+(lp3687
+S'u   '
+p3688
+aS'instant East(t)           '
+p3689
+ag248
+aS'cm s-1'
+p3690
+aS'f8.2'
+p3691
+aS'instantaneous east comp (true north) FSIacm'
 p3692
-aS'instantaneous north comp (true north) FSIacm'
+asS'4089'
 p3693
-asS'1814'
-p3694
-(lp3695
-S'pCOa'
+(lp3694
+S'v   '
+p3695
+aS'instant North(t)          '
 p3696
-aS'pCOair                  '
+ag211
+aS'cm s-1'
 p3697
-aS'co'
+aS'f8.2'
 p3698
-aS'micro-atm'
+aS'instantaneous north comp (true north) FSIacm'
 p3699
-ag5
-ag1
-asS'1815'
+asS'1814'
 p3700
 (lp3701
-S'pCOw'
+S'pCOa'
 p3702
-aS'pCOwater                '
+aS'pCOair                  '
 p3703
 aS'co'
 p3704
@@ -7887,50 +7885,50 @@ aS'micro-atm'
 p3705
 ag5
 ag1
-asS'1816'
+asS'1815'
 p3706
 (lp3707
-S'SO2 '
+S'pCOw'
 p3708
-aS'Atmospheric Sulfur Dioxide'
+aS'pCOwater                '
 p3709
-aS'so2'
+aS'co'
 p3710
-aS'ppb'
+aS'micro-atm'
 p3711
 ag5
 ag1
-asS'1810'
+asS'1816'
 p3712
 (lp3713
-S'Rn  '
+S'SO2 '
 p3714
-aS'Radon                   '
+aS'Atmospheric Sulfur Dioxide'
 p3715
-ag5
-aS'mBq m-3'
+aS'so2'
 p3716
+aS'ppb'
+p3717
 ag5
 ag1
-asS'1811'
-p3717
-(lp3718
-S'pC4a'
-p3719
-aS'pCH4air                 '
+asS'1810'
+p3718
+(lp3719
+S'Rn  '
 p3720
-aS'ch4'
+aS'Radon                   '
 p3721
-aS'micro-atm'
+ag5
+aS'mBq m-3'
 p3722
 ag5
 ag1
-asS'1812'
+asS'1811'
 p3723
 (lp3724
-S'pC4w'
+S'pC4a'
 p3725
-aS'pCH4water               '
+aS'pCH4air                 '
 p3726
 aS'ch4'
 p3727
@@ -7938,2099 +7936,2099 @@ aS'micro-atm'
 p3728
 ag5
 ag1
-asS'3090'
+asS'1812'
 p3729
 (lp3730
-S'LAT'
+S'pC4w'
 p3731
-aS'Latitude (Trimble P-code GPS)'
+aS'pCH4water               '
 p3732
-aS'lat'
+aS'ch4'
 p3733
-aS'degree_north'
+aS'micro-atm'
 p3734
-aS'F8.5'
+ag5
+ag1
+asS'3090'
 p3735
-aS'Latitude '
-p3736
-asS'3091'
-p3737
-(lp3738
+(lp3736
 S'LAT'
-p3739
-aS'Latitude (North Star GPS)    '
-p3740
+p3737
+aS'Latitude (Trimble P-code GPS)'
+p3738
 aS'lat'
-p3741
+p3739
 aS'degree_north'
-p3742
+p3740
 aS'F8.5'
-p3743
+p3741
 aS'Latitude '
-p3744
-asS'9'
+p3742
+asS'3091'
+p3743
+(lp3744
+S'LAT'
 p3745
-(lp3746
-S'P  '
+aS'Latitude (North Star GPS)    '
+p3746
+aS'lat'
 p3747
-aS'SEA LEVEL PRESSURE (MB)  '
+aS'degree_north'
 p3748
-aS'depth'
+aS'F8.5'
 p3749
-aS'mbar'
+aS'Latitude '
 p3750
+asS'9'
+p3751
+(lp3752
+S'P  '
+p3753
+aS'SEA LEVEL PRESSURE (MB)  '
+p3754
+aS'depth'
+p3755
+aS'mbar'
+p3756
 ag5
 aS'For Ferret'
-p3751
-asS'3096'
-p3752
-(lp3753
-S'LON'
-p3754
-aS'Longitude (North Star GPS)    '
-p3755
-aS'lon'
-p3756
-aS'degree_east'
 p3757
-aS'F9.5'
+asS'3096'
 p3758
-aS'Longitude'
-p3759
-asS'3095'
-p3760
-(lp3761
+(lp3759
 S'LON'
-p3762
-aS'Longitude (Trimble P-code GPS)'
-p3763
+p3760
+aS'Longitude (North Star GPS)    '
+p3761
 aS'lon'
-p3764
+p3762
 aS'degree_east'
-p3765
+p3763
 aS'F9.5'
+p3764
+aS'Longitude'
+p3765
+asS'3095'
 p3766
-aS'Longitude '
-p3767
-asS'4031'
+(lp3767
+S'LON'
 p3768
-(lp3769
-S'rpres'
+aS'Longitude (Trimble P-code GPS)'
+p3769
+aS'lon'
 p3770
-aS'RAW PRESSURE (MX2)'
+aS'degree_east'
 p3771
-aS'pres'
+aS'F9.5'
 p3772
-aS'counts'
+aS'Longitude '
 p3773
-aS'i10'
+asS'4031'
 p3774
-aS'mx-vacm with 2 mx-variables'
-p3775
-asS'4019'
+(lp3775
+S'rpres'
 p3776
-(lp3777
-S'tilta'
+aS'RAW PRESSURE (MX2)'
+p3777
+aS'pres'
 p3778
-aS'TILT ANGLE               '
+aS'counts'
 p3779
-aS'tilt'
+aS'i10'
 p3780
-aS'degrees'
+aS'mx-vacm with 2 mx-variables'
 p3781
-aS'f8.2'
+asS'4019'
 p3782
-aS'averaged instrument tilt FSIacm'
-p3783
-asS'4018'
+(lp3783
+S'tilta'
 p3784
-(lp3785
-S'tilty'
-p3786
-aS'TILT IN POD Y_Z PLANE    '
-p3787
+aS'TILT ANGLE               '
+p3785
 aS'tilt'
-p3788
+p3786
 aS'degrees'
+p3787
+aS'f8.2'
+p3788
+aS'averaged instrument tilt FSIacm'
 p3789
-aS'f10.3'
+asS'4018'
 p3790
-aS'orientation of BASS pods'
-p3791
-asS'1979'
+(lp3791
+S'tilty'
 p3792
-(lp3793
-S'Ca    '
+aS'TILT IN POD Y_Z PLANE    '
+p3793
+aS'tilt'
 p3794
-aS'Sub10micron Aerosol Calcium                      '
+aS'degrees'
 p3795
+aS'f10.3'
+p3796
+aS'orientation of BASS pods'
+p3797
+asS'1979'
+p3798
+(lp3799
+S'Ca    '
+p3800
+aS'Sub10micron Aerosol Calcium                      '
+p3801
 ag5
 aS'ug/m^3'
-p3796
+p3802
 ag5
 ag5
 asS'1978'
-p3797
-(lp3798
+p3803
+(lp3804
 S'Ca    '
-p3799
+p3805
 aS'Supermicron Aerosol Calcium                      '
-p3800
+p3806
 ag5
 aS'ug/m^3'
-p3801
+p3807
 ag5
 ag5
 asS'1601'
-p3802
-(lp3803
-S'IQ'
-p3804
-aS'WEPOCS QUALITY ID         '
-p3805
-aS'iq'
-p3806
-ag5
-ag5
-aS"Billy Kessler's WEPOCS CTD"
-p3807
-asS'1976'
 p3808
 (lp3809
-S'Si    '
+S'IQ'
 p3810
-aS'Sub10micron Aerosol Silicon                      '
+aS'WEPOCS QUALITY ID         '
 p3811
-ag5
-aS'ug/m^3'
+aS'iq'
 p3812
 ag5
 ag5
-asS'1975'
+aS"Billy Kessler's WEPOCS CTD"
 p3813
-(lp3814
+asS'1976'
+p3814
+(lp3815
 S'Si    '
-p3815
-aS'Supermicron Aerosol Silicon                      '
 p3816
+aS'Sub10micron Aerosol Silicon                      '
+p3817
 ag5
 aS'ug/m^3'
-p3817
+p3818
+ag5
+ag5
+asS'1975'
+p3819
+(lp3820
+S'Si    '
+p3821
+aS'Supermicron Aerosol Silicon                      '
+p3822
+ag5
+aS'ug/m^3'
+p3823
 ag5
 ag5
 asS'1974'
-p3818
-(lp3819
+p3824
+(lp3825
 S'Si    '
-p3820
+p3826
 aS'Submicron Aerosol Silicon                        '
-p3821
+p3827
 ag5
 aS'ug/m^3'
-p3822
+p3828
 ag5
 ag5
 asS'1973'
-p3823
-(lp3824
+p3829
+(lp3830
 S'Fe    '
-p3825
+p3831
 aS'Sub10micron Aerosol Iron                         '
-p3826
+p3832
 ag5
 aS'ug/m^3'
-p3827
+p3833
 ag5
 ag5
 asS'1972'
-p3828
-(lp3829
+p3834
+(lp3835
 S'Fe    '
-p3830
+p3836
 aS'Supermicron Aerosol Iron                         '
-p3831
+p3837
 ag5
 aS'ug/m^3'
-p3832
+p3838
 ag5
 ag5
 asS'1971'
-p3833
-(lp3834
+p3839
+(lp3840
 S'Fe    '
-p3835
+p3841
 aS'Submicron Aerosol Iron                           '
-p3836
+p3842
 ag5
 aS'ug/m^3'
-p3837
+p3843
 ag5
 ag5
 asS'1970'
-p3838
-(lp3839
+p3844
+(lp3845
 S'Al    '
-p3840
+p3846
 aS'Sub10micron Aerosol Aluminum                     '
-p3841
+p3847
 ag5
 aS'ug/m^3'
-p3842
+p3848
 ag5
 ag5
 asS'4000'
-p3843
-(lp3844
-S'upr'
-p3845
-aS'UPPER ROTOR SPEED     '
-p3846
-aS'rotor'
-p3847
-aS'counts'
-p3848
-aS'f10.1'
 p3849
-aS'basic measurement, vmcm'
-p3850
-asS'4032'
+(lp3850
+S'upr'
 p3851
-(lp3852
-S'rpres'
+aS'UPPER ROTOR SPEED     '
+p3852
+aS'rotor'
 p3853
-aS'RAW PRESSURE (MX4)'
-p3854
-aS'pres'
-p3855
 aS'counts'
+p3854
+aS'f10.1'
+p3855
+aS'basic measurement, vmcm'
 p3856
-aS'i10'
+asS'4032'
 p3857
-aS'mx-vacm with 4 mx-variables'
-p3858
-asS'351'
+(lp3858
+S'rpres'
 p3859
-(lp3860
-S'HY '
+aS'RAW PRESSURE (MX4)'
+p3860
+aS'pres'
 p3861
-aS'COMPASS HY               '
+aS'counts'
 p3862
+aS'i10'
+p3863
+aS'mx-vacm with 4 mx-variables'
+p3864
+asS'351'
+p3865
+(lp3866
+S'HY '
+p3867
+aS'COMPASS HY               '
+p3868
 ag5
 ag5
 ag5
 ag1
 asS'350'
-p3863
-(lp3864
+p3869
+(lp3870
 S'HX '
-p3865
+p3871
 aS'COMPASS HX               '
-p3866
+p3872
 ag5
 ag5
 ag5
 ag1
 asS'4002'
-p3867
-(lp3868
-S'lowr'
-p3869
-aS'LOWER ROTOR SPEED    '
-p3870
-aS'rotor'
-p3871
-aS'counts'
-p3872
-aS'f10.1'
 p3873
-aS'basic measurement, vmcm'
-p3874
-asS'4003'
-p3875
-(lp3876
+(lp3874
 S'lowr'
-p3877
+p3875
 aS'LOWER ROTOR SPEED    '
-p3878
+p3876
 aS'rotor'
+p3877
+aS'counts'
+p3878
+aS'f10.1'
 p3879
-aS'cm/s'
+aS'basic measurement, vmcm'
 p3880
-aS'f10.3'
+asS'4003'
 p3881
-aS'interval lower rotor speed, Seadata tripod'
-p3882
-asS'210'
+(lp3882
+S'lowr'
 p3883
-(lp3884
-S'SL '
+aS'LOWER ROTOR SPEED    '
+p3884
+aS'rotor'
 p3885
-aS'GEOSAT SEA LEVEL (M)     '
+aS'cm/s'
 p3886
+aS'f10.3'
+p3887
+aS'interval lower rotor speed, Seadata tripod'
+p3888
+asS'210'
+p3889
+(lp3890
+S'SL '
+p3891
+aS'GEOSAT SEA LEVEL (M)     '
+p3892
 ag5
 ag52
 ag5
 aS'Mean value over grid block'
-p3887
-asS'1236'
-p3888
-(lp3889
-S'Sv4 '
-p3890
-aS'Backscattering Strength Beam 4'
-p3891
-aS'Sv'
-p3892
-aS'dB'
 p3893
+asS'1236'
+p3894
+(lp3895
+S'Sv4 '
+p3896
+aS'Backscattering Strength Beam 4'
+p3897
+aS'Sv'
+p3898
+aS'dB'
+p3899
 ag5
 aS'ADCP Bksctr., ref to noise cal'
-p3894
-asS'4004'
-p3895
-(lp3896
-S'rdif'
-p3897
-aS'ROTOR SPEED DIFFERENCE  '
-p3898
-aS'rotor'
-p3899
-aS'cm/s'
 p3900
-aS'f10.3'
+asS'4004'
 p3901
-aS'difference, interval rotor speed, Seadata tripod'
-p3902
-asS'4005'
+(lp3902
+S'rdif'
 p3903
-(lp3904
-S'rot'
-p3905
-aS'ROTOR COUNTS             '
-p3906
+aS'ROTOR SPEED DIFFERENCE  '
+p3904
 aS'rotor'
+p3905
+aS'cm/s'
+p3906
+aS'f10.3'
 p3907
-aS'counts'
+aS'difference, interval rotor speed, Seadata tripod'
 p3908
-aS'i10'
+asS'4005'
 p3909
-aS'vacm rotor counter'
-p3910
-asS'4006'
+(lp3910
+S'rot'
 p3911
-(lp3912
-S'rspd'
+aS'ROTOR COUNTS             '
+p3912
+aS'rotor'
 p3913
-aS'ROTOR SPEED             '
+aS'counts'
 p3914
-aS'speed'
+aS'i10'
 p3915
-aS'cm s-1'
+aS'vacm rotor counter'
 p3916
-aS'f8.2'
+asS'4006'
 p3917
-aS'scalar speed from rotor counts'
-p3918
-asS'3040'
+(lp3918
+S'rspd'
 p3919
-(lp3920
-S'SD'
+aS'ROTOR SPEED             '
+p3920
+aS'speed'
 p3921
-aS'Ship Heading           '
-p3922
-aS'SD'
-p3923
-aS'degrees'
-p3924
-aS'f10.2'
-p3925
-aS'ship heading'
-p3926
-asS'4007'
-p3927
-(lp3928
-S'vspd'
-p3929
-aS'VECTOR SPEED            '
-p3930
-aS'vspd'
-p3931
 aS'cm s-1'
-p3932
+p3922
 aS'f8.2'
+p3923
+aS'scalar speed from rotor counts'
+p3924
+asS'3040'
+p3925
+(lp3926
+S'SD'
+p3927
+aS'Ship Heading           '
+p3928
+aS'SD'
+p3929
+aS'degrees'
+p3930
+aS'f10.2'
+p3931
+aS'ship heading'
+p3932
+asS'4007'
 p3933
-aS'vector speed from U and V'
-p3934
-asS'289'
+(lp3934
+S'vspd'
 p3935
-(lp3936
-S'NH4'
+aS'VECTOR SPEED            '
+p3936
+aS'vspd'
 p3937
-aS'AMMONIUM (micromoles/kg) '
+aS'cm s-1'
 p3938
-aS'NH4'
+aS'f8.2'
 p3939
-aS'umol/kg'
+aS'vector speed from U and V'
 p3940
+asS'289'
+p3941
+(lp3942
+S'NH4'
+p3943
+aS'AMMONIUM (micromoles/kg) '
+p3944
+aS'NH4'
+p3945
+aS'umol/kg'
+p3946
 ag5
 ag1
 asS'288'
-p3941
-(lp3942
+p3947
+(lp3948
 S'SI '
-p3943
+p3949
 aS'SILICATE (micromoles/kg) '
-p3944
+p3950
 aS'SiO4'
-p3945
+p3951
 aS'uM/kg'
-p3946
+p3952
 ag5
 aS'From Jim Murray'
-p3947
-asS'4'
-p3948
-(lp3949
-S'P  '
-p3950
-aS'PRESSURE (PASCALS)       '
-p3951
-aS'depth'
-p3952
-aS'Pa'
 p3953
+asS'4'
+p3954
+(lp3955
+S'P  '
+p3956
+aS'PRESSURE (PASCALS)       '
+p3957
+aS'depth'
+p3958
+aS'Pa'
+p3959
 ag5
 ag1
 asS'282'
-p3954
-(lp3955
-S'NO3'
-p3956
-aS'NITRATE (micromoles/kg)  '
-p3957
-aS'NO3'
-p3958
-aS'uM/kg'
-p3959
-ag5
-aS'From Jim Murray'
 p3960
-asS'284'
-p3961
-(lp3962
-S'NO2'
+(lp3961
+S'NO3'
+p3962
+aS'NITRATE (micromoles/kg)  '
 p3963
-aS'NITRITE (micromoles/kg)  '
+aS'NO3'
 p3964
-aS'NO2'
+aS'uM/kg'
 p3965
-aS'uM/kg'
+ag5
+aS'From Jim Murray'
 p3966
-ag5
-aS'From Jim Murray'
+asS'284'
 p3967
-asS'287'
-p3968
-(lp3969
-S'UR '
+(lp3968
+S'NO2'
+p3969
+aS'NITRITE (micromoles/kg)  '
 p3970
-aS'UREA (micromoles/kg)     '
+aS'NO2'
 p3971
-aS'UR'
+aS'uM/kg'
 p3972
-aS'uM/kg'
+ag5
+aS'From Jim Murray'
 p3973
-ag5
-aS'From Jim Murray'
+asS'287'
 p3974
-asS'286'
-p3975
-(lp3976
-S'PO4'
+(lp3975
+S'UR '
+p3976
+aS'UREA (micromoles/kg)     '
 p3977
-aS'PHOSPHATE (micromoles/kg)'
+aS'UR'
 p3978
-aS'PO4'
-p3979
 aS'uM/kg'
-p3980
+p3979
 ag5
 aS'From Jim Murray'
+p3980
+asS'286'
 p3981
-asS'3005'
-p3982
-(lp3983
-S'sAT'
+(lp3982
+S'PO4'
+p3983
+aS'PHOSPHATE (micromoles/kg)'
 p3984
-aS'seas air temp'
+aS'PO4'
 p3985
-aS'atemp'
+aS'uM/kg'
 p3986
-aS'degree C'
+ag5
+aS'From Jim Murray'
 p3987
-aS'f10.2'
+asS'3005'
 p3988
-aS'seas air temp'
-p3989
-asS'3038'
+(lp3989
+S'sAT'
 p3990
-(lp3991
-S'su'
+aS'seas air temp'
+p3991
+aS'atemp'
 p3992
-aS'gps ship u component'
-p3993
-aS'su'
-p3994
-aS'knots'
-p3995
-aS'f10.2'
-p3996
-aS'ship east vel'
-p3997
-asS'3039'
-p3998
-(lp3999
-S'sv'
-p4000
-aS'gps ship v component'
-p4001
-aS'sv'
-p4002
-aS'knots'
-p4003
-aS'f10.2'
-p4004
-aS'ship north vel'
-p4005
-asS'3004'
-p4006
-(lp4007
-S'sWB'
-p4008
-aS'seas wet bulb temp'
-p4009
-aS'wbT'
-p4010
 aS'degree C'
-p4011
+p3993
 aS'f10.2'
+p3994
+aS'seas air temp'
+p3995
+asS'3038'
+p3996
+(lp3997
+S'su'
+p3998
+aS'gps ship u component'
+p3999
+aS'su'
+p4000
+aS'knots'
+p4001
+aS'f10.2'
+p4002
+aS'ship east vel'
+p4003
+asS'3039'
+p4004
+(lp4005
+S'sv'
+p4006
+aS'gps ship v component'
+p4007
+aS'sv'
+p4008
+aS'knots'
+p4009
+aS'f10.2'
+p4010
+aS'ship north vel'
+p4011
+asS'3004'
 p4012
-aS'seas wet bulb temp'
-p4013
-asS'55'
+(lp4013
+S'sWB'
 p4014
-(lp4015
-S'ATTN'
+aS'seas wet bulb temp'
+p4015
+aS'wbT'
 p4016
-aS'ATTENUATION             '
+aS'degree C'
 p4017
-aS'attn'
+aS'f10.2'
 p4018
-aS'm-1'
+aS'seas wet bulb temp'
 p4019
-aS'f7.5'
+asS'55'
 p4020
-aS'added for r2d2 ctd data'
-p4021
-asS'54'
+(lp4021
+S'ATTN'
 p4022
-(lp4023
-S'C2  '
+aS'ATTENUATION             '
+p4023
+aS'attn'
 p4024
-aS'Secondary Conductivity  '
+aS'm-1'
 p4025
-aS'con'
+aS'f7.5'
 p4026
-aS'mmho/cm'
+aS'added for r2d2 ctd data'
 p4027
+asS'54'
+p4028
+(lp4029
+S'C2  '
+p4030
+aS'Secondary Conductivity  '
+p4031
+aS'con'
+p4032
+aS'mmho/cm'
+p4033
 ag5
 ag1
 asS'3036'
-p4028
-(lp4029
-S'SD'
-p4030
-aS'gps ship direction'
-p4031
-aS'SD'
-p4032
-aS'degrees'
-p4033
-aS'f10.2'
 p4034
-aS'ship direction'
-p4035
-asS'56'
+(lp4035
+S'SD'
 p4036
-(lp4037
-S'NEP'
+aS'gps ship direction'
+p4037
+aS'SD'
 p4038
-aS'BACKSCATTER INTENSITY    '
+aS'degrees'
 p4039
-aS'nephylometer'
+aS'f10.2'
 p4040
+aS'ship direction'
+p4041
+asS'56'
+p4042
+(lp4043
+S'NEP'
+p4044
+aS'BACKSCATTER INTENSITY    '
+p4045
+aS'nephylometer'
+p4046
 ag211
 aS'f10.6'
-p4041
-aS' added for Dave Pashinski'
-p4042
-asS'51'
-p4043
-(lp4044
-S'C  '
-p4045
-aS'CONDUCTIVITY             '
-p4046
-aS'con'
 p4047
-aS'S/m'
+aS' added for Dave Pashinski'
 p4048
-aS'f10.3'
+asS'51'
 p4049
+(lp4050
+S'C  '
+p4051
+aS'CONDUCTIVITY             '
+p4052
+aS'con'
+p4053
+aS'S/m'
+p4054
+aS'f10.3'
+p4055
 ag1
 asS'50'
-p4050
-(lp4051
+p4056
+(lp4057
 S'C  '
-p4052
+p4058
 aS'CONDUCTIVITY             '
-p4053
+p4059
 aS'con'
-p4054
+p4060
 aS'mmho/cm'
-p4055
+p4061
 ag5
 ag1
 asS'53'
-p4056
-(lp4057
-S'rcon'
-p4058
-aS'RAW CONDUCTIVITY (VACM) '
-p4059
-aS'cond'
-p4060
-aS'counts'
-p4061
-aS'i10'
 p4062
-aS'vacm raw conductivity'
-p4063
-asS'52'
-p4064
-(lp4065
+(lp4063
 S'rcon'
-p4066
-aS'RAW CONDUCTIVITY (SEABIRD)'
-p4067
+p4064
+aS'RAW CONDUCTIVITY (VACM) '
+p4065
 aS'cond'
-p4068
+p4066
 aS'counts'
-p4069
+p4067
 aS'i10'
+p4068
+aS'vacm raw conductivity'
+p4069
+asS'52'
 p4070
-aS'Seabird cell raw conductivity'
-p4071
-asS'3034'
+(lp4071
+S'rcon'
 p4072
-(lp4073
-S'rWD'
+aS'RAW CONDUCTIVITY (SEABIRD)'
+p4073
+aS'cond'
 p4074
-aS'RMY true direction'
+aS'counts'
 p4075
-aS'WD'
+aS'i10'
 p4076
-aS'degree'
+aS'Seabird cell raw conductivity'
 p4077
-aS'f10.2'
+asS'3034'
 p4078
-aS'oc true direction'
-p4079
-asS'3035'
+(lp4079
+S'rWD'
 p4080
-(lp4081
-S'rWS'
+aS'RMY true direction'
+p4081
+aS'WD'
 p4082
-aS'RMY wind speed'
+aS'degree'
 p4083
-aS'WS'
+aS'f10.2'
 p4084
-aS'knots'
+aS'oc true direction'
 p4085
-aS'f10.2'
+asS'3035'
 p4086
-aS'oc wind speed'
-p4087
-asS'1411'
+(lp4087
+S'rWS'
 p4088
-(lp4089
-S'bear'
+aS'RMY wind speed'
+p4089
+aS'WS'
 p4090
-aS'bearing (m)      '
-p4091
-aS'dir'
-p4092
-aS'degreeM'
-p4093
-aS'f8.2'
-p4094
-aS'instantaneous dir., magnetic north (oceanographic)'
-p4095
-asS'1412'
-p4096
-(lp4097
-S'bear'
-p4098
-aS'bearing (t)      '
-p4099
-aS'dir'
-p4100
-aS'degreeT'
-p4101
-aS'f8.2'
-p4102
-aS'instantaneous dir., true north (oceanographic)'
-p4103
-asS'1413'
-p4104
-(lp4105
-S'bear'
-p4106
-aS'bearing (r)      '
-p4107
-aS'dir'
-p4108
-aS'degrees'
-p4109
-aS'f8.2'
-p4110
-aS'instantaneous dir., rotated (oceanographic)'
-p4111
-asS'1414'
-p4112
-(lp4113
-S'vdir'
-p4114
-aS'vector direction (m)'
-p4115
-aS'vdir'
-p4116
-aS'degreeM'
-p4117
-aS'f8.2'
-p4118
-aS'averaged dir., magnetic north (oceanographic)'
-p4119
-asS'1415'
-p4120
-(lp4121
-S'vdir'
-p4122
-aS'vector direction (t)'
-p4123
-aS'vdir'
-p4124
-aS'degreeT'
-p4125
-aS'f8.2'
-p4126
-aS'averaged dir., true north (oceanographic)'
-p4127
-asS'1416'
-p4128
-(lp4129
-S'vdir'
-p4130
-aS'vector direction (r)'
-p4131
-aS'vdir'
-p4132
-aS'degrees'
-p4133
-aS'f8.2'
-p4134
-aS'averaged dir., rotated (oceanographic)'
-p4135
-asS'3037'
-p4136
-(lp4137
-S'SS'
-p4138
-aS'gps ship speed'
-p4139
-aS'SS'
-p4140
 aS'knots'
+p4091
+aS'f10.2'
+p4092
+aS'oc wind speed'
+p4093
+asS'1411'
+p4094
+(lp4095
+S'bear'
+p4096
+aS'bearing (m)      '
+p4097
+aS'dir'
+p4098
+aS'degreeM'
+p4099
+aS'f8.2'
+p4100
+aS'instantaneous dir., magnetic north (oceanographic)'
+p4101
+asS'1412'
+p4102
+(lp4103
+S'bear'
+p4104
+aS'bearing (t)      '
+p4105
+aS'dir'
+p4106
+aS'degreeT'
+p4107
+aS'f8.2'
+p4108
+aS'instantaneous dir., true north (oceanographic)'
+p4109
+asS'1413'
+p4110
+(lp4111
+S'bear'
+p4112
+aS'bearing (r)      '
+p4113
+aS'dir'
+p4114
+aS'degrees'
+p4115
+aS'f8.2'
+p4116
+aS'instantaneous dir., rotated (oceanographic)'
+p4117
+asS'1414'
+p4118
+(lp4119
+S'vdir'
+p4120
+aS'vector direction (m)'
+p4121
+aS'vdir'
+p4122
+aS'degreeM'
+p4123
+aS'f8.2'
+p4124
+aS'averaged dir., magnetic north (oceanographic)'
+p4125
+asS'1415'
+p4126
+(lp4127
+S'vdir'
+p4128
+aS'vector direction (t)'
+p4129
+aS'vdir'
+p4130
+aS'degreeT'
+p4131
+aS'f8.2'
+p4132
+aS'averaged dir., true north (oceanographic)'
+p4133
+asS'1416'
+p4134
+(lp4135
+S'vdir'
+p4136
+aS'vector direction (r)'
+p4137
+aS'vdir'
+p4138
+aS'degrees'
+p4139
+aS'f8.2'
+p4140
+aS'averaged dir., rotated (oceanographic)'
 p4141
-aS'f10.2'
+asS'3037'
 p4142
-aS'ship speed'
-p4143
-asS'3003'
+(lp4143
+S'SS'
 p4144
-(lp4145
-S'sBP'
+aS'gps ship speed'
+p4145
+aS'SS'
 p4146
-aS'seas barometric pressure'
+aS'knots'
 p4147
-aS'BP'
+aS'f10.2'
 p4148
-aS'mbs'
+aS'ship speed'
 p4149
-aS'f10.2'
+asS'3003'
 p4150
-aS'seas barometric pressure'
-p4151
-asS'3030'
+(lp4151
+S'sBP'
 p4152
-(lp4153
-S'light'
+aS'seas barometric pressure'
+p4153
+aS'BP'
 p4154
-aS'light intensity'
+aS'mbs'
 p4155
-aS'light'
+aS'f10.2'
 p4156
-aS'volts'
+aS'seas barometric pressure'
 p4157
-aS'f10.2'
+asS'3030'
 p4158
-aS'light intensity'
-p4159
-asS'980'
+(lp4159
+S'light'
 p4160
-(lp4161
-S'Trb '
+aS'light intensity'
+p4161
+aS'light'
 p4162
-aS'Turbidity(FNU)          '
+aS'volts'
 p4163
-aS'turb'
+aS'f10.2'
 p4164
-aS'FNU'
+aS'light intensity'
 p4165
-aS'f10.2'
+asS'980'
 p4166
-aS'formazin nephelometric units'
-p4167
-asS'981'
+(lp4167
+S'Trb '
 p4168
-(lp4169
-S'Sed'
+aS'Turbidity(FNU)          '
+p4169
+aS'turb'
 p4170
-aS'Sediment concentration   '
+aS'FNU'
 p4171
-aS'sed'
+aS'f10.2'
 p4172
-aS'g/l'
+aS'formazin nephelometric units'
 p4173
-aS'f10.2'
+asS'981'
 p4174
-aS'sediment concentration'
-p4175
-asS'3031'
+(lp4175
+S'Sed'
 p4176
-(lp4177
-S'fluor'
+aS'Sediment concentration   '
+p4177
+aS'sed'
 p4178
-aS'fluorometer'
+aS'g/l'
 p4179
-aS'fluor'
-p4180
-aS'volts'
-p4181
 aS'f10.2'
+p4180
+aS'sediment concentration'
+p4181
+asS'3031'
 p4182
-aS'fluorometer'
-p4183
-asS'115'
+(lp4183
+S'fluor'
 p4184
-(lp4185
-S'BAT3'
+aS'fluorometer'
+p4185
+aS'fluor'
 p4186
-aS'BATTERY VOLTAGE 3       '
-p4187
-aS'bat'
-p4188
 aS'volts'
+p4187
+aS'f10.2'
+p4188
+aS'fluorometer'
 p4189
-aS'f10.3'
+asS'115'
 p4190
+(lp4191
+S'BAT3'
+p4192
+aS'BATTERY VOLTAGE 3       '
+p4193
+aS'bat'
+p4194
+aS'volts'
+p4195
+aS'f10.3'
+p4196
 ag1
 asS'114'
-p4191
-(lp4192
-S'BAT2'
-p4193
-aS'BATTERY VOLTAGE 2       '
-p4194
-aS'bat'
-p4195
-aS'volts'
-p4196
-aS'f10.3'
 p4197
+(lp4198
+S'BAT2'
+p4199
+aS'BATTERY VOLTAGE 2       '
+p4200
+aS'bat'
+p4201
+aS'volts'
+p4202
+aS'f10.3'
+p4203
 ag1
 asS'111'
-p4198
-(lp4199
+p4204
+(lp4205
 S'OXT'
-p4200
+p4206
 aS'OXYGEN TEMPERATURE       '
-p4201
+p4207
 ag5
 ag5
 ag5
 ag1
 asS'110'
-p4202
-(lp4203
+p4208
+(lp4209
 S'OXC'
-p4204
+p4210
 aS'OXYGEN CURRENT           '
-p4205
+p4211
 ag5
 ag5
 ag5
 ag1
 asS'113'
-p4206
-(lp4207
-S'BAT1'
-p4208
-aS'BATTERY VOLTAGE 1       '
-p4209
-aS'bat'
-p4210
-aS'volts'
-p4211
-aS'f10.3'
 p4212
+(lp4213
+S'BAT1'
+p4214
+aS'BATTERY VOLTAGE 1       '
+p4215
+aS'bat'
+p4216
+aS'volts'
+p4217
+aS'f10.3'
+p4218
 ag1
 asS'112'
-p4213
-(lp4214
+p4219
+(lp4220
 S'DOC'
-p4215
+p4221
 aS'dOXC/dt                  '
-p4216
+p4222
 ag5
 ag5
 ag5
 aS'Time rate of change of Oxygen current'
-p4217
+p4223
 asS'4202'
-p4218
-(lp4219
+p4224
+(lp4225
 S'BTLNBR_FLAG'
-p4220
+p4226
 aS'Bottle Number Flag '
-p4221
+p4227
 aS'flag'
-p4222
+p4228
 ag5
 ag5
 ag1
 asS'4203'
-p4223
-(lp4224
-S'CTDPRS'
-p4225
-aS'Pressure                '
-p4226
-aS'depth'
-p4227
-aS'dbar'
-p4228
-aS'f9.1'
 p4229
+(lp4230
+S'CTDPRS'
+p4231
+aS'Pressure                '
+p4232
+aS'depth'
+p4233
+aS'dbar'
+p4234
+aS'f9.1'
+p4235
 ag1
 asS'9993'
-p4230
-(lp4231
+p4236
+(lp4237
 S'z'
-p4232
-aS'z axis'
-p4233
-ag4232
-ag5
-ag5
-aS'z axis'
-p4234
-asS'3033'
-p4235
-(lp4236
-S'EQdep'
-p4237
-aS'EQ50 depth'
 p4238
-aS'depth'
+aS'z axis'
 p4239
-aS'meters'
+ag4238
+ag5
+ag5
+aS'z axis'
 p4240
-aS'f10.1'
+asS'3033'
 p4241
-aS'depth from MF EQ50'
-p4242
-asS'9994'
+(lp4242
+S'EQdep'
 p4243
-(lp4244
-S't'
+aS'EQ50 depth'
+p4244
+aS'depth'
 p4245
-aS't axis'
+aS'meters'
 p4246
-ag4245
+aS'f10.1'
+p4247
+aS'depth from MF EQ50'
+p4248
+asS'9994'
+p4249
+(lp4250
+S't'
+p4251
+aS't axis'
+p4252
+ag4251
 ag5
 ag5
 aS't axis '
-p4247
+p4253
 asS'4204'
-p4248
-(lp4249
+p4254
+(lp4255
 S'CTDPRS_FLAG'
-p4250
+p4256
 aS'Pressure Flag      '
-p4251
+p4257
 aS'flag'
-p4252
+p4258
 ag5
 ag5
 ag1
 asS'4311'
-p4253
-(lp4254
-S'FiltXCO2a'
-p4255
-aS'Filtered Mole Fraction of CO2 in Air'
-p4256
-aS'XCO2'
-p4257
-aS'ppm'
-p4258
-aS'f9.1'
 p4259
-aS'Underway CO2 obs'
-p4260
-asS'1851'
+(lp4260
+S'FiltXCO2a'
 p4261
-(lp4262
-S'CN  '
+aS'Filtered Mole Fraction of CO2 in Air'
+p4262
+aS'XCO2'
 p4263
-aS'Total Particles Dp>12nm '
+aS'ppm'
 p4264
-ag5
-aS'cm-3'
+aS'f9.1'
 p4265
-ag5
-aS'condensation nuclei'
+aS'Underway CO2 obs'
 p4266
-asS'1852'
+asS'1851'
 p4267
 (lp4268
-S'UFCN'
+S'CN  '
 p4269
-aS'Total Particles Dp>3nm  '
+aS'Total Particles Dp>12nm '
 p4270
 ag5
 aS'cm-3'
 p4271
 ag5
-aS'ultrafine condensation nuclei'
+aS'condensation nuclei'
 p4272
-asS'1853'
+asS'1852'
 p4273
 (lp4274
-S'CN  '
+S'UFCN'
 p4275
-aS'Total Particles Dp>13nm '
+aS'Total Particles Dp>3nm  '
 p4276
 ag5
 aS'cm-3'
 p4277
 ag5
-aS'condensation nuclei'
+aS'ultrafine condensation nuclei'
 p4278
-asS'4271'
+asS'1853'
 p4279
 (lp4280
-S'ALKALI '
+S'CN  '
 p4281
-aS'Alkalinity             '
+aS'Total Particles Dp>13nm '
 p4282
-aS'alk'
+ag5
+aS'cm-3'
 p4283
-aS'umol/kg'
+ag5
+aS'condensation nuclei'
 p4284
-aS'f9.1'
+asS'4271'
 p4285
+(lp4286
+S'ALKALI '
+p4287
+aS'Alkalinity             '
+p4288
+aS'alk'
+p4289
+aS'umol/kg'
+p4290
+aS'f9.1'
+p4291
 ag1
 asS'4001'
-p4286
-(lp4287
-S'upr'
-p4288
-aS'UPPER ROTOR SPEED     '
-p4289
-aS'rotor'
-p4290
-aS'cm/s'
-p4291
-aS'f10.3'
 p4292
-aS'interval upper rotor speed, Seadata tripod'
-p4293
-asS'1254'
+(lp4293
+S'upr'
 p4294
-(lp4295
-S'St4 '
+aS'UPPER ROTOR SPEED     '
+p4295
+aS'rotor'
 p4296
-aS'Status Beam 4               '
+aS'cm/s'
 p4297
+aS'f10.3'
+p4298
+aS'interval upper rotor speed, Seadata tripod'
+p4299
+asS'1254'
+p4300
+(lp4301
+S'St4 '
+p4302
+aS'Status Beam 4               '
+p4303
 ag5
 ag5
 ag5
 aS'ADCP Beam 4 Status'
-p4298
+p4304
 asS'1255'
-p4299
-(lp4300
+p4305
+(lp4306
 S'StBn'
-p4301
+p4307
 aS'Bin Status                  '
-p4302
+p4308
 ag5
 ag5
 ag5
 aS'ADCP Bin Status'
-p4303
+p4309
 asS'1252'
-p4304
-(lp4305
+p4310
+(lp4311
 S'St2 '
-p4306
+p4312
 aS'Status Beam 2               '
-p4307
+p4313
 ag5
 ag5
 ag5
 aS'ADCP Beam 2 Status'
-p4308
+p4314
 asS'1253'
-p4309
-(lp4310
+p4315
+(lp4316
 S'St3 '
-p4311
+p4317
 aS'Status Beam 3               '
-p4312
+p4318
 ag5
 ag5
 ag5
 aS'ADCP Beam 3 Status'
-p4313
+p4319
 asS'1251'
-p4314
-(lp4315
+p4320
+(lp4321
 S'St1 '
-p4316
+p4322
 aS'Status Beam 1               '
-p4317
+p4323
 ag5
 ag5
 ag5
 aS'ADCP Beam 1 Status'
-p4318
+p4324
 asS'915'
-p4319
-(lp4320
+p4325
+(lp4326
 S'BP '
-p4321
+p4327
 aS'BAROMETRIC PRESSURE (MB) '
-p4322
+p4328
 ag5
 aS'mbar'
-p4323
+p4329
 ag5
 ag1
 asS'420'
-p4324
-(lp4325
-S'WU '
-p4326
-aS'WIND U (CM/S)            '
-p4327
-ag240
-aS'cm s-1'
-p4328
-ag5
-aS'oceanographic sense (going to)'
-p4329
-asS'917'
 p4330
 (lp4331
-S'PAR'
+S'WU '
 p4332
-aS'Photosynthetically Active Radiation'
+aS'WIND U (CM/S)            '
 p4333
-aS'par'
+ag248
+aS'cm s-1'
 p4334
-aS'umol photons m-2 s-1'
+ag5
+aS'oceanographic sense (going to)'
 p4335
-aS'F7.1'
+asS'917'
 p4336
+(lp4337
+S'PAR'
+p4338
+aS'Photosynthetically Active Radiation'
+p4339
+aS'par'
+p4340
+aS'umol photons m-2 s-1'
+p4341
+aS'F7.1'
+p4342
 ag1
 asS'916'
-p4337
-(lp4338
-S'PAR'
-p4339
-aS'Photosynthetically Active Radiation'
-p4340
-aS'par'
-p4341
-ag845
-aS'f5.2'
-p4342
-aS'PAR (instrument units)'
 p4343
-asS'911'
-p4344
-(lp4345
-S'RH '
+(lp4344
+S'PAR'
+p4345
+aS'Photosynthetically Active Radiation'
 p4346
-aS'RELATIVE HUMIDITY MIN (%)'
+aS'par'
 p4347
-aS'rh'
+ag851
+aS'f5.2'
 p4348
-ag611
+aS'PAR (instrument units)'
+p4349
+asS'911'
+p4350
+(lp4351
+S'RH '
+p4352
+aS'RELATIVE HUMIDITY MIN (%)'
+p4353
+aS'rh'
+p4354
+ag617
 ag5
 ag1
 asS'910'
-p4349
-(lp4350
-S'RH '
-p4351
-aS'RELATIVE HUMIDITY (%)    '
-p4352
-aS'rh'
-p4353
-ag611
-ag5
-aS'PERCENT'
-p4354
-asS'913'
 p4355
 (lp4356
-S'SH '
+S'RH '
 p4357
-aS'SPECIFIC HUMIDITY (G/KG) '
+aS'RELATIVE HUMIDITY (%)    '
 p4358
-ag5
-aS'g kg-1'
+aS'rh'
 p4359
+ag617
 ag5
-aS'For Ferret'
+aS'PERCENT'
 p4360
-asS'912'
+asS'913'
 p4361
 (lp4362
-S'RH '
+S'SH '
 p4363
-aS'RELATIVE HUMIDITY MAX (%)'
+aS'SPECIFIC HUMIDITY (G/KG) '
 p4364
-aS'rh'
+ag5
+aS'g kg-1'
 p4365
-ag611
+ag5
+aS'For Ferret'
+p4366
+asS'912'
+p4367
+(lp4368
+S'RH '
+p4369
+aS'RELATIVE HUMIDITY MAX (%)'
+p4370
+aS'rh'
+p4371
+ag617
 ag5
 ag1
 asS'300'
-p4366
-(lp4367
-S'CS '
-p4368
-aS'CURRENT SPEED (CM/S)      '
-p4369
-aS'vspd'
-p4370
-aS'cm s-1'
-p4371
-aS'f8.2'
 p4372
-aS'oceanographic (going to)'
-p4373
-asS'301'
+(lp4373
+S'CS '
 p4374
-(lp4375
-S'BS '
+aS'CURRENT SPEED (CM/S)      '
+p4375
+aS'vspd'
 p4376
-aS'DRIFTER BUOY SPEED (M/S) '
+aS'cm s-1'
 p4377
-ag5
-aS'm s-1'
+aS'f8.2'
 p4378
-ag5
-aS'calculated from lat,lon'
+aS'oceanographic (going to)'
 p4379
-asS'302'
+asS'301'
 p4380
 (lp4381
 S'BS '
 p4382
-aS'Drifter Buoy Speed (cm/s)'
+aS'DRIFTER BUOY SPEED (M/S) '
 p4383
 ag5
-aS'cm s-1'
+aS'm s-1'
 p4384
 ag5
 aS'calculated from lat,lon'
 p4385
-asS'1933'
+asS'302'
 p4386
 (lp4387
-S'Ca    '
+S'BS '
 p4388
-aS'Soluble Supermicron Aerosol Calcium              '
+aS'Drifter Buoy Speed (cm/s)'
 p4389
 ag5
-aS'ug/m^3'
+aS'cm s-1'
 p4390
+ag5
+aS'calculated from lat,lon'
+p4391
+asS'1933'
+p4392
+(lp4393
+S'Ca    '
+p4394
+aS'Soluble Supermicron Aerosol Calcium              '
+p4395
+ag5
+aS'ug/m^3'
+p4396
 ag5
 ag5
 asS'1932'
-p4391
-(lp4392
+p4397
+(lp4398
 S'Ca    '
-p4393
+p4399
 aS'Soluble Submicron Aerosol Calcium                '
-p4394
+p4400
 ag5
 aS'ug/m^3'
-p4395
+p4401
 ag5
 ag5
 asS'1931'
-p4396
-(lp4397
+p4402
+(lp4403
 S'Mg    '
-p4398
+p4404
 aS'Soluble Sub10micron Aerosol Magnesium            '
-p4399
+p4405
 ag5
 aS'ug/m^3'
-p4400
+p4406
 ag5
 ag5
 asS'1930'
-p4401
-(lp4402
+p4407
+(lp4408
 S'Mg    '
-p4403
+p4409
 aS'Soluble Supermicron Aerosol Magnesium            '
-p4404
+p4410
 ag5
 aS'ug/m^3'
-p4405
+p4411
 ag5
 ag5
 asS'1937'
-p4406
-(lp4407
+p4412
+(lp4413
 S'nssK  '
-p4408
+p4414
 aS'Soluble Sub10micron Aerosol non-Seasalt Potassium'
-p4409
+p4415
 ag5
 aS'ug/m^3'
-p4410
+p4416
 ag5
 ag5
 asS'1936'
-p4411
-(lp4412
+p4417
+(lp4418
 S'nssK  '
-p4413
+p4419
 aS'Soluble Supermicron Aerosol non-Seasalt Potassium'
-p4414
+p4420
 ag5
 aS'ug/m^3'
-p4415
+p4421
 ag5
 ag5
 asS'1935'
-p4416
-(lp4417
+p4422
+(lp4423
 S'nssK  '
-p4418
+p4424
 aS'Soluble Submicron Aerosol non-Seasalt Potassium  '
-p4419
+p4425
 ag5
 aS'ug/m^3'
-p4420
+p4426
 ag5
 ag5
 asS'1934'
-p4421
-(lp4422
+p4427
+(lp4428
 S'Ca    '
-p4423
+p4429
 aS'Soluble Sub10micron Aerosol Calcium              '
-p4424
+p4430
 ag5
 aS'ug/m^3'
-p4425
+p4431
 ag5
 ag1
 asS'1939'
-p4426
-(lp4427
+p4432
+(lp4433
 S'nssMg '
-p4428
+p4434
 aS'Soluble Supermicron Aerosol non-Seasalt Magnesium'
-p4429
+p4435
 ag5
 aS'ug/m^3'
-p4430
+p4436
 ag5
 ag5
 asS'1938'
-p4431
-(lp4432
+p4437
+(lp4438
 S'nssMg '
-p4433
+p4439
 aS'Soluble Submicron Aerosol non-Seasalt Magnesium  '
-p4434
+p4440
 ag5
 aS'ug/m^3'
-p4435
+p4441
 ag5
 ag5
 asS'844'
-p4436
-(lp4437
+p4442
+(lp4443
 S'S-2'
-p4438
+p4444
 aS'SAL-2 STAND. DEV.        '
-p4439
+p4445
 ag5
 ag5
 ag5
 ag1
 asS'843'
-p4440
-(lp4441
+p4446
+(lp4447
 S'S+2'
-p4442
+p4448
 aS'SAL+2 STAND. DEV.        '
-p4443
+p4449
 ag5
 ag5
 ag5
 ag1
 asS'842'
-p4444
-(lp4445
+p4450
+(lp4451
 S'SD-'
-p4446
+p4452
 aS'SAL-STAND. DEV.          '
-p4447
+p4453
 ag5
 ag5
 ag5
 ag1
 asS'841'
-p4448
-(lp4449
+p4454
+(lp4455
 S'SD+'
-p4450
+p4456
 aS'SAL+STAND. DEV.          '
-p4451
+p4457
 ag5
 ag5
 ag5
 ag1
 asS'840'
-p4452
-(lp4453
+p4458
+(lp4459
 S'SDS'
-p4454
+p4460
 aS'STAND. DEV. (SAL)        '
-p4455
+p4461
 ag5
 ag5
 ag5
 ag1
 asS'4291'
-p4456
-(lp4457
+p4462
+(lp4463
 S'ARGOPRS_FLAG '
-p4458
+p4464
 aS'Argo Pressure Flag    '
-p4459
+p4465
 aS'flag'
-p4460
+p4466
 ag5
 ag5
 ag1
 asS'4293'
-p4461
-(lp4462
+p4467
+(lp4468
 S'ARGOSAL_FLAG '
-p4463
+p4469
 aS'Argo Salinity Flag    '
-p4464
+p4470
 aS'flag'
-p4465
+p4471
 ag5
 ag5
 ag1
 asS'4292'
-p4466
-(lp4467
+p4472
+(lp4473
 S'ARGOTMP_FLAG '
-p4468
+p4474
 aS'Argo Temperature Flag '
-p4469
+p4475
 aS'flag'
-p4470
+p4476
 ag5
 ag5
 ag1
 asS'4266'
-p4471
-(lp4472
+p4477
+(lp4478
 S'DELC13_FLAG'
-p4473
+p4479
 aS'Delta-C13 Flag     '
-p4474
+p4480
 aS'flag'
-p4475
+p4481
 ag5
 ag5
 ag1
 asS'1208'
-p4476
-(lp4477
+p4482
+(lp4483
 S'Png '
-p4478
+p4484
 aS'Pings                    '
-p4479
+p4485
 ag5
 ag5
 ag5
 aS'ADCP Pings'
-p4480
+p4486
 asS'1986'
-p4481
-(lp4482
+p4487
+(lp4488
 S'Oxlate'
-p4483
+p4489
 aS'Soluble Submicron Aerosol Oxalate                '
-p4484
+p4490
 ag5
 aS'ug/m^3'
-p4485
+p4491
 ag5
 ag1
 asS'1987'
-p4486
-(lp4487
+p4492
+(lp4493
 S'Oxlate'
-p4488
+p4494
 aS'Soluble Supermicron Aerosol Oxalate              '
-p4489
+p4495
 ag5
 aS'ug/m^3'
-p4490
+p4496
 ag5
 ag1
 asS'1984'
-p4491
-(lp4492
+p4497
+(lp4498
 S'IOM   '
-p4493
+p4499
 aS'Supermicron Aerosol Inorganic Oxidized Material  '
-p4494
+p4500
 ag5
 aS'ug/m^3'
-p4495
+p4501
 ag5
 ag5
 asS'1985'
-p4496
-(lp4497
+p4502
+(lp4503
 S'IOM   '
-p4498
+p4504
 aS'Sub10micron Aerosol Inorganic Oxidized Material  '
-p4499
+p4505
 ag5
 aS'ug/m^3'
-p4500
+p4506
 ag5
 ag5
 asS'1982'
-p4501
-(lp4502
+p4507
+(lp4508
 S'Ti    '
-p4503
+p4509
 aS'Sub10micron Aerosol Titanium                     '
-p4504
+p4510
 ag5
 aS'ug/m^3'
-p4505
+p4511
 ag5
 ag5
 asS'1983'
-p4506
-(lp4507
+p4512
+(lp4513
 S'IOM   '
-p4508
+p4514
 aS'Submicron Aerosol Inorganic Oxidized Material    '
-p4509
+p4515
 ag5
 aS'ug/m^3'
-p4510
+p4516
 ag5
 ag5
 asS'1980'
-p4511
-(lp4512
+p4517
+(lp4518
 S'Ti    '
-p4513
+p4519
 aS'Submicron Aerosol Titanium                       '
-p4514
+p4520
 ag5
 aS'ug/m^3'
-p4515
+p4521
 ag5
 ag5
 asS'1981'
-p4516
-(lp4517
+p4522
+(lp4523
 S'Ti    '
-p4518
+p4524
 aS'Supermicron Aerosol Titanium                     '
-p4519
+p4525
 ag5
 aS'ug/m^3'
-p4520
+p4526
 ag5
 ag5
 asS'1731'
-p4521
-(lp4522
-S'F11CORR'
-p4523
-aS'CORRECTED CFC-11     '
-p4524
-aS'f11corr'
-p4525
-aS'pmol/kg'
-p4526
-aS'f10.6'
 p4527
-aS'corrected trichloroflouoromethane'
-p4528
-asS'1732'
+(lp4528
+S'F11CORR'
 p4529
-(lp4530
-S'F12CORR'
+aS'CORRECTED CFC-11     '
+p4530
+aS'f11corr'
 p4531
-aS'CORRECTED CFC-12     '
-p4532
-aS'f12corr'
-p4533
 aS'pmol/kg'
-p4534
+p4532
 aS'f10.6'
+p4533
+aS'corrected trichloroflouoromethane'
+p4534
+asS'1732'
 p4535
-aS'corrected dichlorofluoromethane'
-p4536
-asS'1988'
+(lp4536
+S'F12CORR'
 p4537
-(lp4538
-S'Oxlate'
+aS'CORRECTED CFC-12     '
+p4538
+aS'f12corr'
 p4539
-aS'Soluble Sub10micron Aerosol Oxalate              '
+aS'pmol/kg'
 p4540
+aS'f10.6'
+p4541
+aS'corrected dichlorofluoromethane'
+p4542
+asS'1988'
+p4543
+(lp4544
+S'Oxlate'
+p4545
+aS'Soluble Sub10micron Aerosol Oxalate              '
+p4546
 ag5
 aS'ug/m^3'
-p4541
+p4547
 ag5
 ag1
 asS'1989'
-p4542
-(lp4543
+p4548
+(lp4549
 S'Br    '
-p4544
+p4550
 aS'Soluble Submicron Aerosol Bromide                '
-p4545
+p4551
 ag5
 aS'ug/m^3'
-p4546
+p4552
 ag5
 ag5
 asS'3070'
-p4547
-(lp4548
-S'COG'
-p4549
-aS'Course Over Ground                     '
-p4550
-aS'COG'
-p4551
-aS'degrees_T'
-p4552
-aS'F6.2'
 p4553
-aS'Ship Course Over Ground'
-p4554
-asS'3071'
+(lp4554
+S'COG'
 p4555
-(lp4556
-S'COG'
+aS'Course Over Ground                     '
+p4556
+aS'COG'
 p4557
-aS'Course Over Ground (Trimble P-code GPS)'
+aS'degrees_T'
 p4558
-aS'COG'
+aS'F6.2'
 p4559
-aS'degrees_T'
+aS'Ship Course Over Ground'
 p4560
-aS'F6.2'
+asS'3071'
 p4561
-aS'Ship Course Over Ground'
-p4562
-asS'3072'
-p4563
-(lp4564
+(lp4562
 S'COG'
-p4565
-aS'Course Over Ground (North Star GPS)    '
-p4566
+p4563
+aS'Course Over Ground (Trimble P-code GPS)'
+p4564
 aS'COG'
-p4567
+p4565
 aS'degrees_T'
-p4568
+p4566
 aS'F6.2'
-p4569
+p4567
 aS'Ship Course Over Ground'
-p4570
-asS'221'
+p4568
+asS'3072'
+p4569
+(lp4570
+S'COG'
 p4571
-(lp4572
-S'VAR'
+aS'Course Over Ground (North Star GPS)    '
+p4572
+aS'COG'
 p4573
-aS'VARIANCE                 '
+aS'degrees_T'
 p4574
-aS'var'
+aS'F6.2'
 p4575
-aS'cm s-1'
+aS'Ship Course Over Ground'
 p4576
+asS'221'
+p4577
+(lp4578
+S'VAR'
+p4579
+aS'VARIANCE                 '
+p4580
+aS'var'
+p4581
+aS'cm s-1'
+p4582
 ag5
 aS'sqrt(u**2 + v**2) (current variance) '
-p4577
-asS'220'
-p4578
-(lp4579
-S'AZ '
-p4580
-aS'AZIMUTH                  '
-p4581
-aS'az'
-p4582
-aS'degrees'
 p4583
-aS'f8.2'
+asS'220'
 p4584
-aS'measure of ice floe rotation'
-p4585
-asS'9999'
+(lp4585
+S'AZ '
 p4586
-(lp4587
-S'BINS'
+aS'AZIMUTH                  '
+p4587
+aS'az'
 p4588
-aS'Sample Number, Sample Bins             '
+aS'degrees'
 p4589
-aS'bins'
+aS'f8.2'
 p4590
-aS'#'
+aS'measure of ice floe rotation'
 p4591
-ag5
-ag1
-asS'9998'
+asS'9999'
 p4592
 (lp4593
-S'DESCENT'
+S'BINS'
 p4594
-aS'Descent Rate, Descent Rate of CTD             '
+aS'Sample Number, Sample Bins             '
 p4595
-aS'descent'
+aS'bins'
 p4596
-aS'm/s'
+aS'#'
 p4597
 ag5
 ag1
-asS'722'
+asS'9998'
 p4598
 (lp4599
-S'EV '
+S'DESCENT'
 p4600
-aS'ERROR VELOCITY           '
+aS'Descent Rate, Descent Rate of CTD             '
 p4601
-ag5
-ag5
-ag5
-aS'RD Acoustic Doppler'
+aS'descent'
 p4602
-asS'723'
+aS'm/s'
 p4603
-(lp4604
-S'AMP'
-p4605
-aS'AMPLITUDE                '
+ag5
+ag1
+asS'722'
+p4604
+(lp4605
+S'EV '
 p4606
+aS'ERROR VELOCITY           '
+p4607
 ag5
 ag5
 ag5
 aS'RD Acoustic Doppler'
-p4607
-asS'721'
 p4608
-(lp4609
-S'PG '
-p4610
-aS'PERCENT GOOD PINGS       '
+asS'723'
+p4609
+(lp4610
+S'AMP'
 p4611
+aS'AMPLITUDE                '
+p4612
+ag5
+ag5
+ag5
+aS'RD Acoustic Doppler'
+p4613
+asS'721'
+p4614
+(lp4615
+S'PG '
+p4616
+aS'PERCENT GOOD PINGS       '
+p4617
 ag5
 ag5
 ag5
 aS'Acoustic Doppler'
-p4612
+p4618
 asS'150'
-p4613
-(lp4614
+p4619
+(lp4620
 S'FR '
-p4615
+p4621
 aS'FREON                    '
-p4616
+p4622
 ag5
 ag5
 ag5
 ag1
 asS'152'
-p4617
-(lp4618
+p4623
+(lp4624
 S'NO3'
-p4619
+p4625
 aS'NITRATE (MG AT/L)        '
-p4620
+p4626
 aS'NO3'
-p4621
+p4627
 aS'mg at/l'
-p4622
+p4628
 ag5
 ag1
 asS'601'
-p4623
-(lp4624
+p4629
+(lp4630
 S'TIM'
-p4625
+p4631
 aS'TIME                     '
-p4626
+p4632
 aS'time'
-p4627
+p4633
 ag5
 ag5
 aS'units since YYYY-MM-dd hh'
-p4628
-aS'mm'
-p4629
-aS'ss'
-p4630
-asS'600'
-p4631
-(lp4632
-S'TIM'
-p4633
-aS'TIME (EPIC)              '
 p4634
-aS'time'
+aS'mm'
 p4635
-ag5
-aS'f10.0'
+aS'ss'
 p4636
-aS'EPIC Time series time hhmm as real number'
+asS'600'
 p4637
-asS'157'
-p4638
-(lp4639
-S'Ptl'
+(lp4638
+S'TIM'
+p4639
+aS'TIME (EPIC)              '
 p4640
-aS'TOTAL PHOSPHORUS         '
+aS'time'
 p4641
 ag5
-aS'mg at/l'
+aS'f10.0'
 p4642
-ag5
-aS'J. Reid data '
+aS'EPIC Time series time hhmm as real number'
 p4643
-asS'156'
+asS'157'
 p4644
 (lp4645
-S'PO4'
+S'Ptl'
 p4646
-aS'PHOSPHATE (MG AT/L)      '
+aS'TOTAL PHOSPHORUS         '
 p4647
-aS'PO4'
-p4648
+ag5
 aS'mg at/l'
+p4648
+ag5
+aS'J. Reid data '
 p4649
+asS'156'
+p4650
+(lp4651
+S'PO4'
+p4652
+aS'PHOSPHATE (MG AT/L)      '
+p4653
+aS'PO4'
+p4654
+aS'mg at/l'
+p4655
 ag5
 ag1
 asS'159'
-p4650
-(lp4651
+p4656
+(lp4657
 S'pH '
-p4652
+p4658
 aS'pH                       '
-p4653
+p4659
 ag5
 ag5
 ag5
 aS'J. Reid data'
-p4654
-asS'158'
-p4655
-(lp4656
-S'SI '
-p4657
-aS'SILICATE (MG AT/L)       '
-p4658
-aS'SiO4'
-p4659
-aS'mg at/l'
 p4660
+asS'158'
+p4661
+(lp4662
+S'SI '
+p4663
+aS'SILICATE (MG AT/L)       '
+p4664
+aS'SiO4'
+p4665
+aS'mg at/l'
+p4666
 ag5
 aS'mg at/l'
-p4661
+p4667
 asS'1207'
-p4662
-(lp4663
+p4668
+(lp4669
 S'Rec '
-p4664
+p4670
 aS'Records                  '
-p4665
+p4671
 ag5
 ag5
 ag5
 aS'ADCP Records'
-p4666
-asS'1206'
-p4667
-(lp4668
-S'v   '
-p4669
-aS'Northward Velocity       '
-p4670
-ag211
-aS'cm/s'
-p4671
-ag5
-aS'Northward Velocity'
 p4672
-asS'1201'
+asS'1206'
 p4673
 (lp4674
-S'Werr'
+S'v   '
 p4675
-aS'Error Velocity           '
+aS'Northward Velocity       '
 p4676
-ag2473
+ag211
 aS'cm/s'
 p4677
-aS'F8.1'
-p4678
-aS'ADCP Error Velocity'
-p4679
-asS'1200'
-p4680
-(lp4681
-S'Tim '
-p4682
-aS'Ensemble Length          '
-p4683
-aS'ens_length'
-p4684
-ag1797
 ag5
-aS'ADCP Ensemble Length'
+aS'Northward Velocity'
+p4678
+asS'1201'
+p4679
+(lp4680
+S'Werr'
+p4681
+aS'Error Velocity           '
+p4682
+ag2479
+aS'cm/s'
+p4683
+aS'F8.1'
+p4684
+aS'ADCP Error Velocity'
 p4685
-asS'1203'
+asS'1200'
 p4686
 (lp4687
-S'PGd '
+S'Tim '
 p4688
-aS'Percent Good Pings       '
+aS'Ensemble Length          '
 p4689
+aS'ens_length'
+p4690
+ag1803
+ag5
+aS'ADCP Ensemble Length'
+p4691
+asS'1203'
+p4692
+(lp4693
+S'PGd '
+p4694
+aS'Percent Good Pings       '
+p4695
 ag5
 ag5
 ag5
 aS'ADCP Percent Good Pings'
-p4690
-asS'1202'
-p4691
-(lp4692
-S'AGC '
-p4693
-aS'Avg. Echo Intensity (AGC)'
-p4694
-aS'AGC'
-p4695
-aS'counts'
 p4696
-aS'F5.1'
+asS'1202'
 p4697
-aS'ADCP Beam Averaged AGC'
-p4698
-asS'9991'
+(lp4698
+S'AGC '
 p4699
-(lp4700
-S'x'
+aS'Avg. Echo Intensity (AGC)'
+p4700
+aS'AGC'
 p4701
-aS'x axis'
+aS'counts'
 p4702
-ag4701
+aS'F5.1'
+p4703
+aS'ADCP Beam Averaged AGC'
+p4704
+asS'9991'
+p4705
+(lp4706
+S'x'
+p4707
+aS'x axis'
+p4708
+ag4707
 ag5
 ag5
 aS'x axis'
-p4703
+p4709
 asS'4270'
-p4704
-(lp4705
+p4710
+(lp4711
 S'TCARBN_FLAG'
-p4706
+p4712
 aS'Total Carbon Flag  '
-p4707
+p4713
 aS'flag'
-p4708
+p4714
 ag5
 ag5
 ag1
 asS'1894'
-p4709
-(lp4710
-S'SAAb1'
-p4711
-aS'Submicron Aerosol Absorbance at wavelength 1'
-p4712
-ag5
-aS'Mm-1'
-p4713
-aS'  '
-p4714
-ag1
-asS'1895'
 p4715
 (lp4716
-S'SAAb2'
+S'SAAb1'
 p4717
-aS'Submicron Aerosol Absorbance at wavelength 2'
+aS'Submicron Aerosol Absorbance at wavelength 1'
 p4718
 ag5
 aS'Mm-1'
@@ -10038,12 +10036,12 @@ p4719
 aS'  '
 p4720
 ag1
-asS'1896'
+asS'1895'
 p4721
 (lp4722
-S'SAAb3'
+S'SAAb2'
 p4723
-aS'Submicron Aerosol Absorbance at wavelength 3'
+aS'Submicron Aerosol Absorbance at wavelength 2'
 p4724
 ag5
 aS'Mm-1'
@@ -10051,36 +10049,36 @@ p4725
 aS'  '
 p4726
 ag1
-asS'1890'
+asS'1896'
 p4727
 (lp4728
-S'AOD10'
+S'SAAb3'
 p4729
-aS'Aerosol Optical Depth Ch-10'
+aS'Submicron Aerosol Absorbance at wavelength 3'
 p4730
+ag5
+aS'Mm-1'
+p4731
+aS'  '
+p4732
+ag1
+asS'1890'
+p4733
+(lp4734
+S'AOD10'
+p4735
+aS'Aerosol Optical Depth Ch-10'
+p4736
 ag5
 ag5
 ag5
 ag1
 asS'1891'
-p4731
-(lp4732
-S'AAb1'
-p4733
-aS'Aerosol Absorbance at wavelength 1'
-p4734
-ag5
-aS'Mm-1'
-p4735
-aS'  '
-p4736
-ag1
-asS'1892'
 p4737
 (lp4738
-S'AAb2'
+S'AAb1'
 p4739
-aS'Aerosol Absorbance at wavelength 2'
+aS'Aerosol Absorbance at wavelength 1'
 p4740
 ag5
 aS'Mm-1'
@@ -10088,12 +10086,12 @@ p4741
 aS'  '
 p4742
 ag1
-asS'1893'
+asS'1892'
 p4743
 (lp4744
-S'AAb3'
+S'AAb2'
 p4745
-aS'Aerosol Absorbance at wavelength 3'
+aS'Aerosol Absorbance at wavelength 2'
 p4746
 ag5
 aS'Mm-1'
@@ -10101,75 +10099,75 @@ p4747
 aS'  '
 p4748
 ag1
-asS'398'
+asS'1893'
 p4749
 (lp4750
-S'DRG'
+S'AAb3'
 p4751
-aS'DRAG ON MOORING LINE     '
+aS'Aerosol Absorbance at wavelength 3'
 p4752
+ag5
+aS'Mm-1'
+p4753
+aS'  '
+p4754
+ag1
+asS'398'
+p4755
+(lp4756
+S'DRG'
+p4757
+aS'DRAG ON MOORING LINE     '
+p4758
 ag5
 ag5
 ag5
 ag1
 asS'48'
-p4753
-(lp4754
-S'SpC '
-p4755
-aS'Specific Conductance    '
-p4756
-aS'con'
-p4757
-aS'mS/cm'
-p4758
-aS'f10.3'
 p4759
-aS'temperature compensated to 25C'
-p4760
-asS'49'
+(lp4760
+S'SpC '
 p4761
-(lp4762
-S'S  '
+aS'Specific Conductance    '
+p4762
+aS'con'
 p4763
-aS'SALINITY                 '
+aS'mS/cm'
 p4764
-aS'sal'
+aS'f10.3'
 p4765
-ag5
-aS'f10.2'
+aS'temperature compensated to 25C'
 p4766
-aS"calculated for XBT's from mean T-S curve, M McCarty"
+asS'49'
 p4767
-asS'951'
-p4768
-(lp4769
-S'DP '
+(lp4768
+S'S  '
+p4769
+aS'SALINITY                 '
 p4770
-aS'Dew Point                '
+aS'sal'
 p4771
 ag5
-aS'degree C'
+aS'f10.2'
 p4772
+aS"calculated for XBT's from mean T-S curve, M McCarty"
+p4773
+asS'951'
+p4774
+(lp4775
+S'DP '
+p4776
+aS'Dew Point                '
+p4777
+ag5
+aS'degree C'
+p4778
 ag5
 ag1
 asS'44'
-p4773
-(lp4774
-S'S3 '
-p4775
-aS'Alternate Salinity       '
-p4776
-aS'sal'
-p4777
-ag5
-ag5
-aS'Practical Salinity Units'
-p4778
-asS'45'
 p4779
 (lp4780
-S'S4 '
+S'S3 '
 p4781
 aS'Alternate Salinity       '
 p4782
@@ -10179,414 +10177,427 @@ ag5
 ag5
 aS'Practical Salinity Units'
 p4784
-asS'42'
+asS'45'
 p4785
 (lp4786
-S'S  '
+S'S4 '
 p4787
-aS'SALINITY (PSU)           '
+aS'Alternate Salinity       '
 p4788
 aS'sal'
 p4789
-aS'PSU'
-p4790
+ag5
 ag5
 aS'Practical Salinity Units'
+p4790
+asS'42'
 p4791
-asS'43'
-p4792
-(lp4793
-S'S0 '
+(lp4792
+S'S  '
+p4793
+aS'SALINITY (PSU)           '
 p4794
-aS'BOTTLE SALINITY (PSU)    '
-p4795
 aS'sal'
-p4796
+p4795
 aS'PSU'
+p4796
+ag5
+aS'Practical Salinity Units'
 p4797
+asS'43'
+p4798
+(lp4799
+S'S0 '
+p4800
+aS'BOTTLE SALINITY (PSU)    '
+p4801
+aS'sal'
+p4802
+aS'PSU'
+p4803
 ag5
 aS'From Salinometer. 1E35 indicates no sample.'
-p4798
-asS'40'
-p4799
-(lp4800
-S'S  '
-p4801
-aS'SALINITY (PPT)           '
-p4802
-aS'sal'
-p4803
-aS'PPT'
 p4804
-aS'f10.2'
+asS'40'
 p4805
-aS'From SALIN1'
-p4806
-asS'41'
-p4807
-(lp4808
+(lp4806
 S'S  '
-p4809
-aS'SALINITY (PSU)           '
-p4810
+p4807
+aS'SALINITY (PPT)           '
+p4808
 aS'sal'
+p4809
+aS'PPT'
+p4810
+aS'f10.2'
 p4811
-aS'PSU'
+aS'From SALIN1'
 p4812
+asS'41'
+p4813
+(lp4814
+S'S  '
+p4815
+aS'SALINITY (PSU)           '
+p4816
+aS'sal'
+p4817
+aS'PSU'
+p4818
 ag5
 aS'Practical Salinity Units'
-p4813
-asS'5'
-p4814
-(lp4815
-S'PD '
-p4816
-aS'PRESSURE DIFFERENCE (DB) '
-p4817
-aS'depth'
-p4818
-aS'dbar'
 p4819
+asS'5'
+p4820
+(lp4821
+S'PD '
+p4822
+aS'PRESSURE DIFFERENCE (DB) '
+p4823
+aS'depth'
+p4824
+aS'dbar'
+p4825
 ag5
 ag1
 asS'1292'
-p4820
-(lp4821
-S'dac '
-p4822
-aS'ADCP DAC output           '
-p4823
-aS'dac'
-p4824
-aS'counts'
-p4825
-aS'i10'
 p4826
+(lp4827
+S'dac '
+p4828
+aS'ADCP DAC output           '
+p4829
+aS'dac'
+p4830
+aS'counts'
+p4831
+aS'i10'
+p4832
 ag1
 asS'1293'
-p4827
-(lp4828
-S'vdc '
-p4829
-aS'ADCP VDC voltage          '
-p4830
-aS'vdc'
-p4831
-aS'volts'
-p4832
-aS'f10.3'
 p4833
+(lp4834
+S'vdc '
+p4835
+aS'ADCP VDC voltage          '
+p4836
+aS'vdc'
+p4837
+aS'volts'
+p4838
+aS'f10.3'
+p4839
 ag1
 asS'1290'
-p4834
-(lp4835
-S'xmtc'
-p4836
-aS'ADCP transmit current     '
-p4837
-aS'xmitc'
-p4838
-aS'amps'
-p4839
-aS'f10.3'
 p4840
+(lp4841
+S'xmtc'
+p4842
+aS'ADCP transmit current     '
+p4843
+aS'xmitc'
+p4844
+aS'amps'
+p4845
+aS'f10.3'
+p4846
 ag1
 asS'1291'
-p4841
-(lp4842
-S'xmtv'
-p4843
-aS'ADCP transmit voltage     '
-p4844
-aS'xmitv'
-p4845
-aS'volts'
-p4846
-aS'f10.3'
 p4847
+(lp4848
+S'xmtv'
+p4849
+aS'ADCP transmit voltage     '
+p4850
+aS'xmitv'
+p4851
+aS'volts'
+p4852
+aS'f10.3'
+p4853
 ag1
 asS'1294'
-p4848
-(lp4849
-S'P'
-p4850
-aS'ADCP Pressure'
-p4851
-aS'pres'
-p4852
-aS'deca-pascals'
-p4853
-aS'F15.2'
 p4854
-aS'ADCP Pressure at Transducer Head'
-p4855
-asS'1295'
+(lp4855
+S'P'
 p4856
-(lp4857
-S'PVAR'
+aS'ADCP Pressure'
+p4857
+aS'pres'
 p4858
-aS'ADCP Pressure Variance'
-p4859
-aS'pvar'
-p4860
 aS'deca-pascals'
-p4861
+p4859
 aS'F15.2'
+p4860
+aS'ADCP Pressure at Transducer Head'
+p4861
+asS'1295'
 p4862
-aS'ADCP Pressure Variance at Transducer Head'
-p4863
-asS'4091'
+(lp4863
+S'PVAR'
 p4864
-(lp4865
-S'w   '
+aS'ADCP Pressure Variance'
+p4865
+aS'pvar'
 p4866
-aS'instant vertical velocity '
+aS'deca-pascals'
 p4867
-ag2473
-aS'cm s-1'
+aS'F15.2'
 p4868
-aS'f8.2'
+aS'ADCP Pressure Variance at Transducer Head'
 p4869
-aS'instantaneous vertical velocity FSIacm'
+asS'4091'
 p4870
-asS'1219'
-p4871
-(lp4872
-S'PSD '
+(lp4871
+S'w   '
+p4872
+aS'instant vertical velocity '
 p4873
-aS'Pitch Std. Dev.          '
+ag2479
+aS'cm s-1'
 p4874
-aS'ptch'
+aS'f8.2'
 p4875
-aS'degrees'
+aS'instantaneous vertical velocity FSIacm'
 p4876
+asS'1219'
+p4877
+(lp4878
+S'PSD '
+p4879
+aS'Pitch Std. Dev.          '
+p4880
+aS'ptch'
+p4881
+aS'degrees'
+p4882
 ag5
 aS'ADCP Pitch Std. Dev.'
-p4877
+p4883
 asS'4096'
-p4878
-(lp4879
+p4884
+(lp4885
 S'rn  '
-p4880
+p4886
 aS'north register            '
-p4881
+p4887
 ag211
 aS'counts'
-p4882
-aS'i10'
-p4883
-aS'vacm north register'
-p4884
-asS'4095'
-p4885
-(lp4886
-S're  '
-p4887
-aS'east register             '
 p4888
-ag240
-aS'counts'
+aS'i10'
 p4889
-aS'i10'
+aS'vacm north register'
 p4890
-aS'vacm east register'
+asS'4095'
 p4891
-asS'4045'
-p4892
-(lp4893
-S'rtemp'
+(lp4892
+S're  '
+p4893
+aS'east register             '
 p4894
-aS'RAW TEMPERATURE (MX2)'
+ag248
+aS'counts'
 p4895
-aS'temp'
+aS'i10'
 p4896
-aS'counts'
+aS'vacm east register'
 p4897
-aS'i10'
+asS'4045'
 p4898
-aS'mx-vacm with 2 mx-variables'
-p4899
-asS'4046'
-p4900
-(lp4901
+(lp4899
 S'rtemp'
-p4902
-aS'RAW TEMPERATURE (MX4)'
-p4903
+p4900
+aS'RAW TEMPERATURE (MX2)'
+p4901
 aS'temp'
-p4904
+p4902
 aS'counts'
-p4905
+p4903
 aS'i10'
+p4904
+aS'mx-vacm with 2 mx-variables'
+p4905
+asS'4046'
 p4906
-aS'mx-vacm with 4 mx-variables'
-p4907
-asS'485'
+(lp4907
+S'rtemp'
 p4908
-(lp4909
-S'RN '
+aS'RAW TEMPERATURE (MX4)'
+p4909
+aS'temp'
 p4910
-aS'RAIN                     '
+aS'counts'
 p4911
-ag5
-aS'MM'
+aS'i10'
 p4912
-ag5
-aS'Rainfall derived from OLR'
+aS'mx-vacm with 4 mx-variables'
 p4913
-asS'480'
+asS'485'
 p4914
 (lp4915
-S'OLR'
+S'RN '
 p4916
-aS'OLR                      '
+aS'RAIN                     '
 p4917
 ag5
-aS'W/M**2'
+aS'MM'
 p4918
 ag5
-aS'Outgoing long wave radiation'
+aS'Rainfall derived from OLR'
 p4919
-asS'1807'
+asS'480'
 p4920
 (lp4921
-S'O3  '
+S'OLR'
 p4922
-aS'Ozone                   '
+aS'OLR                      '
 p4923
-aS'o3'
-p4924
-aS'ppb'
-p4925
 ag5
-ag1
-asS'1806'
+aS'W/M**2'
+p4924
+ag5
+aS'Outgoing long wave radiation'
+p4925
+asS'1807'
 p4926
 (lp4927
-S'COe '
+S'O3  '
 p4928
-aS'COequilibrator          '
+aS'Ozone                   '
 p4929
-aS'co'
+aS'o3'
 p4930
 aS'ppb'
 p4931
 ag5
 ag1
-asS'1805'
+asS'1806'
 p4932
 (lp4933
-S'COw '
+S'COe '
 p4934
-aS'COwater                 '
+aS'COequilibrator          '
 p4935
 aS'co'
 p4936
-aS'nmol/L'
+aS'ppb'
 p4937
 ag5
 ag1
-asS'1804'
+asS'1805'
 p4938
 (lp4939
-S'COa '
+S'COw '
 p4940
-aS'COair                   '
+aS'COwater                 '
 p4941
 aS'co'
 p4942
-aS'ppb'
+aS'nmol/L'
 p4943
 ag5
 ag1
-asS'1803'
+asS'1804'
 p4944
 (lp4945
-S'CH4e'
+S'COa '
 p4946
-aS'CH4equilibrator         '
+aS'COair                   '
 p4947
-aS'ch4'
+aS'co'
 p4948
 aS'ppb'
 p4949
 ag5
 ag1
-asS'1802'
+asS'1803'
 p4950
 (lp4951
-S'CH4w'
+S'CH4e'
 p4952
-aS'CH4water                '
+aS'CH4equilibrator         '
 p4953
 aS'ch4'
 p4954
-aS'nmol/L'
+aS'ppb'
 p4955
 ag5
 ag1
-asS'1801'
+asS'1802'
 p4956
 (lp4957
-S'CH4a'
+S'CH4w'
 p4958
-aS'CH4air                  '
+aS'CH4water                '
 p4959
 aS'ch4'
 p4960
-aS'ppb'
+aS'nmol/L'
 p4961
 ag5
 ag1
-asS'1800'
+asS'1801'
 p4962
 (lp4963
-S'Teq '
+S'CH4a'
 p4964
-aS'Equilibrator Temperature'
+aS'CH4air                  '
 p4965
-ag5
-aS'degree C'
+aS'ch4'
 p4966
-aS'f10.2'
+aS'ppb'
 p4967
+ag5
 ag1
-asS'1809'
+asS'1800'
 p4968
 (lp4969
-S'DMSw'
+S'Teq '
 p4970
-aS'DMSwater                '
+aS'Equilibrator Temperature'
 p4971
-aS'dms'
-p4972
-aS'nmol/L'
-p4973
 ag5
+aS'degree C'
+p4972
+aS'f10.2'
+p4973
 ag1
-asS'1808'
+asS'1809'
 p4974
 (lp4975
-S'DMSa'
+S'DMSw'
 p4976
-aS'DMSair                  '
+aS'DMSwater                '
 p4977
 aS'dms'
 p4978
-aS'ppt'
+aS'nmol/L'
 p4979
 ag5
 ag1
-asS'1862'
+asS'1808'
 p4980
 (lp4981
-S'ASG '
+S'DMSa'
 p4982
-aS'Aerosol Scat Green      '
+aS'DMSair                  '
 p4983
+aS'dms'
+p4984
+aS'ppt'
+p4985
+ag5
+ag1
+asS'1862'
+p4986
+(lp4987
+S'ASG '
+p4988
+aS'Aerosol Scat Green      '
+p4989
 ag5
 aS'Mm-1'
-p4984
+p4990
 ag5
 ag1
 as.
