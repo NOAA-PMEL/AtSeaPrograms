@@ -1,5 +1,7 @@
 # AtSeaPrograms
 
+***Being Migrated to EcoFOCIpy - no support other than absolutely necessary for transition period***
+
 ## EOL after QT4 EOL
 QT4 was only used for UI selection though and underlying routines still do their job
 
